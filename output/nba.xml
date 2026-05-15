@@ -1,0 +1,435 @@
+<?xml version="1.0" encoding="utf-8"?>
+<tv date="20260515215720 +0000" generator-info-name="epgxmltv-nba/1.0" generator-info-url="https://github.com/philipsaad/epgxmltv">
+  <channel id="NBA-AtlantaHawks.us">
+    <display-name>Atlanta Hawks</display-name>
+    <icon src="https://a.espncdn.com/i/teamlogos/nba/500-dark/atl.png" />
+  </channel>
+  <channel id="NBA-BostonCeltics.us">
+    <display-name>Boston Celtics</display-name>
+    <icon src="https://a.espncdn.com/i/teamlogos/nba/500-dark/bos.png" />
+  </channel>
+  <channel id="NBA-BrooklynNets.us">
+    <display-name>Brooklyn Nets</display-name>
+    <icon src="https://a.espncdn.com/i/teamlogos/nba/500-dark/bkn.png" />
+  </channel>
+  <channel id="NBA-CharlotteHornets.us">
+    <display-name>Charlotte Hornets</display-name>
+    <icon src="https://a.espncdn.com/i/teamlogos/nba/500-dark/cha.png" />
+  </channel>
+  <channel id="NBA-ChicagoBulls.us">
+    <display-name>Chicago Bulls</display-name>
+    <icon src="https://a.espncdn.com/i/teamlogos/nba/500-dark/chi.png" />
+  </channel>
+  <channel id="NBA-ClevelandCavaliers.us">
+    <display-name>Cleveland Cavaliers</display-name>
+    <icon src="https://a.espncdn.com/i/teamlogos/nba/500-dark/cle.png" />
+  </channel>
+  <channel id="NBA-DallasMavericks.us">
+    <display-name>Dallas Mavericks</display-name>
+    <icon src="https://a.espncdn.com/i/teamlogos/nba/500-dark/dal.png" />
+  </channel>
+  <channel id="NBA-DenverNuggets.us">
+    <display-name>Denver Nuggets</display-name>
+    <icon src="https://a.espncdn.com/i/teamlogos/nba/500-dark/den.png" />
+  </channel>
+  <channel id="NBA-DetroitPistons.us">
+    <display-name>Detroit Pistons</display-name>
+    <icon src="https://a.espncdn.com/i/teamlogos/nba/500-dark/det.png" />
+  </channel>
+  <channel id="NBA-GoldenStateWarriors.us">
+    <display-name>Golden State Warriors</display-name>
+    <icon src="https://a.espncdn.com/i/teamlogos/nba/500-dark/gs.png" />
+  </channel>
+  <channel id="NBA-HoustonRockets.us">
+    <display-name>Houston Rockets</display-name>
+    <icon src="https://a.espncdn.com/i/teamlogos/nba/500-dark/hou.png" />
+  </channel>
+  <channel id="NBA-IndianaPacers.us">
+    <display-name>Indiana Pacers</display-name>
+    <icon src="https://a.espncdn.com/i/teamlogos/nba/500-dark/ind.png" />
+  </channel>
+  <channel id="NBA-LAClippers.us">
+    <display-name>LA Clippers</display-name>
+    <icon src="https://a.espncdn.com/i/teamlogos/nba/500-dark/lac.png" />
+  </channel>
+  <channel id="NBA-LosAngelesLakers.us">
+    <display-name>Los Angeles Lakers</display-name>
+    <icon src="https://a.espncdn.com/i/teamlogos/nba/500-dark/lal.png" />
+  </channel>
+  <channel id="NBA-MemphisGrizzlies.us">
+    <display-name>Memphis Grizzlies</display-name>
+    <icon src="https://a.espncdn.com/i/teamlogos/nba/500-dark/mem.png" />
+  </channel>
+  <channel id="NBA-MiamiHeat.us">
+    <display-name>Miami Heat</display-name>
+    <icon src="https://a.espncdn.com/i/teamlogos/nba/500-dark/mia.png" />
+  </channel>
+  <channel id="NBA-MilwaukeeBucks.us">
+    <display-name>Milwaukee Bucks</display-name>
+    <icon src="https://a.espncdn.com/i/teamlogos/nba/500-dark/mil.png" />
+  </channel>
+  <channel id="NBA-MinnesotaTimberwolves.us">
+    <display-name>Minnesota Timberwolves</display-name>
+    <icon src="https://a.espncdn.com/i/teamlogos/nba/500-dark/min.png" />
+  </channel>
+  <channel id="NBA-NewOrleansPelicans.us">
+    <display-name>New Orleans Pelicans</display-name>
+    <icon src="https://a.espncdn.com/i/teamlogos/nba/500-dark/no.png" />
+  </channel>
+  <channel id="NBA-NewYorkKnicks.us">
+    <display-name>New York Knicks</display-name>
+    <icon src="https://a.espncdn.com/i/teamlogos/nba/500-dark/ny.png" />
+  </channel>
+  <channel id="NBA-OklahomaCityThunder.us">
+    <display-name>Oklahoma City Thunder</display-name>
+    <icon src="https://a.espncdn.com/i/teamlogos/nba/500-dark/okc.png" />
+  </channel>
+  <channel id="NBA-OrlandoMagic.us">
+    <display-name>Orlando Magic</display-name>
+    <icon src="https://a.espncdn.com/i/teamlogos/nba/500-dark/orl.png" />
+  </channel>
+  <channel id="NBA-Philadelphia76ers.us">
+    <display-name>Philadelphia 76ers</display-name>
+    <icon src="https://a.espncdn.com/i/teamlogos/nba/500-dark/phi.png" />
+  </channel>
+  <channel id="NBA-PhoenixSuns.us">
+    <display-name>Phoenix Suns</display-name>
+    <icon src="https://a.espncdn.com/i/teamlogos/nba/500-dark/phx.png" />
+  </channel>
+  <channel id="NBA-PortlandTrailBlazers.us">
+    <display-name>Portland Trail Blazers</display-name>
+    <icon src="https://a.espncdn.com/i/teamlogos/nba/500-dark/por.png" />
+  </channel>
+  <channel id="NBA-SacramentoKings.us">
+    <display-name>Sacramento Kings</display-name>
+    <icon src="https://a.espncdn.com/i/teamlogos/nba/500-dark/sac.png" />
+  </channel>
+  <channel id="NBA-SanAntonioSpurs.us">
+    <display-name>San Antonio Spurs</display-name>
+    <icon src="https://a.espncdn.com/i/teamlogos/nba/500-dark/sa.png" />
+  </channel>
+  <channel id="NBA-TorontoRaptors.us">
+    <display-name>Toronto Raptors</display-name>
+    <icon src="https://a.espncdn.com/i/teamlogos/nba/500-dark/tor.png" />
+  </channel>
+  <channel id="NBA-UtahJazz.us">
+    <display-name>Utah Jazz</display-name>
+    <icon src="https://a.espncdn.com/i/teamlogos/nba/500-dark/utah.png" />
+  </channel>
+  <channel id="NBA-WashingtonWizards.us">
+    <display-name>Washington Wizards</display-name>
+    <icon src="https://a.espncdn.com/i/teamlogos/nba/500-dark/wsh.png" />
+  </channel>
+  <programme start="20260515230000 +0000" stop="20260516020000 +0000" channel="NBA-DetroitPistons.us">
+    <title lang="en">NBA Basketball</title>
+    <sub-title lang="en">Detroit Pistons @ Cleveland Cavaliers - Game 6</sub-title>
+    <desc lang="en">East Semifinals - Game 6. CLE leads series 3-2. Detroit Pistons (60-22) visit Cleveland Cavaliers (52-30) at Rocket Arena in Cleveland, OH.</desc>
+    <category lang="en">Live</category>
+    <category lang="en">New</category>
+    <category lang="en">Sports</category>
+    <category lang="en">Sports event</category>
+    <category lang="en">Basketball</category>
+    <category lang="en">NBA</category>
+    <category lang="en">HD</category>
+    <category lang="en">Playoffs</category>
+    <category lang="en">East Semifinals - Game 6</category>
+    <keyword lang="en">Detroit Pistons</keyword>
+    <keyword lang="en">Cleveland Cavaliers</keyword>
+    <keyword lang="en">Rocket Arena</keyword>
+    <keyword lang="en">Cleveland</keyword>
+    <keyword lang="en">East Semifinals - Game 6</keyword>
+    <language>English</language>
+    <length units="minutes">180</length>
+    <icon src="https://a.espncdn.com/i/teamlogos/leagues/500-dark/nba.png" />
+    <country>US</country>
+    <episode-num system="onscreen">Game 6</episode-num>
+    <video>
+      <present>yes</present>
+      <colour>yes</colour>
+      <aspect>16:9</aspect>
+      <quality>HDTV</quality>
+    </video>
+    <audio>
+      <present>yes</present>
+      <stereo>stereo</stereo>
+    </audio>
+    <new></new>
+    <live></live>
+    <star-rating>
+      <value>3/5</value>
+    </star-rating>
+  </programme>
+  <programme start="20260515230000 +0000" stop="20260516020000 +0000" channel="NBA-ClevelandCavaliers.us">
+    <title lang="en">NBA Basketball</title>
+    <sub-title lang="en">Detroit Pistons @ Cleveland Cavaliers - Game 6</sub-title>
+    <desc lang="en">East Semifinals - Game 6. CLE leads series 3-2. Detroit Pistons (60-22) visit Cleveland Cavaliers (52-30) at Rocket Arena in Cleveland, OH.</desc>
+    <category lang="en">Live</category>
+    <category lang="en">New</category>
+    <category lang="en">Sports</category>
+    <category lang="en">Sports event</category>
+    <category lang="en">Basketball</category>
+    <category lang="en">NBA</category>
+    <category lang="en">HD</category>
+    <category lang="en">Playoffs</category>
+    <category lang="en">East Semifinals - Game 6</category>
+    <keyword lang="en">Detroit Pistons</keyword>
+    <keyword lang="en">Cleveland Cavaliers</keyword>
+    <keyword lang="en">Rocket Arena</keyword>
+    <keyword lang="en">Cleveland</keyword>
+    <keyword lang="en">East Semifinals - Game 6</keyword>
+    <language>English</language>
+    <length units="minutes">180</length>
+    <icon src="https://a.espncdn.com/i/teamlogos/leagues/500-dark/nba.png" />
+    <country>US</country>
+    <episode-num system="onscreen">Game 6</episode-num>
+    <video>
+      <present>yes</present>
+      <colour>yes</colour>
+      <aspect>16:9</aspect>
+      <quality>HDTV</quality>
+    </video>
+    <audio>
+      <present>yes</present>
+      <stereo>stereo</stereo>
+    </audio>
+    <new></new>
+    <live></live>
+    <star-rating>
+      <value>3/5</value>
+    </star-rating>
+  </programme>
+  <programme start="20260516013000 +0000" stop="20260516043000 +0000" channel="NBA-SanAntonioSpurs.us">
+    <title lang="en">NBA Basketball</title>
+    <sub-title lang="en">San Antonio Spurs @ Minnesota Timberwolves - Game 6</sub-title>
+    <desc lang="en">West Semifinals - Game 6. SA leads series 3-2. San Antonio Spurs (62-20) visit Minnesota Timberwolves (49-33) at Target Center in Minneapolis, MN.</desc>
+    <category lang="en">Live</category>
+    <category lang="en">New</category>
+    <category lang="en">Sports</category>
+    <category lang="en">Sports event</category>
+    <category lang="en">Basketball</category>
+    <category lang="en">NBA</category>
+    <category lang="en">HD</category>
+    <category lang="en">Playoffs</category>
+    <category lang="en">West Semifinals - Game 6</category>
+    <keyword lang="en">San Antonio Spurs</keyword>
+    <keyword lang="en">Minnesota Timberwolves</keyword>
+    <keyword lang="en">Target Center</keyword>
+    <keyword lang="en">Minneapolis</keyword>
+    <keyword lang="en">West Semifinals - Game 6</keyword>
+    <language>English</language>
+    <length units="minutes">180</length>
+    <icon src="https://a.espncdn.com/i/teamlogos/leagues/500-dark/nba.png" />
+    <country>US</country>
+    <episode-num system="onscreen">Game 6</episode-num>
+    <video>
+      <present>yes</present>
+      <colour>yes</colour>
+      <aspect>16:9</aspect>
+      <quality>HDTV</quality>
+    </video>
+    <audio>
+      <present>yes</present>
+      <stereo>stereo</stereo>
+    </audio>
+    <new></new>
+    <live></live>
+    <star-rating>
+      <value>3/5</value>
+    </star-rating>
+  </programme>
+  <programme start="20260516013000 +0000" stop="20260516043000 +0000" channel="NBA-MinnesotaTimberwolves.us">
+    <title lang="en">NBA Basketball</title>
+    <sub-title lang="en">San Antonio Spurs @ Minnesota Timberwolves - Game 6</sub-title>
+    <desc lang="en">West Semifinals - Game 6. SA leads series 3-2. San Antonio Spurs (62-20) visit Minnesota Timberwolves (49-33) at Target Center in Minneapolis, MN.</desc>
+    <category lang="en">Live</category>
+    <category lang="en">New</category>
+    <category lang="en">Sports</category>
+    <category lang="en">Sports event</category>
+    <category lang="en">Basketball</category>
+    <category lang="en">NBA</category>
+    <category lang="en">HD</category>
+    <category lang="en">Playoffs</category>
+    <category lang="en">West Semifinals - Game 6</category>
+    <keyword lang="en">San Antonio Spurs</keyword>
+    <keyword lang="en">Minnesota Timberwolves</keyword>
+    <keyword lang="en">Target Center</keyword>
+    <keyword lang="en">Minneapolis</keyword>
+    <keyword lang="en">West Semifinals - Game 6</keyword>
+    <language>English</language>
+    <length units="minutes">180</length>
+    <icon src="https://a.espncdn.com/i/teamlogos/leagues/500-dark/nba.png" />
+    <country>US</country>
+    <episode-num system="onscreen">Game 6</episode-num>
+    <video>
+      <present>yes</present>
+      <colour>yes</colour>
+      <aspect>16:9</aspect>
+      <quality>HDTV</quality>
+    </video>
+    <audio>
+      <present>yes</present>
+      <stereo>stereo</stereo>
+    </audio>
+    <new></new>
+    <live></live>
+    <star-rating>
+      <value>3/5</value>
+    </star-rating>
+  </programme>
+  <programme start="20260517040000 +0000" stop="20260517070000 +0000" channel="NBA-MinnesotaTimberwolves.us">
+    <title lang="en">NBA Basketball</title>
+    <sub-title lang="en">Minnesota Timberwolves @ San Antonio Spurs - Game 112</sub-title>
+    <desc lang="en">West Semifinals - Game 7 If Necessary. SA leads series 3-2. Minnesota Timberwolves (49-33) visit San Antonio Spurs (62-20) at Frost Bank Center in San Antonio, TX.</desc>
+    <category lang="en">Live</category>
+    <category lang="en">New</category>
+    <category lang="en">Sports</category>
+    <category lang="en">Sports event</category>
+    <category lang="en">Basketball</category>
+    <category lang="en">NBA</category>
+    <category lang="en">HD</category>
+    <category lang="en">Playoffs</category>
+    <category lang="en">West Semifinals - Game 7 If Necessary</category>
+    <keyword lang="en">Minnesota Timberwolves</keyword>
+    <keyword lang="en">San Antonio Spurs</keyword>
+    <keyword lang="en">Frost Bank Center</keyword>
+    <keyword lang="en">San Antonio</keyword>
+    <keyword lang="en">West Semifinals - Game 7 If Necessary</keyword>
+    <language>English</language>
+    <length units="minutes">180</length>
+    <icon src="https://a.espncdn.com/i/teamlogos/leagues/500-dark/nba.png" />
+    <country>US</country>
+    <episode-num system="onscreen">Game 112</episode-num>
+    <video>
+      <present>yes</present>
+      <colour>yes</colour>
+      <aspect>16:9</aspect>
+      <quality>HDTV</quality>
+    </video>
+    <audio>
+      <present>yes</present>
+      <stereo>stereo</stereo>
+    </audio>
+    <new></new>
+    <live></live>
+    <star-rating>
+      <value>3/5</value>
+    </star-rating>
+  </programme>
+  <programme start="20260517040000 +0000" stop="20260517070000 +0000" channel="NBA-SanAntonioSpurs.us">
+    <title lang="en">NBA Basketball</title>
+    <sub-title lang="en">Minnesota Timberwolves @ San Antonio Spurs - Game 112</sub-title>
+    <desc lang="en">West Semifinals - Game 7 If Necessary. SA leads series 3-2. Minnesota Timberwolves (49-33) visit San Antonio Spurs (62-20) at Frost Bank Center in San Antonio, TX.</desc>
+    <category lang="en">Live</category>
+    <category lang="en">New</category>
+    <category lang="en">Sports</category>
+    <category lang="en">Sports event</category>
+    <category lang="en">Basketball</category>
+    <category lang="en">NBA</category>
+    <category lang="en">HD</category>
+    <category lang="en">Playoffs</category>
+    <category lang="en">West Semifinals - Game 7 If Necessary</category>
+    <keyword lang="en">Minnesota Timberwolves</keyword>
+    <keyword lang="en">San Antonio Spurs</keyword>
+    <keyword lang="en">Frost Bank Center</keyword>
+    <keyword lang="en">San Antonio</keyword>
+    <keyword lang="en">West Semifinals - Game 7 If Necessary</keyword>
+    <language>English</language>
+    <length units="minutes">180</length>
+    <icon src="https://a.espncdn.com/i/teamlogos/leagues/500-dark/nba.png" />
+    <country>US</country>
+    <episode-num system="onscreen">Game 112</episode-num>
+    <video>
+      <present>yes</present>
+      <colour>yes</colour>
+      <aspect>16:9</aspect>
+      <quality>HDTV</quality>
+    </video>
+    <audio>
+      <present>yes</present>
+      <stereo>stereo</stereo>
+    </audio>
+    <new></new>
+    <live></live>
+    <star-rating>
+      <value>3/5</value>
+    </star-rating>
+  </programme>
+  <programme start="20260517040000 +0000" stop="20260517070000 +0000" channel="NBA-ClevelandCavaliers.us">
+    <title lang="en">NBA Basketball</title>
+    <sub-title lang="en">Cleveland Cavaliers @ Detroit Pistons - Game 113</sub-title>
+    <desc lang="en">East Semifinals - Game 7 If Necessary. CLE leads series 3-2. Cleveland Cavaliers (52-30) visit Detroit Pistons (60-22) at Little Caesars Arena in Detroit, MI.</desc>
+    <category lang="en">Live</category>
+    <category lang="en">New</category>
+    <category lang="en">Sports</category>
+    <category lang="en">Sports event</category>
+    <category lang="en">Basketball</category>
+    <category lang="en">NBA</category>
+    <category lang="en">HD</category>
+    <category lang="en">Playoffs</category>
+    <category lang="en">East Semifinals - Game 7 If Necessary</category>
+    <keyword lang="en">Cleveland Cavaliers</keyword>
+    <keyword lang="en">Detroit Pistons</keyword>
+    <keyword lang="en">Little Caesars Arena</keyword>
+    <keyword lang="en">Detroit</keyword>
+    <keyword lang="en">East Semifinals - Game 7 If Necessary</keyword>
+    <language>English</language>
+    <length units="minutes">180</length>
+    <icon src="https://a.espncdn.com/i/teamlogos/leagues/500-dark/nba.png" />
+    <country>US</country>
+    <episode-num system="onscreen">Game 113</episode-num>
+    <video>
+      <present>yes</present>
+      <colour>yes</colour>
+      <aspect>16:9</aspect>
+      <quality>HDTV</quality>
+    </video>
+    <audio>
+      <present>yes</present>
+      <stereo>stereo</stereo>
+    </audio>
+    <new></new>
+    <live></live>
+    <star-rating>
+      <value>3/5</value>
+    </star-rating>
+  </programme>
+  <programme start="20260517040000 +0000" stop="20260517070000 +0000" channel="NBA-DetroitPistons.us">
+    <title lang="en">NBA Basketball</title>
+    <sub-title lang="en">Cleveland Cavaliers @ Detroit Pistons - Game 113</sub-title>
+    <desc lang="en">East Semifinals - Game 7 If Necessary. CLE leads series 3-2. Cleveland Cavaliers (52-30) visit Detroit Pistons (60-22) at Little Caesars Arena in Detroit, MI.</desc>
+    <category lang="en">Live</category>
+    <category lang="en">New</category>
+    <category lang="en">Sports</category>
+    <category lang="en">Sports event</category>
+    <category lang="en">Basketball</category>
+    <category lang="en">NBA</category>
+    <category lang="en">HD</category>
+    <category lang="en">Playoffs</category>
+    <category lang="en">East Semifinals - Game 7 If Necessary</category>
+    <keyword lang="en">Cleveland Cavaliers</keyword>
+    <keyword lang="en">Detroit Pistons</keyword>
+    <keyword lang="en">Little Caesars Arena</keyword>
+    <keyword lang="en">Detroit</keyword>
+    <keyword lang="en">East Semifinals - Game 7 If Necessary</keyword>
+    <language>English</language>
+    <length units="minutes">180</length>
+    <icon src="https://a.espncdn.com/i/teamlogos/leagues/500-dark/nba.png" />
+    <country>US</country>
+    <episode-num system="onscreen">Game 113</episode-num>
+    <video>
+      <present>yes</present>
+      <colour>yes</colour>
+      <aspect>16:9</aspect>
+      <quality>HDTV</quality>
+    </video>
+    <audio>
+      <present>yes</present>
+      <stereo>stereo</stereo>
+    </audio>
+    <new></new>
+    <live></live>
+    <star-rating>
+      <value>3/5</value>
+    </star-rating>
+  </programme>
+</tv>

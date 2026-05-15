@@ -1,0 +1,1523 @@
+<?xml version="1.0" encoding="utf-8"?>
+<tv date="20260515215722 +0000" generator-info-name="epgxmltv-epl/1.0" generator-info-url="https://github.com/philipsaad/epgxmltv">
+  <channel id="EPL-Bournemouth.gb">
+    <display-name>AFC Bournemouth</display-name>
+    <icon src="https://a.espncdn.com/i/teamlogos/soccer/500-dark/349.png" />
+  </channel>
+  <channel id="EPL-Arsenal.gb">
+    <display-name>Arsenal</display-name>
+    <icon src="https://a.espncdn.com/i/teamlogos/soccer/500-dark/359.png" />
+  </channel>
+  <channel id="EPL-AstonVilla.gb">
+    <display-name>Aston Villa</display-name>
+    <icon src="https://a.espncdn.com/i/teamlogos/soccer/500-dark/362.png" />
+  </channel>
+  <channel id="EPL-Brentford.gb">
+    <display-name>Brentford</display-name>
+    <icon src="https://a.espncdn.com/i/teamlogos/soccer/500-dark/337.png" />
+  </channel>
+  <channel id="EPL-Brighton.gb">
+    <display-name>Brighton &amp; Hove Albion</display-name>
+    <icon src="https://a.espncdn.com/i/teamlogos/soccer/500-dark/331.png" />
+  </channel>
+  <channel id="EPL-Burnley.gb">
+    <display-name>Burnley</display-name>
+    <icon src="https://a.espncdn.com/i/teamlogos/soccer/500-dark/379.png" />
+  </channel>
+  <channel id="EPL-Chelsea.gb">
+    <display-name>Chelsea</display-name>
+    <icon src="https://a.espncdn.com/i/teamlogos/soccer/500-dark/363.png" />
+  </channel>
+  <channel id="EPL-CrystalPalace.gb">
+    <display-name>Crystal Palace</display-name>
+    <icon src="https://a.espncdn.com/i/teamlogos/soccer/500-dark/384.png" />
+  </channel>
+  <channel id="EPL-Everton.gb">
+    <display-name>Everton</display-name>
+    <icon src="https://a.espncdn.com/i/teamlogos/soccer/500-dark/368.png" />
+  </channel>
+  <channel id="EPL-Fulham.gb">
+    <display-name>Fulham</display-name>
+    <icon src="https://a.espncdn.com/i/teamlogos/soccer/500-dark/370.png" />
+  </channel>
+  <channel id="EPL-LeedsUnited.gb">
+    <display-name>Leeds United</display-name>
+    <icon src="https://a.espncdn.com/i/teamlogos/soccer/500-dark/357.png" />
+  </channel>
+  <channel id="EPL-Liverpool.gb">
+    <display-name>Liverpool</display-name>
+    <icon src="https://a.espncdn.com/i/teamlogos/soccer/500-dark/364.png" />
+  </channel>
+  <channel id="EPL-ManchesterCity.gb">
+    <display-name>Manchester City</display-name>
+    <icon src="https://a.espncdn.com/i/teamlogos/soccer/500-dark/382.png" />
+  </channel>
+  <channel id="EPL-ManchesterUnited.gb">
+    <display-name>Manchester United</display-name>
+    <icon src="https://a.espncdn.com/i/teamlogos/soccer/500-dark/360.png" />
+  </channel>
+  <channel id="EPL-NewcastleUnited.gb">
+    <display-name>Newcastle United</display-name>
+    <icon src="https://a.espncdn.com/i/teamlogos/soccer/500-dark/361.png" />
+  </channel>
+  <channel id="EPL-NottinghamForest.gb">
+    <display-name>Nottingham Forest</display-name>
+    <icon src="https://a.espncdn.com/i/teamlogos/soccer/500-dark/393.png" />
+  </channel>
+  <channel id="EPL-Sunderland.gb">
+    <display-name>Sunderland</display-name>
+    <icon src="https://a.espncdn.com/i/teamlogos/soccer/500-dark/366.png" />
+  </channel>
+  <channel id="EPL-TottenhamHotspur.gb">
+    <display-name>Tottenham Hotspur</display-name>
+    <icon src="https://a.espncdn.com/i/teamlogos/soccer/500-dark/367.png" />
+  </channel>
+  <channel id="EPL-WestHamUnited.gb">
+    <display-name>West Ham United</display-name>
+    <icon src="https://a.espncdn.com/i/teamlogos/soccer/500-dark/371.png" />
+  </channel>
+  <channel id="EPL-Wolves.gb">
+    <display-name>Wolverhampton Wanderers</display-name>
+    <icon src="https://a.espncdn.com/i/teamlogos/soccer/500-dark/380.png" />
+  </channel>
+  <programme start="20260515190000 +0000" stop="20260515211000 +0000" channel="EPL-Liverpool.gb">
+    <title lang="en">Premier League Soccer</title>
+    <sub-title lang="en">Liverpool vs Aston Villa</sub-title>
+    <desc lang="en">Premier League. Liverpool (17-8-12) visit Aston Villa (18-8-11) at Villa Park in Birmingham.</desc>
+    <category lang="en">Live</category>
+    <category lang="en">New</category>
+    <category lang="en">Sports</category>
+    <category lang="en">Sports event</category>
+    <category lang="en">Soccer</category>
+    <category lang="en">Football</category>
+    <category lang="en">Premier League</category>
+    <category lang="en">HD</category>
+    <keyword lang="en">Liverpool</keyword>
+    <keyword lang="en">Aston Villa</keyword>
+    <keyword lang="en">Villa Park</keyword>
+    <keyword lang="en">Birmingham</keyword>
+    <language>English</language>
+    <length units="minutes">130</length>
+    <icon src="https://a.espncdn.com/i/leaguelogos/soccer/500-dark/23.png" />
+    <country>GB</country>
+    <video>
+      <present>yes</present>
+      <colour>yes</colour>
+      <aspect>16:9</aspect>
+      <quality>HDTV</quality>
+    </video>
+    <audio>
+      <present>yes</present>
+      <stereo>stereo</stereo>
+    </audio>
+    <new></new>
+    <live></live>
+    <star-rating>
+      <value>4/5</value>
+    </star-rating>
+  </programme>
+  <programme start="20260515190000 +0000" stop="20260515211000 +0000" channel="EPL-AstonVilla.gb">
+    <title lang="en">Premier League Soccer</title>
+    <sub-title lang="en">Liverpool vs Aston Villa</sub-title>
+    <desc lang="en">Premier League. Liverpool (17-8-12) visit Aston Villa (18-8-11) at Villa Park in Birmingham.</desc>
+    <category lang="en">Live</category>
+    <category lang="en">New</category>
+    <category lang="en">Sports</category>
+    <category lang="en">Sports event</category>
+    <category lang="en">Soccer</category>
+    <category lang="en">Football</category>
+    <category lang="en">Premier League</category>
+    <category lang="en">HD</category>
+    <keyword lang="en">Liverpool</keyword>
+    <keyword lang="en">Aston Villa</keyword>
+    <keyword lang="en">Villa Park</keyword>
+    <keyword lang="en">Birmingham</keyword>
+    <language>English</language>
+    <length units="minutes">130</length>
+    <icon src="https://a.espncdn.com/i/leaguelogos/soccer/500-dark/23.png" />
+    <country>GB</country>
+    <video>
+      <present>yes</present>
+      <colour>yes</colour>
+      <aspect>16:9</aspect>
+      <quality>HDTV</quality>
+    </video>
+    <audio>
+      <present>yes</present>
+      <stereo>stereo</stereo>
+    </audio>
+    <new></new>
+    <live></live>
+    <star-rating>
+      <value>4/5</value>
+    </star-rating>
+  </programme>
+  <programme start="20260517113000 +0000" stop="20260517134000 +0000" channel="EPL-NottinghamForest.gb">
+    <title lang="en">Premier League Soccer</title>
+    <sub-title lang="en">Nottingham Forest vs Manchester United</sub-title>
+    <desc lang="en">Premier League. Nottingham Forest (11-10-15) visit Manchester United (18-11-7) at Old Trafford in Manchester.</desc>
+    <category lang="en">Live</category>
+    <category lang="en">New</category>
+    <category lang="en">Sports</category>
+    <category lang="en">Sports event</category>
+    <category lang="en">Soccer</category>
+    <category lang="en">Football</category>
+    <category lang="en">Premier League</category>
+    <category lang="en">HD</category>
+    <keyword lang="en">Nottingham Forest</keyword>
+    <keyword lang="en">Manchester United</keyword>
+    <keyword lang="en">Old Trafford</keyword>
+    <keyword lang="en">Manchester</keyword>
+    <language>English</language>
+    <length units="minutes">130</length>
+    <icon src="https://a.espncdn.com/i/leaguelogos/soccer/500-dark/23.png" />
+    <country>GB</country>
+    <video>
+      <present>yes</present>
+      <colour>yes</colour>
+      <aspect>16:9</aspect>
+      <quality>HDTV</quality>
+    </video>
+    <audio>
+      <present>yes</present>
+      <stereo>stereo</stereo>
+    </audio>
+    <new></new>
+    <live></live>
+    <star-rating>
+      <value>4/5</value>
+    </star-rating>
+  </programme>
+  <programme start="20260517113000 +0000" stop="20260517134000 +0000" channel="EPL-ManchesterUnited.gb">
+    <title lang="en">Premier League Soccer</title>
+    <sub-title lang="en">Nottingham Forest vs Manchester United</sub-title>
+    <desc lang="en">Premier League. Nottingham Forest (11-10-15) visit Manchester United (18-11-7) at Old Trafford in Manchester.</desc>
+    <category lang="en">Live</category>
+    <category lang="en">New</category>
+    <category lang="en">Sports</category>
+    <category lang="en">Sports event</category>
+    <category lang="en">Soccer</category>
+    <category lang="en">Football</category>
+    <category lang="en">Premier League</category>
+    <category lang="en">HD</category>
+    <keyword lang="en">Nottingham Forest</keyword>
+    <keyword lang="en">Manchester United</keyword>
+    <keyword lang="en">Old Trafford</keyword>
+    <keyword lang="en">Manchester</keyword>
+    <language>English</language>
+    <length units="minutes">130</length>
+    <icon src="https://a.espncdn.com/i/leaguelogos/soccer/500-dark/23.png" />
+    <country>GB</country>
+    <video>
+      <present>yes</present>
+      <colour>yes</colour>
+      <aspect>16:9</aspect>
+      <quality>HDTV</quality>
+    </video>
+    <audio>
+      <present>yes</present>
+      <stereo>stereo</stereo>
+    </audio>
+    <new></new>
+    <live></live>
+    <star-rating>
+      <value>4/5</value>
+    </star-rating>
+  </programme>
+  <programme start="20260517140000 +0000" stop="20260517161000 +0000" channel="EPL-CrystalPalace.gb">
+    <title lang="en">Premier League Soccer</title>
+    <sub-title lang="en">Crystal Palace vs Brentford</sub-title>
+    <desc lang="en">Premier League. Crystal Palace (11-11-14) visit Brentford (14-9-13) at Gtech Community Stadium in London.</desc>
+    <category lang="en">Live</category>
+    <category lang="en">New</category>
+    <category lang="en">Sports</category>
+    <category lang="en">Sports event</category>
+    <category lang="en">Soccer</category>
+    <category lang="en">Football</category>
+    <category lang="en">Premier League</category>
+    <category lang="en">HD</category>
+    <keyword lang="en">Crystal Palace</keyword>
+    <keyword lang="en">Brentford</keyword>
+    <keyword lang="en">Gtech Community Stadium</keyword>
+    <keyword lang="en">London</keyword>
+    <language>English</language>
+    <length units="minutes">130</length>
+    <icon src="https://a.espncdn.com/i/leaguelogos/soccer/500-dark/23.png" />
+    <country>GB</country>
+    <video>
+      <present>yes</present>
+      <colour>yes</colour>
+      <aspect>16:9</aspect>
+      <quality>HDTV</quality>
+    </video>
+    <audio>
+      <present>yes</present>
+      <stereo>stereo</stereo>
+    </audio>
+    <new></new>
+    <live></live>
+    <star-rating>
+      <value>3/5</value>
+    </star-rating>
+  </programme>
+  <programme start="20260517140000 +0000" stop="20260517161000 +0000" channel="EPL-Brentford.gb">
+    <title lang="en">Premier League Soccer</title>
+    <sub-title lang="en">Crystal Palace vs Brentford</sub-title>
+    <desc lang="en">Premier League. Crystal Palace (11-11-14) visit Brentford (14-9-13) at Gtech Community Stadium in London.</desc>
+    <category lang="en">Live</category>
+    <category lang="en">New</category>
+    <category lang="en">Sports</category>
+    <category lang="en">Sports event</category>
+    <category lang="en">Soccer</category>
+    <category lang="en">Football</category>
+    <category lang="en">Premier League</category>
+    <category lang="en">HD</category>
+    <keyword lang="en">Crystal Palace</keyword>
+    <keyword lang="en">Brentford</keyword>
+    <keyword lang="en">Gtech Community Stadium</keyword>
+    <keyword lang="en">London</keyword>
+    <language>English</language>
+    <length units="minutes">130</length>
+    <icon src="https://a.espncdn.com/i/leaguelogos/soccer/500-dark/23.png" />
+    <country>GB</country>
+    <video>
+      <present>yes</present>
+      <colour>yes</colour>
+      <aspect>16:9</aspect>
+      <quality>HDTV</quality>
+    </video>
+    <audio>
+      <present>yes</present>
+      <stereo>stereo</stereo>
+    </audio>
+    <new></new>
+    <live></live>
+    <star-rating>
+      <value>3/5</value>
+    </star-rating>
+  </programme>
+  <programme start="20260517140000 +0000" stop="20260517161000 +0000" channel="EPL-Sunderland.gb">
+    <title lang="en">Premier League Soccer</title>
+    <sub-title lang="en">Sunderland vs Everton</sub-title>
+    <desc lang="en">Premier League. Sunderland (12-12-12) visit Everton (13-10-13) at Hill Dickinson Stadium in Liverpool.</desc>
+    <category lang="en">Live</category>
+    <category lang="en">New</category>
+    <category lang="en">Sports</category>
+    <category lang="en">Sports event</category>
+    <category lang="en">Soccer</category>
+    <category lang="en">Football</category>
+    <category lang="en">Premier League</category>
+    <category lang="en">HD</category>
+    <keyword lang="en">Sunderland</keyword>
+    <keyword lang="en">Everton</keyword>
+    <keyword lang="en">Hill Dickinson Stadium</keyword>
+    <keyword lang="en">Liverpool</keyword>
+    <language>English</language>
+    <length units="minutes">130</length>
+    <icon src="https://a.espncdn.com/i/leaguelogos/soccer/500-dark/23.png" />
+    <country>GB</country>
+    <video>
+      <present>yes</present>
+      <colour>yes</colour>
+      <aspect>16:9</aspect>
+      <quality>HDTV</quality>
+    </video>
+    <audio>
+      <present>yes</present>
+      <stereo>stereo</stereo>
+    </audio>
+    <new></new>
+    <live></live>
+    <star-rating>
+      <value>3/5</value>
+    </star-rating>
+  </programme>
+  <programme start="20260517140000 +0000" stop="20260517161000 +0000" channel="EPL-Everton.gb">
+    <title lang="en">Premier League Soccer</title>
+    <sub-title lang="en">Sunderland vs Everton</sub-title>
+    <desc lang="en">Premier League. Sunderland (12-12-12) visit Everton (13-10-13) at Hill Dickinson Stadium in Liverpool.</desc>
+    <category lang="en">Live</category>
+    <category lang="en">New</category>
+    <category lang="en">Sports</category>
+    <category lang="en">Sports event</category>
+    <category lang="en">Soccer</category>
+    <category lang="en">Football</category>
+    <category lang="en">Premier League</category>
+    <category lang="en">HD</category>
+    <keyword lang="en">Sunderland</keyword>
+    <keyword lang="en">Everton</keyword>
+    <keyword lang="en">Hill Dickinson Stadium</keyword>
+    <keyword lang="en">Liverpool</keyword>
+    <language>English</language>
+    <length units="minutes">130</length>
+    <icon src="https://a.espncdn.com/i/leaguelogos/soccer/500-dark/23.png" />
+    <country>GB</country>
+    <video>
+      <present>yes</present>
+      <colour>yes</colour>
+      <aspect>16:9</aspect>
+      <quality>HDTV</quality>
+    </video>
+    <audio>
+      <present>yes</present>
+      <stereo>stereo</stereo>
+    </audio>
+    <new></new>
+    <live></live>
+    <star-rating>
+      <value>3/5</value>
+    </star-rating>
+  </programme>
+  <programme start="20260517140000 +0000" stop="20260517161000 +0000" channel="EPL-Brighton.gb">
+    <title lang="en">Premier League Soccer</title>
+    <sub-title lang="en">Brighton &amp; Hove Albion vs Leeds United</sub-title>
+    <desc lang="en">Premier League. Brighton &amp; Hove Albion (14-11-11) visit Leeds United (10-14-12) at Elland Road in Leeds.</desc>
+    <category lang="en">Live</category>
+    <category lang="en">New</category>
+    <category lang="en">Sports</category>
+    <category lang="en">Sports event</category>
+    <category lang="en">Soccer</category>
+    <category lang="en">Football</category>
+    <category lang="en">Premier League</category>
+    <category lang="en">HD</category>
+    <keyword lang="en">Brighton &amp; Hove Albion</keyword>
+    <keyword lang="en">Leeds United</keyword>
+    <keyword lang="en">Elland Road</keyword>
+    <keyword lang="en">Leeds</keyword>
+    <language>English</language>
+    <length units="minutes">130</length>
+    <icon src="https://a.espncdn.com/i/leaguelogos/soccer/500-dark/23.png" />
+    <country>GB</country>
+    <video>
+      <present>yes</present>
+      <colour>yes</colour>
+      <aspect>16:9</aspect>
+      <quality>HDTV</quality>
+    </video>
+    <audio>
+      <present>yes</present>
+      <stereo>stereo</stereo>
+    </audio>
+    <new></new>
+    <live></live>
+    <star-rating>
+      <value>3/5</value>
+    </star-rating>
+  </programme>
+  <programme start="20260517140000 +0000" stop="20260517161000 +0000" channel="EPL-LeedsUnited.gb">
+    <title lang="en">Premier League Soccer</title>
+    <sub-title lang="en">Brighton &amp; Hove Albion vs Leeds United</sub-title>
+    <desc lang="en">Premier League. Brighton &amp; Hove Albion (14-11-11) visit Leeds United (10-14-12) at Elland Road in Leeds.</desc>
+    <category lang="en">Live</category>
+    <category lang="en">New</category>
+    <category lang="en">Sports</category>
+    <category lang="en">Sports event</category>
+    <category lang="en">Soccer</category>
+    <category lang="en">Football</category>
+    <category lang="en">Premier League</category>
+    <category lang="en">HD</category>
+    <keyword lang="en">Brighton &amp; Hove Albion</keyword>
+    <keyword lang="en">Leeds United</keyword>
+    <keyword lang="en">Elland Road</keyword>
+    <keyword lang="en">Leeds</keyword>
+    <language>English</language>
+    <length units="minutes">130</length>
+    <icon src="https://a.espncdn.com/i/leaguelogos/soccer/500-dark/23.png" />
+    <country>GB</country>
+    <video>
+      <present>yes</present>
+      <colour>yes</colour>
+      <aspect>16:9</aspect>
+      <quality>HDTV</quality>
+    </video>
+    <audio>
+      <present>yes</present>
+      <stereo>stereo</stereo>
+    </audio>
+    <new></new>
+    <live></live>
+    <star-rating>
+      <value>3/5</value>
+    </star-rating>
+  </programme>
+  <programme start="20260517140000 +0000" stop="20260517161000 +0000" channel="EPL-Fulham.gb">
+    <title lang="en">Premier League Soccer</title>
+    <sub-title lang="en">Fulham vs Wolverhampton Wanderers</sub-title>
+    <desc lang="en">Premier League. Fulham (14-6-16) visit Wolverhampton Wanderers (3-9-24) at Molineux Stadium in Wolverhampton.</desc>
+    <category lang="en">Live</category>
+    <category lang="en">New</category>
+    <category lang="en">Sports</category>
+    <category lang="en">Sports event</category>
+    <category lang="en">Soccer</category>
+    <category lang="en">Football</category>
+    <category lang="en">Premier League</category>
+    <category lang="en">HD</category>
+    <keyword lang="en">Fulham</keyword>
+    <keyword lang="en">Wolverhampton Wanderers</keyword>
+    <keyword lang="en">Molineux Stadium</keyword>
+    <keyword lang="en">Wolverhampton</keyword>
+    <language>English</language>
+    <length units="minutes">130</length>
+    <icon src="https://a.espncdn.com/i/leaguelogos/soccer/500-dark/23.png" />
+    <country>GB</country>
+    <video>
+      <present>yes</present>
+      <colour>yes</colour>
+      <aspect>16:9</aspect>
+      <quality>HDTV</quality>
+    </video>
+    <audio>
+      <present>yes</present>
+      <stereo>stereo</stereo>
+    </audio>
+    <new></new>
+    <live></live>
+    <star-rating>
+      <value>3/5</value>
+    </star-rating>
+  </programme>
+  <programme start="20260517140000 +0000" stop="20260517161000 +0000" channel="EPL-Wolves.gb">
+    <title lang="en">Premier League Soccer</title>
+    <sub-title lang="en">Fulham vs Wolverhampton Wanderers</sub-title>
+    <desc lang="en">Premier League. Fulham (14-6-16) visit Wolverhampton Wanderers (3-9-24) at Molineux Stadium in Wolverhampton.</desc>
+    <category lang="en">Live</category>
+    <category lang="en">New</category>
+    <category lang="en">Sports</category>
+    <category lang="en">Sports event</category>
+    <category lang="en">Soccer</category>
+    <category lang="en">Football</category>
+    <category lang="en">Premier League</category>
+    <category lang="en">HD</category>
+    <keyword lang="en">Fulham</keyword>
+    <keyword lang="en">Wolverhampton Wanderers</keyword>
+    <keyword lang="en">Molineux Stadium</keyword>
+    <keyword lang="en">Wolverhampton</keyword>
+    <language>English</language>
+    <length units="minutes">130</length>
+    <icon src="https://a.espncdn.com/i/leaguelogos/soccer/500-dark/23.png" />
+    <country>GB</country>
+    <video>
+      <present>yes</present>
+      <colour>yes</colour>
+      <aspect>16:9</aspect>
+      <quality>HDTV</quality>
+    </video>
+    <audio>
+      <present>yes</present>
+      <stereo>stereo</stereo>
+    </audio>
+    <new></new>
+    <live></live>
+    <star-rating>
+      <value>3/5</value>
+    </star-rating>
+  </programme>
+  <programme start="20260517163000 +0000" stop="20260517184000 +0000" channel="EPL-WestHamUnited.gb">
+    <title lang="en">Premier League Soccer</title>
+    <sub-title lang="en">West Ham United vs Newcastle United</sub-title>
+    <desc lang="en">Premier League. West Ham United (9-9-18) visit Newcastle United (13-7-16) at St. James' Park in Newcastle-upon-Tyne.</desc>
+    <category lang="en">Live</category>
+    <category lang="en">New</category>
+    <category lang="en">Sports</category>
+    <category lang="en">Sports event</category>
+    <category lang="en">Soccer</category>
+    <category lang="en">Football</category>
+    <category lang="en">Premier League</category>
+    <category lang="en">HD</category>
+    <keyword lang="en">West Ham United</keyword>
+    <keyword lang="en">Newcastle United</keyword>
+    <keyword lang="en">St. James' Park</keyword>
+    <keyword lang="en">Newcastle-upon-Tyne</keyword>
+    <language>English</language>
+    <length units="minutes">130</length>
+    <icon src="https://a.espncdn.com/i/leaguelogos/soccer/500-dark/23.png" />
+    <country>GB</country>
+    <video>
+      <present>yes</present>
+      <colour>yes</colour>
+      <aspect>16:9</aspect>
+      <quality>HDTV</quality>
+    </video>
+    <audio>
+      <present>yes</present>
+      <stereo>stereo</stereo>
+    </audio>
+    <new></new>
+    <live></live>
+    <star-rating>
+      <value>3/5</value>
+    </star-rating>
+  </programme>
+  <programme start="20260517163000 +0000" stop="20260517184000 +0000" channel="EPL-NewcastleUnited.gb">
+    <title lang="en">Premier League Soccer</title>
+    <sub-title lang="en">West Ham United vs Newcastle United</sub-title>
+    <desc lang="en">Premier League. West Ham United (9-9-18) visit Newcastle United (13-7-16) at St. James' Park in Newcastle-upon-Tyne.</desc>
+    <category lang="en">Live</category>
+    <category lang="en">New</category>
+    <category lang="en">Sports</category>
+    <category lang="en">Sports event</category>
+    <category lang="en">Soccer</category>
+    <category lang="en">Football</category>
+    <category lang="en">Premier League</category>
+    <category lang="en">HD</category>
+    <keyword lang="en">West Ham United</keyword>
+    <keyword lang="en">Newcastle United</keyword>
+    <keyword lang="en">St. James' Park</keyword>
+    <keyword lang="en">Newcastle-upon-Tyne</keyword>
+    <language>English</language>
+    <length units="minutes">130</length>
+    <icon src="https://a.espncdn.com/i/leaguelogos/soccer/500-dark/23.png" />
+    <country>GB</country>
+    <video>
+      <present>yes</present>
+      <colour>yes</colour>
+      <aspect>16:9</aspect>
+      <quality>HDTV</quality>
+    </video>
+    <audio>
+      <present>yes</present>
+      <stereo>stereo</stereo>
+    </audio>
+    <new></new>
+    <live></live>
+    <star-rating>
+      <value>3/5</value>
+    </star-rating>
+  </programme>
+  <programme start="20260518190000 +0000" stop="20260518211000 +0000" channel="EPL-Burnley.gb">
+    <title lang="en">Premier League Soccer</title>
+    <sub-title lang="en">Burnley vs Arsenal</sub-title>
+    <desc lang="en">Premier League. Burnley (4-9-23) visit Arsenal (24-7-5) at Emirates Stadium in London.</desc>
+    <category lang="en">Live</category>
+    <category lang="en">New</category>
+    <category lang="en">Sports</category>
+    <category lang="en">Sports event</category>
+    <category lang="en">Soccer</category>
+    <category lang="en">Football</category>
+    <category lang="en">Premier League</category>
+    <category lang="en">HD</category>
+    <keyword lang="en">Burnley</keyword>
+    <keyword lang="en">Arsenal</keyword>
+    <keyword lang="en">Emirates Stadium</keyword>
+    <keyword lang="en">London</keyword>
+    <language>English</language>
+    <length units="minutes">130</length>
+    <icon src="https://a.espncdn.com/i/leaguelogos/soccer/500-dark/23.png" />
+    <country>GB</country>
+    <video>
+      <present>yes</present>
+      <colour>yes</colour>
+      <aspect>16:9</aspect>
+      <quality>HDTV</quality>
+    </video>
+    <audio>
+      <present>yes</present>
+      <stereo>stereo</stereo>
+    </audio>
+    <new></new>
+    <live></live>
+    <star-rating>
+      <value>4/5</value>
+    </star-rating>
+  </programme>
+  <programme start="20260518190000 +0000" stop="20260518211000 +0000" channel="EPL-Arsenal.gb">
+    <title lang="en">Premier League Soccer</title>
+    <sub-title lang="en">Burnley vs Arsenal</sub-title>
+    <desc lang="en">Premier League. Burnley (4-9-23) visit Arsenal (24-7-5) at Emirates Stadium in London.</desc>
+    <category lang="en">Live</category>
+    <category lang="en">New</category>
+    <category lang="en">Sports</category>
+    <category lang="en">Sports event</category>
+    <category lang="en">Soccer</category>
+    <category lang="en">Football</category>
+    <category lang="en">Premier League</category>
+    <category lang="en">HD</category>
+    <keyword lang="en">Burnley</keyword>
+    <keyword lang="en">Arsenal</keyword>
+    <keyword lang="en">Emirates Stadium</keyword>
+    <keyword lang="en">London</keyword>
+    <language>English</language>
+    <length units="minutes">130</length>
+    <icon src="https://a.espncdn.com/i/leaguelogos/soccer/500-dark/23.png" />
+    <country>GB</country>
+    <video>
+      <present>yes</present>
+      <colour>yes</colour>
+      <aspect>16:9</aspect>
+      <quality>HDTV</quality>
+    </video>
+    <audio>
+      <present>yes</present>
+      <stereo>stereo</stereo>
+    </audio>
+    <new></new>
+    <live></live>
+    <star-rating>
+      <value>4/5</value>
+    </star-rating>
+  </programme>
+  <programme start="20260519183000 +0000" stop="20260519204000 +0000" channel="EPL-ManchesterCity.gb">
+    <title lang="en">Premier League Soccer</title>
+    <sub-title lang="en">Manchester City vs AFC Bournemouth</sub-title>
+    <desc lang="en">Premier League. Manchester City (23-8-5) visit AFC Bournemouth (13-16-7) at Vitality Stadium in Bournemouth.</desc>
+    <category lang="en">Live</category>
+    <category lang="en">New</category>
+    <category lang="en">Sports</category>
+    <category lang="en">Sports event</category>
+    <category lang="en">Soccer</category>
+    <category lang="en">Football</category>
+    <category lang="en">Premier League</category>
+    <category lang="en">HD</category>
+    <keyword lang="en">Manchester City</keyword>
+    <keyword lang="en">AFC Bournemouth</keyword>
+    <keyword lang="en">Vitality Stadium</keyword>
+    <keyword lang="en">Bournemouth</keyword>
+    <language>English</language>
+    <length units="minutes">130</length>
+    <icon src="https://a.espncdn.com/i/leaguelogos/soccer/500-dark/23.png" />
+    <country>GB</country>
+    <video>
+      <present>yes</present>
+      <colour>yes</colour>
+      <aspect>16:9</aspect>
+      <quality>HDTV</quality>
+    </video>
+    <audio>
+      <present>yes</present>
+      <stereo>stereo</stereo>
+    </audio>
+    <new></new>
+    <live></live>
+    <star-rating>
+      <value>4/5</value>
+    </star-rating>
+  </programme>
+  <programme start="20260519183000 +0000" stop="20260519204000 +0000" channel="EPL-Bournemouth.gb">
+    <title lang="en">Premier League Soccer</title>
+    <sub-title lang="en">Manchester City vs AFC Bournemouth</sub-title>
+    <desc lang="en">Premier League. Manchester City (23-8-5) visit AFC Bournemouth (13-16-7) at Vitality Stadium in Bournemouth.</desc>
+    <category lang="en">Live</category>
+    <category lang="en">New</category>
+    <category lang="en">Sports</category>
+    <category lang="en">Sports event</category>
+    <category lang="en">Soccer</category>
+    <category lang="en">Football</category>
+    <category lang="en">Premier League</category>
+    <category lang="en">HD</category>
+    <keyword lang="en">Manchester City</keyword>
+    <keyword lang="en">AFC Bournemouth</keyword>
+    <keyword lang="en">Vitality Stadium</keyword>
+    <keyword lang="en">Bournemouth</keyword>
+    <language>English</language>
+    <length units="minutes">130</length>
+    <icon src="https://a.espncdn.com/i/leaguelogos/soccer/500-dark/23.png" />
+    <country>GB</country>
+    <video>
+      <present>yes</present>
+      <colour>yes</colour>
+      <aspect>16:9</aspect>
+      <quality>HDTV</quality>
+    </video>
+    <audio>
+      <present>yes</present>
+      <stereo>stereo</stereo>
+    </audio>
+    <new></new>
+    <live></live>
+    <star-rating>
+      <value>4/5</value>
+    </star-rating>
+  </programme>
+  <programme start="20260519191500 +0000" stop="20260519212500 +0000" channel="EPL-TottenhamHotspur.gb">
+    <title lang="en">Premier League Soccer</title>
+    <sub-title lang="en">Tottenham Hotspur vs Chelsea</sub-title>
+    <desc lang="en">Premier League. Tottenham Hotspur (9-11-16) visit Chelsea (13-10-13) at Stamford Bridge in London.</desc>
+    <category lang="en">Live</category>
+    <category lang="en">New</category>
+    <category lang="en">Sports</category>
+    <category lang="en">Sports event</category>
+    <category lang="en">Soccer</category>
+    <category lang="en">Football</category>
+    <category lang="en">Premier League</category>
+    <category lang="en">HD</category>
+    <keyword lang="en">Tottenham Hotspur</keyword>
+    <keyword lang="en">Chelsea</keyword>
+    <keyword lang="en">Stamford Bridge</keyword>
+    <keyword lang="en">London</keyword>
+    <language>English</language>
+    <length units="minutes">130</length>
+    <icon src="https://a.espncdn.com/i/leaguelogos/soccer/500-dark/23.png" />
+    <country>GB</country>
+    <video>
+      <present>yes</present>
+      <colour>yes</colour>
+      <aspect>16:9</aspect>
+      <quality>HDTV</quality>
+    </video>
+    <audio>
+      <present>yes</present>
+      <stereo>stereo</stereo>
+    </audio>
+    <new></new>
+    <live></live>
+    <star-rating>
+      <value>5/5</value>
+    </star-rating>
+  </programme>
+  <programme start="20260519191500 +0000" stop="20260519212500 +0000" channel="EPL-Chelsea.gb">
+    <title lang="en">Premier League Soccer</title>
+    <sub-title lang="en">Tottenham Hotspur vs Chelsea</sub-title>
+    <desc lang="en">Premier League. Tottenham Hotspur (9-11-16) visit Chelsea (13-10-13) at Stamford Bridge in London.</desc>
+    <category lang="en">Live</category>
+    <category lang="en">New</category>
+    <category lang="en">Sports</category>
+    <category lang="en">Sports event</category>
+    <category lang="en">Soccer</category>
+    <category lang="en">Football</category>
+    <category lang="en">Premier League</category>
+    <category lang="en">HD</category>
+    <keyword lang="en">Tottenham Hotspur</keyword>
+    <keyword lang="en">Chelsea</keyword>
+    <keyword lang="en">Stamford Bridge</keyword>
+    <keyword lang="en">London</keyword>
+    <language>English</language>
+    <length units="minutes">130</length>
+    <icon src="https://a.espncdn.com/i/leaguelogos/soccer/500-dark/23.png" />
+    <country>GB</country>
+    <video>
+      <present>yes</present>
+      <colour>yes</colour>
+      <aspect>16:9</aspect>
+      <quality>HDTV</quality>
+    </video>
+    <audio>
+      <present>yes</present>
+      <stereo>stereo</stereo>
+    </audio>
+    <new></new>
+    <live></live>
+    <star-rating>
+      <value>5/5</value>
+    </star-rating>
+  </programme>
+  <programme start="20260524150000 +0000" stop="20260524171000 +0000" channel="EPL-ManchesterUnited.gb">
+    <title lang="en">Premier League Soccer</title>
+    <sub-title lang="en">Manchester United vs Brighton &amp; Hove Albion</sub-title>
+    <desc lang="en">Premier League. Manchester United (18-11-7) visit Brighton &amp; Hove Albion (14-11-11) at American Express Stadium in Falmer.</desc>
+    <category lang="en">Live</category>
+    <category lang="en">New</category>
+    <category lang="en">Sports</category>
+    <category lang="en">Sports event</category>
+    <category lang="en">Soccer</category>
+    <category lang="en">Football</category>
+    <category lang="en">Premier League</category>
+    <category lang="en">HD</category>
+    <keyword lang="en">Manchester United</keyword>
+    <keyword lang="en">Brighton &amp; Hove Albion</keyword>
+    <keyword lang="en">American Express Stadium</keyword>
+    <keyword lang="en">Falmer</keyword>
+    <language>English</language>
+    <length units="minutes">130</length>
+    <icon src="https://a.espncdn.com/i/leaguelogos/soccer/500-dark/23.png" />
+    <country>GB</country>
+    <video>
+      <present>yes</present>
+      <colour>yes</colour>
+      <aspect>16:9</aspect>
+      <quality>HDTV</quality>
+    </video>
+    <audio>
+      <present>yes</present>
+      <stereo>stereo</stereo>
+    </audio>
+    <new></new>
+    <live></live>
+    <star-rating>
+      <value>4/5</value>
+    </star-rating>
+  </programme>
+  <programme start="20260524150000 +0000" stop="20260524171000 +0000" channel="EPL-Brighton.gb">
+    <title lang="en">Premier League Soccer</title>
+    <sub-title lang="en">Manchester United vs Brighton &amp; Hove Albion</sub-title>
+    <desc lang="en">Premier League. Manchester United (18-11-7) visit Brighton &amp; Hove Albion (14-11-11) at American Express Stadium in Falmer.</desc>
+    <category lang="en">Live</category>
+    <category lang="en">New</category>
+    <category lang="en">Sports</category>
+    <category lang="en">Sports event</category>
+    <category lang="en">Soccer</category>
+    <category lang="en">Football</category>
+    <category lang="en">Premier League</category>
+    <category lang="en">HD</category>
+    <keyword lang="en">Manchester United</keyword>
+    <keyword lang="en">Brighton &amp; Hove Albion</keyword>
+    <keyword lang="en">American Express Stadium</keyword>
+    <keyword lang="en">Falmer</keyword>
+    <language>English</language>
+    <length units="minutes">130</length>
+    <icon src="https://a.espncdn.com/i/leaguelogos/soccer/500-dark/23.png" />
+    <country>GB</country>
+    <video>
+      <present>yes</present>
+      <colour>yes</colour>
+      <aspect>16:9</aspect>
+      <quality>HDTV</quality>
+    </video>
+    <audio>
+      <present>yes</present>
+      <stereo>stereo</stereo>
+    </audio>
+    <new></new>
+    <live></live>
+    <star-rating>
+      <value>4/5</value>
+    </star-rating>
+  </programme>
+  <programme start="20260524150000 +0000" stop="20260524171000 +0000" channel="EPL-Wolves.gb">
+    <title lang="en">Premier League Soccer</title>
+    <sub-title lang="en">Wolverhampton Wanderers vs Burnley</sub-title>
+    <desc lang="en">Premier League. Wolverhampton Wanderers (3-9-24) visit Burnley (4-9-23) at Turf Moor in Burnley.</desc>
+    <category lang="en">Live</category>
+    <category lang="en">New</category>
+    <category lang="en">Sports</category>
+    <category lang="en">Sports event</category>
+    <category lang="en">Soccer</category>
+    <category lang="en">Football</category>
+    <category lang="en">Premier League</category>
+    <category lang="en">HD</category>
+    <keyword lang="en">Wolverhampton Wanderers</keyword>
+    <keyword lang="en">Burnley</keyword>
+    <keyword lang="en">Turf Moor</keyword>
+    <keyword lang="en">Burnley</keyword>
+    <language>English</language>
+    <length units="minutes">130</length>
+    <icon src="https://a.espncdn.com/i/leaguelogos/soccer/500-dark/23.png" />
+    <country>GB</country>
+    <video>
+      <present>yes</present>
+      <colour>yes</colour>
+      <aspect>16:9</aspect>
+      <quality>HDTV</quality>
+    </video>
+    <audio>
+      <present>yes</present>
+      <stereo>stereo</stereo>
+    </audio>
+    <new></new>
+    <live></live>
+    <star-rating>
+      <value>3/5</value>
+    </star-rating>
+  </programme>
+  <programme start="20260524150000 +0000" stop="20260524171000 +0000" channel="EPL-Burnley.gb">
+    <title lang="en">Premier League Soccer</title>
+    <sub-title lang="en">Wolverhampton Wanderers vs Burnley</sub-title>
+    <desc lang="en">Premier League. Wolverhampton Wanderers (3-9-24) visit Burnley (4-9-23) at Turf Moor in Burnley.</desc>
+    <category lang="en">Live</category>
+    <category lang="en">New</category>
+    <category lang="en">Sports</category>
+    <category lang="en">Sports event</category>
+    <category lang="en">Soccer</category>
+    <category lang="en">Football</category>
+    <category lang="en">Premier League</category>
+    <category lang="en">HD</category>
+    <keyword lang="en">Wolverhampton Wanderers</keyword>
+    <keyword lang="en">Burnley</keyword>
+    <keyword lang="en">Turf Moor</keyword>
+    <keyword lang="en">Burnley</keyword>
+    <language>English</language>
+    <length units="minutes">130</length>
+    <icon src="https://a.espncdn.com/i/leaguelogos/soccer/500-dark/23.png" />
+    <country>GB</country>
+    <video>
+      <present>yes</present>
+      <colour>yes</colour>
+      <aspect>16:9</aspect>
+      <quality>HDTV</quality>
+    </video>
+    <audio>
+      <present>yes</present>
+      <stereo>stereo</stereo>
+    </audio>
+    <new></new>
+    <live></live>
+    <star-rating>
+      <value>3/5</value>
+    </star-rating>
+  </programme>
+  <programme start="20260524150000 +0000" stop="20260524171000 +0000" channel="EPL-Arsenal.gb">
+    <title lang="en">Premier League Soccer</title>
+    <sub-title lang="en">Arsenal vs Crystal Palace</sub-title>
+    <desc lang="en">Premier League. Arsenal (24-7-5) visit Crystal Palace (11-11-14) at Selhurst Park in London.</desc>
+    <category lang="en">Live</category>
+    <category lang="en">New</category>
+    <category lang="en">Sports</category>
+    <category lang="en">Sports event</category>
+    <category lang="en">Soccer</category>
+    <category lang="en">Football</category>
+    <category lang="en">Premier League</category>
+    <category lang="en">HD</category>
+    <keyword lang="en">Arsenal</keyword>
+    <keyword lang="en">Crystal Palace</keyword>
+    <keyword lang="en">Selhurst Park</keyword>
+    <keyword lang="en">London</keyword>
+    <language>English</language>
+    <length units="minutes">130</length>
+    <icon src="https://a.espncdn.com/i/leaguelogos/soccer/500-dark/23.png" />
+    <country>GB</country>
+    <video>
+      <present>yes</present>
+      <colour>yes</colour>
+      <aspect>16:9</aspect>
+      <quality>HDTV</quality>
+    </video>
+    <audio>
+      <present>yes</present>
+      <stereo>stereo</stereo>
+    </audio>
+    <new></new>
+    <live></live>
+    <star-rating>
+      <value>4/5</value>
+    </star-rating>
+  </programme>
+  <programme start="20260524150000 +0000" stop="20260524171000 +0000" channel="EPL-CrystalPalace.gb">
+    <title lang="en">Premier League Soccer</title>
+    <sub-title lang="en">Arsenal vs Crystal Palace</sub-title>
+    <desc lang="en">Premier League. Arsenal (24-7-5) visit Crystal Palace (11-11-14) at Selhurst Park in London.</desc>
+    <category lang="en">Live</category>
+    <category lang="en">New</category>
+    <category lang="en">Sports</category>
+    <category lang="en">Sports event</category>
+    <category lang="en">Soccer</category>
+    <category lang="en">Football</category>
+    <category lang="en">Premier League</category>
+    <category lang="en">HD</category>
+    <keyword lang="en">Arsenal</keyword>
+    <keyword lang="en">Crystal Palace</keyword>
+    <keyword lang="en">Selhurst Park</keyword>
+    <keyword lang="en">London</keyword>
+    <language>English</language>
+    <length units="minutes">130</length>
+    <icon src="https://a.espncdn.com/i/leaguelogos/soccer/500-dark/23.png" />
+    <country>GB</country>
+    <video>
+      <present>yes</present>
+      <colour>yes</colour>
+      <aspect>16:9</aspect>
+      <quality>HDTV</quality>
+    </video>
+    <audio>
+      <present>yes</present>
+      <stereo>stereo</stereo>
+    </audio>
+    <new></new>
+    <live></live>
+    <star-rating>
+      <value>4/5</value>
+    </star-rating>
+  </programme>
+  <programme start="20260524150000 +0000" stop="20260524171000 +0000" channel="EPL-NewcastleUnited.gb">
+    <title lang="en">Premier League Soccer</title>
+    <sub-title lang="en">Newcastle United vs Fulham</sub-title>
+    <desc lang="en">Premier League. Newcastle United (13-7-16) visit Fulham (14-6-16) at Craven Cottage in London.</desc>
+    <category lang="en">Live</category>
+    <category lang="en">New</category>
+    <category lang="en">Sports</category>
+    <category lang="en">Sports event</category>
+    <category lang="en">Soccer</category>
+    <category lang="en">Football</category>
+    <category lang="en">Premier League</category>
+    <category lang="en">HD</category>
+    <keyword lang="en">Newcastle United</keyword>
+    <keyword lang="en">Fulham</keyword>
+    <keyword lang="en">Craven Cottage</keyword>
+    <keyword lang="en">London</keyword>
+    <language>English</language>
+    <length units="minutes">130</length>
+    <icon src="https://a.espncdn.com/i/leaguelogos/soccer/500-dark/23.png" />
+    <country>GB</country>
+    <video>
+      <present>yes</present>
+      <colour>yes</colour>
+      <aspect>16:9</aspect>
+      <quality>HDTV</quality>
+    </video>
+    <audio>
+      <present>yes</present>
+      <stereo>stereo</stereo>
+    </audio>
+    <new></new>
+    <live></live>
+    <star-rating>
+      <value>3/5</value>
+    </star-rating>
+  </programme>
+  <programme start="20260524150000 +0000" stop="20260524171000 +0000" channel="EPL-Fulham.gb">
+    <title lang="en">Premier League Soccer</title>
+    <sub-title lang="en">Newcastle United vs Fulham</sub-title>
+    <desc lang="en">Premier League. Newcastle United (13-7-16) visit Fulham (14-6-16) at Craven Cottage in London.</desc>
+    <category lang="en">Live</category>
+    <category lang="en">New</category>
+    <category lang="en">Sports</category>
+    <category lang="en">Sports event</category>
+    <category lang="en">Soccer</category>
+    <category lang="en">Football</category>
+    <category lang="en">Premier League</category>
+    <category lang="en">HD</category>
+    <keyword lang="en">Newcastle United</keyword>
+    <keyword lang="en">Fulham</keyword>
+    <keyword lang="en">Craven Cottage</keyword>
+    <keyword lang="en">London</keyword>
+    <language>English</language>
+    <length units="minutes">130</length>
+    <icon src="https://a.espncdn.com/i/leaguelogos/soccer/500-dark/23.png" />
+    <country>GB</country>
+    <video>
+      <present>yes</present>
+      <colour>yes</colour>
+      <aspect>16:9</aspect>
+      <quality>HDTV</quality>
+    </video>
+    <audio>
+      <present>yes</present>
+      <stereo>stereo</stereo>
+    </audio>
+    <new></new>
+    <live></live>
+    <star-rating>
+      <value>3/5</value>
+    </star-rating>
+  </programme>
+  <programme start="20260524150000 +0000" stop="20260524171000 +0000" channel="EPL-Brentford.gb">
+    <title lang="en">Premier League Soccer</title>
+    <sub-title lang="en">Brentford vs Liverpool</sub-title>
+    <desc lang="en">Premier League. Brentford (14-9-13) visit Liverpool (17-8-12) at Anfield in Liverpool.</desc>
+    <category lang="en">Live</category>
+    <category lang="en">New</category>
+    <category lang="en">Sports</category>
+    <category lang="en">Sports event</category>
+    <category lang="en">Soccer</category>
+    <category lang="en">Football</category>
+    <category lang="en">Premier League</category>
+    <category lang="en">HD</category>
+    <keyword lang="en">Brentford</keyword>
+    <keyword lang="en">Liverpool</keyword>
+    <keyword lang="en">Anfield</keyword>
+    <keyword lang="en">Liverpool</keyword>
+    <language>English</language>
+    <length units="minutes">130</length>
+    <icon src="https://a.espncdn.com/i/leaguelogos/soccer/500-dark/23.png" />
+    <country>GB</country>
+    <video>
+      <present>yes</present>
+      <colour>yes</colour>
+      <aspect>16:9</aspect>
+      <quality>HDTV</quality>
+    </video>
+    <audio>
+      <present>yes</present>
+      <stereo>stereo</stereo>
+    </audio>
+    <new></new>
+    <live></live>
+    <star-rating>
+      <value>4/5</value>
+    </star-rating>
+  </programme>
+  <programme start="20260524150000 +0000" stop="20260524171000 +0000" channel="EPL-Liverpool.gb">
+    <title lang="en">Premier League Soccer</title>
+    <sub-title lang="en">Brentford vs Liverpool</sub-title>
+    <desc lang="en">Premier League. Brentford (14-9-13) visit Liverpool (17-8-12) at Anfield in Liverpool.</desc>
+    <category lang="en">Live</category>
+    <category lang="en">New</category>
+    <category lang="en">Sports</category>
+    <category lang="en">Sports event</category>
+    <category lang="en">Soccer</category>
+    <category lang="en">Football</category>
+    <category lang="en">Premier League</category>
+    <category lang="en">HD</category>
+    <keyword lang="en">Brentford</keyword>
+    <keyword lang="en">Liverpool</keyword>
+    <keyword lang="en">Anfield</keyword>
+    <keyword lang="en">Liverpool</keyword>
+    <language>English</language>
+    <length units="minutes">130</length>
+    <icon src="https://a.espncdn.com/i/leaguelogos/soccer/500-dark/23.png" />
+    <country>GB</country>
+    <video>
+      <present>yes</present>
+      <colour>yes</colour>
+      <aspect>16:9</aspect>
+      <quality>HDTV</quality>
+    </video>
+    <audio>
+      <present>yes</present>
+      <stereo>stereo</stereo>
+    </audio>
+    <new></new>
+    <live></live>
+    <star-rating>
+      <value>4/5</value>
+    </star-rating>
+  </programme>
+  <programme start="20260524150000 +0000" stop="20260524171000 +0000" channel="EPL-AstonVilla.gb">
+    <title lang="en">Premier League Soccer</title>
+    <sub-title lang="en">Aston Villa vs Manchester City</sub-title>
+    <desc lang="en">Premier League. Aston Villa (18-8-11) visit Manchester City (23-8-5) at Etihad Stadium in Manchester.</desc>
+    <category lang="en">Live</category>
+    <category lang="en">New</category>
+    <category lang="en">Sports</category>
+    <category lang="en">Sports event</category>
+    <category lang="en">Soccer</category>
+    <category lang="en">Football</category>
+    <category lang="en">Premier League</category>
+    <category lang="en">HD</category>
+    <keyword lang="en">Aston Villa</keyword>
+    <keyword lang="en">Manchester City</keyword>
+    <keyword lang="en">Etihad Stadium</keyword>
+    <keyword lang="en">Manchester</keyword>
+    <language>English</language>
+    <length units="minutes">130</length>
+    <icon src="https://a.espncdn.com/i/leaguelogos/soccer/500-dark/23.png" />
+    <country>GB</country>
+    <video>
+      <present>yes</present>
+      <colour>yes</colour>
+      <aspect>16:9</aspect>
+      <quality>HDTV</quality>
+    </video>
+    <audio>
+      <present>yes</present>
+      <stereo>stereo</stereo>
+    </audio>
+    <new></new>
+    <live></live>
+    <star-rating>
+      <value>4/5</value>
+    </star-rating>
+  </programme>
+  <programme start="20260524150000 +0000" stop="20260524171000 +0000" channel="EPL-ManchesterCity.gb">
+    <title lang="en">Premier League Soccer</title>
+    <sub-title lang="en">Aston Villa vs Manchester City</sub-title>
+    <desc lang="en">Premier League. Aston Villa (18-8-11) visit Manchester City (23-8-5) at Etihad Stadium in Manchester.</desc>
+    <category lang="en">Live</category>
+    <category lang="en">New</category>
+    <category lang="en">Sports</category>
+    <category lang="en">Sports event</category>
+    <category lang="en">Soccer</category>
+    <category lang="en">Football</category>
+    <category lang="en">Premier League</category>
+    <category lang="en">HD</category>
+    <keyword lang="en">Aston Villa</keyword>
+    <keyword lang="en">Manchester City</keyword>
+    <keyword lang="en">Etihad Stadium</keyword>
+    <keyword lang="en">Manchester</keyword>
+    <language>English</language>
+    <length units="minutes">130</length>
+    <icon src="https://a.espncdn.com/i/leaguelogos/soccer/500-dark/23.png" />
+    <country>GB</country>
+    <video>
+      <present>yes</present>
+      <colour>yes</colour>
+      <aspect>16:9</aspect>
+      <quality>HDTV</quality>
+    </video>
+    <audio>
+      <present>yes</present>
+      <stereo>stereo</stereo>
+    </audio>
+    <new></new>
+    <live></live>
+    <star-rating>
+      <value>4/5</value>
+    </star-rating>
+  </programme>
+  <programme start="20260524150000 +0000" stop="20260524171000 +0000" channel="EPL-Bournemouth.gb">
+    <title lang="en">Premier League Soccer</title>
+    <sub-title lang="en">AFC Bournemouth vs Nottingham Forest</sub-title>
+    <desc lang="en">Premier League. AFC Bournemouth (13-16-7) visit Nottingham Forest (11-10-15) at The City Ground in Nottingham.</desc>
+    <category lang="en">Live</category>
+    <category lang="en">New</category>
+    <category lang="en">Sports</category>
+    <category lang="en">Sports event</category>
+    <category lang="en">Soccer</category>
+    <category lang="en">Football</category>
+    <category lang="en">Premier League</category>
+    <category lang="en">HD</category>
+    <keyword lang="en">AFC Bournemouth</keyword>
+    <keyword lang="en">Nottingham Forest</keyword>
+    <keyword lang="en">The City Ground</keyword>
+    <keyword lang="en">Nottingham</keyword>
+    <language>English</language>
+    <length units="minutes">130</length>
+    <icon src="https://a.espncdn.com/i/leaguelogos/soccer/500-dark/23.png" />
+    <country>GB</country>
+    <video>
+      <present>yes</present>
+      <colour>yes</colour>
+      <aspect>16:9</aspect>
+      <quality>HDTV</quality>
+    </video>
+    <audio>
+      <present>yes</present>
+      <stereo>stereo</stereo>
+    </audio>
+    <new></new>
+    <live></live>
+    <star-rating>
+      <value>3/5</value>
+    </star-rating>
+  </programme>
+  <programme start="20260524150000 +0000" stop="20260524171000 +0000" channel="EPL-NottinghamForest.gb">
+    <title lang="en">Premier League Soccer</title>
+    <sub-title lang="en">AFC Bournemouth vs Nottingham Forest</sub-title>
+    <desc lang="en">Premier League. AFC Bournemouth (13-16-7) visit Nottingham Forest (11-10-15) at The City Ground in Nottingham.</desc>
+    <category lang="en">Live</category>
+    <category lang="en">New</category>
+    <category lang="en">Sports</category>
+    <category lang="en">Sports event</category>
+    <category lang="en">Soccer</category>
+    <category lang="en">Football</category>
+    <category lang="en">Premier League</category>
+    <category lang="en">HD</category>
+    <keyword lang="en">AFC Bournemouth</keyword>
+    <keyword lang="en">Nottingham Forest</keyword>
+    <keyword lang="en">The City Ground</keyword>
+    <keyword lang="en">Nottingham</keyword>
+    <language>English</language>
+    <length units="minutes">130</length>
+    <icon src="https://a.espncdn.com/i/leaguelogos/soccer/500-dark/23.png" />
+    <country>GB</country>
+    <video>
+      <present>yes</present>
+      <colour>yes</colour>
+      <aspect>16:9</aspect>
+      <quality>HDTV</quality>
+    </video>
+    <audio>
+      <present>yes</present>
+      <stereo>stereo</stereo>
+    </audio>
+    <new></new>
+    <live></live>
+    <star-rating>
+      <value>3/5</value>
+    </star-rating>
+  </programme>
+  <programme start="20260524150000 +0000" stop="20260524171000 +0000" channel="EPL-Chelsea.gb">
+    <title lang="en">Premier League Soccer</title>
+    <sub-title lang="en">Chelsea vs Sunderland</sub-title>
+    <desc lang="en">Premier League. Chelsea (13-10-13) visit Sunderland (12-12-12) at Stadium of Light in Sunderland.</desc>
+    <category lang="en">Live</category>
+    <category lang="en">New</category>
+    <category lang="en">Sports</category>
+    <category lang="en">Sports event</category>
+    <category lang="en">Soccer</category>
+    <category lang="en">Football</category>
+    <category lang="en">Premier League</category>
+    <category lang="en">HD</category>
+    <keyword lang="en">Chelsea</keyword>
+    <keyword lang="en">Sunderland</keyword>
+    <keyword lang="en">Stadium of Light</keyword>
+    <keyword lang="en">Sunderland</keyword>
+    <language>English</language>
+    <length units="minutes">130</length>
+    <icon src="https://a.espncdn.com/i/leaguelogos/soccer/500-dark/23.png" />
+    <country>GB</country>
+    <video>
+      <present>yes</present>
+      <colour>yes</colour>
+      <aspect>16:9</aspect>
+      <quality>HDTV</quality>
+    </video>
+    <audio>
+      <present>yes</present>
+      <stereo>stereo</stereo>
+    </audio>
+    <new></new>
+    <live></live>
+    <star-rating>
+      <value>4/5</value>
+    </star-rating>
+  </programme>
+  <programme start="20260524150000 +0000" stop="20260524171000 +0000" channel="EPL-Sunderland.gb">
+    <title lang="en">Premier League Soccer</title>
+    <sub-title lang="en">Chelsea vs Sunderland</sub-title>
+    <desc lang="en">Premier League. Chelsea (13-10-13) visit Sunderland (12-12-12) at Stadium of Light in Sunderland.</desc>
+    <category lang="en">Live</category>
+    <category lang="en">New</category>
+    <category lang="en">Sports</category>
+    <category lang="en">Sports event</category>
+    <category lang="en">Soccer</category>
+    <category lang="en">Football</category>
+    <category lang="en">Premier League</category>
+    <category lang="en">HD</category>
+    <keyword lang="en">Chelsea</keyword>
+    <keyword lang="en">Sunderland</keyword>
+    <keyword lang="en">Stadium of Light</keyword>
+    <keyword lang="en">Sunderland</keyword>
+    <language>English</language>
+    <length units="minutes">130</length>
+    <icon src="https://a.espncdn.com/i/leaguelogos/soccer/500-dark/23.png" />
+    <country>GB</country>
+    <video>
+      <present>yes</present>
+      <colour>yes</colour>
+      <aspect>16:9</aspect>
+      <quality>HDTV</quality>
+    </video>
+    <audio>
+      <present>yes</present>
+      <stereo>stereo</stereo>
+    </audio>
+    <new></new>
+    <live></live>
+    <star-rating>
+      <value>4/5</value>
+    </star-rating>
+  </programme>
+  <programme start="20260524150000 +0000" stop="20260524171000 +0000" channel="EPL-Everton.gb">
+    <title lang="en">Premier League Soccer</title>
+    <sub-title lang="en">Everton vs Tottenham Hotspur</sub-title>
+    <desc lang="en">Premier League. Everton (13-10-13) visit Tottenham Hotspur (9-11-16) at Tottenham Hotspur Stadium in London.</desc>
+    <category lang="en">Live</category>
+    <category lang="en">New</category>
+    <category lang="en">Sports</category>
+    <category lang="en">Sports event</category>
+    <category lang="en">Soccer</category>
+    <category lang="en">Football</category>
+    <category lang="en">Premier League</category>
+    <category lang="en">HD</category>
+    <keyword lang="en">Everton</keyword>
+    <keyword lang="en">Tottenham Hotspur</keyword>
+    <keyword lang="en">Tottenham Hotspur Stadium</keyword>
+    <keyword lang="en">London</keyword>
+    <language>English</language>
+    <length units="minutes">130</length>
+    <icon src="https://a.espncdn.com/i/leaguelogos/soccer/500-dark/23.png" />
+    <country>GB</country>
+    <video>
+      <present>yes</present>
+      <colour>yes</colour>
+      <aspect>16:9</aspect>
+      <quality>HDTV</quality>
+    </video>
+    <audio>
+      <present>yes</present>
+      <stereo>stereo</stereo>
+    </audio>
+    <new></new>
+    <live></live>
+    <star-rating>
+      <value>4/5</value>
+    </star-rating>
+  </programme>
+  <programme start="20260524150000 +0000" stop="20260524171000 +0000" channel="EPL-TottenhamHotspur.gb">
+    <title lang="en">Premier League Soccer</title>
+    <sub-title lang="en">Everton vs Tottenham Hotspur</sub-title>
+    <desc lang="en">Premier League. Everton (13-10-13) visit Tottenham Hotspur (9-11-16) at Tottenham Hotspur Stadium in London.</desc>
+    <category lang="en">Live</category>
+    <category lang="en">New</category>
+    <category lang="en">Sports</category>
+    <category lang="en">Sports event</category>
+    <category lang="en">Soccer</category>
+    <category lang="en">Football</category>
+    <category lang="en">Premier League</category>
+    <category lang="en">HD</category>
+    <keyword lang="en">Everton</keyword>
+    <keyword lang="en">Tottenham Hotspur</keyword>
+    <keyword lang="en">Tottenham Hotspur Stadium</keyword>
+    <keyword lang="en">London</keyword>
+    <language>English</language>
+    <length units="minutes">130</length>
+    <icon src="https://a.espncdn.com/i/leaguelogos/soccer/500-dark/23.png" />
+    <country>GB</country>
+    <video>
+      <present>yes</present>
+      <colour>yes</colour>
+      <aspect>16:9</aspect>
+      <quality>HDTV</quality>
+    </video>
+    <audio>
+      <present>yes</present>
+      <stereo>stereo</stereo>
+    </audio>
+    <new></new>
+    <live></live>
+    <star-rating>
+      <value>4/5</value>
+    </star-rating>
+  </programme>
+  <programme start="20260524150000 +0000" stop="20260524171000 +0000" channel="EPL-LeedsUnited.gb">
+    <title lang="en">Premier League Soccer</title>
+    <sub-title lang="en">Leeds United vs West Ham United</sub-title>
+    <desc lang="en">Premier League. Leeds United (10-14-12) visit West Ham United (9-9-18) at London Stadium in London.</desc>
+    <category lang="en">Live</category>
+    <category lang="en">New</category>
+    <category lang="en">Sports</category>
+    <category lang="en">Sports event</category>
+    <category lang="en">Soccer</category>
+    <category lang="en">Football</category>
+    <category lang="en">Premier League</category>
+    <category lang="en">HD</category>
+    <keyword lang="en">Leeds United</keyword>
+    <keyword lang="en">West Ham United</keyword>
+    <keyword lang="en">London Stadium</keyword>
+    <keyword lang="en">London</keyword>
+    <language>English</language>
+    <length units="minutes">130</length>
+    <icon src="https://a.espncdn.com/i/leaguelogos/soccer/500-dark/23.png" />
+    <country>GB</country>
+    <video>
+      <present>yes</present>
+      <colour>yes</colour>
+      <aspect>16:9</aspect>
+      <quality>HDTV</quality>
+    </video>
+    <audio>
+      <present>yes</present>
+      <stereo>stereo</stereo>
+    </audio>
+    <new></new>
+    <live></live>
+    <star-rating>
+      <value>3/5</value>
+    </star-rating>
+  </programme>
+  <programme start="20260524150000 +0000" stop="20260524171000 +0000" channel="EPL-WestHamUnited.gb">
+    <title lang="en">Premier League Soccer</title>
+    <sub-title lang="en">Leeds United vs West Ham United</sub-title>
+    <desc lang="en">Premier League. Leeds United (10-14-12) visit West Ham United (9-9-18) at London Stadium in London.</desc>
+    <category lang="en">Live</category>
+    <category lang="en">New</category>
+    <category lang="en">Sports</category>
+    <category lang="en">Sports event</category>
+    <category lang="en">Soccer</category>
+    <category lang="en">Football</category>
+    <category lang="en">Premier League</category>
+    <category lang="en">HD</category>
+    <keyword lang="en">Leeds United</keyword>
+    <keyword lang="en">West Ham United</keyword>
+    <keyword lang="en">London Stadium</keyword>
+    <keyword lang="en">London</keyword>
+    <language>English</language>
+    <length units="minutes">130</length>
+    <icon src="https://a.espncdn.com/i/leaguelogos/soccer/500-dark/23.png" />
+    <country>GB</country>
+    <video>
+      <present>yes</present>
+      <colour>yes</colour>
+      <aspect>16:9</aspect>
+      <quality>HDTV</quality>
+    </video>
+    <audio>
+      <present>yes</present>
+      <stereo>stereo</stereo>
+    </audio>
+    <new></new>
+    <live></live>
+    <star-rating>
+      <value>3/5</value>
+    </star-rating>
+  </programme>
+</tv>
