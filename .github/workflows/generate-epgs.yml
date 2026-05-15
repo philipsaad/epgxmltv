@@ -1,0 +1,56 @@
+name: Generate EPGs
+
+on:
+  schedule:
+    - cron: '0 6 * * *'   # daily at 06:00 UTC
+  workflow_dispatch:
+    inputs:
+      days_ahead:
+        description: 'Number of days ahead to include'
+        required: false
+        default: '14'
+        type: string
+  push:
+    branches: [main]
+    paths:
+      - 'epgxmltv-nba.csx'
+      - 'epgxmltv-epl.csx'
+
+permissions:
+  contents: write
+
+jobs:
+  generate:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+
+      - name: Setup .NET 10
+        uses: actions/setup-dotnet@v4
+        with:
+          dotnet-version: '10.x'
+
+      - name: Install dotnet-script
+        run: dotnet tool install -g dotnet-script
+
+      - name: Generate NBA EPG
+        run: |
+          DAYS=${{ github.event.inputs.days_ahead || '14' }}
+          dotnet script epgxmltv-nba.csx -- --days-ahead $DAYS --output output/nba.xml
+
+      - name: Generate EPL EPG
+        run: |
+          DAYS=${{ github.event.inputs.days_ahead || '14' }}
+          dotnet script epgxmltv-epl.csx -- --days-ahead $DAYS --output output/epl.xml
+
+      - name: Commit updated EPGs
+        uses: stefanzweifel/git-auto-commit-action@v5
+        with:
+          commit_message: 'chore: update EPGs [skip ci]'
+          add_options: '-f'
+          skip_dirty_check: true
+          file_pattern: 'output/nba.xml output/nba.xml.gz output/epl.xml output/epl.xml.gz'
+          commit_user_name: 'github-actions[bot]'
+          commit_user_email: 'github-actions[bot]@users.noreply.github.com'
