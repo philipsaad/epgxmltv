@@ -7,7 +7,7 @@
 //
 // Options:
 //   --days-ahead <n>        Number of days into the future to include (default: 14)
-//   --days-back <n>         Number of days in the past to include (default: 1)
+//   --days-back <n>         Number of days in the past to include (default: 0)
 //   --output <path>         Output file path for the XMLTV file (default: output/epl.xml)
 //   --schedule-url <url>    Override the default EPL schedule URL
 //
@@ -139,7 +139,7 @@ bool TryParseArgs(IList<string> args, out ScriptOptions options)
       default:
         Console.Error.WriteLine($"Unknown or incomplete argument: {args[i]}");
         Console.Error.WriteLine("Usage: dotnet run epgxmltv-epl.cs -- [--days-ahead <n>] [--days-back <n>] [--output <path>] [--schedule-url <url>]");
-        Console.Error.WriteLine("Run with no arguments for defaults (14 days ahead, 1 day back, output/epl.xml).");
+        Console.Error.WriteLine("Run with no arguments for defaults (14 days ahead, 0 days back, output/epl.xml).");
         return false;
     }
   }
@@ -501,4 +501,4 @@ record MatchEntry(DateTimeOffset StartUtc, TeamInfo Away, TeamInfo Home, int Awa
 
 record ProgrammeInfo(string ChannelId, DateTimeOffset StartUtc, DateTimeOffset StopUtc, string Title, string? SubTitle, string Desc, IReadOnlyList<string> Categories, IReadOnlyList<string> Keywords, int LengthMinutes, string? EpisodeNum, int StarRating, bool IsPremiere, bool IsNew, string Country = "GB");
 
-record ScriptOptions(int DaysAhead = 14, int DaysBack = 1, string OutputPath = "output/epl.xml", string UrlOverride = "");
+record ScriptOptions(int DaysAhead = 14, int DaysBack = 0, string OutputPath = "output/epl.xml", string UrlOverride = "");

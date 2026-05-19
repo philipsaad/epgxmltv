@@ -79,7 +79,7 @@ That's it — no additional tools or global installs required. The scripts run d
 dotnet run epgxmltv-nba.cs
 ```
 
-By default, fetches games from 1 day in the past to 14 days in the future and saves to `output/nba.xml` (and `output/nba.xml.gz`).
+By default, fetches games from today to 14 days in the future and saves to `output/nba.xml` (and `output/nba.xml.gz`).
 
 ### EPL
 
@@ -87,7 +87,7 @@ By default, fetches games from 1 day in the past to 14 days in the future and sa
 dotnet run epgxmltv-epl.cs
 ```
 
-By default, fetches matches from 1 day in the past to 14 days in the future and saves to `output/epl.xml` (and `output/epl.xml.gz`).
+By default, fetches matches from today to 14 days in the future and saves to `output/epl.xml` (and `output/epl.xml.gz`).
 
 ### Command Line Options
 
@@ -96,7 +96,7 @@ Both scripts accept the same set of options. Use `--` to separate `dotnet run` a
 | Option | Description | Default |
 | :--- | :--- | :--- |
 | `--days-ahead <n>` | Number of days into the future to include | `14` |
-| `--days-back <n>` | Number of days in the past to include | `1` |
+| `--days-back <n>` | Number of days in the past to include | `0` |
 | `--output <path>` | Output file path for the XMLTV file | *(per-league default)* |
 | `--schedule-url <url>`| Override the default schedule URL | *(ESPN Scoreboard API URL)* |
 
