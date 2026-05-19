@@ -13,8 +13,8 @@ on:
   push:
     branches: [main]
     paths:
-      - 'epgxmltv-nba.csx'
-      - 'epgxmltv-epl.csx'
+      - 'epgxmltv-nba.cs'
+      - 'epgxmltv-epl.cs'
 
 permissions:
   contents: write
@@ -32,18 +32,15 @@ jobs:
         with:
           dotnet-version: '10.x'
 
-      - name: Install dotnet-script
-        run: dotnet tool install -g dotnet-script
-
       - name: Generate NBA EPG
         run: |
           DAYS=${{ github.event.inputs.days_ahead || '14' }}
-          dotnet script epgxmltv-nba.csx -- --days-ahead $DAYS --output output/nba.xml
+          dotnet run epgxmltv-nba.cs -- --days-ahead $DAYS --output output/nba.xml
 
       - name: Generate EPL EPG
         run: |
           DAYS=${{ github.event.inputs.days_ahead || '14' }}
-          dotnet script epgxmltv-epl.csx -- --days-ahead $DAYS --output output/epl.xml
+          dotnet run epgxmltv-epl.cs -- --days-ahead $DAYS --output output/epl.xml
 
       - name: Commit updated EPGs
         uses: stefanzweifel/git-auto-commit-action@v5

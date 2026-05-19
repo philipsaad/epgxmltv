@@ -1,6 +1,6 @@
 # epgxmltv — Sports EPG Generator
 
-A collection of lightweight C# scripts that fetch live sports schedules from ESPN and generate XMLTV Electronic Program Guide (EPG) files. Perfect for integrating game schedules into your IPTV setup, Dispatcharr, Plex, Jellyfin, Emby, or any software that consumes XMLTV data.
+A collection of lightweight C# file-based apps that fetch live sports schedules from ESPN and generate XMLTV Electronic Program Guide (EPG) files. Perfect for integrating game schedules into your IPTV setup, Dispatcharr, Plex, Jellyfin, Emby, or any software that consumes XMLTV data.
 
 These scripts are specifically designed for the dedicated team-channel packages that IPTV providers offer, ensuring your channels always have an accurate and richly detailed program guide.
 
@@ -8,8 +8,8 @@ These scripts are specifically designed for the dedicated team-channel packages 
 
 | League | Script | Output |
 | :--- | :--- | :--- |
-| NBA | `epgxmltv-nba.csx` | `output/nba.xml` |
-| EPL (Premier League) | `epgxmltv-epl.csx` | `output/epl.xml` |
+| NBA | `epgxmltv-nba.cs` | `output/nba.xml` |
+| EPL (Premier League) | `epgxmltv-epl.cs` | `output/epl.xml` |
 
 ---
 
@@ -45,14 +45,14 @@ https://github.com/philipsaad/epgxmltv/raw/refs/heads/main/output/epl.xml
 
 ## Features
 
-### NBA (`epgxmltv-nba.csx`)
+### NBA (`epgxmltv-nba.cs`)
 
 - **Rich Metadata:** Automatically generates descriptions including team records, arena info, and matchup stakes.
 - **Playoff Awareness:** Smart handling for playoff games, including series game numbers, elimination game detection, and dynamic broadcast lengths.
 - **Custom Categorization & Ratings:** Assigns star ratings based on game importance (e.g., Finals get higher ratings) and sets appropriate DVR keywords.
 - **Dual Output:** Generates both a raw `.xml` file and a highly compressed `.xml.gz` file simultaneously.
 
-### EPL (`epgxmltv-epl.csx`)
+### EPL (`epgxmltv-epl.cs`)
 
 - **Rich Metadata:** Automatically generates descriptions including team records (W-D-L), stadium info, and matchweek labels.
 - **Big Six Awareness:** Boosts star ratings for marquee fixtures involving Arsenal, Chelsea, Liverpool, Man City, Man United, and Tottenham.
@@ -63,14 +63,11 @@ https://github.com/philipsaad/epgxmltv/raw/refs/heads/main/output/epl.xml
 
 ## Prerequisites
 
-To run these scripts, you will need the .NET SDK and the `dotnet-script` tool.
+To run these scripts, you need the .NET 10 SDK (or later).
 
-1. Install the .NET SDK.
-2. Install the `dotnet-script` global tool:
+1. Install the [.NET 10 SDK](https://dotnet.microsoft.com/download/dotnet/10.0).
 
-   ```bash
-   dotnet tool install -g dotnet-script
-   ```
+That's it — no additional tools or global installs required. The scripts run directly via `dotnet run`.
 
 ---
 
@@ -79,7 +76,7 @@ To run these scripts, you will need the .NET SDK and the `dotnet-script` tool.
 ### NBA
 
 ```bash
-dotnet script epgxmltv-nba.csx
+dotnet run epgxmltv-nba.cs
 ```
 
 By default, fetches games from 1 day in the past to 14 days in the future and saves to `output/nba.xml` (and `output/nba.xml.gz`).
@@ -87,14 +84,14 @@ By default, fetches games from 1 day in the past to 14 days in the future and sa
 ### EPL
 
 ```bash
-dotnet script epgxmltv-epl.csx
+dotnet run epgxmltv-epl.cs
 ```
 
 By default, fetches matches from 1 day in the past to 14 days in the future and saves to `output/epl.xml` (and `output/epl.xml.gz`).
 
 ### Command Line Options
 
-Both scripts accept the same set of options. When passing options, include `--` before the arguments so `dotnet-script` forwards them to the execution context.
+Both scripts accept the same set of options. Use `--` to separate `dotnet run` arguments from script arguments.
 
 | Option | Description | Default |
 | :--- | :--- | :--- |
@@ -107,12 +104,12 @@ Both scripts accept the same set of options. When passing options, include `--` 
 
 **Fetch a full month of upcoming NBA games:**
 ```bash
-dotnet script epgxmltv-nba.csx -- --days-ahead 30 --output ./full-month.xml
+dotnet run epgxmltv-nba.cs -- --days-ahead 30 --output ./full-month.xml
 ```
 
 **Fetch a custom window of EPL matches (3 days back, 7 days forward):**
 ```bash
-dotnet script epgxmltv-epl.csx -- --days-ahead 7 --days-back 3
+dotnet run epgxmltv-epl.cs -- --days-ahead 7 --days-back 3
 ```
 
 ---

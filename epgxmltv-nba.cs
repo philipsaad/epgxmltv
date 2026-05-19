@@ -1,9 +1,9 @@
-#!/usr/bin/env dotnet-script
+#!/usr/bin/dotnet run
 #nullable enable
-// NBA EPG Generator — C# Script
+// NBA EPG Generator — C# File-Based App (.NET 10+)
 //
 // Usage:
-//   dotnet script epgxmltv-nba.csx -- [options]
+//   dotnet run epgxmltv-nba.cs -- [options]
 //
 // Options:
 //   --days-ahead <n>        Number of days into the future to include (default: 14)
@@ -12,9 +12,9 @@
 //   --schedule-url <url>    Override the default NBA schedule URL
 //
 // Examples:
-//   dotnet script epgxmltv-nba.csx
-//   dotnet script epgxmltv-nba.csx -- --days-ahead 7 --days-back 3
-//   dotnet script epgxmltv-nba.csx -- --days-ahead 30 --output ./full-month.xml
+//   dotnet run epgxmltv-nba.cs
+//   dotnet run epgxmltv-nba.cs -- --days-ahead 7 --days-back 3
+//   dotnet run epgxmltv-nba.cs -- --days-ahead 30 --output ./full-month.xml
 
 using System.Globalization;
 using System.IO.Compression;
@@ -33,24 +33,6 @@ const string NbaLogoUrl = "https://a.espncdn.com/i/teamlogos/leagues/500-dark/nb
 const string DefaultScheduleUrl = "https://site.api.espn.com/apis/site/v2/sports/basketball/nba/scoreboard";
 const string UserAgent = "epgxmltv-nba/1.0 dotnet-httpclient/1.1";
 const string GeneratorName = "epgxmltv-nba/1.0";
-
-// ===========================================================================
-// Models
-// ===========================================================================
-
-record TeamInfo(string ChannelId, string DisplayName, string LogoUrl, string Country = "US");
-
-record TeamRecord(int Wins, int Losses, int Seed);
-
-record GameEntry(DateTimeOffset StartUtc, TeamInfo Away, TeamInfo Home, TeamRecord AwayRecord, TeamRecord HomeRecord, string ArenaName, string ArenaCity, string ArenaState, string SeriesText, string GameLabel, int SeriesGameNumber, int GameStatus, string GameStatusText);
-
-enum PlayoffRound { RegularSeason, FirstRound, ConferenceSemifinals, ConferenceFinals, Finals }
-
-record ProgrammeInfo(string ChannelId, DateTimeOffset StartUtc, DateTimeOffset StopUtc, string Title, string? SubTitle, string Desc, IReadOnlyList<string> Categories, IReadOnlyList<string> Keywords, int LengthMinutes, string? EpisodeNum, int StarRating, bool IsPremiere, bool IsNew, string Country = "US");
-
-record GameMeta(bool IsPlayoff, PlayoffRound Round, int GameNumber, bool IsElimination, bool IsPremiere);
-
-record ScriptOptions(int DaysAhead = 14, int DaysBack = 1, string OutputPath = "output/nba.xml", string UrlOverride = "");
 
 // ===========================================================================
 // Teams, Mapping, and Static Data
@@ -95,7 +77,7 @@ var AllTeams = new Dictionary<int, TeamInfo>
 // Main Execution Flow
 // ===========================================================================
 
-if (!TryParseArgs(Args, out var options))
+if (!TryParseArgs(args, out var options))
   return 1;
 
 var windowStart = DateTimeOffset.UtcNow.AddDays(-options.DaysBack);
@@ -138,7 +120,7 @@ int GetInt(JsonNode? node)
 // ===========================================================================
 
 /// <summary>
-/// Parses the command line arguments provided to the dotnet-script.
+/// Parses the command line arguments.
 /// Returns false if an unknown argument is encountered.
 /// </summary>
 bool TryParseArgs(IList<string> args, out ScriptOptions options)
@@ -163,7 +145,7 @@ bool TryParseArgs(IList<string> args, out ScriptOptions options)
         break;
       default:
         Console.Error.WriteLine($"Unknown or incomplete argument: {args[i]}");
-        Console.Error.WriteLine("Usage: dotnet script epgxmltv-nba.csx -- [--days-ahead <n>] [--days-back <n>] [--output <path>] [--schedule-url <url>]");
+        Console.Error.WriteLine("Usage: dotnet run epgxmltv-nba.cs -- [--days-ahead <n>] [--days-back <n>] [--output <path>] [--schedule-url <url>]");
         Console.Error.WriteLine("Run with no arguments for defaults (14 days ahead, 1 day back, output/nba.xml).");
         return false;
     }
@@ -627,3 +609,21 @@ async Task WriteXmltvAsync(IEnumerable<TeamInfo> teams, IReadOnlyList<ProgrammeI
 
   Console.WriteLine($"Done. ({bytes.Length:N0} bytes raw → {outputPath} and {gzPath})");
 }
+
+// ===========================================================================
+// Models
+// ===========================================================================
+
+record TeamInfo(string ChannelId, string DisplayName, string LogoUrl, string Country = "US");
+
+record TeamRecord(int Wins, int Losses, int Seed);
+
+record GameEntry(DateTimeOffset StartUtc, TeamInfo Away, TeamInfo Home, TeamRecord AwayRecord, TeamRecord HomeRecord, string ArenaName, string ArenaCity, string ArenaState, string SeriesText, string GameLabel, int SeriesGameNumber, int GameStatus, string GameStatusText);
+
+enum PlayoffRound { RegularSeason, FirstRound, ConferenceSemifinals, ConferenceFinals, Finals }
+
+record ProgrammeInfo(string ChannelId, DateTimeOffset StartUtc, DateTimeOffset StopUtc, string Title, string? SubTitle, string Desc, IReadOnlyList<string> Categories, IReadOnlyList<string> Keywords, int LengthMinutes, string? EpisodeNum, int StarRating, bool IsPremiere, bool IsNew, string Country = "US");
+
+record GameMeta(bool IsPlayoff, PlayoffRound Round, int GameNumber, bool IsElimination, bool IsPremiere);
+
+record ScriptOptions(int DaysAhead = 14, int DaysBack = 1, string OutputPath = "output/nba.xml", string UrlOverride = "");

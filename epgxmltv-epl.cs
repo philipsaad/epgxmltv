@@ -1,9 +1,9 @@
-#!/usr/bin/env dotnet-script
+#!/usr/bin/dotnet run
 #nullable enable
-// EPL EPG Generator — C# Script
+// EPL EPG Generator — C# File-Based App (.NET 10+)
 //
 // Usage:
-//   dotnet script epgxmltv-epl.csx -- [options]
+//   dotnet run epgxmltv-epl.cs -- [options]
 //
 // Options:
 //   --days-ahead <n>        Number of days into the future to include (default: 14)
@@ -12,9 +12,9 @@
 //   --schedule-url <url>    Override the default EPL schedule URL
 //
 // Examples:
-//   dotnet script epgxmltv-epl.csx
-//   dotnet script epgxmltv-epl.csx -- --days-ahead 7 --days-back 3
-//   dotnet script epgxmltv-epl.csx -- --days-ahead 30 --output ./full-month.xml
+//   dotnet run epgxmltv-epl.cs
+//   dotnet run epgxmltv-epl.cs -- --days-ahead 7 --days-back 3
+//   dotnet run epgxmltv-epl.cs -- --days-ahead 30 --output ./full-month.xml
 
 using System.Globalization;
 using System.IO.Compression;
@@ -36,20 +36,6 @@ const string GeneratorName = "epgxmltv-epl/1.0";
 
 // "Big Six" club ESPN IDs — used to boost star ratings for marquee fixtures
 var BigSixIds = new HashSet<int> { 359, 363, 364, 382, 360, 367 };
-
-// ===========================================================================
-// Models
-// ===========================================================================
-
-record TeamInfo(string ChannelId, string DisplayName, string LogoUrl, string Country = "GB");
-
-record TeamRecord(int Wins, int Draws, int Losses);
-
-record MatchEntry(DateTimeOffset StartUtc, TeamInfo Away, TeamInfo Home, int AwayTeamId, int HomeTeamId, TeamRecord AwayRecord, TeamRecord HomeRecord, string StadiumName, string StadiumCity, string MatchweekLabel, int MatchStatus, string MatchStatusText);
-
-record ProgrammeInfo(string ChannelId, DateTimeOffset StartUtc, DateTimeOffset StopUtc, string Title, string? SubTitle, string Desc, IReadOnlyList<string> Categories, IReadOnlyList<string> Keywords, int LengthMinutes, string? EpisodeNum, int StarRating, bool IsPremiere, bool IsNew, string Country = "GB");
-
-record ScriptOptions(int DaysAhead = 14, int DaysBack = 1, string OutputPath = "output/epl.xml", string UrlOverride = "");
 
 // ===========================================================================
 // Teams, Mapping, and Static Data
@@ -84,7 +70,7 @@ var AllTeams = new Dictionary<int, TeamInfo>
 // Main Execution Flow
 // ===========================================================================
 
-if (!TryParseArgs(Args, out var options))
+if (!TryParseArgs(args, out var options))
   return 1;
 
 var windowStart = DateTimeOffset.UtcNow.AddDays(-options.DaysBack);
@@ -127,7 +113,7 @@ int GetInt(JsonNode? node)
 // ===========================================================================
 
 /// <summary>
-/// Parses the command line arguments provided to the dotnet-script.
+/// Parses the command line arguments.
 /// Returns false if an unknown argument is encountered.
 /// </summary>
 bool TryParseArgs(IList<string> args, out ScriptOptions options)
@@ -152,7 +138,7 @@ bool TryParseArgs(IList<string> args, out ScriptOptions options)
         break;
       default:
         Console.Error.WriteLine($"Unknown or incomplete argument: {args[i]}");
-        Console.Error.WriteLine("Usage: dotnet script epgxmltv-epl.csx -- [--days-ahead <n>] [--days-back <n>] [--output <path>] [--schedule-url <url>]");
+        Console.Error.WriteLine("Usage: dotnet run epgxmltv-epl.cs -- [--days-ahead <n>] [--days-back <n>] [--output <path>] [--schedule-url <url>]");
         Console.Error.WriteLine("Run with no arguments for defaults (14 days ahead, 1 day back, output/epl.xml).");
         return false;
     }
@@ -502,3 +488,17 @@ async Task WriteXmltvAsync(IEnumerable<TeamInfo> teams, IReadOnlyList<ProgrammeI
 
   Console.WriteLine($"Done. ({bytes.Length:N0} bytes raw → {outputPath} and {gzPath})");
 }
+
+// ===========================================================================
+// Models
+// ===========================================================================
+
+record TeamInfo(string ChannelId, string DisplayName, string LogoUrl, string Country = "GB");
+
+record TeamRecord(int Wins, int Draws, int Losses);
+
+record MatchEntry(DateTimeOffset StartUtc, TeamInfo Away, TeamInfo Home, int AwayTeamId, int HomeTeamId, TeamRecord AwayRecord, TeamRecord HomeRecord, string StadiumName, string StadiumCity, string MatchweekLabel, int MatchStatus, string MatchStatusText);
+
+record ProgrammeInfo(string ChannelId, DateTimeOffset StartUtc, DateTimeOffset StopUtc, string Title, string? SubTitle, string Desc, IReadOnlyList<string> Categories, IReadOnlyList<string> Keywords, int LengthMinutes, string? EpisodeNum, int StarRating, bool IsPremiere, bool IsNew, string Country = "GB");
+
+record ScriptOptions(int DaysAhead = 14, int DaysBack = 1, string OutputPath = "output/epl.xml", string UrlOverride = "");
