@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
-<tv date="20260522084514 +0000" generator-info-name="epgxmltv-nba/1.0" generator-info-url="https://github.com/philipsaad/epgxmltv">
+<tv date="20260523080138 +0000" generator-info-name="epgxmltv-nba/1.0" generator-info-url="https://github.com/philipsaad/epgxmltv">
   <channel id="NBA-AtlantaHawks.us">
     <display-name>Atlanta Hawks</display-name>
     <icon src="https://a.espncdn.com/i/teamlogos/nba/500-dark/atl.png" />
@@ -120,84 +120,6 @@
     <display-name>Washington Wizards</display-name>
     <icon src="https://a.espncdn.com/i/teamlogos/nba/500-dark/wsh.png" />
   </channel>
-  <programme start="20260523003000 +0000" stop="20260523040000 +0000" channel="NBA-OklahomaCityThunder.us">
-    <title lang="en">NBA Basketball</title>
-    <sub-title lang="en">Oklahoma City Thunder @ San Antonio Spurs - Game 3</sub-title>
-    <desc lang="en">West Finals - Game 3. Series tied 1-1. Oklahoma City Thunder (64-18) visit San Antonio Spurs (62-20) at Frost Bank Center in San Antonio, TX.</desc>
-    <category lang="en">Live</category>
-    <category lang="en">New</category>
-    <category lang="en">Sports</category>
-    <category lang="en">Sports event</category>
-    <category lang="en">Basketball</category>
-    <category lang="en">NBA</category>
-    <category lang="en">HD</category>
-    <category lang="en">Playoffs</category>
-    <category lang="en">West Finals - Game 3</category>
-    <keyword lang="en">Oklahoma City Thunder</keyword>
-    <keyword lang="en">San Antonio Spurs</keyword>
-    <keyword lang="en">Frost Bank Center</keyword>
-    <keyword lang="en">San Antonio</keyword>
-    <keyword lang="en">West Finals - Game 3</keyword>
-    <language>English</language>
-    <length units="minutes">210</length>
-    <icon src="https://a.espncdn.com/i/teamlogos/leagues/500-dark/nba.png" />
-    <country>US</country>
-    <episode-num system="onscreen">Game 3</episode-num>
-    <video>
-      <present>yes</present>
-      <colour>yes</colour>
-      <aspect>16:9</aspect>
-      <quality>HDTV</quality>
-    </video>
-    <audio>
-      <present>yes</present>
-      <stereo>stereo</stereo>
-    </audio>
-    <new></new>
-    <live></live>
-    <star-rating>
-      <value>4/5</value>
-    </star-rating>
-  </programme>
-  <programme start="20260523003000 +0000" stop="20260523040000 +0000" channel="NBA-SanAntonioSpurs.us">
-    <title lang="en">NBA Basketball</title>
-    <sub-title lang="en">Oklahoma City Thunder @ San Antonio Spurs - Game 3</sub-title>
-    <desc lang="en">West Finals - Game 3. Series tied 1-1. Oklahoma City Thunder (64-18) visit San Antonio Spurs (62-20) at Frost Bank Center in San Antonio, TX.</desc>
-    <category lang="en">Live</category>
-    <category lang="en">New</category>
-    <category lang="en">Sports</category>
-    <category lang="en">Sports event</category>
-    <category lang="en">Basketball</category>
-    <category lang="en">NBA</category>
-    <category lang="en">HD</category>
-    <category lang="en">Playoffs</category>
-    <category lang="en">West Finals - Game 3</category>
-    <keyword lang="en">Oklahoma City Thunder</keyword>
-    <keyword lang="en">San Antonio Spurs</keyword>
-    <keyword lang="en">Frost Bank Center</keyword>
-    <keyword lang="en">San Antonio</keyword>
-    <keyword lang="en">West Finals - Game 3</keyword>
-    <language>English</language>
-    <length units="minutes">210</length>
-    <icon src="https://a.espncdn.com/i/teamlogos/leagues/500-dark/nba.png" />
-    <country>US</country>
-    <episode-num system="onscreen">Game 3</episode-num>
-    <video>
-      <present>yes</present>
-      <colour>yes</colour>
-      <aspect>16:9</aspect>
-      <quality>HDTV</quality>
-    </video>
-    <audio>
-      <present>yes</present>
-      <stereo>stereo</stereo>
-    </audio>
-    <new></new>
-    <live></live>
-    <star-rating>
-      <value>4/5</value>
-    </star-rating>
-  </programme>
   <programme start="20260524000000 +0000" stop="20260524033000 +0000" channel="NBA-NewYorkKnicks.us">
     <title lang="en">NBA Basketball</title>
     <sub-title lang="en">New York Knicks @ Cleveland Cavaliers - Game 3</sub-title>
@@ -279,7 +201,7 @@
   <programme start="20260525000000 +0000" stop="20260525033000 +0000" channel="NBA-OklahomaCityThunder.us">
     <title lang="en">NBA Basketball</title>
     <sub-title lang="en">Oklahoma City Thunder @ San Antonio Spurs - Game 4</sub-title>
-    <desc lang="en">West Finals - Game 4. Series tied 1-1. Oklahoma City Thunder (64-18) visit San Antonio Spurs (62-20) at Frost Bank Center in San Antonio, TX.</desc>
+    <desc lang="en">West Finals - Game 4. OKC leads series 2-1. Oklahoma City Thunder (64-18) visit San Antonio Spurs (62-20) at Frost Bank Center in San Antonio, TX.</desc>
     <category lang="en">Live</category>
     <category lang="en">New</category>
     <category lang="en">Sports</category>
@@ -318,7 +240,7 @@
   <programme start="20260525000000 +0000" stop="20260525033000 +0000" channel="NBA-SanAntonioSpurs.us">
     <title lang="en">NBA Basketball</title>
     <sub-title lang="en">Oklahoma City Thunder @ San Antonio Spurs - Game 4</sub-title>
-    <desc lang="en">West Finals - Game 4. Series tied 1-1. Oklahoma City Thunder (64-18) visit San Antonio Spurs (62-20) at Frost Bank Center in San Antonio, TX.</desc>
+    <desc lang="en">West Finals - Game 4. OKC leads series 2-1. Oklahoma City Thunder (64-18) visit San Antonio Spurs (62-20) at Frost Bank Center in San Antonio, TX.</desc>
     <category lang="en">Live</category>
     <category lang="en">New</category>
     <category lang="en">Sports</category>
@@ -435,7 +357,7 @@
   <programme start="20260527003000 +0000" stop="20260527040000 +0000" channel="NBA-SanAntonioSpurs.us">
     <title lang="en">NBA Basketball</title>
     <sub-title lang="en">San Antonio Spurs @ Oklahoma City Thunder - Game 5</sub-title>
-    <desc lang="en">West Finals - Game 5. Series tied 1-1. San Antonio Spurs (62-20) visit Oklahoma City Thunder (64-18) at Paycom Center in Oklahoma City, OK.</desc>
+    <desc lang="en">West Finals - Game 5. OKC leads series 2-1. San Antonio Spurs (62-20) visit Oklahoma City Thunder (64-18) at Paycom Center in Oklahoma City, OK.</desc>
     <category lang="en">Live</category>
     <category lang="en">New</category>
     <category lang="en">Sports</category>
@@ -474,7 +396,7 @@
   <programme start="20260527003000 +0000" stop="20260527040000 +0000" channel="NBA-OklahomaCityThunder.us">
     <title lang="en">NBA Basketball</title>
     <sub-title lang="en">San Antonio Spurs @ Oklahoma City Thunder - Game 5</sub-title>
-    <desc lang="en">West Finals - Game 5. Series tied 1-1. San Antonio Spurs (62-20) visit Oklahoma City Thunder (64-18) at Paycom Center in Oklahoma City, OK.</desc>
+    <desc lang="en">West Finals - Game 5. OKC leads series 2-1. San Antonio Spurs (62-20) visit Oklahoma City Thunder (64-18) at Paycom Center in Oklahoma City, OK.</desc>
     <category lang="en">Live</category>
     <category lang="en">New</category>
     <category lang="en">Sports</category>
@@ -591,7 +513,7 @@
   <programme start="20260529003000 +0000" stop="20260529040000 +0000" channel="NBA-OklahomaCityThunder.us">
     <title lang="en">NBA Basketball</title>
     <sub-title lang="en">Oklahoma City Thunder @ San Antonio Spurs - Game 127</sub-title>
-    <desc lang="en">West Finals - Game 6 If Necessary. Series tied 1-1. Oklahoma City Thunder (64-18) visit San Antonio Spurs (62-20) at Frost Bank Center in San Antonio, TX.</desc>
+    <desc lang="en">West Finals - Game 6 If Necessary. OKC leads series 2-1. Oklahoma City Thunder (64-18) visit San Antonio Spurs (62-20) at Frost Bank Center in San Antonio, TX.</desc>
     <category lang="en">Live</category>
     <category lang="en">New</category>
     <category lang="en">Sports</category>
@@ -630,7 +552,7 @@
   <programme start="20260529003000 +0000" stop="20260529040000 +0000" channel="NBA-SanAntonioSpurs.us">
     <title lang="en">NBA Basketball</title>
     <sub-title lang="en">Oklahoma City Thunder @ San Antonio Spurs - Game 127</sub-title>
-    <desc lang="en">West Finals - Game 6 If Necessary. Series tied 1-1. Oklahoma City Thunder (64-18) visit San Antonio Spurs (62-20) at Frost Bank Center in San Antonio, TX.</desc>
+    <desc lang="en">West Finals - Game 6 If Necessary. OKC leads series 2-1. Oklahoma City Thunder (64-18) visit San Antonio Spurs (62-20) at Frost Bank Center in San Antonio, TX.</desc>
     <category lang="en">Live</category>
     <category lang="en">New</category>
     <category lang="en">Sports</category>
@@ -747,7 +669,7 @@
   <programme start="20260531000000 +0000" stop="20260531033000 +0000" channel="NBA-SanAntonioSpurs.us">
     <title lang="en">NBA Basketball</title>
     <sub-title lang="en">San Antonio Spurs @ Oklahoma City Thunder - Game 127</sub-title>
-    <desc lang="en">West Finals - Game 7 If Necessary. Series tied 1-1. San Antonio Spurs (62-20) visit Oklahoma City Thunder (64-18) at Paycom Center in Oklahoma City, OK.</desc>
+    <desc lang="en">West Finals - Game 7 If Necessary. OKC leads series 2-1. San Antonio Spurs (62-20) visit Oklahoma City Thunder (64-18) at Paycom Center in Oklahoma City, OK.</desc>
     <category lang="en">Live</category>
     <category lang="en">New</category>
     <category lang="en">Sports</category>
@@ -786,7 +708,7 @@
   <programme start="20260531000000 +0000" stop="20260531033000 +0000" channel="NBA-OklahomaCityThunder.us">
     <title lang="en">NBA Basketball</title>
     <sub-title lang="en">San Antonio Spurs @ Oklahoma City Thunder - Game 127</sub-title>
-    <desc lang="en">West Finals - Game 7 If Necessary. Series tied 1-1. San Antonio Spurs (62-20) visit Oklahoma City Thunder (64-18) at Paycom Center in Oklahoma City, OK.</desc>
+    <desc lang="en">West Finals - Game 7 If Necessary. OKC leads series 2-1. San Antonio Spurs (62-20) visit Oklahoma City Thunder (64-18) at Paycom Center in Oklahoma City, OK.</desc>
     <category lang="en">Live</category>
     <category lang="en">New</category>
     <category lang="en">Sports</category>
