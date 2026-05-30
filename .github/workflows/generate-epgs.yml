@@ -37,10 +37,11 @@ jobs:
           DAYS=${{ github.event.inputs.days_ahead || '14' }}
           dotnet run epgxmltv-nba.cs -- --days-ahead $DAYS --output output/nba.xml
 
-      - name: Generate EPL EPG
-        run: |
-          DAYS=${{ github.event.inputs.days_ahead || '14' }}
-          dotnet run epgxmltv-epl.cs -- --days-ahead $DAYS --output output/epl.xml
+      # EPL season is over; will return next season
+      # - name: Generate EPL EPG
+      #   run: |
+      #     DAYS=${{ github.event.inputs.days_ahead || '14' }}
+      #     dotnet run epgxmltv-epl.cs -- --days-ahead $DAYS --output output/epl.xml
 
       - name: Commit updated EPGs
         uses: stefanzweifel/git-auto-commit-action@v5
@@ -48,6 +49,6 @@ jobs:
           commit_message: 'chore: update EPGs [skip ci]'
           add_options: '-f'
           skip_dirty_check: true
-          file_pattern: 'output/nba.xml output/nba.xml.gz output/epl.xml output/epl.xml.gz'
+          file_pattern: 'output/nba.xml output/nba.xml.gz'
           commit_user_name: 'github-actions[bot]'
           commit_user_email: 'github-actions[bot]@users.noreply.github.com'
