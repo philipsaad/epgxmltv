@@ -19,6 +19,8 @@ If you don't want to run the scripts yourself, EPGs are automatically generated 
 
 ### NBA
 
+> **Note:** The NBA season is currently over. Automatic guide updates for this league have been temporarily disabled and will return when the next season starts.
+
 **Compressed (Recommended):**
 ```text
 https://github.com/philipsaad/epgxmltv/raw/refs/heads/main/output/nba.xml.gz
