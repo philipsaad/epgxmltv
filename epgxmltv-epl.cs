@@ -49,11 +49,13 @@ var AllTeams = new Dictionary<int, TeamInfo>
   [349] = new("EPL-Bournemouth.gb", "AFC Bournemouth", "https://a.espncdn.com/i/teamlogos/soccer/500-dark/349.png"),
   [337] = new("EPL-Brentford.gb", "Brentford", "https://a.espncdn.com/i/teamlogos/soccer/500-dark/337.png"),
   [331] = new("EPL-Brighton.gb", "Brighton & Hove Albion", "https://a.espncdn.com/i/teamlogos/soccer/500-dark/331.png"),
-  [379] = new("EPL-Burnley.gb", "Burnley", "https://a.espncdn.com/i/teamlogos/soccer/500-dark/379.png"),
+  [388] = new("EPL-CoventryCity.gb", "Coventry City", "https://a.espncdn.com/i/teamlogos/soccer/500/388.png"),
   [363] = new("EPL-Chelsea.gb", "Chelsea", "https://a.espncdn.com/i/teamlogos/soccer/500-dark/363.png"),
   [384] = new("EPL-CrystalPalace.gb", "Crystal Palace", "https://a.espncdn.com/i/teamlogos/soccer/500-dark/384.png"),
   [368] = new("EPL-Everton.gb", "Everton", "https://a.espncdn.com/i/teamlogos/soccer/500-dark/368.png"),
   [370] = new("EPL-Fulham.gb", "Fulham", "https://a.espncdn.com/i/teamlogos/soccer/500-dark/370.png"),
+  [306] = new("EPL-HullCity.gb", "Hull City", "https://a.espncdn.com/i/teamlogos/soccer/500-dark/306.png"),
+  [373] = new("EPL-IpswichTown.gb", "Ipswich Town", "https://a.espncdn.com/i/teamlogos/soccer/500-dark/373.png"),
   [357] = new("EPL-LeedsUnited.gb", "Leeds United", "https://a.espncdn.com/i/teamlogos/soccer/500-dark/357.png"),
   [364] = new("EPL-Liverpool.gb", "Liverpool", "https://a.espncdn.com/i/teamlogos/soccer/500-dark/364.png"),
   [382] = new("EPL-ManchesterCity.gb", "Manchester City", "https://a.espncdn.com/i/teamlogos/soccer/500-dark/382.png"),
@@ -62,8 +64,7 @@ var AllTeams = new Dictionary<int, TeamInfo>
   [393] = new("EPL-NottinghamForest.gb", "Nottingham Forest", "https://a.espncdn.com/i/teamlogos/soccer/500-dark/393.png"),
   [366] = new("EPL-Sunderland.gb", "Sunderland", "https://a.espncdn.com/i/teamlogos/soccer/500-dark/366.png"),
   [367] = new("EPL-TottenhamHotspur.gb", "Tottenham Hotspur", "https://a.espncdn.com/i/teamlogos/soccer/500-dark/367.png"),
-  [371] = new("EPL-WestHamUnited.gb", "West Ham United", "https://a.espncdn.com/i/teamlogos/soccer/500-dark/371.png"),
-  [380] = new("EPL-Wolves.gb", "Wolverhampton Wanderers", "https://a.espncdn.com/i/teamlogos/soccer/500-dark/380.png"),
+
 };
 
 // ===========================================================================
