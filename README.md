@@ -33,8 +33,6 @@ https://github.com/philipsaad/epgxmltv/raw/refs/heads/main/output/nba.xml
 
 ### EPL (Premier League)
 
-> **Note:** The EPL season is currently over. Automatic guide updates for this league have been temporarily disabled and will return when the next club season starts.
-
 **Compressed (Recommended):**
 ```text
 https://github.com/philipsaad/epgxmltv/raw/refs/heads/main/output/epl.xml.gz
