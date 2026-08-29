@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
-<tv date="20260828182039 +0000" generator-info-name="epgxmltv-epl/1.0" generator-info-url="https://github.com/philipsaad/epgxmltv">
+<tv date="20260829122850 +0000" generator-info-name="epgxmltv-epl/1.0" generator-info-url="https://github.com/philipsaad/epgxmltv">
   <channel id="EPL-Bournemouth.gb">
     <display-name>AFC Bournemouth</display-name>
     <icon src="https://a.espncdn.com/i/teamlogos/soccer/500-dark/349.png" />
@@ -80,150 +80,6 @@
     <display-name>Tottenham Hotspur</display-name>
     <icon src="https://a.espncdn.com/i/teamlogos/soccer/500-dark/367.png" />
   </channel>
-  <programme start="20260828190000 +0000" stop="20260828211000 +0000" channel="EPL-ManchesterCity.gb">
-    <title lang="en">Premier League Soccer</title>
-    <sub-title lang="en">Manchester City vs Crystal Palace</sub-title>
-    <desc lang="en">Premier League. Manchester City (1-0-0) visit Crystal Palace (0-0-1) at Selhurst Park in London.</desc>
-    <category lang="en">Live</category>
-    <category lang="en">New</category>
-    <category lang="en">Sports</category>
-    <category lang="en">Sports event</category>
-    <category lang="en">Soccer</category>
-    <category lang="en">Football</category>
-    <category lang="en">Premier League</category>
-    <category lang="en">HD</category>
-    <keyword lang="en">Manchester City</keyword>
-    <keyword lang="en">Crystal Palace</keyword>
-    <keyword lang="en">Selhurst Park</keyword>
-    <keyword lang="en">London</keyword>
-    <language>English</language>
-    <length units="minutes">130</length>
-    <icon src="https://a.espncdn.com/i/leaguelogos/soccer/500-dark/23.png" />
-    <country>GB</country>
-    <video>
-      <present>yes</present>
-      <colour>yes</colour>
-      <aspect>16:9</aspect>
-      <quality>HDTV</quality>
-    </video>
-    <audio>
-      <present>yes</present>
-      <stereo>stereo</stereo>
-    </audio>
-    <new></new>
-    <live></live>
-    <star-rating>
-      <value>4/5</value>
-    </star-rating>
-  </programme>
-  <programme start="20260828190000 +0000" stop="20260828211000 +0000" channel="EPL-CrystalPalace.gb">
-    <title lang="en">Premier League Soccer</title>
-    <sub-title lang="en">Manchester City vs Crystal Palace</sub-title>
-    <desc lang="en">Premier League. Manchester City (1-0-0) visit Crystal Palace (0-0-1) at Selhurst Park in London.</desc>
-    <category lang="en">Live</category>
-    <category lang="en">New</category>
-    <category lang="en">Sports</category>
-    <category lang="en">Sports event</category>
-    <category lang="en">Soccer</category>
-    <category lang="en">Football</category>
-    <category lang="en">Premier League</category>
-    <category lang="en">HD</category>
-    <keyword lang="en">Manchester City</keyword>
-    <keyword lang="en">Crystal Palace</keyword>
-    <keyword lang="en">Selhurst Park</keyword>
-    <keyword lang="en">London</keyword>
-    <language>English</language>
-    <length units="minutes">130</length>
-    <icon src="https://a.espncdn.com/i/leaguelogos/soccer/500-dark/23.png" />
-    <country>GB</country>
-    <video>
-      <present>yes</present>
-      <colour>yes</colour>
-      <aspect>16:9</aspect>
-      <quality>HDTV</quality>
-    </video>
-    <audio>
-      <present>yes</present>
-      <stereo>stereo</stereo>
-    </audio>
-    <new></new>
-    <live></live>
-    <star-rating>
-      <value>4/5</value>
-    </star-rating>
-  </programme>
-  <programme start="20260829113000 +0000" stop="20260829134000 +0000" channel="EPL-NottinghamForest.gb">
-    <title lang="en">Premier League Soccer</title>
-    <sub-title lang="en">Nottingham Forest vs Liverpool</sub-title>
-    <desc lang="en">Premier League. Nottingham Forest (0-0-1) visit Liverpool (0-1-0) at Anfield in Liverpool.</desc>
-    <category lang="en">Live</category>
-    <category lang="en">New</category>
-    <category lang="en">Sports</category>
-    <category lang="en">Sports event</category>
-    <category lang="en">Soccer</category>
-    <category lang="en">Football</category>
-    <category lang="en">Premier League</category>
-    <category lang="en">HD</category>
-    <keyword lang="en">Nottingham Forest</keyword>
-    <keyword lang="en">Liverpool</keyword>
-    <keyword lang="en">Anfield</keyword>
-    <keyword lang="en">Liverpool</keyword>
-    <language>English</language>
-    <length units="minutes">130</length>
-    <icon src="https://a.espncdn.com/i/leaguelogos/soccer/500-dark/23.png" />
-    <country>GB</country>
-    <video>
-      <present>yes</present>
-      <colour>yes</colour>
-      <aspect>16:9</aspect>
-      <quality>HDTV</quality>
-    </video>
-    <audio>
-      <present>yes</present>
-      <stereo>stereo</stereo>
-    </audio>
-    <new></new>
-    <live></live>
-    <star-rating>
-      <value>4/5</value>
-    </star-rating>
-  </programme>
-  <programme start="20260829113000 +0000" stop="20260829134000 +0000" channel="EPL-Liverpool.gb">
-    <title lang="en">Premier League Soccer</title>
-    <sub-title lang="en">Nottingham Forest vs Liverpool</sub-title>
-    <desc lang="en">Premier League. Nottingham Forest (0-0-1) visit Liverpool (0-1-0) at Anfield in Liverpool.</desc>
-    <category lang="en">Live</category>
-    <category lang="en">New</category>
-    <category lang="en">Sports</category>
-    <category lang="en">Sports event</category>
-    <category lang="en">Soccer</category>
-    <category lang="en">Football</category>
-    <category lang="en">Premier League</category>
-    <category lang="en">HD</category>
-    <keyword lang="en">Nottingham Forest</keyword>
-    <keyword lang="en">Liverpool</keyword>
-    <keyword lang="en">Anfield</keyword>
-    <keyword lang="en">Liverpool</keyword>
-    <language>English</language>
-    <length units="minutes">130</length>
-    <icon src="https://a.espncdn.com/i/leaguelogos/soccer/500-dark/23.png" />
-    <country>GB</country>
-    <video>
-      <present>yes</present>
-      <colour>yes</colour>
-      <aspect>16:9</aspect>
-      <quality>HDTV</quality>
-    </video>
-    <audio>
-      <present>yes</present>
-      <stereo>stereo</stereo>
-    </audio>
-    <new></new>
-    <live></live>
-    <star-rating>
-      <value>4/5</value>
-    </star-rating>
-  </programme>
   <programme start="20260829140000 +0000" stop="20260829161000 +0000" channel="EPL-Everton.gb">
     <title lang="en">Premier League Soccer</title>
     <sub-title lang="en">Everton vs AFC Bournemouth</sub-title>
@@ -1091,7 +947,7 @@
   <programme start="20260905140000 +0000" stop="20260905161000 +0000" channel="EPL-CrystalPalace.gb">
     <title lang="en">Premier League Soccer</title>
     <sub-title lang="en">Crystal Palace vs Fulham</sub-title>
-    <desc lang="en">Premier League. Crystal Palace (0-0-1) visit Fulham (0-0-1) at Craven Cottage in London.</desc>
+    <desc lang="en">Premier League. Crystal Palace (0-0-2) visit Fulham (0-0-1) at Craven Cottage in London.</desc>
     <category lang="en">Live</category>
     <category lang="en">New</category>
     <category lang="en">Sports</category>
@@ -1127,7 +983,7 @@
   <programme start="20260905140000 +0000" stop="20260905161000 +0000" channel="EPL-Fulham.gb">
     <title lang="en">Premier League Soccer</title>
     <sub-title lang="en">Crystal Palace vs Fulham</sub-title>
-    <desc lang="en">Premier League. Crystal Palace (0-0-1) visit Fulham (0-0-1) at Craven Cottage in London.</desc>
+    <desc lang="en">Premier League. Crystal Palace (0-0-2) visit Fulham (0-0-1) at Craven Cottage in London.</desc>
     <category lang="en">Live</category>
     <category lang="en">New</category>
     <category lang="en">Sports</category>
@@ -1163,7 +1019,7 @@
   <programme start="20260905140000 +0000" stop="20260905161000 +0000" channel="EPL-CoventryCity.gb">
     <title lang="en">Premier League Soccer</title>
     <sub-title lang="en">Coventry City vs Manchester City</sub-title>
-    <desc lang="en">Premier League. Coventry City (0-0-1) visit Manchester City (1-0-0) at Etihad Stadium in Manchester.</desc>
+    <desc lang="en">Premier League. Coventry City (0-0-1) visit Manchester City (2-0-0) at Etihad Stadium in Manchester.</desc>
     <category lang="en">Live</category>
     <category lang="en">New</category>
     <category lang="en">Sports</category>
@@ -1199,7 +1055,7 @@
   <programme start="20260905140000 +0000" stop="20260905161000 +0000" channel="EPL-ManchesterCity.gb">
     <title lang="en">Premier League Soccer</title>
     <sub-title lang="en">Coventry City vs Manchester City</sub-title>
-    <desc lang="en">Premier League. Coventry City (0-0-1) visit Manchester City (1-0-0) at Etihad Stadium in Manchester.</desc>
+    <desc lang="en">Premier League. Coventry City (0-0-1) visit Manchester City (2-0-0) at Etihad Stadium in Manchester.</desc>
     <category lang="en">Live</category>
     <category lang="en">New</category>
     <category lang="en">Sports</category>
