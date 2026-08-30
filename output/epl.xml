@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
-<tv date="20260829122850 +0000" generator-info-name="epgxmltv-epl/1.0" generator-info-url="https://github.com/philipsaad/epgxmltv">
+<tv date="20260830113113 +0000" generator-info-name="epgxmltv-epl/1.0" generator-info-url="https://github.com/philipsaad/epgxmltv">
   <channel id="EPL-Bournemouth.gb">
     <display-name>AFC Bournemouth</display-name>
     <icon src="https://a.espncdn.com/i/teamlogos/soccer/500-dark/349.png" />
@@ -80,222 +80,6 @@
     <display-name>Tottenham Hotspur</display-name>
     <icon src="https://a.espncdn.com/i/teamlogos/soccer/500-dark/367.png" />
   </channel>
-  <programme start="20260829140000 +0000" stop="20260829161000 +0000" channel="EPL-Everton.gb">
-    <title lang="en">Premier League Soccer</title>
-    <sub-title lang="en">Everton vs AFC Bournemouth</sub-title>
-    <desc lang="en">Premier League. Everton (1-0-0) visit AFC Bournemouth (0-0-1) at Vitality Stadium in Bournemouth.</desc>
-    <category lang="en">Live</category>
-    <category lang="en">New</category>
-    <category lang="en">Sports</category>
-    <category lang="en">Sports event</category>
-    <category lang="en">Soccer</category>
-    <category lang="en">Football</category>
-    <category lang="en">Premier League</category>
-    <category lang="en">HD</category>
-    <keyword lang="en">Everton</keyword>
-    <keyword lang="en">AFC Bournemouth</keyword>
-    <keyword lang="en">Vitality Stadium</keyword>
-    <keyword lang="en">Bournemouth</keyword>
-    <language>English</language>
-    <length units="minutes">130</length>
-    <icon src="https://a.espncdn.com/i/leaguelogos/soccer/500-dark/23.png" />
-    <country>GB</country>
-    <video>
-      <present>yes</present>
-      <colour>yes</colour>
-      <aspect>16:9</aspect>
-      <quality>HDTV</quality>
-    </video>
-    <audio>
-      <present>yes</present>
-      <stereo>stereo</stereo>
-    </audio>
-    <new></new>
-    <live></live>
-    <star-rating>
-      <value>3/5</value>
-    </star-rating>
-  </programme>
-  <programme start="20260829140000 +0000" stop="20260829161000 +0000" channel="EPL-Bournemouth.gb">
-    <title lang="en">Premier League Soccer</title>
-    <sub-title lang="en">Everton vs AFC Bournemouth</sub-title>
-    <desc lang="en">Premier League. Everton (1-0-0) visit AFC Bournemouth (0-0-1) at Vitality Stadium in Bournemouth.</desc>
-    <category lang="en">Live</category>
-    <category lang="en">New</category>
-    <category lang="en">Sports</category>
-    <category lang="en">Sports event</category>
-    <category lang="en">Soccer</category>
-    <category lang="en">Football</category>
-    <category lang="en">Premier League</category>
-    <category lang="en">HD</category>
-    <keyword lang="en">Everton</keyword>
-    <keyword lang="en">AFC Bournemouth</keyword>
-    <keyword lang="en">Vitality Stadium</keyword>
-    <keyword lang="en">Bournemouth</keyword>
-    <language>English</language>
-    <length units="minutes">130</length>
-    <icon src="https://a.espncdn.com/i/leaguelogos/soccer/500-dark/23.png" />
-    <country>GB</country>
-    <video>
-      <present>yes</present>
-      <colour>yes</colour>
-      <aspect>16:9</aspect>
-      <quality>HDTV</quality>
-    </video>
-    <audio>
-      <present>yes</present>
-      <stereo>stereo</stereo>
-    </audio>
-    <new></new>
-    <live></live>
-    <star-rating>
-      <value>3/5</value>
-    </star-rating>
-  </programme>
-  <programme start="20260829140000 +0000" stop="20260829161000 +0000" channel="EPL-HullCity.gb">
-    <title lang="en">Premier League Soccer</title>
-    <sub-title lang="en">Hull City vs Coventry City</sub-title>
-    <desc lang="en">Premier League. Hull City (1-0-0) visit Coventry City (0-0-1) at Coventry Building Society Arena in Coventry.</desc>
-    <category lang="en">Live</category>
-    <category lang="en">New</category>
-    <category lang="en">Sports</category>
-    <category lang="en">Sports event</category>
-    <category lang="en">Soccer</category>
-    <category lang="en">Football</category>
-    <category lang="en">Premier League</category>
-    <category lang="en">HD</category>
-    <keyword lang="en">Hull City</keyword>
-    <keyword lang="en">Coventry City</keyword>
-    <keyword lang="en">Coventry Building Society Arena</keyword>
-    <keyword lang="en">Coventry</keyword>
-    <language>English</language>
-    <length units="minutes">130</length>
-    <icon src="https://a.espncdn.com/i/leaguelogos/soccer/500-dark/23.png" />
-    <country>GB</country>
-    <video>
-      <present>yes</present>
-      <colour>yes</colour>
-      <aspect>16:9</aspect>
-      <quality>HDTV</quality>
-    </video>
-    <audio>
-      <present>yes</present>
-      <stereo>stereo</stereo>
-    </audio>
-    <new></new>
-    <live></live>
-    <star-rating>
-      <value>3/5</value>
-    </star-rating>
-  </programme>
-  <programme start="20260829140000 +0000" stop="20260829161000 +0000" channel="EPL-CoventryCity.gb">
-    <title lang="en">Premier League Soccer</title>
-    <sub-title lang="en">Hull City vs Coventry City</sub-title>
-    <desc lang="en">Premier League. Hull City (1-0-0) visit Coventry City (0-0-1) at Coventry Building Society Arena in Coventry.</desc>
-    <category lang="en">Live</category>
-    <category lang="en">New</category>
-    <category lang="en">Sports</category>
-    <category lang="en">Sports event</category>
-    <category lang="en">Soccer</category>
-    <category lang="en">Football</category>
-    <category lang="en">Premier League</category>
-    <category lang="en">HD</category>
-    <keyword lang="en">Hull City</keyword>
-    <keyword lang="en">Coventry City</keyword>
-    <keyword lang="en">Coventry Building Society Arena</keyword>
-    <keyword lang="en">Coventry</keyword>
-    <language>English</language>
-    <length units="minutes">130</length>
-    <icon src="https://a.espncdn.com/i/leaguelogos/soccer/500-dark/23.png" />
-    <country>GB</country>
-    <video>
-      <present>yes</present>
-      <colour>yes</colour>
-      <aspect>16:9</aspect>
-      <quality>HDTV</quality>
-    </video>
-    <audio>
-      <present>yes</present>
-      <stereo>stereo</stereo>
-    </audio>
-    <new></new>
-    <live></live>
-    <star-rating>
-      <value>3/5</value>
-    </star-rating>
-  </programme>
-  <programme start="20260829163000 +0000" stop="20260829184000 +0000" channel="EPL-NewcastleUnited.gb">
-    <title lang="en">Premier League Soccer</title>
-    <sub-title lang="en">Newcastle United vs Tottenham Hotspur</sub-title>
-    <desc lang="en">Premier League. Newcastle United (0-1-0) visit Tottenham Hotspur (0-0-1) at Tottenham Hotspur Stadium in London.</desc>
-    <category lang="en">Live</category>
-    <category lang="en">New</category>
-    <category lang="en">Sports</category>
-    <category lang="en">Sports event</category>
-    <category lang="en">Soccer</category>
-    <category lang="en">Football</category>
-    <category lang="en">Premier League</category>
-    <category lang="en">HD</category>
-    <keyword lang="en">Newcastle United</keyword>
-    <keyword lang="en">Tottenham Hotspur</keyword>
-    <keyword lang="en">Tottenham Hotspur Stadium</keyword>
-    <keyword lang="en">London</keyword>
-    <language>English</language>
-    <length units="minutes">130</length>
-    <icon src="https://a.espncdn.com/i/leaguelogos/soccer/500-dark/23.png" />
-    <country>GB</country>
-    <video>
-      <present>yes</present>
-      <colour>yes</colour>
-      <aspect>16:9</aspect>
-      <quality>HDTV</quality>
-    </video>
-    <audio>
-      <present>yes</present>
-      <stereo>stereo</stereo>
-    </audio>
-    <new></new>
-    <live></live>
-    <star-rating>
-      <value>4/5</value>
-    </star-rating>
-  </programme>
-  <programme start="20260829163000 +0000" stop="20260829184000 +0000" channel="EPL-TottenhamHotspur.gb">
-    <title lang="en">Premier League Soccer</title>
-    <sub-title lang="en">Newcastle United vs Tottenham Hotspur</sub-title>
-    <desc lang="en">Premier League. Newcastle United (0-1-0) visit Tottenham Hotspur (0-0-1) at Tottenham Hotspur Stadium in London.</desc>
-    <category lang="en">Live</category>
-    <category lang="en">New</category>
-    <category lang="en">Sports</category>
-    <category lang="en">Sports event</category>
-    <category lang="en">Soccer</category>
-    <category lang="en">Football</category>
-    <category lang="en">Premier League</category>
-    <category lang="en">HD</category>
-    <keyword lang="en">Newcastle United</keyword>
-    <keyword lang="en">Tottenham Hotspur</keyword>
-    <keyword lang="en">Tottenham Hotspur Stadium</keyword>
-    <keyword lang="en">London</keyword>
-    <language>English</language>
-    <length units="minutes">130</length>
-    <icon src="https://a.espncdn.com/i/leaguelogos/soccer/500-dark/23.png" />
-    <country>GB</country>
-    <video>
-      <present>yes</present>
-      <colour>yes</colour>
-      <aspect>16:9</aspect>
-      <quality>HDTV</quality>
-    </video>
-    <audio>
-      <present>yes</present>
-      <stereo>stereo</stereo>
-    </audio>
-    <new></new>
-    <live></live>
-    <star-rating>
-      <value>4/5</value>
-    </star-rating>
-  </programme>
   <programme start="20260830130000 +0000" stop="20260830151000 +0000" channel="EPL-Brighton.gb">
     <title lang="en">Premier League Soccer</title>
     <sub-title lang="en">Brighton &amp; Hove Albion vs Chelsea</sub-title>
@@ -659,7 +443,7 @@
   <programme start="20260904190000 +0000" stop="20260904211000 +0000" channel="EPL-Liverpool.gb">
     <title lang="en">Premier League Soccer</title>
     <sub-title lang="en">Liverpool vs Ipswich Town</sub-title>
-    <desc lang="en">Premier League. Liverpool (0-1-0) visit Ipswich Town (1-0-0) at Portman Road in Ipswich.</desc>
+    <desc lang="en">Premier League. Liverpool (0-2-0) visit Ipswich Town (1-0-0) at Portman Road in Ipswich.</desc>
     <category lang="en">Live</category>
     <category lang="en">New</category>
     <category lang="en">Sports</category>
@@ -695,7 +479,7 @@
   <programme start="20260904190000 +0000" stop="20260904211000 +0000" channel="EPL-IpswichTown.gb">
     <title lang="en">Premier League Soccer</title>
     <sub-title lang="en">Liverpool vs Ipswich Town</sub-title>
-    <desc lang="en">Premier League. Liverpool (0-1-0) visit Ipswich Town (1-0-0) at Portman Road in Ipswich.</desc>
+    <desc lang="en">Premier League. Liverpool (0-2-0) visit Ipswich Town (1-0-0) at Portman Road in Ipswich.</desc>
     <category lang="en">Live</category>
     <category lang="en">New</category>
     <category lang="en">Sports</category>
@@ -731,7 +515,7 @@
   <programme start="20260905113000 +0000" stop="20260905134000 +0000" channel="EPL-Bournemouth.gb">
     <title lang="en">Premier League Soccer</title>
     <sub-title lang="en">AFC Bournemouth vs Newcastle United</sub-title>
-    <desc lang="en">Premier League. AFC Bournemouth (0-0-1) visit Newcastle United (0-1-0) at St. James' Park in Newcastle-upon-Tyne.</desc>
+    <desc lang="en">Premier League. AFC Bournemouth (0-1-1) visit Newcastle United (1-1-0) at St. James' Park in Newcastle-upon-Tyne.</desc>
     <category lang="en">Live</category>
     <category lang="en">New</category>
     <category lang="en">Sports</category>
@@ -767,7 +551,7 @@
   <programme start="20260905113000 +0000" stop="20260905134000 +0000" channel="EPL-NewcastleUnited.gb">
     <title lang="en">Premier League Soccer</title>
     <sub-title lang="en">AFC Bournemouth vs Newcastle United</sub-title>
-    <desc lang="en">Premier League. AFC Bournemouth (0-0-1) visit Newcastle United (0-1-0) at St. James' Park in Newcastle-upon-Tyne.</desc>
+    <desc lang="en">Premier League. AFC Bournemouth (0-1-1) visit Newcastle United (1-1-0) at St. James' Park in Newcastle-upon-Tyne.</desc>
     <category lang="en">Live</category>
     <category lang="en">New</category>
     <category lang="en">Sports</category>
@@ -1019,7 +803,7 @@
   <programme start="20260905140000 +0000" stop="20260905161000 +0000" channel="EPL-CoventryCity.gb">
     <title lang="en">Premier League Soccer</title>
     <sub-title lang="en">Coventry City vs Manchester City</sub-title>
-    <desc lang="en">Premier League. Coventry City (0-0-1) visit Manchester City (2-0-0) at Etihad Stadium in Manchester.</desc>
+    <desc lang="en">Premier League. Coventry City (0-0-2) visit Manchester City (2-0-0) at Etihad Stadium in Manchester.</desc>
     <category lang="en">Live</category>
     <category lang="en">New</category>
     <category lang="en">Sports</category>
@@ -1055,7 +839,7 @@
   <programme start="20260905140000 +0000" stop="20260905161000 +0000" channel="EPL-ManchesterCity.gb">
     <title lang="en">Premier League Soccer</title>
     <sub-title lang="en">Coventry City vs Manchester City</sub-title>
-    <desc lang="en">Premier League. Coventry City (0-0-1) visit Manchester City (2-0-0) at Etihad Stadium in Manchester.</desc>
+    <desc lang="en">Premier League. Coventry City (0-0-2) visit Manchester City (2-0-0) at Etihad Stadium in Manchester.</desc>
     <category lang="en">Live</category>
     <category lang="en">New</category>
     <category lang="en">Sports</category>
@@ -1091,7 +875,7 @@
   <programme start="20260905140000 +0000" stop="20260905161000 +0000" channel="EPL-TottenhamHotspur.gb">
     <title lang="en">Premier League Soccer</title>
     <sub-title lang="en">Tottenham Hotspur vs Nottingham Forest</sub-title>
-    <desc lang="en">Premier League. Tottenham Hotspur (0-0-1) visit Nottingham Forest (0-0-1) at The City Ground in Nottingham.</desc>
+    <desc lang="en">Premier League. Tottenham Hotspur (0-0-2) visit Nottingham Forest (0-1-1) at The City Ground in Nottingham.</desc>
     <category lang="en">Live</category>
     <category lang="en">New</category>
     <category lang="en">Sports</category>
@@ -1127,7 +911,7 @@
   <programme start="20260905140000 +0000" stop="20260905161000 +0000" channel="EPL-NottinghamForest.gb">
     <title lang="en">Premier League Soccer</title>
     <sub-title lang="en">Tottenham Hotspur vs Nottingham Forest</sub-title>
-    <desc lang="en">Premier League. Tottenham Hotspur (0-0-1) visit Nottingham Forest (0-0-1) at The City Ground in Nottingham.</desc>
+    <desc lang="en">Premier League. Tottenham Hotspur (0-0-2) visit Nottingham Forest (0-1-1) at The City Ground in Nottingham.</desc>
     <category lang="en">Live</category>
     <category lang="en">New</category>
     <category lang="en">Sports</category>
@@ -1163,7 +947,7 @@
   <programme start="20260905163000 +0000" stop="20260905184000 +0000" channel="EPL-AstonVilla.gb">
     <title lang="en">Premier League Soccer</title>
     <sub-title lang="en">Aston Villa vs Hull City</sub-title>
-    <desc lang="en">Premier League. Aston Villa (0-0-1) visit Hull City (1-0-0) at The MKM Stadium in Hull.</desc>
+    <desc lang="en">Premier League. Aston Villa (0-0-1) visit Hull City (2-0-0) at The MKM Stadium in Hull.</desc>
     <category lang="en">Live</category>
     <category lang="en">New</category>
     <category lang="en">Sports</category>
@@ -1199,7 +983,7 @@
   <programme start="20260905163000 +0000" stop="20260905184000 +0000" channel="EPL-HullCity.gb">
     <title lang="en">Premier League Soccer</title>
     <sub-title lang="en">Aston Villa vs Hull City</sub-title>
-    <desc lang="en">Premier League. Aston Villa (0-0-1) visit Hull City (1-0-0) at The MKM Stadium in Hull.</desc>
+    <desc lang="en">Premier League. Aston Villa (0-0-1) visit Hull City (2-0-0) at The MKM Stadium in Hull.</desc>
     <category lang="en">Live</category>
     <category lang="en">New</category>
     <category lang="en">Sports</category>
@@ -1235,7 +1019,7 @@
   <programme start="20260906130000 +0000" stop="20260906151000 +0000" channel="EPL-ManchesterUnited.gb">
     <title lang="en">Premier League Soccer</title>
     <sub-title lang="en">Manchester United vs Everton</sub-title>
-    <desc lang="en">Premier League. Manchester United (0-0-1) visit Everton (1-0-0) at Hill Dickinson Stadium in Liverpool.</desc>
+    <desc lang="en">Premier League. Manchester United (0-0-1) visit Everton (1-1-0) at Hill Dickinson Stadium in Liverpool.</desc>
     <category lang="en">Live</category>
     <category lang="en">New</category>
     <category lang="en">Sports</category>
@@ -1271,7 +1055,7 @@
   <programme start="20260906130000 +0000" stop="20260906151000 +0000" channel="EPL-Everton.gb">
     <title lang="en">Premier League Soccer</title>
     <sub-title lang="en">Manchester United vs Everton</sub-title>
-    <desc lang="en">Premier League. Manchester United (0-0-1) visit Everton (1-0-0) at Hill Dickinson Stadium in Liverpool.</desc>
+    <desc lang="en">Premier League. Manchester United (0-0-1) visit Everton (1-1-0) at Hill Dickinson Stadium in Liverpool.</desc>
     <category lang="en">Live</category>
     <category lang="en">New</category>
     <category lang="en">Sports</category>
@@ -1374,6 +1158,510 @@
     <live></live>
     <star-rating>
       <value>5/5</value>
+    </star-rating>
+  </programme>
+  <programme start="20260912140000 +0000" stop="20260912161000 +0000" channel="EPL-Brentford.gb">
+    <title lang="en">Premier League Soccer</title>
+    <sub-title lang="en">Brentford vs AFC Bournemouth</sub-title>
+    <desc lang="en">Premier League. Brentford (1-0-0) visit AFC Bournemouth (0-1-1) at Vitality Stadium in Bournemouth.</desc>
+    <category lang="en">Live</category>
+    <category lang="en">New</category>
+    <category lang="en">Sports</category>
+    <category lang="en">Sports event</category>
+    <category lang="en">Soccer</category>
+    <category lang="en">Football</category>
+    <category lang="en">Premier League</category>
+    <category lang="en">HD</category>
+    <keyword lang="en">Brentford</keyword>
+    <keyword lang="en">AFC Bournemouth</keyword>
+    <keyword lang="en">Vitality Stadium</keyword>
+    <keyword lang="en">Bournemouth</keyword>
+    <language>English</language>
+    <length units="minutes">130</length>
+    <icon src="https://a.espncdn.com/i/leaguelogos/soccer/500-dark/23.png" />
+    <country>GB</country>
+    <video>
+      <present>yes</present>
+      <colour>yes</colour>
+      <aspect>16:9</aspect>
+      <quality>HDTV</quality>
+    </video>
+    <audio>
+      <present>yes</present>
+      <stereo>stereo</stereo>
+    </audio>
+    <new></new>
+    <live></live>
+    <star-rating>
+      <value>3/5</value>
+    </star-rating>
+  </programme>
+  <programme start="20260912140000 +0000" stop="20260912161000 +0000" channel="EPL-Bournemouth.gb">
+    <title lang="en">Premier League Soccer</title>
+    <sub-title lang="en">Brentford vs AFC Bournemouth</sub-title>
+    <desc lang="en">Premier League. Brentford (1-0-0) visit AFC Bournemouth (0-1-1) at Vitality Stadium in Bournemouth.</desc>
+    <category lang="en">Live</category>
+    <category lang="en">New</category>
+    <category lang="en">Sports</category>
+    <category lang="en">Sports event</category>
+    <category lang="en">Soccer</category>
+    <category lang="en">Football</category>
+    <category lang="en">Premier League</category>
+    <category lang="en">HD</category>
+    <keyword lang="en">Brentford</keyword>
+    <keyword lang="en">AFC Bournemouth</keyword>
+    <keyword lang="en">Vitality Stadium</keyword>
+    <keyword lang="en">Bournemouth</keyword>
+    <language>English</language>
+    <length units="minutes">130</length>
+    <icon src="https://a.espncdn.com/i/leaguelogos/soccer/500-dark/23.png" />
+    <country>GB</country>
+    <video>
+      <present>yes</present>
+      <colour>yes</colour>
+      <aspect>16:9</aspect>
+      <quality>HDTV</quality>
+    </video>
+    <audio>
+      <present>yes</present>
+      <stereo>stereo</stereo>
+    </audio>
+    <new></new>
+    <live></live>
+    <star-rating>
+      <value>3/5</value>
+    </star-rating>
+  </programme>
+  <programme start="20260912140000 +0000" stop="20260912161000 +0000" channel="EPL-NottinghamForest.gb">
+    <title lang="en">Premier League Soccer</title>
+    <sub-title lang="en">Nottingham Forest vs Aston Villa</sub-title>
+    <desc lang="en">Premier League. Nottingham Forest (0-1-1) visit Aston Villa (0-0-1) at Villa Park in Birmingham.</desc>
+    <category lang="en">Live</category>
+    <category lang="en">New</category>
+    <category lang="en">Sports</category>
+    <category lang="en">Sports event</category>
+    <category lang="en">Soccer</category>
+    <category lang="en">Football</category>
+    <category lang="en">Premier League</category>
+    <category lang="en">HD</category>
+    <keyword lang="en">Nottingham Forest</keyword>
+    <keyword lang="en">Aston Villa</keyword>
+    <keyword lang="en">Villa Park</keyword>
+    <keyword lang="en">Birmingham</keyword>
+    <language>English</language>
+    <length units="minutes">130</length>
+    <icon src="https://a.espncdn.com/i/leaguelogos/soccer/500-dark/23.png" />
+    <country>GB</country>
+    <video>
+      <present>yes</present>
+      <colour>yes</colour>
+      <aspect>16:9</aspect>
+      <quality>HDTV</quality>
+    </video>
+    <audio>
+      <present>yes</present>
+      <stereo>stereo</stereo>
+    </audio>
+    <new></new>
+    <live></live>
+    <star-rating>
+      <value>3/5</value>
+    </star-rating>
+  </programme>
+  <programme start="20260912140000 +0000" stop="20260912161000 +0000" channel="EPL-AstonVilla.gb">
+    <title lang="en">Premier League Soccer</title>
+    <sub-title lang="en">Nottingham Forest vs Aston Villa</sub-title>
+    <desc lang="en">Premier League. Nottingham Forest (0-1-1) visit Aston Villa (0-0-1) at Villa Park in Birmingham.</desc>
+    <category lang="en">Live</category>
+    <category lang="en">New</category>
+    <category lang="en">Sports</category>
+    <category lang="en">Sports event</category>
+    <category lang="en">Soccer</category>
+    <category lang="en">Football</category>
+    <category lang="en">Premier League</category>
+    <category lang="en">HD</category>
+    <keyword lang="en">Nottingham Forest</keyword>
+    <keyword lang="en">Aston Villa</keyword>
+    <keyword lang="en">Villa Park</keyword>
+    <keyword lang="en">Birmingham</keyword>
+    <language>English</language>
+    <length units="minutes">130</length>
+    <icon src="https://a.espncdn.com/i/leaguelogos/soccer/500-dark/23.png" />
+    <country>GB</country>
+    <video>
+      <present>yes</present>
+      <colour>yes</colour>
+      <aspect>16:9</aspect>
+      <quality>HDTV</quality>
+    </video>
+    <audio>
+      <present>yes</present>
+      <stereo>stereo</stereo>
+    </audio>
+    <new></new>
+    <live></live>
+    <star-rating>
+      <value>3/5</value>
+    </star-rating>
+  </programme>
+  <programme start="20260912140000 +0000" stop="20260912161000 +0000" channel="EPL-HullCity.gb">
+    <title lang="en">Premier League Soccer</title>
+    <sub-title lang="en">Hull City vs Chelsea</sub-title>
+    <desc lang="en">Premier League. Hull City (2-0-0) visit Chelsea (1-0-0) at Stamford Bridge in London.</desc>
+    <category lang="en">Live</category>
+    <category lang="en">New</category>
+    <category lang="en">Sports</category>
+    <category lang="en">Sports event</category>
+    <category lang="en">Soccer</category>
+    <category lang="en">Football</category>
+    <category lang="en">Premier League</category>
+    <category lang="en">HD</category>
+    <keyword lang="en">Hull City</keyword>
+    <keyword lang="en">Chelsea</keyword>
+    <keyword lang="en">Stamford Bridge</keyword>
+    <keyword lang="en">London</keyword>
+    <language>English</language>
+    <length units="minutes">130</length>
+    <icon src="https://a.espncdn.com/i/leaguelogos/soccer/500-dark/23.png" />
+    <country>GB</country>
+    <video>
+      <present>yes</present>
+      <colour>yes</colour>
+      <aspect>16:9</aspect>
+      <quality>HDTV</quality>
+    </video>
+    <audio>
+      <present>yes</present>
+      <stereo>stereo</stereo>
+    </audio>
+    <new></new>
+    <live></live>
+    <star-rating>
+      <value>4/5</value>
+    </star-rating>
+  </programme>
+  <programme start="20260912140000 +0000" stop="20260912161000 +0000" channel="EPL-Chelsea.gb">
+    <title lang="en">Premier League Soccer</title>
+    <sub-title lang="en">Hull City vs Chelsea</sub-title>
+    <desc lang="en">Premier League. Hull City (2-0-0) visit Chelsea (1-0-0) at Stamford Bridge in London.</desc>
+    <category lang="en">Live</category>
+    <category lang="en">New</category>
+    <category lang="en">Sports</category>
+    <category lang="en">Sports event</category>
+    <category lang="en">Soccer</category>
+    <category lang="en">Football</category>
+    <category lang="en">Premier League</category>
+    <category lang="en">HD</category>
+    <keyword lang="en">Hull City</keyword>
+    <keyword lang="en">Chelsea</keyword>
+    <keyword lang="en">Stamford Bridge</keyword>
+    <keyword lang="en">London</keyword>
+    <language>English</language>
+    <length units="minutes">130</length>
+    <icon src="https://a.espncdn.com/i/leaguelogos/soccer/500-dark/23.png" />
+    <country>GB</country>
+    <video>
+      <present>yes</present>
+      <colour>yes</colour>
+      <aspect>16:9</aspect>
+      <quality>HDTV</quality>
+    </video>
+    <audio>
+      <present>yes</present>
+      <stereo>stereo</stereo>
+    </audio>
+    <new></new>
+    <live></live>
+    <star-rating>
+      <value>4/5</value>
+    </star-rating>
+  </programme>
+  <programme start="20260912140000 +0000" stop="20260912161000 +0000" channel="EPL-IpswichTown.gb">
+    <title lang="en">Premier League Soccer</title>
+    <sub-title lang="en">Ipswich Town vs Crystal Palace</sub-title>
+    <desc lang="en">Premier League. Ipswich Town (1-0-0) visit Crystal Palace (0-0-2) at Selhurst Park in London.</desc>
+    <category lang="en">Live</category>
+    <category lang="en">New</category>
+    <category lang="en">Sports</category>
+    <category lang="en">Sports event</category>
+    <category lang="en">Soccer</category>
+    <category lang="en">Football</category>
+    <category lang="en">Premier League</category>
+    <category lang="en">HD</category>
+    <keyword lang="en">Ipswich Town</keyword>
+    <keyword lang="en">Crystal Palace</keyword>
+    <keyword lang="en">Selhurst Park</keyword>
+    <keyword lang="en">London</keyword>
+    <language>English</language>
+    <length units="minutes">130</length>
+    <icon src="https://a.espncdn.com/i/leaguelogos/soccer/500-dark/23.png" />
+    <country>GB</country>
+    <video>
+      <present>yes</present>
+      <colour>yes</colour>
+      <aspect>16:9</aspect>
+      <quality>HDTV</quality>
+    </video>
+    <audio>
+      <present>yes</present>
+      <stereo>stereo</stereo>
+    </audio>
+    <new></new>
+    <live></live>
+    <star-rating>
+      <value>3/5</value>
+    </star-rating>
+  </programme>
+  <programme start="20260912140000 +0000" stop="20260912161000 +0000" channel="EPL-CrystalPalace.gb">
+    <title lang="en">Premier League Soccer</title>
+    <sub-title lang="en">Ipswich Town vs Crystal Palace</sub-title>
+    <desc lang="en">Premier League. Ipswich Town (1-0-0) visit Crystal Palace (0-0-2) at Selhurst Park in London.</desc>
+    <category lang="en">Live</category>
+    <category lang="en">New</category>
+    <category lang="en">Sports</category>
+    <category lang="en">Sports event</category>
+    <category lang="en">Soccer</category>
+    <category lang="en">Football</category>
+    <category lang="en">Premier League</category>
+    <category lang="en">HD</category>
+    <keyword lang="en">Ipswich Town</keyword>
+    <keyword lang="en">Crystal Palace</keyword>
+    <keyword lang="en">Selhurst Park</keyword>
+    <keyword lang="en">London</keyword>
+    <language>English</language>
+    <length units="minutes">130</length>
+    <icon src="https://a.espncdn.com/i/leaguelogos/soccer/500-dark/23.png" />
+    <country>GB</country>
+    <video>
+      <present>yes</present>
+      <colour>yes</colour>
+      <aspect>16:9</aspect>
+      <quality>HDTV</quality>
+    </video>
+    <audio>
+      <present>yes</present>
+      <stereo>stereo</stereo>
+    </audio>
+    <new></new>
+    <live></live>
+    <star-rating>
+      <value>3/5</value>
+    </star-rating>
+  </programme>
+  <programme start="20260912140000 +0000" stop="20260912161000 +0000" channel="EPL-Fulham.gb">
+    <title lang="en">Premier League Soccer</title>
+    <sub-title lang="en">Fulham vs Liverpool</sub-title>
+    <desc lang="en">Premier League. Fulham (0-0-1) visit Liverpool (0-2-0) at Anfield in Liverpool.</desc>
+    <category lang="en">Live</category>
+    <category lang="en">New</category>
+    <category lang="en">Sports</category>
+    <category lang="en">Sports event</category>
+    <category lang="en">Soccer</category>
+    <category lang="en">Football</category>
+    <category lang="en">Premier League</category>
+    <category lang="en">HD</category>
+    <keyword lang="en">Fulham</keyword>
+    <keyword lang="en">Liverpool</keyword>
+    <keyword lang="en">Anfield</keyword>
+    <keyword lang="en">Liverpool</keyword>
+    <language>English</language>
+    <length units="minutes">130</length>
+    <icon src="https://a.espncdn.com/i/leaguelogos/soccer/500-dark/23.png" />
+    <country>GB</country>
+    <video>
+      <present>yes</present>
+      <colour>yes</colour>
+      <aspect>16:9</aspect>
+      <quality>HDTV</quality>
+    </video>
+    <audio>
+      <present>yes</present>
+      <stereo>stereo</stereo>
+    </audio>
+    <new></new>
+    <live></live>
+    <star-rating>
+      <value>4/5</value>
+    </star-rating>
+  </programme>
+  <programme start="20260912140000 +0000" stop="20260912161000 +0000" channel="EPL-Liverpool.gb">
+    <title lang="en">Premier League Soccer</title>
+    <sub-title lang="en">Fulham vs Liverpool</sub-title>
+    <desc lang="en">Premier League. Fulham (0-0-1) visit Liverpool (0-2-0) at Anfield in Liverpool.</desc>
+    <category lang="en">Live</category>
+    <category lang="en">New</category>
+    <category lang="en">Sports</category>
+    <category lang="en">Sports event</category>
+    <category lang="en">Soccer</category>
+    <category lang="en">Football</category>
+    <category lang="en">Premier League</category>
+    <category lang="en">HD</category>
+    <keyword lang="en">Fulham</keyword>
+    <keyword lang="en">Liverpool</keyword>
+    <keyword lang="en">Anfield</keyword>
+    <keyword lang="en">Liverpool</keyword>
+    <language>English</language>
+    <length units="minutes">130</length>
+    <icon src="https://a.espncdn.com/i/leaguelogos/soccer/500-dark/23.png" />
+    <country>GB</country>
+    <video>
+      <present>yes</present>
+      <colour>yes</colour>
+      <aspect>16:9</aspect>
+      <quality>HDTV</quality>
+    </video>
+    <audio>
+      <present>yes</present>
+      <stereo>stereo</stereo>
+    </audio>
+    <new></new>
+    <live></live>
+    <star-rating>
+      <value>4/5</value>
+    </star-rating>
+  </programme>
+  <programme start="20260912163000 +0000" stop="20260912184000 +0000" channel="EPL-Everton.gb">
+    <title lang="en">Premier League Soccer</title>
+    <sub-title lang="en">Everton vs Tottenham Hotspur</sub-title>
+    <desc lang="en">Premier League. Everton (1-1-0) visit Tottenham Hotspur (0-0-2) at Tottenham Hotspur Stadium in London.</desc>
+    <category lang="en">Live</category>
+    <category lang="en">New</category>
+    <category lang="en">Sports</category>
+    <category lang="en">Sports event</category>
+    <category lang="en">Soccer</category>
+    <category lang="en">Football</category>
+    <category lang="en">Premier League</category>
+    <category lang="en">HD</category>
+    <keyword lang="en">Everton</keyword>
+    <keyword lang="en">Tottenham Hotspur</keyword>
+    <keyword lang="en">Tottenham Hotspur Stadium</keyword>
+    <keyword lang="en">London</keyword>
+    <language>English</language>
+    <length units="minutes">130</length>
+    <icon src="https://a.espncdn.com/i/leaguelogos/soccer/500-dark/23.png" />
+    <country>GB</country>
+    <video>
+      <present>yes</present>
+      <colour>yes</colour>
+      <aspect>16:9</aspect>
+      <quality>HDTV</quality>
+    </video>
+    <audio>
+      <present>yes</present>
+      <stereo>stereo</stereo>
+    </audio>
+    <new></new>
+    <live></live>
+    <star-rating>
+      <value>4/5</value>
+    </star-rating>
+  </programme>
+  <programme start="20260912163000 +0000" stop="20260912184000 +0000" channel="EPL-TottenhamHotspur.gb">
+    <title lang="en">Premier League Soccer</title>
+    <sub-title lang="en">Everton vs Tottenham Hotspur</sub-title>
+    <desc lang="en">Premier League. Everton (1-1-0) visit Tottenham Hotspur (0-0-2) at Tottenham Hotspur Stadium in London.</desc>
+    <category lang="en">Live</category>
+    <category lang="en">New</category>
+    <category lang="en">Sports</category>
+    <category lang="en">Sports event</category>
+    <category lang="en">Soccer</category>
+    <category lang="en">Football</category>
+    <category lang="en">Premier League</category>
+    <category lang="en">HD</category>
+    <keyword lang="en">Everton</keyword>
+    <keyword lang="en">Tottenham Hotspur</keyword>
+    <keyword lang="en">Tottenham Hotspur Stadium</keyword>
+    <keyword lang="en">London</keyword>
+    <language>English</language>
+    <length units="minutes">130</length>
+    <icon src="https://a.espncdn.com/i/leaguelogos/soccer/500-dark/23.png" />
+    <country>GB</country>
+    <video>
+      <present>yes</present>
+      <colour>yes</colour>
+      <aspect>16:9</aspect>
+      <quality>HDTV</quality>
+    </video>
+    <audio>
+      <present>yes</present>
+      <stereo>stereo</stereo>
+    </audio>
+    <new></new>
+    <live></live>
+    <star-rating>
+      <value>4/5</value>
+    </star-rating>
+  </programme>
+  <programme start="20260912190000 +0000" stop="20260912211000 +0000" channel="EPL-Arsenal.gb">
+    <title lang="en">Premier League Soccer</title>
+    <sub-title lang="en">Arsenal vs Sunderland</sub-title>
+    <desc lang="en">Premier League. Arsenal (1-0-0) visit Sunderland (0-0-1) at Stadium of Light in Sunderland.</desc>
+    <category lang="en">Live</category>
+    <category lang="en">New</category>
+    <category lang="en">Sports</category>
+    <category lang="en">Sports event</category>
+    <category lang="en">Soccer</category>
+    <category lang="en">Football</category>
+    <category lang="en">Premier League</category>
+    <category lang="en">HD</category>
+    <keyword lang="en">Arsenal</keyword>
+    <keyword lang="en">Sunderland</keyword>
+    <keyword lang="en">Stadium of Light</keyword>
+    <keyword lang="en">Sunderland</keyword>
+    <language>English</language>
+    <length units="minutes">130</length>
+    <icon src="https://a.espncdn.com/i/leaguelogos/soccer/500-dark/23.png" />
+    <country>GB</country>
+    <video>
+      <present>yes</present>
+      <colour>yes</colour>
+      <aspect>16:9</aspect>
+      <quality>HDTV</quality>
+    </video>
+    <audio>
+      <present>yes</present>
+      <stereo>stereo</stereo>
+    </audio>
+    <new></new>
+    <live></live>
+    <star-rating>
+      <value>4/5</value>
+    </star-rating>
+  </programme>
+  <programme start="20260912190000 +0000" stop="20260912211000 +0000" channel="EPL-Sunderland.gb">
+    <title lang="en">Premier League Soccer</title>
+    <sub-title lang="en">Arsenal vs Sunderland</sub-title>
+    <desc lang="en">Premier League. Arsenal (1-0-0) visit Sunderland (0-0-1) at Stadium of Light in Sunderland.</desc>
+    <category lang="en">Live</category>
+    <category lang="en">New</category>
+    <category lang="en">Sports</category>
+    <category lang="en">Sports event</category>
+    <category lang="en">Soccer</category>
+    <category lang="en">Football</category>
+    <category lang="en">Premier League</category>
+    <category lang="en">HD</category>
+    <keyword lang="en">Arsenal</keyword>
+    <keyword lang="en">Sunderland</keyword>
+    <keyword lang="en">Stadium of Light</keyword>
+    <keyword lang="en">Sunderland</keyword>
+    <language>English</language>
+    <length units="minutes">130</length>
+    <icon src="https://a.espncdn.com/i/leaguelogos/soccer/500-dark/23.png" />
+    <country>GB</country>
+    <video>
+      <present>yes</present>
+      <colour>yes</colour>
+      <aspect>16:9</aspect>
+      <quality>HDTV</quality>
+    </video>
+    <audio>
+      <present>yes</present>
+      <stereo>stereo</stereo>
+    </audio>
+    <new></new>
+    <live></live>
+    <star-rating>
+      <value>4/5</value>
     </star-rating>
   </programme>
 </tv>
