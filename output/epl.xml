@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
-<tv date="20260904105244 +0000" generator-info-name="epgxmltv-epl/1.0" generator-info-url="https://github.com/philipsaad/epgxmltv">
+<tv date="20260905101159 +0000" generator-info-name="epgxmltv-epl/1.0" generator-info-url="https://github.com/philipsaad/epgxmltv">
   <channel id="EPL-Bournemouth.gb">
     <display-name>AFC Bournemouth</display-name>
     <icon src="https://a.espncdn.com/i/teamlogos/soccer/500-dark/349.png" />
@@ -80,78 +80,6 @@
     <display-name>Tottenham Hotspur</display-name>
     <icon src="https://a.espncdn.com/i/teamlogos/soccer/500-dark/367.png" />
   </channel>
-  <programme start="20260904190000 +0000" stop="20260904211000 +0000" channel="EPL-Liverpool.gb">
-    <title lang="en">Premier League Soccer</title>
-    <sub-title lang="en">Liverpool vs Ipswich Town</sub-title>
-    <desc lang="en">Premier League. Liverpool (0-2-0) visit Ipswich Town (1-0-1) at Portman Road in Ipswich.</desc>
-    <category lang="en">Live</category>
-    <category lang="en">New</category>
-    <category lang="en">Sports</category>
-    <category lang="en">Sports event</category>
-    <category lang="en">Soccer</category>
-    <category lang="en">Football</category>
-    <category lang="en">Premier League</category>
-    <category lang="en">HD</category>
-    <keyword lang="en">Liverpool</keyword>
-    <keyword lang="en">Ipswich Town</keyword>
-    <keyword lang="en">Portman Road</keyword>
-    <keyword lang="en">Ipswich</keyword>
-    <language>English</language>
-    <length units="minutes">130</length>
-    <icon src="https://a.espncdn.com/i/leaguelogos/soccer/500-dark/23.png" />
-    <country>GB</country>
-    <video>
-      <present>yes</present>
-      <colour>yes</colour>
-      <aspect>16:9</aspect>
-      <quality>HDTV</quality>
-    </video>
-    <audio>
-      <present>yes</present>
-      <stereo>stereo</stereo>
-    </audio>
-    <new></new>
-    <live></live>
-    <star-rating>
-      <value>4/5</value>
-    </star-rating>
-  </programme>
-  <programme start="20260904190000 +0000" stop="20260904211000 +0000" channel="EPL-IpswichTown.gb">
-    <title lang="en">Premier League Soccer</title>
-    <sub-title lang="en">Liverpool vs Ipswich Town</sub-title>
-    <desc lang="en">Premier League. Liverpool (0-2-0) visit Ipswich Town (1-0-1) at Portman Road in Ipswich.</desc>
-    <category lang="en">Live</category>
-    <category lang="en">New</category>
-    <category lang="en">Sports</category>
-    <category lang="en">Sports event</category>
-    <category lang="en">Soccer</category>
-    <category lang="en">Football</category>
-    <category lang="en">Premier League</category>
-    <category lang="en">HD</category>
-    <keyword lang="en">Liverpool</keyword>
-    <keyword lang="en">Ipswich Town</keyword>
-    <keyword lang="en">Portman Road</keyword>
-    <keyword lang="en">Ipswich</keyword>
-    <language>English</language>
-    <length units="minutes">130</length>
-    <icon src="https://a.espncdn.com/i/leaguelogos/soccer/500-dark/23.png" />
-    <country>GB</country>
-    <video>
-      <present>yes</present>
-      <colour>yes</colour>
-      <aspect>16:9</aspect>
-      <quality>HDTV</quality>
-    </video>
-    <audio>
-      <present>yes</present>
-      <stereo>stereo</stereo>
-    </audio>
-    <new></new>
-    <live></live>
-    <star-rating>
-      <value>4/5</value>
-    </star-rating>
-  </programme>
   <programme start="20260905113000 +0000" stop="20260905134000 +0000" channel="EPL-Bournemouth.gb">
     <title lang="en">Premier League Soccer</title>
     <sub-title lang="en">AFC Bournemouth vs Newcastle United</sub-title>
@@ -1019,7 +947,7 @@
   <programme start="20260912140000 +0000" stop="20260912161000 +0000" channel="EPL-IpswichTown.gb">
     <title lang="en">Premier League Soccer</title>
     <sub-title lang="en">Ipswich Town vs Crystal Palace</sub-title>
-    <desc lang="en">Premier League. Ipswich Town (1-0-1) visit Crystal Palace (0-0-2) at Selhurst Park in London.</desc>
+    <desc lang="en">Premier League. Ipswich Town (1-0-2) visit Crystal Palace (0-0-2) at Selhurst Park in London.</desc>
     <category lang="en">Live</category>
     <category lang="en">New</category>
     <category lang="en">Sports</category>
@@ -1055,7 +983,7 @@
   <programme start="20260912140000 +0000" stop="20260912161000 +0000" channel="EPL-CrystalPalace.gb">
     <title lang="en">Premier League Soccer</title>
     <sub-title lang="en">Ipswich Town vs Crystal Palace</sub-title>
-    <desc lang="en">Premier League. Ipswich Town (1-0-1) visit Crystal Palace (0-0-2) at Selhurst Park in London.</desc>
+    <desc lang="en">Premier League. Ipswich Town (1-0-2) visit Crystal Palace (0-0-2) at Selhurst Park in London.</desc>
     <category lang="en">Live</category>
     <category lang="en">New</category>
     <category lang="en">Sports</category>
@@ -1091,7 +1019,7 @@
   <programme start="20260912140000 +0000" stop="20260912161000 +0000" channel="EPL-Fulham.gb">
     <title lang="en">Premier League Soccer</title>
     <sub-title lang="en">Fulham vs Liverpool</sub-title>
-    <desc lang="en">Premier League. Fulham (0-0-2) visit Liverpool (0-2-0) at Anfield in Liverpool.</desc>
+    <desc lang="en">Premier League. Fulham (0-0-2) visit Liverpool (1-2-0) at Anfield in Liverpool.</desc>
     <category lang="en">Live</category>
     <category lang="en">New</category>
     <category lang="en">Sports</category>
@@ -1127,7 +1055,7 @@
   <programme start="20260912140000 +0000" stop="20260912161000 +0000" channel="EPL-Liverpool.gb">
     <title lang="en">Premier League Soccer</title>
     <sub-title lang="en">Fulham vs Liverpool</sub-title>
-    <desc lang="en">Premier League. Fulham (0-0-2) visit Liverpool (0-2-0) at Anfield in Liverpool.</desc>
+    <desc lang="en">Premier League. Fulham (0-0-2) visit Liverpool (1-2-0) at Anfield in Liverpool.</desc>
     <category lang="en">Live</category>
     <category lang="en">New</category>
     <category lang="en">Sports</category>
@@ -1518,6 +1446,78 @@
     <live></live>
     <star-rating>
       <value>3/5</value>
+    </star-rating>
+  </programme>
+  <programme start="20260918190000 +0000" stop="20260918211000 +0000" channel="EPL-Chelsea.gb">
+    <title lang="en">Premier League Soccer</title>
+    <sub-title lang="en">Chelsea vs Brentford</sub-title>
+    <desc lang="en">Premier League. Chelsea (2-0-0) visit Brentford (1-1-0) at Gtech Community Stadium in Brentford.</desc>
+    <category lang="en">Live</category>
+    <category lang="en">New</category>
+    <category lang="en">Sports</category>
+    <category lang="en">Sports event</category>
+    <category lang="en">Soccer</category>
+    <category lang="en">Football</category>
+    <category lang="en">Premier League</category>
+    <category lang="en">HD</category>
+    <keyword lang="en">Chelsea</keyword>
+    <keyword lang="en">Brentford</keyword>
+    <keyword lang="en">Gtech Community Stadium</keyword>
+    <keyword lang="en">Brentford</keyword>
+    <language>English</language>
+    <length units="minutes">130</length>
+    <icon src="https://a.espncdn.com/i/leaguelogos/soccer/500-dark/23.png" />
+    <country>GB</country>
+    <video>
+      <present>yes</present>
+      <colour>yes</colour>
+      <aspect>16:9</aspect>
+      <quality>HDTV</quality>
+    </video>
+    <audio>
+      <present>yes</present>
+      <stereo>stereo</stereo>
+    </audio>
+    <new></new>
+    <live></live>
+    <star-rating>
+      <value>4/5</value>
+    </star-rating>
+  </programme>
+  <programme start="20260918190000 +0000" stop="20260918211000 +0000" channel="EPL-Brentford.gb">
+    <title lang="en">Premier League Soccer</title>
+    <sub-title lang="en">Chelsea vs Brentford</sub-title>
+    <desc lang="en">Premier League. Chelsea (2-0-0) visit Brentford (1-1-0) at Gtech Community Stadium in Brentford.</desc>
+    <category lang="en">Live</category>
+    <category lang="en">New</category>
+    <category lang="en">Sports</category>
+    <category lang="en">Sports event</category>
+    <category lang="en">Soccer</category>
+    <category lang="en">Football</category>
+    <category lang="en">Premier League</category>
+    <category lang="en">HD</category>
+    <keyword lang="en">Chelsea</keyword>
+    <keyword lang="en">Brentford</keyword>
+    <keyword lang="en">Gtech Community Stadium</keyword>
+    <keyword lang="en">Brentford</keyword>
+    <language>English</language>
+    <length units="minutes">130</length>
+    <icon src="https://a.espncdn.com/i/leaguelogos/soccer/500-dark/23.png" />
+    <country>GB</country>
+    <video>
+      <present>yes</present>
+      <colour>yes</colour>
+      <aspect>16:9</aspect>
+      <quality>HDTV</quality>
+    </video>
+    <audio>
+      <present>yes</present>
+      <stereo>stereo</stereo>
+    </audio>
+    <new></new>
+    <live></live>
+    <star-rating>
+      <value>4/5</value>
     </star-rating>
   </programme>
 </tv>
