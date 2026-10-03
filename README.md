@@ -19,8 +19,6 @@ If you don't want to run the scripts yourself, EPGs are automatically generated 
 
 ### NBA
 
-> **Note:** The NBA season is currently over. Automatic guide updates for this league have been temporarily disabled and will return when the next season starts.
-
 **Compressed (Recommended):**
 ```text
 https://github.com/philipsaad/epgxmltv/raw/refs/heads/main/output/nba.xml.gz
@@ -91,7 +89,7 @@ dotnet run epgxmltv-epl.cs
 
 By default, fetches matches from today to 14 days in the future and saves to `output/epl.xml` (and `output/epl.xml.gz`).
 
-The EPL script fetches each UTC date separately and deduplicates matches by ESPN event ID, preserving the requested time window and XMLTV format. This avoids ESPN's [date-range regression reported in September 2026](https://github.com/pseudo-r/Public-ESPN-API/issues/23), where `dates=YYYYMMDD-YYYYMMDD` returns HTTP 400. An explicit `--schedule-url` is fetched once, exactly as supplied; use a working single-date query such as `?dates=20261010` rather than a range.
+Both scripts fetch each UTC date separately and deduplicate matches/games by ESPN event ID, preserving the requested time window and XMLTV format. This avoids ESPN's [date-range regression reported in September 2026](https://github.com/pseudo-r/Public-ESPN-API/issues/23), where `dates=YYYYMMDD-YYYYMMDD` returns HTTP 400. An explicit `--schedule-url` is fetched once, exactly as supplied; use a working single-date query such as `?dates=20261010` rather than a range.
 
 ### Command Line Options
 
