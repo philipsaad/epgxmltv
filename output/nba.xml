@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
-<tv date="20261003192510 +0000" generator-info-name="epgxmltv-nba/1.0" generator-info-url="https://github.com/philipsaad/epgxmltv">
+<tv date="20261003193436 +0000" generator-info-name="epgxmltv-nba/1.0" generator-info-url="https://github.com/philipsaad/epgxmltv">
   <channel id="NBA-AtlantaHawks.us">
     <display-name>Atlanta Hawks</display-name>
     <icon src="https://a.espncdn.com/i/teamlogos/nba/500-dark/atl.png" />
@@ -123,7 +123,7 @@
   <programme start="20261003230000 +0000" stop="20261004013000 +0000" channel="NBA-MiamiHeat.us">
     <title lang="en">NBA Basketball</title>
     <sub-title lang="en">Miami Heat @ Toronto Raptors</sub-title>
-    <desc lang="en">NBA Canada Games 2026. Miami Heat (0-0) visit Toronto Raptors (0-0) at Videotron Centre in Quebec City, PQ.</desc>
+    <desc lang="en">The Toronto Raptors host the Miami Heat in an NBA regular season game during the NBA Canada Games 2026 at Videotron Centre in Quebec City, PQ.</desc>
     <category lang="en">Live</category>
     <category lang="en">New</category>
     <category lang="en">Sports</category>
@@ -160,7 +160,7 @@
   <programme start="20261003230000 +0000" stop="20261004013000 +0000" channel="NBA-TorontoRaptors.us">
     <title lang="en">NBA Basketball</title>
     <sub-title lang="en">Miami Heat @ Toronto Raptors</sub-title>
-    <desc lang="en">NBA Canada Games 2026. Miami Heat (0-0) visit Toronto Raptors (0-0) at Videotron Centre in Quebec City, PQ.</desc>
+    <desc lang="en">The Toronto Raptors host the Miami Heat in an NBA regular season game during the NBA Canada Games 2026 at Videotron Centre in Quebec City, PQ.</desc>
     <category lang="en">Live</category>
     <category lang="en">New</category>
     <category lang="en">Sports</category>
@@ -197,7 +197,7 @@
   <programme start="20261004230000 +0000" stop="20261005013000 +0000" channel="NBA-UtahJazz.us">
     <title lang="en">NBA Basketball</title>
     <sub-title lang="en">Utah Jazz @ Denver Nuggets</sub-title>
-    <desc lang="en">NBA. Utah Jazz (0-0) visit Denver Nuggets (0-0) at CU Events Center in Boulder, CO.</desc>
+    <desc lang="en">The Utah Jazz face the Denver Nuggets in an NBA regular season basketball matchup at CU Events Center in Boulder, CO.</desc>
     <category lang="en">Live</category>
     <category lang="en">New</category>
     <category lang="en">Sports</category>
@@ -232,7 +232,7 @@
   <programme start="20261004230000 +0000" stop="20261005013000 +0000" channel="NBA-DenverNuggets.us">
     <title lang="en">NBA Basketball</title>
     <sub-title lang="en">Utah Jazz @ Denver Nuggets</sub-title>
-    <desc lang="en">NBA. Utah Jazz (0-0) visit Denver Nuggets (0-0) at CU Events Center in Boulder, CO.</desc>
+    <desc lang="en">The Utah Jazz face the Denver Nuggets in an NBA regular season basketball matchup at CU Events Center in Boulder, CO.</desc>
     <category lang="en">Live</category>
     <category lang="en">New</category>
     <category lang="en">Sports</category>
@@ -267,7 +267,7 @@
   <programme start="20261004230000 +0000" stop="20261005013000 +0000" channel="NBA-GoldenStateWarriors.us">
     <title lang="en">NBA Basketball</title>
     <sub-title lang="en">Golden State Warriors @ LA Clippers</sub-title>
-    <desc lang="en">NBA. Golden State Warriors (0-0) visit LA Clippers (0-0) at Stan Sheriff Center in Honolulu, HI.</desc>
+    <desc lang="en">The Golden State Warriors play the LA Clippers in an NBA regular season basketball game at Stan Sheriff Center in Honolulu, HI.</desc>
     <category lang="en">Live</category>
     <category lang="en">New</category>
     <category lang="en">Sports</category>
@@ -302,7 +302,7 @@
   <programme start="20261004230000 +0000" stop="20261005013000 +0000" channel="NBA-LAClippers.us">
     <title lang="en">NBA Basketball</title>
     <sub-title lang="en">Golden State Warriors @ LA Clippers</sub-title>
-    <desc lang="en">NBA. Golden State Warriors (0-0) visit LA Clippers (0-0) at Stan Sheriff Center in Honolulu, HI.</desc>
+    <desc lang="en">The Golden State Warriors play the LA Clippers in an NBA regular season basketball game at Stan Sheriff Center in Honolulu, HI.</desc>
     <category lang="en">Live</category>
     <category lang="en">New</category>
     <category lang="en">Sports</category>
@@ -337,7 +337,7 @@
   <programme start="20261005230000 +0000" stop="20261006013000 +0000" channel="NBA-MemphisGrizzlies.us">
     <title lang="en">NBA Basketball</title>
     <sub-title lang="en">Memphis Grizzlies @ Atlanta Hawks</sub-title>
-    <desc lang="en">NBA. Memphis Grizzlies (0-0) visit Atlanta Hawks (0-0) at State Farm Arena in Atlanta, GA.</desc>
+    <desc lang="en">The Atlanta Hawks host the Memphis Grizzlies in an NBA regular season basketball game at State Farm Arena in Atlanta, GA.</desc>
     <category lang="en">Live</category>
     <category lang="en">New</category>
     <category lang="en">Sports</category>
@@ -372,7 +372,7 @@
   <programme start="20261005230000 +0000" stop="20261006013000 +0000" channel="NBA-AtlantaHawks.us">
     <title lang="en">NBA Basketball</title>
     <sub-title lang="en">Memphis Grizzlies @ Atlanta Hawks</sub-title>
-    <desc lang="en">NBA. Memphis Grizzlies (0-0) visit Atlanta Hawks (0-0) at State Farm Arena in Atlanta, GA.</desc>
+    <desc lang="en">The Atlanta Hawks host the Memphis Grizzlies in an NBA regular season basketball game at State Farm Arena in Atlanta, GA.</desc>
     <category lang="en">Live</category>
     <category lang="en">New</category>
     <category lang="en">Sports</category>
@@ -407,7 +407,7 @@
   <programme start="20261005230000 +0000" stop="20261006013000 +0000" channel="NBA-PhoenixSuns.us">
     <title lang="en">NBA Basketball</title>
     <sub-title lang="en">Phoenix Suns @ Detroit Pistons</sub-title>
-    <desc lang="en">NBA. Phoenix Suns (0-0) visit Detroit Pistons (0-0) at Little Caesars Arena in Detroit, MI.</desc>
+    <desc lang="en">The Detroit Pistons host the Phoenix Suns in an NBA regular season basketball game at Little Caesars Arena in Detroit, MI.</desc>
     <category lang="en">Live</category>
     <category lang="en">New</category>
     <category lang="en">Sports</category>
@@ -442,7 +442,7 @@
   <programme start="20261005230000 +0000" stop="20261006013000 +0000" channel="NBA-DetroitPistons.us">
     <title lang="en">NBA Basketball</title>
     <sub-title lang="en">Phoenix Suns @ Detroit Pistons</sub-title>
-    <desc lang="en">NBA. Phoenix Suns (0-0) visit Detroit Pistons (0-0) at Little Caesars Arena in Detroit, MI.</desc>
+    <desc lang="en">The Detroit Pistons host the Phoenix Suns in an NBA regular season basketball game at Little Caesars Arena in Detroit, MI.</desc>
     <category lang="en">Live</category>
     <category lang="en">New</category>
     <category lang="en">Sports</category>
@@ -477,7 +477,7 @@
   <programme start="20261005230000 +0000" stop="20261006013000 +0000" channel="NBA-NewYorkKnicks.us">
     <title lang="en">NBA Basketball</title>
     <sub-title lang="en">New York Knicks @ Philadelphia 76ers</sub-title>
-    <desc lang="en">NBA. New York Knicks (0-0) visit Philadelphia 76ers (0-0) at Xfinity Mobile Arena in Philadelphia, PA.</desc>
+    <desc lang="en">NBA regular season basketball action as the Philadelphia 76ers host the New York Knicks at Xfinity Mobile Arena in Philadelphia, PA.</desc>
     <category lang="en">Live</category>
     <category lang="en">New</category>
     <category lang="en">Sports</category>
@@ -512,7 +512,7 @@
   <programme start="20261005230000 +0000" stop="20261006013000 +0000" channel="NBA-Philadelphia76ers.us">
     <title lang="en">NBA Basketball</title>
     <sub-title lang="en">New York Knicks @ Philadelphia 76ers</sub-title>
-    <desc lang="en">NBA. New York Knicks (0-0) visit Philadelphia 76ers (0-0) at Xfinity Mobile Arena in Philadelphia, PA.</desc>
+    <desc lang="en">NBA regular season basketball action as the Philadelphia 76ers host the New York Knicks at Xfinity Mobile Arena in Philadelphia, PA.</desc>
     <category lang="en">Live</category>
     <category lang="en">New</category>
     <category lang="en">Sports</category>
@@ -547,7 +547,7 @@
   <programme start="20261006000000 +0000" stop="20261006023000 +0000" channel="NBA-MinnesotaTimberwolves.us">
     <title lang="en">NBA Basketball</title>
     <sub-title lang="en">Minnesota Timberwolves @ Milwaukee Bucks</sub-title>
-    <desc lang="en">NBA. Minnesota Timberwolves (0-0) visit Milwaukee Bucks (0-0) at Fiserv Forum in Milwaukee, WI.</desc>
+    <desc lang="en">The Milwaukee Bucks host the Minnesota Timberwolves in an NBA regular season basketball game at Fiserv Forum in Milwaukee, WI.</desc>
     <category lang="en">Live</category>
     <category lang="en">New</category>
     <category lang="en">Sports</category>
@@ -582,7 +582,7 @@
   <programme start="20261006000000 +0000" stop="20261006023000 +0000" channel="NBA-MilwaukeeBucks.us">
     <title lang="en">NBA Basketball</title>
     <sub-title lang="en">Minnesota Timberwolves @ Milwaukee Bucks</sub-title>
-    <desc lang="en">NBA. Minnesota Timberwolves (0-0) visit Milwaukee Bucks (0-0) at Fiserv Forum in Milwaukee, WI.</desc>
+    <desc lang="en">The Milwaukee Bucks host the Minnesota Timberwolves in an NBA regular season basketball game at Fiserv Forum in Milwaukee, WI.</desc>
     <category lang="en">Live</category>
     <category lang="en">New</category>
     <category lang="en">Sports</category>
@@ -617,7 +617,7 @@
   <programme start="20261006020000 +0000" stop="20261006043000 +0000" channel="NBA-LosAngelesLakers.us">
     <title lang="en">NBA Basketball</title>
     <sub-title lang="en">Los Angeles Lakers @ Sacramento Kings</sub-title>
-    <desc lang="en">NBA. Los Angeles Lakers (0-0) visit Sacramento Kings (0-0) at Golden 1 Center in Sacramento, CA.</desc>
+    <desc lang="en">The Sacramento Kings host the Los Angeles Lakers in an NBA regular-season basketball game at Golden 1 Center in Sacramento, CA.</desc>
     <category lang="en">Live</category>
     <category lang="en">New</category>
     <category lang="en">Sports</category>
@@ -652,7 +652,7 @@
   <programme start="20261006020000 +0000" stop="20261006043000 +0000" channel="NBA-SacramentoKings.us">
     <title lang="en">NBA Basketball</title>
     <sub-title lang="en">Los Angeles Lakers @ Sacramento Kings</sub-title>
-    <desc lang="en">NBA. Los Angeles Lakers (0-0) visit Sacramento Kings (0-0) at Golden 1 Center in Sacramento, CA.</desc>
+    <desc lang="en">The Sacramento Kings host the Los Angeles Lakers in an NBA regular-season basketball game at Golden 1 Center in Sacramento, CA.</desc>
     <category lang="en">Live</category>
     <category lang="en">New</category>
     <category lang="en">Sports</category>
@@ -687,7 +687,7 @@
   <programme start="20261006230000 +0000" stop="20261007013000 +0000" channel="NBA-BrooklynNets.us">
     <title lang="en">NBA Basketball</title>
     <sub-title lang="en">Brooklyn Nets @ Charlotte Hornets</sub-title>
-    <desc lang="en">NBA. Brooklyn Nets (0-0) visit Charlotte Hornets (0-0) at Spectrum Center in Charlotte, NC.</desc>
+    <desc lang="en">The Charlotte Hornets host the Brooklyn Nets in an NBA regular season basketball game at Spectrum Center in Charlotte, NC.</desc>
     <category lang="en">Live</category>
     <category lang="en">New</category>
     <category lang="en">Sports</category>
@@ -722,7 +722,7 @@
   <programme start="20261006230000 +0000" stop="20261007013000 +0000" channel="NBA-CharlotteHornets.us">
     <title lang="en">NBA Basketball</title>
     <sub-title lang="en">Brooklyn Nets @ Charlotte Hornets</sub-title>
-    <desc lang="en">NBA. Brooklyn Nets (0-0) visit Charlotte Hornets (0-0) at Spectrum Center in Charlotte, NC.</desc>
+    <desc lang="en">The Charlotte Hornets host the Brooklyn Nets in an NBA regular season basketball game at Spectrum Center in Charlotte, NC.</desc>
     <category lang="en">Live</category>
     <category lang="en">New</category>
     <category lang="en">Sports</category>
@@ -757,7 +757,7 @@
   <programme start="20261007000000 +0000" stop="20261007023000 +0000" channel="NBA-NewOrleansPelicans.us">
     <title lang="en">NBA Basketball</title>
     <sub-title lang="en">New Orleans Pelicans @ Oklahoma City Thunder</sub-title>
-    <desc lang="en">NBA. New Orleans Pelicans (0-0) visit Oklahoma City Thunder (0-0) at BOK Center in Tulsa, OK.</desc>
+    <desc lang="en">The Oklahoma City Thunder host the New Orleans Pelicans in an NBA regular season basketball game at BOK Center in Tulsa, OK.</desc>
     <category lang="en">Live</category>
     <category lang="en">New</category>
     <category lang="en">Sports</category>
@@ -792,7 +792,7 @@
   <programme start="20261007000000 +0000" stop="20261007023000 +0000" channel="NBA-OklahomaCityThunder.us">
     <title lang="en">NBA Basketball</title>
     <sub-title lang="en">New Orleans Pelicans @ Oklahoma City Thunder</sub-title>
-    <desc lang="en">NBA. New Orleans Pelicans (0-0) visit Oklahoma City Thunder (0-0) at BOK Center in Tulsa, OK.</desc>
+    <desc lang="en">The Oklahoma City Thunder host the New Orleans Pelicans in an NBA regular season basketball game at BOK Center in Tulsa, OK.</desc>
     <category lang="en">Live</category>
     <category lang="en">New</category>
     <category lang="en">Sports</category>
@@ -827,7 +827,7 @@
   <programme start="20261007010000 +0000" stop="20261007033000 +0000" channel="NBA-DenverNuggets.us">
     <title lang="en">NBA Basketball</title>
     <sub-title lang="en">Denver Nuggets @ Utah Jazz</sub-title>
-    <desc lang="en">NBA. Denver Nuggets (0-0) visit Utah Jazz (0-0) at Delta Center in Salt Lake City, UT.</desc>
+    <desc lang="en">The Utah Jazz host the Denver Nuggets in an NBA regular-season basketball game at the Delta Center in Salt Lake City, UT.</desc>
     <category lang="en">Live</category>
     <category lang="en">New</category>
     <category lang="en">Sports</category>
@@ -862,7 +862,7 @@
   <programme start="20261007010000 +0000" stop="20261007033000 +0000" channel="NBA-UtahJazz.us">
     <title lang="en">NBA Basketball</title>
     <sub-title lang="en">Denver Nuggets @ Utah Jazz</sub-title>
-    <desc lang="en">NBA. Denver Nuggets (0-0) visit Utah Jazz (0-0) at Delta Center in Salt Lake City, UT.</desc>
+    <desc lang="en">The Utah Jazz host the Denver Nuggets in an NBA regular-season basketball game at the Delta Center in Salt Lake City, UT.</desc>
     <category lang="en">Live</category>
     <category lang="en">New</category>
     <category lang="en">Sports</category>
@@ -897,7 +897,7 @@
   <programme start="20261007020000 +0000" stop="20261007043000 +0000" channel="NBA-LosAngelesLakers.us">
     <title lang="en">NBA Basketball</title>
     <sub-title lang="en">Los Angeles Lakers @ Golden State Warriors</sub-title>
-    <desc lang="en">NBA. Los Angeles Lakers (0-0) visit Golden State Warriors (0-0) at Chase Center in San Francisco, CA.</desc>
+    <desc lang="en">NBA regular season basketball action featuring the Los Angeles Lakers and the Golden State Warriors at Chase Center in San Francisco, CA.</desc>
     <category lang="en">Live</category>
     <category lang="en">New</category>
     <category lang="en">Sports</category>
@@ -932,7 +932,7 @@
   <programme start="20261007020000 +0000" stop="20261007043000 +0000" channel="NBA-GoldenStateWarriors.us">
     <title lang="en">NBA Basketball</title>
     <sub-title lang="en">Los Angeles Lakers @ Golden State Warriors</sub-title>
-    <desc lang="en">NBA. Los Angeles Lakers (0-0) visit Golden State Warriors (0-0) at Chase Center in San Francisco, CA.</desc>
+    <desc lang="en">NBA regular season basketball action featuring the Los Angeles Lakers and the Golden State Warriors at Chase Center in San Francisco, CA.</desc>
     <category lang="en">Live</category>
     <category lang="en">New</category>
     <category lang="en">Sports</category>
@@ -967,7 +967,7 @@
   <programme start="20261007230000 +0000" stop="20261008013000 +0000" channel="NBA-MinnesotaTimberwolves.us">
     <title lang="en">NBA Basketball</title>
     <sub-title lang="en">Minnesota Timberwolves @ Indiana Pacers</sub-title>
-    <desc lang="en">NBA. Minnesota Timberwolves (0-0) visit Indiana Pacers (0-0) at Hilton Coliseum in Ames, IA.</desc>
+    <desc lang="en">The Indiana Pacers host the Minnesota Timberwolves in an NBA regular season game at Hilton Coliseum in Ames, IA.</desc>
     <category lang="en">Live</category>
     <category lang="en">New</category>
     <category lang="en">Sports</category>
@@ -1002,7 +1002,7 @@
   <programme start="20261007230000 +0000" stop="20261008013000 +0000" channel="NBA-IndianaPacers.us">
     <title lang="en">NBA Basketball</title>
     <sub-title lang="en">Minnesota Timberwolves @ Indiana Pacers</sub-title>
-    <desc lang="en">NBA. Minnesota Timberwolves (0-0) visit Indiana Pacers (0-0) at Hilton Coliseum in Ames, IA.</desc>
+    <desc lang="en">The Indiana Pacers host the Minnesota Timberwolves in an NBA regular season game at Hilton Coliseum in Ames, IA.</desc>
     <category lang="en">Live</category>
     <category lang="en">New</category>
     <category lang="en">Sports</category>
@@ -1037,7 +1037,7 @@
   <programme start="20261008000000 +0000" stop="20261008023000 +0000" channel="NBA-OrlandoMagic.us">
     <title lang="en">NBA Basketball</title>
     <sub-title lang="en">Orlando Magic @ Memphis Grizzlies</sub-title>
-    <desc lang="en">NBA. Orlando Magic (0-0) visit Memphis Grizzlies (0-0) at FedExForum in Memphis, TN.</desc>
+    <desc lang="en">The Memphis Grizzlies play the Orlando Magic in an NBA regular-season basketball game at FedExForum in Memphis, TN.</desc>
     <category lang="en">Live</category>
     <category lang="en">New</category>
     <category lang="en">Sports</category>
@@ -1072,7 +1072,7 @@
   <programme start="20261008000000 +0000" stop="20261008023000 +0000" channel="NBA-MemphisGrizzlies.us">
     <title lang="en">NBA Basketball</title>
     <sub-title lang="en">Orlando Magic @ Memphis Grizzlies</sub-title>
-    <desc lang="en">NBA. Orlando Magic (0-0) visit Memphis Grizzlies (0-0) at FedExForum in Memphis, TN.</desc>
+    <desc lang="en">The Memphis Grizzlies play the Orlando Magic in an NBA regular-season basketball game at FedExForum in Memphis, TN.</desc>
     <category lang="en">Live</category>
     <category lang="en">New</category>
     <category lang="en">Sports</category>
@@ -1107,7 +1107,7 @@
   <programme start="20261008000000 +0000" stop="20261008023000 +0000" channel="NBA-MilwaukeeBucks.us">
     <title lang="en">NBA Basketball</title>
     <sub-title lang="en">Milwaukee Bucks @ Oklahoma City Thunder</sub-title>
-    <desc lang="en">NBA. Milwaukee Bucks (0-0) visit Oklahoma City Thunder (0-0) at Paycom Center in Oklahoma City, OK.</desc>
+    <desc lang="en">NBA regular season basketball action featuring the Milwaukee Bucks and the Oklahoma City Thunder at Paycom Center in Oklahoma City, OK.</desc>
     <category lang="en">Live</category>
     <category lang="en">New</category>
     <category lang="en">Sports</category>
@@ -1142,7 +1142,7 @@
   <programme start="20261008000000 +0000" stop="20261008023000 +0000" channel="NBA-OklahomaCityThunder.us">
     <title lang="en">NBA Basketball</title>
     <sub-title lang="en">Milwaukee Bucks @ Oklahoma City Thunder</sub-title>
-    <desc lang="en">NBA. Milwaukee Bucks (0-0) visit Oklahoma City Thunder (0-0) at Paycom Center in Oklahoma City, OK.</desc>
+    <desc lang="en">NBA regular season basketball action featuring the Milwaukee Bucks and the Oklahoma City Thunder at Paycom Center in Oklahoma City, OK.</desc>
     <category lang="en">Live</category>
     <category lang="en">New</category>
     <category lang="en">Sports</category>
@@ -1177,7 +1177,7 @@
   <programme start="20261008000000 +0000" stop="20261008023000 +0000" channel="NBA-PhoenixSuns.us">
     <title lang="en">NBA Basketball</title>
     <sub-title lang="en">Phoenix Suns @ Chicago Bulls</sub-title>
-    <desc lang="en">NBA. Phoenix Suns (0-0) visit Chicago Bulls (0-0) at United Center in Chicago, IL.</desc>
+    <desc lang="en">The Chicago Bulls play the Phoenix Suns in an NBA regular season basketball game at the United Center in Chicago, IL.</desc>
     <category lang="en">Live</category>
     <category lang="en">New</category>
     <category lang="en">Sports</category>
@@ -1212,7 +1212,7 @@
   <programme start="20261008000000 +0000" stop="20261008023000 +0000" channel="NBA-ChicagoBulls.us">
     <title lang="en">NBA Basketball</title>
     <sub-title lang="en">Phoenix Suns @ Chicago Bulls</sub-title>
-    <desc lang="en">NBA. Phoenix Suns (0-0) visit Chicago Bulls (0-0) at United Center in Chicago, IL.</desc>
+    <desc lang="en">The Chicago Bulls play the Phoenix Suns in an NBA regular season basketball game at the United Center in Chicago, IL.</desc>
     <category lang="en">Live</category>
     <category lang="en">New</category>
     <category lang="en">Sports</category>
@@ -1247,7 +1247,7 @@
   <programme start="20261008020000 +0000" stop="20261008043000 +0000" channel="NBA-GoldenStateWarriors.us">
     <title lang="en">NBA Basketball</title>
     <sub-title lang="en">Golden State Warriors @ Portland Trail Blazers</sub-title>
-    <desc lang="en">NBA. Golden State Warriors (0-0) visit Portland Trail Blazers (0-0) at Moda Center in Portland, OR.</desc>
+    <desc lang="en">The Portland Trail Blazers host the Golden State Warriors in an NBA regular season basketball game at Moda Center in Portland, OR.</desc>
     <category lang="en">Live</category>
     <category lang="en">New</category>
     <category lang="en">Sports</category>
@@ -1282,7 +1282,7 @@
   <programme start="20261008020000 +0000" stop="20261008043000 +0000" channel="NBA-PortlandTrailBlazers.us">
     <title lang="en">NBA Basketball</title>
     <sub-title lang="en">Golden State Warriors @ Portland Trail Blazers</sub-title>
-    <desc lang="en">NBA. Golden State Warriors (0-0) visit Portland Trail Blazers (0-0) at Moda Center in Portland, OR.</desc>
+    <desc lang="en">The Portland Trail Blazers host the Golden State Warriors in an NBA regular season basketball game at Moda Center in Portland, OR.</desc>
     <category lang="en">Live</category>
     <category lang="en">New</category>
     <category lang="en">Sports</category>
@@ -1317,7 +1317,7 @@
   <programme start="20261008230000 +0000" stop="20261009013000 +0000" channel="NBA-BostonCeltics.us">
     <title lang="en">NBA Basketball</title>
     <sub-title lang="en">Boston Celtics @ Cleveland Cavaliers</sub-title>
-    <desc lang="en">NBA. Boston Celtics (0-0) visit Cleveland Cavaliers (0-0) at Rocket Arena in Cleveland, OH.</desc>
+    <desc lang="en">The Boston Celtics play the Cleveland Cavaliers in an NBA regular season basketball matchup at Rocket Arena in Cleveland, OH.</desc>
     <category lang="en">Live</category>
     <category lang="en">New</category>
     <category lang="en">Sports</category>
@@ -1352,7 +1352,7 @@
   <programme start="20261008230000 +0000" stop="20261009013000 +0000" channel="NBA-ClevelandCavaliers.us">
     <title lang="en">NBA Basketball</title>
     <sub-title lang="en">Boston Celtics @ Cleveland Cavaliers</sub-title>
-    <desc lang="en">NBA. Boston Celtics (0-0) visit Cleveland Cavaliers (0-0) at Rocket Arena in Cleveland, OH.</desc>
+    <desc lang="en">The Boston Celtics play the Cleveland Cavaliers in an NBA regular season basketball matchup at Rocket Arena in Cleveland, OH.</desc>
     <category lang="en">Live</category>
     <category lang="en">New</category>
     <category lang="en">Sports</category>
@@ -1387,7 +1387,7 @@
   <programme start="20261008233000 +0000" stop="20261009020000 +0000" channel="NBA-NewOrleansPelicans.us">
     <title lang="en">NBA Basketball</title>
     <sub-title lang="en">New Orleans Pelicans @ Miami Heat</sub-title>
-    <desc lang="en">NBA. New Orleans Pelicans (0-0) visit Miami Heat (0-0) at Kaseya Center in Miami, FL.</desc>
+    <desc lang="en">The New Orleans Pelicans face the Miami Heat in an NBA regular season basketball game at Kaseya Center in Miami, FL.</desc>
     <category lang="en">Live</category>
     <category lang="en">New</category>
     <category lang="en">Sports</category>
@@ -1422,7 +1422,7 @@
   <programme start="20261008233000 +0000" stop="20261009020000 +0000" channel="NBA-MiamiHeat.us">
     <title lang="en">NBA Basketball</title>
     <sub-title lang="en">New Orleans Pelicans @ Miami Heat</sub-title>
-    <desc lang="en">NBA. New Orleans Pelicans (0-0) visit Miami Heat (0-0) at Kaseya Center in Miami, FL.</desc>
+    <desc lang="en">The New Orleans Pelicans face the Miami Heat in an NBA regular season basketball game at Kaseya Center in Miami, FL.</desc>
     <category lang="en">Live</category>
     <category lang="en">New</category>
     <category lang="en">Sports</category>
@@ -1457,7 +1457,7 @@
   <programme start="20261008233000 +0000" stop="20261009020000 +0000" channel="NBA-Philadelphia76ers.us">
     <title lang="en">NBA Basketball</title>
     <sub-title lang="en">Philadelphia 76ers @ Brooklyn Nets</sub-title>
-    <desc lang="en">NBA. Philadelphia 76ers (0-0) visit Brooklyn Nets (0-0) at Barclays Center in Brooklyn, NY.</desc>
+    <desc lang="en">The Philadelphia 76ers face the Brooklyn Nets in an NBA regular season basketball game at Barclays Center in Brooklyn, NY.</desc>
     <category lang="en">Live</category>
     <category lang="en">New</category>
     <category lang="en">Sports</category>
@@ -1492,7 +1492,7 @@
   <programme start="20261008233000 +0000" stop="20261009020000 +0000" channel="NBA-BrooklynNets.us">
     <title lang="en">NBA Basketball</title>
     <sub-title lang="en">Philadelphia 76ers @ Brooklyn Nets</sub-title>
-    <desc lang="en">NBA. Philadelphia 76ers (0-0) visit Brooklyn Nets (0-0) at Barclays Center in Brooklyn, NY.</desc>
+    <desc lang="en">The Philadelphia 76ers face the Brooklyn Nets in an NBA regular season basketball game at Barclays Center in Brooklyn, NY.</desc>
     <category lang="en">Live</category>
     <category lang="en">New</category>
     <category lang="en">Sports</category>
@@ -1527,7 +1527,7 @@
   <programme start="20261008233000 +0000" stop="20261009020000 +0000" channel="NBA-WashingtonWizards.us">
     <title lang="en">NBA Basketball</title>
     <sub-title lang="en">Washington Wizards @ New York Knicks</sub-title>
-    <desc lang="en">NBA. Washington Wizards (0-0) visit New York Knicks (0-0) at Madison Square Garden in New York, NY.</desc>
+    <desc lang="en">The New York Knicks host the Washington Wizards in an NBA regular season basketball game at Madison Square Garden in New York, NY.</desc>
     <category lang="en">Live</category>
     <category lang="en">New</category>
     <category lang="en">Sports</category>
@@ -1562,7 +1562,7 @@
   <programme start="20261008233000 +0000" stop="20261009020000 +0000" channel="NBA-NewYorkKnicks.us">
     <title lang="en">NBA Basketball</title>
     <sub-title lang="en">Washington Wizards @ New York Knicks</sub-title>
-    <desc lang="en">NBA. Washington Wizards (0-0) visit New York Knicks (0-0) at Madison Square Garden in New York, NY.</desc>
+    <desc lang="en">The New York Knicks host the Washington Wizards in an NBA regular season basketball game at Madison Square Garden in New York, NY.</desc>
     <category lang="en">Live</category>
     <category lang="en">New</category>
     <category lang="en">Sports</category>
@@ -1597,7 +1597,7 @@
   <programme start="20261009000000 +0000" stop="20261009023000 +0000" channel="NBA-AtlantaHawks.us">
     <title lang="en">NBA Basketball</title>
     <sub-title lang="en">Atlanta Hawks @ San Antonio Spurs</sub-title>
-    <desc lang="en">NBA. Atlanta Hawks (0-0) visit San Antonio Spurs (0-0) at Frost Bank Center in San Antonio, TX.</desc>
+    <desc lang="en">NBA regular-season basketball action features the Atlanta Hawks visiting the San Antonio Spurs at Frost Bank Center in San Antonio, TX.</desc>
     <category lang="en">Live</category>
     <category lang="en">New</category>
     <category lang="en">Sports</category>
@@ -1632,7 +1632,7 @@
   <programme start="20261009000000 +0000" stop="20261009023000 +0000" channel="NBA-SanAntonioSpurs.us">
     <title lang="en">NBA Basketball</title>
     <sub-title lang="en">Atlanta Hawks @ San Antonio Spurs</sub-title>
-    <desc lang="en">NBA. Atlanta Hawks (0-0) visit San Antonio Spurs (0-0) at Frost Bank Center in San Antonio, TX.</desc>
+    <desc lang="en">NBA regular-season basketball action features the Atlanta Hawks visiting the San Antonio Spurs at Frost Bank Center in San Antonio, TX.</desc>
     <category lang="en">Live</category>
     <category lang="en">New</category>
     <category lang="en">Sports</category>
@@ -1667,7 +1667,7 @@
   <programme start="20261009023000 +0000" stop="20261009050000 +0000" channel="NBA-SacramentoKings.us">
     <title lang="en">NBA Basketball</title>
     <sub-title lang="en">Sacramento Kings @ Los Angeles Lakers</sub-title>
-    <desc lang="en">NBA. Sacramento Kings (0-0) visit Los Angeles Lakers (0-0) at crypto.com Arena in Los Angeles, CA.</desc>
+    <desc lang="en">The Sacramento Kings face the Los Angeles Lakers in an NBA regular season basketball game at crypto.com Arena in Los Angeles, CA.</desc>
     <category lang="en">Live</category>
     <category lang="en">New</category>
     <category lang="en">Sports</category>
@@ -1702,7 +1702,7 @@
   <programme start="20261009023000 +0000" stop="20261009050000 +0000" channel="NBA-LosAngelesLakers.us">
     <title lang="en">NBA Basketball</title>
     <sub-title lang="en">Sacramento Kings @ Los Angeles Lakers</sub-title>
-    <desc lang="en">NBA. Sacramento Kings (0-0) visit Los Angeles Lakers (0-0) at crypto.com Arena in Los Angeles, CA.</desc>
+    <desc lang="en">The Sacramento Kings face the Los Angeles Lakers in an NBA regular season basketball game at crypto.com Arena in Los Angeles, CA.</desc>
     <category lang="en">Live</category>
     <category lang="en">New</category>
     <category lang="en">Sports</category>
@@ -1737,7 +1737,7 @@
   <programme start="20261009120000 +0000" stop="20261009143000 +0000" channel="NBA-HoustonRockets.us">
     <title lang="en">NBA Basketball</title>
     <sub-title lang="en">Houston Rockets @ Dallas Mavericks</sub-title>
-    <desc lang="en">NBA China Game. Houston Rockets (0-0) visit Dallas Mavericks (0-0) at Venetian Arena.</desc>
+    <desc lang="en">The Dallas Mavericks host the Houston Rockets in an NBA regular season NBA China Game at the Venetian Arena.</desc>
     <category lang="en">Live</category>
     <category lang="en">New</category>
     <category lang="en">Sports</category>
@@ -1773,7 +1773,7 @@
   <programme start="20261009120000 +0000" stop="20261009143000 +0000" channel="NBA-DallasMavericks.us">
     <title lang="en">NBA Basketball</title>
     <sub-title lang="en">Houston Rockets @ Dallas Mavericks</sub-title>
-    <desc lang="en">NBA China Game. Houston Rockets (0-0) visit Dallas Mavericks (0-0) at Venetian Arena.</desc>
+    <desc lang="en">The Dallas Mavericks host the Houston Rockets in an NBA regular season NBA China Game at the Venetian Arena.</desc>
     <category lang="en">Live</category>
     <category lang="en">New</category>
     <category lang="en">Sports</category>
@@ -1809,7 +1809,7 @@
   <programme start="20261010000000 +0000" stop="20261010023000 +0000" channel="NBA-MemphisGrizzlies.us">
     <title lang="en">NBA Basketball</title>
     <sub-title lang="en">Memphis Grizzlies @ Chicago Bulls</sub-title>
-    <desc lang="en">NBA. Memphis Grizzlies (0-0) visit Chicago Bulls (0-0) at United Center in Chicago, IL.</desc>
+    <desc lang="en">The Memphis Grizzlies face the Chicago Bulls in an NBA regular season basketball game at the United Center in Chicago, IL.</desc>
     <category lang="en">Live</category>
     <category lang="en">New</category>
     <category lang="en">Sports</category>
@@ -1844,7 +1844,7 @@
   <programme start="20261010000000 +0000" stop="20261010023000 +0000" channel="NBA-ChicagoBulls.us">
     <title lang="en">NBA Basketball</title>
     <sub-title lang="en">Memphis Grizzlies @ Chicago Bulls</sub-title>
-    <desc lang="en">NBA. Memphis Grizzlies (0-0) visit Chicago Bulls (0-0) at United Center in Chicago, IL.</desc>
+    <desc lang="en">The Memphis Grizzlies face the Chicago Bulls in an NBA regular season basketball game at the United Center in Chicago, IL.</desc>
     <category lang="en">Live</category>
     <category lang="en">New</category>
     <category lang="en">Sports</category>
@@ -1879,7 +1879,7 @@
   <programme start="20261010223000 +0000" stop="20261011010000 +0000" channel="NBA-LAClippers.us">
     <title lang="en">NBA Basketball</title>
     <sub-title lang="en">LA Clippers @ Toronto Raptors</sub-title>
-    <desc lang="en">NBA Canada Games 2026. LA Clippers (0-0) visit Toronto Raptors (0-0) at Rogers Arena in Vancouver, BC.</desc>
+    <desc lang="en">The Toronto Raptors play the LA Clippers in an NBA regular season game during the NBA Canada Games 2026 at Rogers Arena in Vancouver, BC.</desc>
     <category lang="en">Live</category>
     <category lang="en">New</category>
     <category lang="en">Sports</category>
@@ -1916,7 +1916,7 @@
   <programme start="20261010223000 +0000" stop="20261011010000 +0000" channel="NBA-TorontoRaptors.us">
     <title lang="en">NBA Basketball</title>
     <sub-title lang="en">LA Clippers @ Toronto Raptors</sub-title>
-    <desc lang="en">NBA Canada Games 2026. LA Clippers (0-0) visit Toronto Raptors (0-0) at Rogers Arena in Vancouver, BC.</desc>
+    <desc lang="en">The Toronto Raptors play the LA Clippers in an NBA regular season game during the NBA Canada Games 2026 at Rogers Arena in Vancouver, BC.</desc>
     <category lang="en">Live</category>
     <category lang="en">New</category>
     <category lang="en">Sports</category>
@@ -1953,7 +1953,7 @@
   <programme start="20261010230000 +0000" stop="20261011013000 +0000" channel="NBA-AtlantaHawks.us">
     <title lang="en">NBA Basketball</title>
     <sub-title lang="en">Atlanta Hawks @ Indiana Pacers</sub-title>
-    <desc lang="en">NBA. Atlanta Hawks (0-0) visit Indiana Pacers (0-0) at Gainbridge Fieldhouse in Indianapolis, IN.</desc>
+    <desc lang="en">The Atlanta Hawks face the Indiana Pacers in an NBA regular-season basketball game at Gainbridge Fieldhouse in Indianapolis, IN.</desc>
     <category lang="en">Live</category>
     <category lang="en">New</category>
     <category lang="en">Sports</category>
@@ -1988,7 +1988,7 @@
   <programme start="20261010230000 +0000" stop="20261011013000 +0000" channel="NBA-IndianaPacers.us">
     <title lang="en">NBA Basketball</title>
     <sub-title lang="en">Atlanta Hawks @ Indiana Pacers</sub-title>
-    <desc lang="en">NBA. Atlanta Hawks (0-0) visit Indiana Pacers (0-0) at Gainbridge Fieldhouse in Indianapolis, IN.</desc>
+    <desc lang="en">The Atlanta Hawks face the Indiana Pacers in an NBA regular-season basketball game at Gainbridge Fieldhouse in Indianapolis, IN.</desc>
     <category lang="en">Live</category>
     <category lang="en">New</category>
     <category lang="en">Sports</category>
@@ -2023,7 +2023,7 @@
   <programme start="20261010230000 +0000" stop="20261011013000 +0000" channel="NBA-DetroitPistons.us">
     <title lang="en">NBA Basketball</title>
     <sub-title lang="en">Detroit Pistons @ Washington Wizards</sub-title>
-    <desc lang="en">NBA. Detroit Pistons (0-0) visit Washington Wizards (0-0) at Capital One Arena in Washington, DC.</desc>
+    <desc lang="en">The Washington Wizards host the Detroit Pistons in an NBA regular season basketball game at Capital One Arena in Washington, DC.</desc>
     <category lang="en">Live</category>
     <category lang="en">New</category>
     <category lang="en">Sports</category>
@@ -2058,7 +2058,7 @@
   <programme start="20261010230000 +0000" stop="20261011013000 +0000" channel="NBA-WashingtonWizards.us">
     <title lang="en">NBA Basketball</title>
     <sub-title lang="en">Detroit Pistons @ Washington Wizards</sub-title>
-    <desc lang="en">NBA. Detroit Pistons (0-0) visit Washington Wizards (0-0) at Capital One Arena in Washington, DC.</desc>
+    <desc lang="en">The Washington Wizards host the Detroit Pistons in an NBA regular season basketball game at Capital One Arena in Washington, DC.</desc>
     <category lang="en">Live</category>
     <category lang="en">New</category>
     <category lang="en">Sports</category>
@@ -2093,7 +2093,7 @@
   <programme start="20261011000000 +0000" stop="20261011023000 +0000" channel="NBA-MinnesotaTimberwolves.us">
     <title lang="en">NBA Basketball</title>
     <sub-title lang="en">Minnesota Timberwolves @ Miami Heat</sub-title>
-    <desc lang="en">NBA. Minnesota Timberwolves (0-0) visit Miami Heat (0-0) at Kaseya Center in Miami, FL.</desc>
+    <desc lang="en">The Minnesota Timberwolves play the Miami Heat in an NBA regular season game at Kaseya Center in Miami, FL.</desc>
     <category lang="en">Live</category>
     <category lang="en">New</category>
     <category lang="en">Sports</category>
@@ -2128,7 +2128,7 @@
   <programme start="20261011000000 +0000" stop="20261011023000 +0000" channel="NBA-MiamiHeat.us">
     <title lang="en">NBA Basketball</title>
     <sub-title lang="en">Minnesota Timberwolves @ Miami Heat</sub-title>
-    <desc lang="en">NBA. Minnesota Timberwolves (0-0) visit Miami Heat (0-0) at Kaseya Center in Miami, FL.</desc>
+    <desc lang="en">The Minnesota Timberwolves play the Miami Heat in an NBA regular season game at Kaseya Center in Miami, FL.</desc>
     <category lang="en">Live</category>
     <category lang="en">New</category>
     <category lang="en">Sports</category>
@@ -2163,7 +2163,7 @@
   <programme start="20261011000000 +0000" stop="20261011023000 +0000" channel="NBA-Philadelphia76ers.us">
     <title lang="en">NBA Basketball</title>
     <sub-title lang="en">Philadelphia 76ers @ Boston Celtics</sub-title>
-    <desc lang="en">NBA. Philadelphia 76ers (0-0) visit Boston Celtics (0-0) at TD Garden in Boston, MA.</desc>
+    <desc lang="en">NBA regular season basketball action featuring the Philadelphia 76ers facing the Boston Celtics at TD Garden in Boston, MA.</desc>
     <category lang="en">Live</category>
     <category lang="en">New</category>
     <category lang="en">Sports</category>
@@ -2198,7 +2198,7 @@
   <programme start="20261011000000 +0000" stop="20261011023000 +0000" channel="NBA-BostonCeltics.us">
     <title lang="en">NBA Basketball</title>
     <sub-title lang="en">Philadelphia 76ers @ Boston Celtics</sub-title>
-    <desc lang="en">NBA. Philadelphia 76ers (0-0) visit Boston Celtics (0-0) at TD Garden in Boston, MA.</desc>
+    <desc lang="en">NBA regular season basketball action featuring the Philadelphia 76ers facing the Boston Celtics at TD Garden in Boston, MA.</desc>
     <category lang="en">Live</category>
     <category lang="en">New</category>
     <category lang="en">Sports</category>
@@ -2233,7 +2233,7 @@
   <programme start="20261011003000 +0000" stop="20261011030000 +0000" channel="NBA-SacramentoKings.us">
     <title lang="en">NBA Basketball</title>
     <sub-title lang="en">Sacramento Kings @ Golden State Warriors</sub-title>
-    <desc lang="en">NBA. Sacramento Kings (0-0) visit Golden State Warriors (0-0) at Chase Center in San Francisco, CA.</desc>
+    <desc lang="en">The Golden State Warriors host the Sacramento Kings in an NBA regular season basketball game at Chase Center in San Francisco, CA.</desc>
     <category lang="en">Live</category>
     <category lang="en">New</category>
     <category lang="en">Sports</category>
@@ -2268,7 +2268,7 @@
   <programme start="20261011003000 +0000" stop="20261011030000 +0000" channel="NBA-GoldenStateWarriors.us">
     <title lang="en">NBA Basketball</title>
     <sub-title lang="en">Sacramento Kings @ Golden State Warriors</sub-title>
-    <desc lang="en">NBA. Sacramento Kings (0-0) visit Golden State Warriors (0-0) at Chase Center in San Francisco, CA.</desc>
+    <desc lang="en">The Golden State Warriors host the Sacramento Kings in an NBA regular season basketball game at Chase Center in San Francisco, CA.</desc>
     <category lang="en">Live</category>
     <category lang="en">New</category>
     <category lang="en">Sports</category>
@@ -2303,7 +2303,7 @@
   <programme start="20261011023000 +0000" stop="20261011050000 +0000" channel="NBA-SanAntonioSpurs.us">
     <title lang="en">NBA Basketball</title>
     <sub-title lang="en">San Antonio Spurs @ Phoenix Suns</sub-title>
-    <desc lang="en">NBA. San Antonio Spurs (0-0) visit Phoenix Suns (0-0) at Mortgage Matchup Center in Phoenix, AZ.</desc>
+    <desc lang="en">The San Antonio Spurs visit the Phoenix Suns for an NBA regular season basketball game at Mortgage Matchup Center in Phoenix, AZ.</desc>
     <category lang="en">Live</category>
     <category lang="en">New</category>
     <category lang="en">Sports</category>
@@ -2338,7 +2338,7 @@
   <programme start="20261011023000 +0000" stop="20261011050000 +0000" channel="NBA-PhoenixSuns.us">
     <title lang="en">NBA Basketball</title>
     <sub-title lang="en">San Antonio Spurs @ Phoenix Suns</sub-title>
-    <desc lang="en">NBA. San Antonio Spurs (0-0) visit Phoenix Suns (0-0) at Mortgage Matchup Center in Phoenix, AZ.</desc>
+    <desc lang="en">The San Antonio Spurs visit the Phoenix Suns for an NBA regular season basketball game at Mortgage Matchup Center in Phoenix, AZ.</desc>
     <category lang="en">Live</category>
     <category lang="en">New</category>
     <category lang="en">Sports</category>
@@ -2373,7 +2373,7 @@
   <programme start="20261011100000 +0000" stop="20261011123000 +0000" channel="NBA-DallasMavericks.us">
     <title lang="en">NBA Basketball</title>
     <sub-title lang="en">Dallas Mavericks @ Houston Rockets</sub-title>
-    <desc lang="en">NBA China Game. Dallas Mavericks (0-0) visit Houston Rockets (0-0) at Venetian Arena.</desc>
+    <desc lang="en">The Houston Rockets play the Dallas Mavericks in an NBA regular season NBA China Game at the Venetian Arena.</desc>
     <category lang="en">Live</category>
     <category lang="en">New</category>
     <category lang="en">Sports</category>
@@ -2409,7 +2409,7 @@
   <programme start="20261011100000 +0000" stop="20261011123000 +0000" channel="NBA-HoustonRockets.us">
     <title lang="en">NBA Basketball</title>
     <sub-title lang="en">Dallas Mavericks @ Houston Rockets</sub-title>
-    <desc lang="en">NBA China Game. Dallas Mavericks (0-0) visit Houston Rockets (0-0) at Venetian Arena.</desc>
+    <desc lang="en">The Houston Rockets play the Dallas Mavericks in an NBA regular season NBA China Game at the Venetian Arena.</desc>
     <category lang="en">Live</category>
     <category lang="en">New</category>
     <category lang="en">Sports</category>
@@ -2445,7 +2445,7 @@
   <programme start="20261011223000 +0000" stop="20261012010000 +0000" channel="NBA-OrlandoMagic.us">
     <title lang="en">NBA Basketball</title>
     <sub-title lang="en">Orlando Magic @ Cleveland Cavaliers</sub-title>
-    <desc lang="en">NBA. Orlando Magic (0-0) visit Cleveland Cavaliers (0-0) at Rocket Arena in Cleveland, OH.</desc>
+    <desc lang="en">The Orlando Magic visit the Cleveland Cavaliers for an NBA regular season basketball matchup at Rocket Arena in Cleveland, OH.</desc>
     <category lang="en">Live</category>
     <category lang="en">New</category>
     <category lang="en">Sports</category>
@@ -2480,7 +2480,7 @@
   <programme start="20261011223000 +0000" stop="20261012010000 +0000" channel="NBA-ClevelandCavaliers.us">
     <title lang="en">NBA Basketball</title>
     <sub-title lang="en">Orlando Magic @ Cleveland Cavaliers</sub-title>
-    <desc lang="en">NBA. Orlando Magic (0-0) visit Cleveland Cavaliers (0-0) at Rocket Arena in Cleveland, OH.</desc>
+    <desc lang="en">The Orlando Magic visit the Cleveland Cavaliers for an NBA regular season basketball matchup at Rocket Arena in Cleveland, OH.</desc>
     <category lang="en">Live</category>
     <category lang="en">New</category>
     <category lang="en">Sports</category>
@@ -2515,7 +2515,7 @@
   <programme start="20261011230000 +0000" stop="20261012013000 +0000" channel="NBA-MilwaukeeBucks.us">
     <title lang="en">NBA Basketball</title>
     <sub-title lang="en">Milwaukee Bucks @ Charlotte Hornets</sub-title>
-    <desc lang="en">NBA. Milwaukee Bucks (0-0) visit Charlotte Hornets (0-0) at Spectrum Center in Charlotte, NC.</desc>
+    <desc lang="en">The Charlotte Hornets host the Milwaukee Bucks in an NBA regular season game at Spectrum Center in Charlotte, NC.</desc>
     <category lang="en">Live</category>
     <category lang="en">New</category>
     <category lang="en">Sports</category>
@@ -2550,7 +2550,7 @@
   <programme start="20261011230000 +0000" stop="20261012013000 +0000" channel="NBA-CharlotteHornets.us">
     <title lang="en">NBA Basketball</title>
     <sub-title lang="en">Milwaukee Bucks @ Charlotte Hornets</sub-title>
-    <desc lang="en">NBA. Milwaukee Bucks (0-0) visit Charlotte Hornets (0-0) at Spectrum Center in Charlotte, NC.</desc>
+    <desc lang="en">The Charlotte Hornets host the Milwaukee Bucks in an NBA regular season game at Spectrum Center in Charlotte, NC.</desc>
     <category lang="en">Live</category>
     <category lang="en">New</category>
     <category lang="en">Sports</category>
@@ -2585,7 +2585,7 @@
   <programme start="20261012010000 +0000" stop="20261012033000 +0000" channel="NBA-ChicagoBulls.us">
     <title lang="en">NBA Basketball</title>
     <sub-title lang="en">Chicago Bulls @ Denver Nuggets</sub-title>
-    <desc lang="en">NBA. Chicago Bulls (0-0) visit Denver Nuggets (0-0) at Ball Arena in Denver, CO.</desc>
+    <desc lang="en">The Chicago Bulls visit the Denver Nuggets for an NBA regular season basketball game at Ball Arena in Denver, CO.</desc>
     <category lang="en">Live</category>
     <category lang="en">New</category>
     <category lang="en">Sports</category>
@@ -2620,7 +2620,7 @@
   <programme start="20261012010000 +0000" stop="20261012033000 +0000" channel="NBA-DenverNuggets.us">
     <title lang="en">NBA Basketball</title>
     <sub-title lang="en">Chicago Bulls @ Denver Nuggets</sub-title>
-    <desc lang="en">NBA. Chicago Bulls (0-0) visit Denver Nuggets (0-0) at Ball Arena in Denver, CO.</desc>
+    <desc lang="en">The Chicago Bulls visit the Denver Nuggets for an NBA regular season basketball game at Ball Arena in Denver, CO.</desc>
     <category lang="en">Live</category>
     <category lang="en">New</category>
     <category lang="en">Sports</category>
@@ -2655,7 +2655,7 @@
   <programme start="20261012230000 +0000" stop="20261013013000 +0000" channel="NBA-OklahomaCityThunder.us">
     <title lang="en">NBA Basketball</title>
     <sub-title lang="en">Oklahoma City Thunder @ Atlanta Hawks</sub-title>
-    <desc lang="en">NBA. Oklahoma City Thunder (0-0) visit Atlanta Hawks (0-0) at State Farm Arena in Atlanta, GA.</desc>
+    <desc lang="en">The Atlanta Hawks host the Oklahoma City Thunder in an NBA regular season basketball matchup at State Farm Arena in Atlanta, GA.</desc>
     <category lang="en">Live</category>
     <category lang="en">New</category>
     <category lang="en">Sports</category>
@@ -2690,7 +2690,7 @@
   <programme start="20261012230000 +0000" stop="20261013013000 +0000" channel="NBA-AtlantaHawks.us">
     <title lang="en">NBA Basketball</title>
     <sub-title lang="en">Oklahoma City Thunder @ Atlanta Hawks</sub-title>
-    <desc lang="en">NBA. Oklahoma City Thunder (0-0) visit Atlanta Hawks (0-0) at State Farm Arena in Atlanta, GA.</desc>
+    <desc lang="en">The Atlanta Hawks host the Oklahoma City Thunder in an NBA regular season basketball matchup at State Farm Arena in Atlanta, GA.</desc>
     <category lang="en">Live</category>
     <category lang="en">New</category>
     <category lang="en">Sports</category>
@@ -2725,7 +2725,7 @@
   <programme start="20261012230000 +0000" stop="20261013013000 +0000" channel="NBA-BrooklynNets.us">
     <title lang="en">NBA Basketball</title>
     <sub-title lang="en">Brooklyn Nets @ Washington Wizards</sub-title>
-    <desc lang="en">NBA. Brooklyn Nets (0-0) visit Washington Wizards (0-0) at Capital One Arena in Washington, DC.</desc>
+    <desc lang="en">The Washington Wizards host the Brooklyn Nets in an NBA regular season basketball game at Capital One Arena in Washington, DC.</desc>
     <category lang="en">Live</category>
     <category lang="en">New</category>
     <category lang="en">Sports</category>
@@ -2760,7 +2760,7 @@
   <programme start="20261012230000 +0000" stop="20261013013000 +0000" channel="NBA-WashingtonWizards.us">
     <title lang="en">NBA Basketball</title>
     <sub-title lang="en">Brooklyn Nets @ Washington Wizards</sub-title>
-    <desc lang="en">NBA. Brooklyn Nets (0-0) visit Washington Wizards (0-0) at Capital One Arena in Washington, DC.</desc>
+    <desc lang="en">The Washington Wizards host the Brooklyn Nets in an NBA regular season basketball game at Capital One Arena in Washington, DC.</desc>
     <category lang="en">Live</category>
     <category lang="en">New</category>
     <category lang="en">Sports</category>
@@ -2795,7 +2795,7 @@
   <programme start="20261012233000 +0000" stop="20261013020000 +0000" channel="NBA-MinnesotaTimberwolves.us">
     <title lang="en">NBA Basketball</title>
     <sub-title lang="en">Minnesota Timberwolves @ New York Knicks</sub-title>
-    <desc lang="en">NBA. Minnesota Timberwolves (0-0) visit New York Knicks (0-0) at Madison Square Garden in New York, NY.</desc>
+    <desc lang="en">The New York Knicks host the Minnesota Timberwolves in an NBA regular-season basketball game at Madison Square Garden in New York, NY.</desc>
     <category lang="en">Live</category>
     <category lang="en">New</category>
     <category lang="en">Sports</category>
@@ -2830,7 +2830,7 @@
   <programme start="20261012233000 +0000" stop="20261013020000 +0000" channel="NBA-NewYorkKnicks.us">
     <title lang="en">NBA Basketball</title>
     <sub-title lang="en">Minnesota Timberwolves @ New York Knicks</sub-title>
-    <desc lang="en">NBA. Minnesota Timberwolves (0-0) visit New York Knicks (0-0) at Madison Square Garden in New York, NY.</desc>
+    <desc lang="en">The New York Knicks host the Minnesota Timberwolves in an NBA regular-season basketball game at Madison Square Garden in New York, NY.</desc>
     <category lang="en">Live</category>
     <category lang="en">New</category>
     <category lang="en">Sports</category>
@@ -2865,7 +2865,7 @@
   <programme start="20261013010000 +0000" stop="20261013033000 +0000" channel="NBA-SanAntonioSpurs.us">
     <title lang="en">NBA Basketball</title>
     <sub-title lang="en">San Antonio Spurs @ Utah Jazz</sub-title>
-    <desc lang="en">NBA. San Antonio Spurs (0-0) visit Utah Jazz (0-0) at Delta Center in Salt Lake City, UT.</desc>
+    <desc lang="en">The Utah Jazz host the San Antonio Spurs in an NBA regular season basketball game at the Delta Center in Salt Lake City, UT.</desc>
     <category lang="en">Live</category>
     <category lang="en">New</category>
     <category lang="en">Sports</category>
@@ -2900,7 +2900,7 @@
   <programme start="20261013010000 +0000" stop="20261013033000 +0000" channel="NBA-UtahJazz.us">
     <title lang="en">NBA Basketball</title>
     <sub-title lang="en">San Antonio Spurs @ Utah Jazz</sub-title>
-    <desc lang="en">NBA. San Antonio Spurs (0-0) visit Utah Jazz (0-0) at Delta Center in Salt Lake City, UT.</desc>
+    <desc lang="en">The Utah Jazz host the San Antonio Spurs in an NBA regular season basketball game at the Delta Center in Salt Lake City, UT.</desc>
     <category lang="en">Live</category>
     <category lang="en">New</category>
     <category lang="en">Sports</category>
@@ -2935,7 +2935,7 @@
   <programme start="20261013230000 +0000" stop="20261014013000 +0000" channel="NBA-ClevelandCavaliers.us">
     <title lang="en">NBA Basketball</title>
     <sub-title lang="en">Cleveland Cavaliers @ Orlando Magic</sub-title>
-    <desc lang="en">NBA. Cleveland Cavaliers (0-0) visit Orlando Magic (0-0) at Kia Center in Orlando, FL.</desc>
+    <desc lang="en">The Orlando Magic host the Cleveland Cavaliers in an NBA regular season basketball game at the Kia Center in Orlando, FL.</desc>
     <category lang="en">Live</category>
     <category lang="en">New</category>
     <category lang="en">Sports</category>
@@ -2970,7 +2970,7 @@
   <programme start="20261013230000 +0000" stop="20261014013000 +0000" channel="NBA-OrlandoMagic.us">
     <title lang="en">NBA Basketball</title>
     <sub-title lang="en">Cleveland Cavaliers @ Orlando Magic</sub-title>
-    <desc lang="en">NBA. Cleveland Cavaliers (0-0) visit Orlando Magic (0-0) at Kia Center in Orlando, FL.</desc>
+    <desc lang="en">The Orlando Magic host the Cleveland Cavaliers in an NBA regular season basketball game at the Kia Center in Orlando, FL.</desc>
     <category lang="en">Live</category>
     <category lang="en">New</category>
     <category lang="en">Sports</category>
@@ -3005,7 +3005,7 @@
   <programme start="20261013230000 +0000" stop="20261014013000 +0000" channel="NBA-NewYorkKnicks.us">
     <title lang="en">NBA Basketball</title>
     <sub-title lang="en">New York Knicks @ Toronto Raptors</sub-title>
-    <desc lang="en">NBA. New York Knicks (0-0) visit Toronto Raptors (0-0) at Scotiabank Arena in Toronto, ON.</desc>
+    <desc lang="en">NBA regular season action featuring the New York Knicks taking on the Toronto Raptors at Scotiabank Arena in Toronto, ON.</desc>
     <category lang="en">Live</category>
     <category lang="en">New</category>
     <category lang="en">Sports</category>
@@ -3040,7 +3040,7 @@
   <programme start="20261013230000 +0000" stop="20261014013000 +0000" channel="NBA-TorontoRaptors.us">
     <title lang="en">NBA Basketball</title>
     <sub-title lang="en">New York Knicks @ Toronto Raptors</sub-title>
-    <desc lang="en">NBA. New York Knicks (0-0) visit Toronto Raptors (0-0) at Scotiabank Arena in Toronto, ON.</desc>
+    <desc lang="en">NBA regular season action featuring the New York Knicks taking on the Toronto Raptors at Scotiabank Arena in Toronto, ON.</desc>
     <category lang="en">Live</category>
     <category lang="en">New</category>
     <category lang="en">Sports</category>
@@ -3075,7 +3075,7 @@
   <programme start="20261014000000 +0000" stop="20261014023000 +0000" channel="NBA-IndianaPacers.us">
     <title lang="en">NBA Basketball</title>
     <sub-title lang="en">Indiana Pacers @ Oklahoma City Thunder</sub-title>
-    <desc lang="en">NBA. Indiana Pacers (0-0) visit Oklahoma City Thunder (0-0) at Paycom Center in Oklahoma City, OK.</desc>
+    <desc lang="en">The Oklahoma City Thunder play the Indiana Pacers in an NBA regular season basketball game at Paycom Center in Oklahoma City, OK.</desc>
     <category lang="en">Live</category>
     <category lang="en">New</category>
     <category lang="en">Sports</category>
@@ -3110,7 +3110,7 @@
   <programme start="20261014000000 +0000" stop="20261014023000 +0000" channel="NBA-OklahomaCityThunder.us">
     <title lang="en">NBA Basketball</title>
     <sub-title lang="en">Indiana Pacers @ Oklahoma City Thunder</sub-title>
-    <desc lang="en">NBA. Indiana Pacers (0-0) visit Oklahoma City Thunder (0-0) at Paycom Center in Oklahoma City, OK.</desc>
+    <desc lang="en">The Oklahoma City Thunder play the Indiana Pacers in an NBA regular season basketball game at Paycom Center in Oklahoma City, OK.</desc>
     <category lang="en">Live</category>
     <category lang="en">New</category>
     <category lang="en">Sports</category>
@@ -3145,7 +3145,7 @@
   <programme start="20261014020000 +0000" stop="20261014043000 +0000" channel="NBA-GoldenStateWarriors.us">
     <title lang="en">NBA Basketball</title>
     <sub-title lang="en">Golden State Warriors @ Los Angeles Lakers</sub-title>
-    <desc lang="en">NBA. Golden State Warriors (0-0) visit Los Angeles Lakers (0-0) at T-Mobile Arena in Las Vegas, NV.</desc>
+    <desc lang="en">NBA regular season basketball action featuring the Golden State Warriors and the Los Angeles Lakers from T-Mobile Arena in Las Vegas, NV.</desc>
     <category lang="en">Live</category>
     <category lang="en">New</category>
     <category lang="en">Sports</category>
@@ -3180,7 +3180,7 @@
   <programme start="20261014020000 +0000" stop="20261014043000 +0000" channel="NBA-LosAngelesLakers.us">
     <title lang="en">NBA Basketball</title>
     <sub-title lang="en">Golden State Warriors @ Los Angeles Lakers</sub-title>
-    <desc lang="en">NBA. Golden State Warriors (0-0) visit Los Angeles Lakers (0-0) at T-Mobile Arena in Las Vegas, NV.</desc>
+    <desc lang="en">NBA regular season basketball action featuring the Golden State Warriors and the Los Angeles Lakers from T-Mobile Arena in Las Vegas, NV.</desc>
     <category lang="en">Live</category>
     <category lang="en">New</category>
     <category lang="en">Sports</category>
@@ -3215,7 +3215,7 @@
   <programme start="20261014020000 +0000" stop="20261014043000 +0000" channel="NBA-PortlandTrailBlazers.us">
     <title lang="en">NBA Basketball</title>
     <sub-title lang="en">Portland Trail Blazers @ Sacramento Kings</sub-title>
-    <desc lang="en">NBA. Portland Trail Blazers (0-0) visit Sacramento Kings (0-0) at Golden 1 Center in Sacramento, CA.</desc>
+    <desc lang="en">The Sacramento Kings play the Portland Trail Blazers in an NBA regular-season basketball game at Golden 1 Center in Sacramento, CA.</desc>
     <category lang="en">Live</category>
     <category lang="en">New</category>
     <category lang="en">Sports</category>
@@ -3250,7 +3250,7 @@
   <programme start="20261014020000 +0000" stop="20261014043000 +0000" channel="NBA-SacramentoKings.us">
     <title lang="en">NBA Basketball</title>
     <sub-title lang="en">Portland Trail Blazers @ Sacramento Kings</sub-title>
-    <desc lang="en">NBA. Portland Trail Blazers (0-0) visit Sacramento Kings (0-0) at Golden 1 Center in Sacramento, CA.</desc>
+    <desc lang="en">The Sacramento Kings play the Portland Trail Blazers in an NBA regular-season basketball game at Golden 1 Center in Sacramento, CA.</desc>
     <category lang="en">Live</category>
     <category lang="en">New</category>
     <category lang="en">Sports</category>
@@ -3285,7 +3285,7 @@
   <programme start="20261014233000 +0000" stop="20261015020000 +0000" channel="NBA-BrooklynNets.us">
     <title lang="en">NBA Basketball</title>
     <sub-title lang="en">Brooklyn Nets @ Miami Heat</sub-title>
-    <desc lang="en">NBA. Brooklyn Nets (0-0) visit Miami Heat (0-0) at Kaseya Center in Miami, FL.</desc>
+    <desc lang="en">The Miami Heat play the Brooklyn Nets in an NBA regular season basketball matchup at Kaseya Center in Miami, FL.</desc>
     <category lang="en">Live</category>
     <category lang="en">New</category>
     <category lang="en">Sports</category>
@@ -3320,7 +3320,7 @@
   <programme start="20261014233000 +0000" stop="20261015020000 +0000" channel="NBA-MiamiHeat.us">
     <title lang="en">NBA Basketball</title>
     <sub-title lang="en">Brooklyn Nets @ Miami Heat</sub-title>
-    <desc lang="en">NBA. Brooklyn Nets (0-0) visit Miami Heat (0-0) at Kaseya Center in Miami, FL.</desc>
+    <desc lang="en">The Miami Heat play the Brooklyn Nets in an NBA regular season basketball matchup at Kaseya Center in Miami, FL.</desc>
     <category lang="en">Live</category>
     <category lang="en">New</category>
     <category lang="en">Sports</category>
@@ -3355,7 +3355,7 @@
   <programme start="20261014233000 +0000" stop="20261015020000 +0000" channel="NBA-CharlotteHornets.us">
     <title lang="en">NBA Basketball</title>
     <sub-title lang="en">Charlotte Hornets @ Boston Celtics</sub-title>
-    <desc lang="en">NBA. Charlotte Hornets (0-0) visit Boston Celtics (0-0) at TD Garden in Boston, MA.</desc>
+    <desc lang="en">The Boston Celtics host the Charlotte Hornets in an NBA regular-season basketball game at TD Garden in Boston, MA.</desc>
     <category lang="en">Live</category>
     <category lang="en">New</category>
     <category lang="en">Sports</category>
@@ -3390,7 +3390,7 @@
   <programme start="20261014233000 +0000" stop="20261015020000 +0000" channel="NBA-BostonCeltics.us">
     <title lang="en">NBA Basketball</title>
     <sub-title lang="en">Charlotte Hornets @ Boston Celtics</sub-title>
-    <desc lang="en">NBA. Charlotte Hornets (0-0) visit Boston Celtics (0-0) at TD Garden in Boston, MA.</desc>
+    <desc lang="en">The Boston Celtics host the Charlotte Hornets in an NBA regular-season basketball game at TD Garden in Boston, MA.</desc>
     <category lang="en">Live</category>
     <category lang="en">New</category>
     <category lang="en">Sports</category>
@@ -3425,7 +3425,7 @@
   <programme start="20261015000000 +0000" stop="20261015023000 +0000" channel="NBA-PhoenixSuns.us">
     <title lang="en">NBA Basketball</title>
     <sub-title lang="en">Phoenix Suns @ San Antonio Spurs</sub-title>
-    <desc lang="en">NBA. Phoenix Suns (0-0) visit San Antonio Spurs (0-0) at Frost Bank Center in San Antonio, TX.</desc>
+    <desc lang="en">NBA regular-season basketball action featuring the Phoenix Suns and the San Antonio Spurs at Frost Bank Center in San Antonio, TX.</desc>
     <category lang="en">Live</category>
     <category lang="en">New</category>
     <category lang="en">Sports</category>
@@ -3460,7 +3460,7 @@
   <programme start="20261015000000 +0000" stop="20261015023000 +0000" channel="NBA-SanAntonioSpurs.us">
     <title lang="en">NBA Basketball</title>
     <sub-title lang="en">Phoenix Suns @ San Antonio Spurs</sub-title>
-    <desc lang="en">NBA. Phoenix Suns (0-0) visit San Antonio Spurs (0-0) at Frost Bank Center in San Antonio, TX.</desc>
+    <desc lang="en">NBA regular-season basketball action featuring the Phoenix Suns and the San Antonio Spurs at Frost Bank Center in San Antonio, TX.</desc>
     <category lang="en">Live</category>
     <category lang="en">New</category>
     <category lang="en">Sports</category>
@@ -3495,7 +3495,7 @@
   <programme start="20261015000000 +0000" stop="20261015023000 +0000" channel="NBA-NewOrleansPelicans.us">
     <title lang="en">NBA Basketball</title>
     <sub-title lang="en">New Orleans Pelicans @ Dallas Mavericks</sub-title>
-    <desc lang="en">NBA. New Orleans Pelicans (0-0) visit Dallas Mavericks (0-0) at American Airlines Center in Dallas, TX.</desc>
+    <desc lang="en">The Dallas Mavericks host the New Orleans Pelicans in an NBA regular-season basketball game at American Airlines Center in Dallas, TX.</desc>
     <category lang="en">Live</category>
     <category lang="en">New</category>
     <category lang="en">Sports</category>
@@ -3530,7 +3530,7 @@
   <programme start="20261015000000 +0000" stop="20261015023000 +0000" channel="NBA-DallasMavericks.us">
     <title lang="en">NBA Basketball</title>
     <sub-title lang="en">New Orleans Pelicans @ Dallas Mavericks</sub-title>
-    <desc lang="en">NBA. New Orleans Pelicans (0-0) visit Dallas Mavericks (0-0) at American Airlines Center in Dallas, TX.</desc>
+    <desc lang="en">The Dallas Mavericks host the New Orleans Pelicans in an NBA regular-season basketball game at American Airlines Center in Dallas, TX.</desc>
     <category lang="en">Live</category>
     <category lang="en">New</category>
     <category lang="en">Sports</category>
@@ -3565,7 +3565,7 @@
   <programme start="20261015000000 +0000" stop="20261015023000 +0000" channel="NBA-ChicagoBulls.us">
     <title lang="en">NBA Basketball</title>
     <sub-title lang="en">Chicago Bulls @ Milwaukee Bucks</sub-title>
-    <desc lang="en">NBA. Chicago Bulls (0-0) visit Milwaukee Bucks (0-0) at Fiserv Forum in Milwaukee, WI.</desc>
+    <desc lang="en">The Milwaukee Bucks host the Chicago Bulls in an NBA regular season basketball matchup at Fiserv Forum in Milwaukee, WI.</desc>
     <category lang="en">Live</category>
     <category lang="en">New</category>
     <category lang="en">Sports</category>
@@ -3600,7 +3600,7 @@
   <programme start="20261015000000 +0000" stop="20261015023000 +0000" channel="NBA-MilwaukeeBucks.us">
     <title lang="en">NBA Basketball</title>
     <sub-title lang="en">Chicago Bulls @ Milwaukee Bucks</sub-title>
-    <desc lang="en">NBA. Chicago Bulls (0-0) visit Milwaukee Bucks (0-0) at Fiserv Forum in Milwaukee, WI.</desc>
+    <desc lang="en">The Milwaukee Bucks host the Chicago Bulls in an NBA regular season basketball matchup at Fiserv Forum in Milwaukee, WI.</desc>
     <category lang="en">Live</category>
     <category lang="en">New</category>
     <category lang="en">Sports</category>
@@ -3635,7 +3635,7 @@
   <programme start="20261015000000 +0000" stop="20261015023000 +0000" channel="NBA-DetroitPistons.us">
     <title lang="en">NBA Basketball</title>
     <sub-title lang="en">Detroit Pistons @ Minnesota Timberwolves</sub-title>
-    <desc lang="en">NBA. Detroit Pistons (0-0) visit Minnesota Timberwolves (0-0) at Target Center in Minneapolis, MN.</desc>
+    <desc lang="en">The Minnesota Timberwolves host the Detroit Pistons in an NBA regular-season basketball game at Target Center in Minneapolis, MN.</desc>
     <category lang="en">Live</category>
     <category lang="en">New</category>
     <category lang="en">Sports</category>
@@ -3670,7 +3670,7 @@
   <programme start="20261015000000 +0000" stop="20261015023000 +0000" channel="NBA-MinnesotaTimberwolves.us">
     <title lang="en">NBA Basketball</title>
     <sub-title lang="en">Detroit Pistons @ Minnesota Timberwolves</sub-title>
-    <desc lang="en">NBA. Detroit Pistons (0-0) visit Minnesota Timberwolves (0-0) at Target Center in Minneapolis, MN.</desc>
+    <desc lang="en">The Minnesota Timberwolves host the Detroit Pistons in an NBA regular-season basketball game at Target Center in Minneapolis, MN.</desc>
     <category lang="en">Live</category>
     <category lang="en">New</category>
     <category lang="en">Sports</category>
@@ -3705,7 +3705,7 @@
   <programme start="20261015023000 +0000" stop="20261015050000 +0000" channel="NBA-DenverNuggets.us">
     <title lang="en">NBA Basketball</title>
     <sub-title lang="en">Denver Nuggets @ LA Clippers</sub-title>
-    <desc lang="en">NBA. Denver Nuggets (0-0) visit LA Clippers (0-0) at Intuit Dome in Inglewood, CA.</desc>
+    <desc lang="en">NBA regular season basketball action featuring the Denver Nuggets playing the LA Clippers at Intuit Dome in Inglewood, CA.</desc>
     <category lang="en">Live</category>
     <category lang="en">New</category>
     <category lang="en">Sports</category>
@@ -3740,7 +3740,7 @@
   <programme start="20261015023000 +0000" stop="20261015050000 +0000" channel="NBA-LAClippers.us">
     <title lang="en">NBA Basketball</title>
     <sub-title lang="en">Denver Nuggets @ LA Clippers</sub-title>
-    <desc lang="en">NBA. Denver Nuggets (0-0) visit LA Clippers (0-0) at Intuit Dome in Inglewood, CA.</desc>
+    <desc lang="en">NBA regular season basketball action featuring the Denver Nuggets playing the LA Clippers at Intuit Dome in Inglewood, CA.</desc>
     <category lang="en">Live</category>
     <category lang="en">New</category>
     <category lang="en">Sports</category>
@@ -3775,7 +3775,7 @@
   <programme start="20261015233000 +0000" stop="20261016020000 +0000" channel="NBA-TorontoRaptors.us">
     <title lang="en">NBA Basketball</title>
     <sub-title lang="en">Toronto Raptors @ New York Knicks</sub-title>
-    <desc lang="en">NBA. Toronto Raptors (0-0) visit New York Knicks (0-0) at Madison Square Garden in New York, NY.</desc>
+    <desc lang="en">The New York Knicks host the Toronto Raptors in an NBA regular season basketball game at Madison Square Garden in New York, NY.</desc>
     <category lang="en">Live</category>
     <category lang="en">New</category>
     <category lang="en">Sports</category>
@@ -3810,7 +3810,7 @@
   <programme start="20261015233000 +0000" stop="20261016020000 +0000" channel="NBA-NewYorkKnicks.us">
     <title lang="en">NBA Basketball</title>
     <sub-title lang="en">Toronto Raptors @ New York Knicks</sub-title>
-    <desc lang="en">NBA. Toronto Raptors (0-0) visit New York Knicks (0-0) at Madison Square Garden in New York, NY.</desc>
+    <desc lang="en">The New York Knicks host the Toronto Raptors in an NBA regular season basketball game at Madison Square Garden in New York, NY.</desc>
     <category lang="en">Live</category>
     <category lang="en">New</category>
     <category lang="en">Sports</category>
@@ -3845,7 +3845,7 @@
   <programme start="20261016003000 +0000" stop="20261016030000 +0000" channel="NBA-OklahomaCityThunder.us">
     <title lang="en">NBA Basketball</title>
     <sub-title lang="en">Oklahoma City Thunder @ Houston Rockets</sub-title>
-    <desc lang="en">NBA. Oklahoma City Thunder (0-0) visit Houston Rockets (0-0) at Toyota Center (Houston) in Houston, TX.</desc>
+    <desc lang="en">The Houston Rockets host the Oklahoma City Thunder in an NBA regular season basketball game at Toyota Center in Houston, TX.</desc>
     <category lang="en">Live</category>
     <category lang="en">New</category>
     <category lang="en">Sports</category>
@@ -3880,7 +3880,7 @@
   <programme start="20261016003000 +0000" stop="20261016030000 +0000" channel="NBA-HoustonRockets.us">
     <title lang="en">NBA Basketball</title>
     <sub-title lang="en">Oklahoma City Thunder @ Houston Rockets</sub-title>
-    <desc lang="en">NBA. Oklahoma City Thunder (0-0) visit Houston Rockets (0-0) at Toyota Center (Houston) in Houston, TX.</desc>
+    <desc lang="en">The Houston Rockets host the Oklahoma City Thunder in an NBA regular season basketball game at Toyota Center in Houston, TX.</desc>
     <category lang="en">Live</category>
     <category lang="en">New</category>
     <category lang="en">Sports</category>
@@ -3915,7 +3915,7 @@
   <programme start="20261016230000 +0000" stop="20261017013000 +0000" channel="NBA-MiamiHeat.us">
     <title lang="en">NBA Basketball</title>
     <sub-title lang="en">Miami Heat @ Orlando Magic</sub-title>
-    <desc lang="en">NBA. Miami Heat (0-0) visit Orlando Magic (0-0) at Kia Center in Orlando, FL.</desc>
+    <desc lang="en">The Orlando Magic host the Miami Heat in an NBA regular season game at the Kia Center in Orlando, FL.</desc>
     <category lang="en">Live</category>
     <category lang="en">New</category>
     <category lang="en">Sports</category>
@@ -3950,7 +3950,7 @@
   <programme start="20261016230000 +0000" stop="20261017013000 +0000" channel="NBA-OrlandoMagic.us">
     <title lang="en">NBA Basketball</title>
     <sub-title lang="en">Miami Heat @ Orlando Magic</sub-title>
-    <desc lang="en">NBA. Miami Heat (0-0) visit Orlando Magic (0-0) at Kia Center in Orlando, FL.</desc>
+    <desc lang="en">The Orlando Magic host the Miami Heat in an NBA regular season game at the Kia Center in Orlando, FL.</desc>
     <category lang="en">Live</category>
     <category lang="en">New</category>
     <category lang="en">Sports</category>
@@ -3985,7 +3985,7 @@
   <programme start="20261016230000 +0000" stop="20261017013000 +0000" channel="NBA-BostonCeltics.us">
     <title lang="en">NBA Basketball</title>
     <sub-title lang="en">Boston Celtics @ Philadelphia 76ers</sub-title>
-    <desc lang="en">NBA. Boston Celtics (0-0) visit Philadelphia 76ers (0-0) at Xfinity Mobile Arena in Philadelphia, PA.</desc>
+    <desc lang="en">NBA regular season basketball action featuring the Boston Celtics and the Philadelphia 76ers at Xfinity Mobile Arena in Philadelphia, PA.</desc>
     <category lang="en">Live</category>
     <category lang="en">New</category>
     <category lang="en">Sports</category>
@@ -4020,7 +4020,7 @@
   <programme start="20261016230000 +0000" stop="20261017013000 +0000" channel="NBA-Philadelphia76ers.us">
     <title lang="en">NBA Basketball</title>
     <sub-title lang="en">Boston Celtics @ Philadelphia 76ers</sub-title>
-    <desc lang="en">NBA. Boston Celtics (0-0) visit Philadelphia 76ers (0-0) at Xfinity Mobile Arena in Philadelphia, PA.</desc>
+    <desc lang="en">NBA regular season basketball action featuring the Boston Celtics and the Philadelphia 76ers at Xfinity Mobile Arena in Philadelphia, PA.</desc>
     <category lang="en">Live</category>
     <category lang="en">New</category>
     <category lang="en">Sports</category>
@@ -4055,7 +4055,7 @@
   <programme start="20261016230000 +0000" stop="20261017013000 +0000" channel="NBA-TorontoRaptors.us">
     <title lang="en">NBA Basketball</title>
     <sub-title lang="en">Toronto Raptors @ Detroit Pistons</sub-title>
-    <desc lang="en">NBA. Toronto Raptors (0-0) visit Detroit Pistons (0-0) at Little Caesars Arena in Detroit, MI.</desc>
+    <desc lang="en">The Detroit Pistons host the Toronto Raptors in an NBA regular season basketball game at Little Caesars Arena in Detroit, MI.</desc>
     <category lang="en">Live</category>
     <category lang="en">New</category>
     <category lang="en">Sports</category>
@@ -4090,7 +4090,7 @@
   <programme start="20261016230000 +0000" stop="20261017013000 +0000" channel="NBA-DetroitPistons.us">
     <title lang="en">NBA Basketball</title>
     <sub-title lang="en">Toronto Raptors @ Detroit Pistons</sub-title>
-    <desc lang="en">NBA. Toronto Raptors (0-0) visit Detroit Pistons (0-0) at Little Caesars Arena in Detroit, MI.</desc>
+    <desc lang="en">The Detroit Pistons host the Toronto Raptors in an NBA regular season basketball game at Little Caesars Arena in Detroit, MI.</desc>
     <category lang="en">Live</category>
     <category lang="en">New</category>
     <category lang="en">Sports</category>
@@ -4125,7 +4125,7 @@
   <programme start="20261016230000 +0000" stop="20261017013000 +0000" channel="NBA-MilwaukeeBucks.us">
     <title lang="en">NBA Basketball</title>
     <sub-title lang="en">Milwaukee Bucks @ Indiana Pacers</sub-title>
-    <desc lang="en">NBA. Milwaukee Bucks (0-0) visit Indiana Pacers (0-0) at Gainbridge Fieldhouse in Indianapolis, IN.</desc>
+    <desc lang="en">NBA regular season basketball action featuring the Milwaukee Bucks and the Indiana Pacers at Gainbridge Fieldhouse in Indianapolis, IN.</desc>
     <category lang="en">Live</category>
     <category lang="en">New</category>
     <category lang="en">Sports</category>
@@ -4160,7 +4160,7 @@
   <programme start="20261016230000 +0000" stop="20261017013000 +0000" channel="NBA-IndianaPacers.us">
     <title lang="en">NBA Basketball</title>
     <sub-title lang="en">Milwaukee Bucks @ Indiana Pacers</sub-title>
-    <desc lang="en">NBA. Milwaukee Bucks (0-0) visit Indiana Pacers (0-0) at Gainbridge Fieldhouse in Indianapolis, IN.</desc>
+    <desc lang="en">NBA regular season basketball action featuring the Milwaukee Bucks and the Indiana Pacers at Gainbridge Fieldhouse in Indianapolis, IN.</desc>
     <category lang="en">Live</category>
     <category lang="en">New</category>
     <category lang="en">Sports</category>
@@ -4195,7 +4195,7 @@
   <programme start="20261017000000 +0000" stop="20261017023000 +0000" channel="NBA-AtlantaHawks.us">
     <title lang="en">NBA Basketball</title>
     <sub-title lang="en">Atlanta Hawks @ Dallas Mavericks</sub-title>
-    <desc lang="en">NBA. Atlanta Hawks (0-0) visit Dallas Mavericks (0-0) at American Airlines Center in Dallas, TX.</desc>
+    <desc lang="en">The Atlanta Hawks play the Dallas Mavericks in an NBA regular season game at American Airlines Center in Dallas, TX.</desc>
     <category lang="en">Live</category>
     <category lang="en">New</category>
     <category lang="en">Sports</category>
@@ -4230,7 +4230,7 @@
   <programme start="20261017000000 +0000" stop="20261017023000 +0000" channel="NBA-DallasMavericks.us">
     <title lang="en">NBA Basketball</title>
     <sub-title lang="en">Atlanta Hawks @ Dallas Mavericks</sub-title>
-    <desc lang="en">NBA. Atlanta Hawks (0-0) visit Dallas Mavericks (0-0) at American Airlines Center in Dallas, TX.</desc>
+    <desc lang="en">The Atlanta Hawks play the Dallas Mavericks in an NBA regular season game at American Airlines Center in Dallas, TX.</desc>
     <category lang="en">Live</category>
     <category lang="en">New</category>
     <category lang="en">Sports</category>
@@ -4265,7 +4265,7 @@
   <programme start="20261017000000 +0000" stop="20261017023000 +0000" channel="NBA-SacramentoKings.us">
     <title lang="en">NBA Basketball</title>
     <sub-title lang="en">Sacramento Kings @ San Antonio Spurs</sub-title>
-    <desc lang="en">NBA. Sacramento Kings (0-0) visit San Antonio Spurs (0-0) at Frost Bank Center in San Antonio, TX.</desc>
+    <desc lang="en">The Sacramento Kings face the San Antonio Spurs in an NBA regular-season basketball game at Frost Bank Center in San Antonio, TX.</desc>
     <category lang="en">Live</category>
     <category lang="en">New</category>
     <category lang="en">Sports</category>
@@ -4300,7 +4300,7 @@
   <programme start="20261017000000 +0000" stop="20261017023000 +0000" channel="NBA-SanAntonioSpurs.us">
     <title lang="en">NBA Basketball</title>
     <sub-title lang="en">Sacramento Kings @ San Antonio Spurs</sub-title>
-    <desc lang="en">NBA. Sacramento Kings (0-0) visit San Antonio Spurs (0-0) at Frost Bank Center in San Antonio, TX.</desc>
+    <desc lang="en">The Sacramento Kings face the San Antonio Spurs in an NBA regular-season basketball game at Frost Bank Center in San Antonio, TX.</desc>
     <category lang="en">Live</category>
     <category lang="en">New</category>
     <category lang="en">Sports</category>
@@ -4335,7 +4335,7 @@
   <programme start="20261017000000 +0000" stop="20261017023000 +0000" channel="NBA-CharlotteHornets.us">
     <title lang="en">NBA Basketball</title>
     <sub-title lang="en">Charlotte Hornets @ Memphis Grizzlies</sub-title>
-    <desc lang="en">NBA. Charlotte Hornets (0-0) visit Memphis Grizzlies (0-0) at FedExForum in Memphis, TN.</desc>
+    <desc lang="en">The Memphis Grizzlies host the Charlotte Hornets in an NBA regular season basketball game at FedExForum in Memphis, TN.</desc>
     <category lang="en">Live</category>
     <category lang="en">New</category>
     <category lang="en">Sports</category>
@@ -4370,7 +4370,7 @@
   <programme start="20261017000000 +0000" stop="20261017023000 +0000" channel="NBA-MemphisGrizzlies.us">
     <title lang="en">NBA Basketball</title>
     <sub-title lang="en">Charlotte Hornets @ Memphis Grizzlies</sub-title>
-    <desc lang="en">NBA. Charlotte Hornets (0-0) visit Memphis Grizzlies (0-0) at FedExForum in Memphis, TN.</desc>
+    <desc lang="en">The Memphis Grizzlies host the Charlotte Hornets in an NBA regular season basketball game at FedExForum in Memphis, TN.</desc>
     <category lang="en">Live</category>
     <category lang="en">New</category>
     <category lang="en">Sports</category>
@@ -4405,7 +4405,7 @@
   <programme start="20261017000000 +0000" stop="20261017023000 +0000" channel="NBA-WashingtonWizards.us">
     <title lang="en">NBA Basketball</title>
     <sub-title lang="en">Washington Wizards @ New Orleans Pelicans</sub-title>
-    <desc lang="en">NBA. Washington Wizards (0-0) visit New Orleans Pelicans (0-0) at Smoothie King Center in New Orleans, LA.</desc>
+    <desc lang="en">The New Orleans Pelicans play the Washington Wizards in an NBA regular-season basketball game at Smoothie King Center in New Orleans, LA.</desc>
     <category lang="en">Live</category>
     <category lang="en">New</category>
     <category lang="en">Sports</category>
@@ -4440,7 +4440,7 @@
   <programme start="20261017000000 +0000" stop="20261017023000 +0000" channel="NBA-NewOrleansPelicans.us">
     <title lang="en">NBA Basketball</title>
     <sub-title lang="en">Washington Wizards @ New Orleans Pelicans</sub-title>
-    <desc lang="en">NBA. Washington Wizards (0-0) visit New Orleans Pelicans (0-0) at Smoothie King Center in New Orleans, LA.</desc>
+    <desc lang="en">The New Orleans Pelicans play the Washington Wizards in an NBA regular-season basketball game at Smoothie King Center in New Orleans, LA.</desc>
     <category lang="en">Live</category>
     <category lang="en">New</category>
     <category lang="en">Sports</category>
@@ -4475,7 +4475,7 @@
   <programme start="20261017000000 +0000" stop="20261017023000 +0000" channel="NBA-MinnesotaTimberwolves.us">
     <title lang="en">NBA Basketball</title>
     <sub-title lang="en">Minnesota Timberwolves @ Chicago Bulls</sub-title>
-    <desc lang="en">NBA. Minnesota Timberwolves (0-0) visit Chicago Bulls (0-0) at United Center in Chicago, IL.</desc>
+    <desc lang="en">The Minnesota Timberwolves face the Chicago Bulls in an NBA regular season game at the United Center in Chicago, IL.</desc>
     <category lang="en">Live</category>
     <category lang="en">New</category>
     <category lang="en">Sports</category>
@@ -4510,7 +4510,7 @@
   <programme start="20261017000000 +0000" stop="20261017023000 +0000" channel="NBA-ChicagoBulls.us">
     <title lang="en">NBA Basketball</title>
     <sub-title lang="en">Minnesota Timberwolves @ Chicago Bulls</sub-title>
-    <desc lang="en">NBA. Minnesota Timberwolves (0-0) visit Chicago Bulls (0-0) at United Center in Chicago, IL.</desc>
+    <desc lang="en">The Minnesota Timberwolves face the Chicago Bulls in an NBA regular season game at the United Center in Chicago, IL.</desc>
     <category lang="en">Live</category>
     <category lang="en">New</category>
     <category lang="en">Sports</category>
@@ -4545,7 +4545,7 @@
   <programme start="20261017020000 +0000" stop="20261017043000 +0000" channel="NBA-PortlandTrailBlazers.us">
     <title lang="en">NBA Basketball</title>
     <sub-title lang="en">Portland Trail Blazers @ Golden State Warriors</sub-title>
-    <desc lang="en">NBA. Portland Trail Blazers (0-0) visit Golden State Warriors (0-0) at Chase Center in San Francisco, CA.</desc>
+    <desc lang="en">The Golden State Warriors host the Portland Trail Blazers in an NBA regular-season basketball game at Chase Center in San Francisco, CA.</desc>
     <category lang="en">Live</category>
     <category lang="en">New</category>
     <category lang="en">Sports</category>
@@ -4580,7 +4580,7 @@
   <programme start="20261017020000 +0000" stop="20261017043000 +0000" channel="NBA-GoldenStateWarriors.us">
     <title lang="en">NBA Basketball</title>
     <sub-title lang="en">Portland Trail Blazers @ Golden State Warriors</sub-title>
-    <desc lang="en">NBA. Portland Trail Blazers (0-0) visit Golden State Warriors (0-0) at Chase Center in San Francisco, CA.</desc>
+    <desc lang="en">The Golden State Warriors host the Portland Trail Blazers in an NBA regular-season basketball game at Chase Center in San Francisco, CA.</desc>
     <category lang="en">Live</category>
     <category lang="en">New</category>
     <category lang="en">Sports</category>
@@ -4615,7 +4615,7 @@
   <programme start="20261017020000 +0000" stop="20261017043000 +0000" channel="NBA-UtahJazz.us">
     <title lang="en">NBA Basketball</title>
     <sub-title lang="en">Utah Jazz @ Phoenix Suns</sub-title>
-    <desc lang="en">NBA. Utah Jazz (0-0) visit Phoenix Suns (0-0) at Mortgage Matchup Center in Phoenix, AZ.</desc>
+    <desc lang="en">The Phoenix Suns host the Utah Jazz in an NBA regular season basketball game at Mortgage Matchup Center in Phoenix, AZ.</desc>
     <category lang="en">Live</category>
     <category lang="en">New</category>
     <category lang="en">Sports</category>
@@ -4650,7 +4650,7 @@
   <programme start="20261017020000 +0000" stop="20261017043000 +0000" channel="NBA-PhoenixSuns.us">
     <title lang="en">NBA Basketball</title>
     <sub-title lang="en">Utah Jazz @ Phoenix Suns</sub-title>
-    <desc lang="en">NBA. Utah Jazz (0-0) visit Phoenix Suns (0-0) at Mortgage Matchup Center in Phoenix, AZ.</desc>
+    <desc lang="en">The Phoenix Suns host the Utah Jazz in an NBA regular season basketball game at Mortgage Matchup Center in Phoenix, AZ.</desc>
     <category lang="en">Live</category>
     <category lang="en">New</category>
     <category lang="en">Sports</category>
@@ -4685,7 +4685,7 @@
   <programme start="20261017023000 +0000" stop="20261017050000 +0000" channel="NBA-DenverNuggets.us">
     <title lang="en">NBA Basketball</title>
     <sub-title lang="en">Denver Nuggets @ Los Angeles Lakers</sub-title>
-    <desc lang="en">NBA. Denver Nuggets (0-0) visit Los Angeles Lakers (0-0) at crypto.com Arena in Los Angeles, CA.</desc>
+    <desc lang="en">The Los Angeles Lakers play the Denver Nuggets in an NBA regular season basketball game at crypto.com Arena in Los Angeles, CA.</desc>
     <category lang="en">Live</category>
     <category lang="en">New</category>
     <category lang="en">Sports</category>
@@ -4720,7 +4720,7 @@
   <programme start="20261017023000 +0000" stop="20261017050000 +0000" channel="NBA-LosAngelesLakers.us">
     <title lang="en">NBA Basketball</title>
     <sub-title lang="en">Denver Nuggets @ Los Angeles Lakers</sub-title>
-    <desc lang="en">NBA. Denver Nuggets (0-0) visit Los Angeles Lakers (0-0) at crypto.com Arena in Los Angeles, CA.</desc>
+    <desc lang="en">The Los Angeles Lakers play the Denver Nuggets in an NBA regular season basketball game at crypto.com Arena in Los Angeles, CA.</desc>
     <category lang="en">Live</category>
     <category lang="en">New</category>
     <category lang="en">Sports</category>
