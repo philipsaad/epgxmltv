@@ -34,11 +34,19 @@ jobs:
 
       # NBA season is over; will return next season
       # - name: Generate NBA EPG
+      #   env:
+      #     GEMINI_API_KEY: ${{ secrets.GEMINI_API_KEY }}
+      #     GEMINI_MODEL: ${{ vars.GEMINI_MODEL }}
       #   run: |
       #     DAYS=${{ github.event.inputs.days_ahead || '14' }}
       #     dotnet run epgxmltv-nba.cs -- --days-ahead $DAYS --output output/nba.xml
 
       - name: Generate EPL EPG
+        env:
+          # Optional: without this secret the script falls back to template descriptions.
+          GEMINI_API_KEY: ${{ secrets.GEMINI_API_KEY }}
+          # Optional repository variable to override the default model (gemini-3.5-flash-lite).
+          GEMINI_MODEL: ${{ vars.GEMINI_MODEL }}
         run: |
           DAYS=${{ github.event.inputs.days_ahead || '14' }}
           dotnet run epgxmltv-epl.cs -- --days-ahead $DAYS --output output/epl.xml
@@ -49,6 +57,6 @@ jobs:
           commit_message: 'chore: update EPGs [skip ci]'
           add_options: '-f'
           skip_dirty_check: true
-          file_pattern: 'output/epl.xml output/epl.xml.gz'
+          file_pattern: 'output/epl.xml output/epl.xml.gz cache/'
           commit_user_name: 'github-actions[bot]'
           commit_user_email: 'github-actions[bot]@users.noreply.github.com'

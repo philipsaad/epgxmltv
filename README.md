@@ -103,6 +103,8 @@ Both scripts accept the same set of options. Use `--` to separate `dotnet run` a
 | `--days-back <n>` | Number of days in the past to include | `0` |
 | `--output <path>` | Output file path for the XMLTV file | *(per-league default)* |
 | `--schedule-url <url>`| Override the default schedule URL | *(ESPN Scoreboard API URL)* |
+| `--no-ai` | Disable Gemini descriptions and use the built-in template | *(AI on when `GEMINI_API_KEY` is set)* |
+| `--desc-cache <path>` | AI description cache file | `cache/<league>-descriptions.json` |
 
 ### Examples
 
@@ -115,6 +117,38 @@ dotnet run epgxmltv-nba.cs -- --days-ahead 30 --output ./full-month.xml
 ```bash
 dotnet run epgxmltv-epl.cs -- --days-ahead 7 --days-back 3
 ```
+
+---
+
+## AI Descriptions (Google Gemini)
+
+Optionally, the `<desc>` for each game can be written by Google Gemini in a professional broadcast-copy style. The model only receives facts parsed from ESPN (teams, records, venue, round/series), and output that is too long or doesn't name both teams is rejected. If no key is configured, or Gemini fails or hits a rate limit, the scripts fall back to the built-in template description.
+
+1. Create a free API key at [Google AI Studio](https://aistudio.google.com/apikey).
+2. Set the environment variables and run:
+
+   ```powershell
+   # PowerShell
+   $env:GEMINI_API_KEY = "your-key"
+   dotnet run epgxmltv-epl.cs
+   ```
+
+   ```bash
+   # bash
+   GEMINI_API_KEY="your-key" dotnet run epgxmltv-epl.cs
+   ```
+
+| Variable | Description | Default |
+| :--- | :--- | :--- |
+| `GEMINI_API_KEY` | Google AI Studio API key (required for AI descriptions) | *(unset → template)* |
+| `GEMINI_MODEL` | Gemini model id | `gemini-3.5-flash-lite` |
+| `GEMINI_DELAY_MS` | Delay between API calls, to stay under free-tier rate limits | `4500` |
+
+Descriptions are cached per ESPN event in `cache/<league>-descriptions.json` and only regenerated when the input facts (e.g. team records), model, or prompt change, so daily runs make very few API calls.
+
+**GitHub Actions:** add `GEMINI_API_KEY` as a repository secret (*Settings → Secrets and variables → Actions*). Optionally add a `GEMINI_MODEL` repository variable. The workflow commits the cache alongside the EPG output.
+
+> **Note:** On the Gemini free tier, Google may use prompts and responses to improve its products. Only public schedule data is sent.
 
 ---
 

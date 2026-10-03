@@ -10,6 +10,13 @@
 //   --days-back <n>         Number of days in the past to include (default: 0)
 //   --output <path>         Output file path for the XMLTV file (default: output/epl.xml)
 //   --schedule-url <url>    Override the default EPL schedule URL
+//   --no-ai                 Disable Gemini descriptions and always use the built-in template
+//   --desc-cache <path>     Path to the AI description cache (default: cache/epl-descriptions.json)
+//
+// Environment variables (AI descriptions):
+//   GEMINI_API_KEY          Google AI Studio API key. If unset, template descriptions are used.
+//   GEMINI_MODEL            Gemini model id (default: gemini-3.5-flash-lite)
+//   GEMINI_DELAY_MS         Delay between Gemini calls to respect free-tier rate limits (default: 4500)
 //
 // Examples:
 //   dotnet run epgxmltv-epl.cs
@@ -19,8 +26,12 @@
 using System.Globalization;
 using System.IO.Compression;
 using System.Net.Http;
+using System.Security.Cryptography;
 using System.Text;
+using System.Text.Encodings.Web;
+using System.Text.Json;
 using System.Text.Json.Nodes;
+using System.Text.RegularExpressions;
 using System.Xml;
 using System.Xml.Linq;
 using System.Linq;
@@ -33,6 +44,26 @@ const string EplLeagueLogoUrl = "https://a.espncdn.com/i/leaguelogos/soccer/500-
 const string DefaultScheduleUrl = "https://site.web.api.espn.com/apis/site/v2/sports/soccer/eng.1/scoreboard";
 const string UserAgent = "epgxmltv-epl/1.0 dotnet-httpclient/1.1";
 const string GeneratorName = "epgxmltv-epl/1.0";
+
+// Gemini (AI descriptions)
+const string GeminiEndpoint = "https://generativelanguage.googleapis.com/v1beta/models";
+const string DefaultGeminiModel = "gemini-3.5-flash-lite";
+const int DefaultGeminiDelayMs = 4500;
+const int MaxDescLength = 300;
+// Bump this when the prompt changes so cached descriptions are regenerated.
+const string AiPromptVersion = "1";
+const string AiSystemPrompt = """
+  You are an editorial TV metadata and Electronic Program Guide (EPG) copywriter for a major sports broadcast network.
+  Write the <desc> text for one live sports broadcast using ONLY the facts provided by the user.
+  Rules:
+  - One or two sentences, no more than 250 characters in total.
+  - Professional, factual, neutral broadcast tone in the present tense. No hype words (e.g. "epic", "must-see", "blockbuster").
+  - Use both team names exactly as written in the facts.
+  - Never invent information: do not mention players, coaches, injuries, form, streaks, standings, rivalries, history, scores, results, odds or predictions unless they appear in the facts.
+  - Do not mention the date, kickoff/tip-off time, TV channel, or that the broadcast is live.
+  - Plain text only: no markdown, emojis, hashtags, or surrounding quotation marks.
+  - Output only the description text.
+  """;
 
 // "Big Six" club ESPN IDs — used to boost star ratings for marquee fixtures
 var BigSixIds = new HashSet<int> { 359, 363, 364, 382, 360, 367 };
@@ -89,8 +120,10 @@ else
 var entries = await FetchScheduleAsync(scheduleUrls, windowStart, windowEnd);
 Console.WriteLine($"Found {entries.Count} matches in the window ({options.DaysBack} back, {options.DaysAhead} ahead).");
 
+var aiDescriptions = await GenerateAiDescriptionsAsync(entries.Select(BuildAiRequest), options);
+
 var programmes = entries
-    .SelectMany(DerivePair)
+    .SelectMany(e => DerivePair(e, aiDescriptions))
     .ToList();
 
 await WriteXmltvAsync(AllTeams.Values, programmes, options.OutputPath);
@@ -142,9 +175,15 @@ bool TryParseArgs(IList<string> args, out ScriptOptions options)
       case "--schedule-url" when TryReadStringArg(args, ref i, out var urlOverride):
         options = options with { UrlOverride = urlOverride };
         break;
+      case "--no-ai":
+        options = options with { NoAi = true };
+        break;
+      case "--desc-cache" when TryReadStringArg(args, ref i, out var descCachePath):
+        options = options with { DescCachePath = descCachePath };
+        break;
       default:
         Console.Error.WriteLine($"Unknown or incomplete argument: {args[i]}");
-        Console.Error.WriteLine("Usage: dotnet run epgxmltv-epl.cs -- [--days-ahead <n>] [--days-back <n>] [--output <path>] [--schedule-url <url>]");
+        Console.Error.WriteLine("Usage: dotnet run epgxmltv-epl.cs -- [--days-ahead <n>] [--days-back <n>] [--output <path>] [--schedule-url <url>] [--no-ai] [--desc-cache <path>]");
         Console.Error.WriteLine("Run with no arguments for defaults (14 days ahead, 0 days back, output/epl.xml).");
         return false;
     }
@@ -252,6 +291,7 @@ IReadOnlyList<MatchEntry> ParseSchedule(JsonNode? doc, DateTimeOffset windowStar
     string matchweekLabel = notes?.FirstOrDefault() != null ? (string?)notes[0]?["headline"] ?? "" : "";
 
     entries.Add(new MatchEntry(
+        EventId: (string?)evt["id"] ?? "",
         StartUtc: startUtc,
         Away: awayTeam,
         Home: homeTeam,
@@ -317,8 +357,9 @@ TeamRecord ParseRecord(JsonNode? team)
 /// <summary>
 /// Derives two XMLTV programme entries (one per team channel) from a single match event.
 /// Contains all logic for computing display titles, ratings, and descriptions.
+/// Uses the AI-generated description when one is available, otherwise the template.
 /// </summary>
-IEnumerable<ProgrammeInfo> DerivePair(MatchEntry e)
+IEnumerable<ProgrammeInfo> DerivePair(MatchEntry e, IReadOnlyDictionary<string, string> aiDescriptions)
 {
   bool isBigSixAway = BigSixIds.Contains(e.AwayTeamId);
   bool isBigSixHome = BigSixIds.Contains(e.HomeTeamId);
@@ -333,7 +374,7 @@ IEnumerable<ProgrammeInfo> DerivePair(MatchEntry e)
   var categories = BuildCategories(e.MatchweekLabel);
   var keywords = BuildKeywords(e);
   var stopUtc = e.StartUtc.AddMinutes(length);
-  string desc = BuildDesc(e);
+  string desc = aiDescriptions.TryGetValue(e.EventId, out var aiDesc) ? aiDesc : BuildDesc(e);
 
   var template = new ProgrammeInfo(
       "", e.StartUtc, stopUtc,
@@ -417,6 +458,263 @@ string BuildDesc(MatchEntry e)
   sb.Append('.');
 
   return sb.ToString();
+}
+
+// ===========================================================================
+// AI Descriptions (Google Gemini)
+// ===========================================================================
+
+/// <summary>
+/// Builds the fact sheet sent to Gemini for a single match. Only data parsed from the
+/// ESPN schedule is included, so the model has nothing to work from beyond these facts.
+/// Records that are entirely zero (no data yet) are omitted.
+/// </summary>
+AiDescRequest BuildAiRequest(MatchEntry e)
+{
+  string FormatRecord(TeamRecord r) => $"{r.Wins} wins, {r.Draws} draws, {r.Losses} losses ({r.Wins}-{r.Draws}-{r.Losses} W-D-L)";
+  bool HasRecord(TeamRecord r) => r.Wins + r.Draws + r.Losses > 0;
+
+  var sb = new StringBuilder();
+  sb.AppendLine("Sport: Soccer (association football)");
+  sb.AppendLine("Competition: Premier League (England)");
+  if (!string.IsNullOrEmpty(e.MatchweekLabel)) sb.AppendLine($"Round: {e.MatchweekLabel}");
+  sb.AppendLine($"Home team: {e.Home.DisplayName}");
+  if (HasRecord(e.HomeRecord)) sb.AppendLine($"Home team league record this season: {FormatRecord(e.HomeRecord)}");
+  sb.AppendLine($"Away team: {e.Away.DisplayName}");
+  if (HasRecord(e.AwayRecord)) sb.AppendLine($"Away team league record this season: {FormatRecord(e.AwayRecord)}");
+  if (!string.IsNullOrEmpty(e.StadiumName))
+    sb.AppendLine($"Venue: {e.StadiumName}{(string.IsNullOrEmpty(e.StadiumCity) ? "" : $", {e.StadiumCity}")}");
+  if (BigSixIds.Contains(e.HomeTeamId) && BigSixIds.Contains(e.AwayTeamId))
+    sb.AppendLine("Fixture note: both clubs are members of the Premier League's traditional \"Big Six\".");
+
+  return new AiDescRequest(e.EventId, sb.ToString().TrimEnd(), [e.Home.DisplayName, e.Away.DisplayName]);
+}
+
+/// <summary>
+/// Generates editorial EPG descriptions with Google Gemini, keyed by ESPN event id.
+/// Descriptions are cached on disk and only regenerated when the facts, model or prompt
+/// version change. Any failure (no key, quota, invalid output) leaves the event out of the
+/// result so the caller falls back to the template description.
+/// </summary>
+async Task<Dictionary<string, string>> GenerateAiDescriptionsAsync(IEnumerable<AiDescRequest> requests, ScriptOptions options)
+{
+  var results = new Dictionary<string, string>();
+  if (options.NoAi)
+  {
+    Console.WriteLine("AI descriptions disabled (--no-ai); using template descriptions.");
+    return results;
+  }
+
+  var apiKey = Environment.GetEnvironmentVariable("GEMINI_API_KEY");
+  if (string.IsNullOrWhiteSpace(apiKey))
+  {
+    Console.WriteLine("GEMINI_API_KEY is not set; using template descriptions.");
+    return results;
+  }
+
+  string model = Environment.GetEnvironmentVariable("GEMINI_MODEL") is { Length: > 0 } m ? m : DefaultGeminiModel;
+  int delayMs = int.TryParse(Environment.GetEnvironmentVariable("GEMINI_DELAY_MS"), out var d) && d >= 0 ? d : DefaultGeminiDelayMs;
+
+  var cache = await LoadDescCacheAsync(options.DescCachePath);
+  var updatedCache = new JsonObject();
+
+  using var http = new HttpClient { Timeout = TimeSpan.FromSeconds(60) };
+  http.DefaultRequestHeaders.Add("x-goog-api-key", apiKey);
+
+  bool apiAvailable = true;
+  int apiCalls = 0, generated = 0, fromCache = 0, fallbacks = 0;
+
+  Console.WriteLine($"Generating AI descriptions with {model} ...");
+  foreach (var req in requests)
+  {
+    if (string.IsNullOrEmpty(req.EventId) || results.ContainsKey(req.EventId)) continue;
+    string hash = HashKey($"{AiPromptVersion}\n{model}\n{req.Facts}");
+
+    if (cache[req.EventId] is JsonObject hit && (string?)hit["hash"] == hash && (string?)hit["desc"] is { Length: > 0 } cachedDesc)
+    {
+      results[req.EventId] = cachedDesc;
+      updatedCache[req.EventId] = hit.DeepClone();
+      fromCache++;
+      continue;
+    }
+
+    if (!apiAvailable) { fallbacks++; continue; }
+
+    if (apiCalls++ > 0 && delayMs > 0) await Task.Delay(delayMs);
+    var (raw, stopCalling) = await CallGeminiAsync(http, model, req.Facts);
+    if (stopCalling) apiAvailable = false;
+
+    var desc = CleanAiDescription(raw, req.RequiredNames);
+    if (desc == null)
+    {
+      if (!string.IsNullOrWhiteSpace(raw))
+        Console.Error.WriteLine($"  Rejected AI description for event {req.EventId}: {raw.Trim()}");
+      fallbacks++;
+      continue;
+    }
+
+    results[req.EventId] = desc;
+    updatedCache[req.EventId] = new JsonObject
+    {
+      ["hash"] = hash,
+      ["model"] = model,
+      ["generatedUtc"] = DateTimeOffset.UtcNow.ToString("O", CultureInfo.InvariantCulture),
+      ["desc"] = desc,
+    };
+    generated++;
+  }
+
+  await SaveDescCacheAsync(updatedCache, options.DescCachePath);
+  Console.WriteLine($"AI descriptions: {generated} generated, {fromCache} from cache, {fallbacks} template fallback(s).");
+  return results;
+}
+
+/// <summary>
+/// Calls the Gemini generateContent REST endpoint. Retries on rate limiting (429) and
+/// server errors with backoff. Returns StopCalling = true when further calls in this run
+/// are pointless (invalid key/model, or persistent rate limiting).
+/// </summary>
+async Task<(string? Text, bool StopCalling)> CallGeminiAsync(HttpClient http, string model, string facts)
+{
+  const int maxAttempts = 3;
+  var url = $"{GeminiEndpoint}/{Uri.EscapeDataString(model)}:generateContent";
+  var body = new JsonObject
+  {
+    ["systemInstruction"] = new JsonObject
+    {
+      ["parts"] = new JsonArray(new JsonObject { ["text"] = AiSystemPrompt })
+    },
+    ["contents"] = new JsonArray(new JsonObject
+    {
+      ["role"] = "user",
+      ["parts"] = new JsonArray(new JsonObject { ["text"] = facts })
+    }),
+  }.ToJsonString();
+
+  for (int attempt = 1; attempt <= maxAttempts; attempt++)
+  {
+    try
+    {
+      using var content = new StringContent(body, Encoding.UTF8, "application/json");
+      using var resp = await http.PostAsync(url, content);
+      var payload = await resp.Content.ReadAsStringAsync();
+
+      if (resp.IsSuccessStatusCode)
+        return (ExtractGeminiText(payload), false);
+
+      int code = (int)resp.StatusCode;
+      if (code == 429 || code >= 500)
+      {
+        var wait = resp.Headers.RetryAfter?.Delta ?? TimeSpan.FromSeconds(15 * attempt);
+        Console.Error.WriteLine($"  Gemini HTTP {code}; retrying in {wait.TotalSeconds:N0}s (attempt {attempt}/{maxAttempts}) ...");
+        await Task.Delay(wait);
+        continue;
+      }
+
+      // 400/401/403/404 here almost always mean a bad API key or model id: stop for this run.
+      Console.Error.WriteLine($"  Gemini HTTP {code}: {ExtractGeminiError(payload)}");
+      return (null, true);
+    }
+    catch (Exception ex) when (ex is HttpRequestException or TaskCanceledException)
+    {
+      Console.Error.WriteLine($"  Gemini request failed: {ex.Message} (attempt {attempt}/{maxAttempts})");
+    }
+  }
+
+  Console.Error.WriteLine("  Gemini unavailable; remaining matches will use template descriptions.");
+  return (null, true);
+}
+
+/// <summary>
+/// Extracts the concatenated (non-thought) text parts of the first Gemini candidate.
+/// </summary>
+string? ExtractGeminiText(string payload)
+{
+  try
+  {
+    if (JsonNode.Parse(payload)?["candidates"] is not JsonArray { Count: > 0 } candidates) return null;
+    if (candidates[0]?["content"]?["parts"] is not JsonArray parts) return null;
+
+    var sb = new StringBuilder();
+    foreach (var part in parts)
+    {
+      if (part?["thought"] is JsonValue t && t.TryGetValue<bool>(out var isThought) && isThought) continue;
+      sb.Append((string?)part?["text"]);
+    }
+    return sb.ToString();
+  }
+  catch (Exception ex) when (ex is JsonException or InvalidOperationException)
+  {
+    return null;
+  }
+}
+
+/// <summary>
+/// Extracts error.message from a Gemini error response, falling back to the raw payload.
+/// </summary>
+string ExtractGeminiError(string payload)
+{
+  try
+  {
+    if (JsonNode.Parse(payload)?["error"]?["message"] is JsonValue msg && msg.TryGetValue<string>(out var text))
+      return text;
+  }
+  catch (JsonException) { }
+  return payload.Length > 300 ? payload[..300] : payload;
+}
+
+/// <summary>
+/// Normalizes the model output and rejects anything that is empty, too short/long,
+/// or that fails to name both teams exactly (a cheap guard against off-script output).
+/// </summary>
+string? CleanAiDescription(string? raw, IReadOnlyList<string> requiredNames)
+{
+  if (string.IsNullOrWhiteSpace(raw)) return null;
+
+  var text = Regex.Replace(raw, @"\s+", " ").Trim().Trim('"', '`', '*', '\u201C', '\u201D').Trim();
+  if (text.Length < 40 || text.Length > MaxDescLength) return null;
+  if (requiredNames.Any(n => !text.Contains(n, StringComparison.OrdinalIgnoreCase))) return null;
+
+  return text;
+}
+
+/// <summary>
+/// Short, stable hash used to detect when a cached description's inputs have changed.
+/// </summary>
+string HashKey(string input) => Convert.ToHexString(SHA256.HashData(Encoding.UTF8.GetBytes(input)))[..16];
+
+/// <summary>
+/// Loads the description cache (event id → { hash, model, generatedUtc, desc }).
+/// </summary>
+async Task<JsonObject> LoadDescCacheAsync(string path)
+{
+  if (!File.Exists(path)) return new JsonObject();
+  try
+  {
+    return JsonNode.Parse(await File.ReadAllTextAsync(path)) as JsonObject ?? new JsonObject();
+  }
+  catch (JsonException ex)
+  {
+    Console.Error.WriteLine($"Ignoring unreadable description cache {path}: {ex.Message}");
+    return new JsonObject();
+  }
+}
+
+/// <summary>
+/// Writes the description cache. Only events in the current window are kept, so the
+/// file never grows beyond the schedule window.
+/// </summary>
+async Task SaveDescCacheAsync(JsonObject cache, string path)
+{
+  var dir = Path.GetDirectoryName(path);
+  if (!string.IsNullOrEmpty(dir)) Directory.CreateDirectory(dir);
+
+  var json = cache.ToJsonString(new JsonSerializerOptions
+  {
+    WriteIndented = true,
+    Encoder = JavaScriptEncoder.UnsafeRelaxedJsonEscaping
+  });
+  await File.WriteAllTextAsync(path, json + "\n");
 }
 
 // ===========================================================================
@@ -518,8 +816,10 @@ record TeamInfo(string ChannelId, string DisplayName, string LogoUrl, string Cou
 
 record TeamRecord(int Wins, int Draws, int Losses);
 
-record MatchEntry(DateTimeOffset StartUtc, TeamInfo Away, TeamInfo Home, int AwayTeamId, int HomeTeamId, TeamRecord AwayRecord, TeamRecord HomeRecord, string StadiumName, string StadiumCity, string MatchweekLabel, int MatchStatus, string MatchStatusText);
+record MatchEntry(string EventId, DateTimeOffset StartUtc, TeamInfo Away, TeamInfo Home, int AwayTeamId, int HomeTeamId, TeamRecord AwayRecord, TeamRecord HomeRecord, string StadiumName, string StadiumCity, string MatchweekLabel, int MatchStatus, string MatchStatusText);
 
 record ProgrammeInfo(string ChannelId, DateTimeOffset StartUtc, DateTimeOffset StopUtc, string Title, string? SubTitle, string Desc, IReadOnlyList<string> Categories, IReadOnlyList<string> Keywords, int LengthMinutes, string? EpisodeNum, int StarRating, bool IsPremiere, bool IsNew, string Country = "GB");
 
-record ScriptOptions(int DaysAhead = 14, int DaysBack = 0, string OutputPath = "output/epl.xml", string UrlOverride = "");
+record AiDescRequest(string EventId, string Facts, IReadOnlyList<string> RequiredNames);
+
+record ScriptOptions(int DaysAhead = 14, int DaysBack = 0, string OutputPath = "output/epl.xml", string UrlOverride = "", bool NoAi = false, string DescCachePath = "cache/epl-descriptions.json");
