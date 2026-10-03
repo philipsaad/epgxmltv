@@ -54,14 +54,14 @@ const int MaxDescLength = 350;
 const string AiPromptVersion = "2";
 const string AiSystemPrompt = """
   You are an engaging sports broadcast editorial copywriter crafting Electronic Program Guide (EPG) descriptions for TV viewers.
-  Write a colorful, compelling 1 to 2 sentence broadcast preview (<desc>) for this matchup (under 280 characters).
+  Write a colorful, compelling 1 to 2 sentence broadcast preview description for this matchup (under 280 characters).
   Rules:
   - Add color, drama, and personality: weave in major headlines, superstar players, key rivalries, marquee transfers or debuts, off-court drama, and high stakes surrounding the teams.
   - Tone should be lively, punchy, and broadcast-ready—the kind of engaging preview seen on premium sports network guides.
   - You MUST include both full team names as provided in the facts; do not shorten them to bare nicknames.
   - Do NOT include dates, specific kickoff/tip-off times, TV channels, or generic filler like "Tune in" or "Don't miss it".
-  - Plain text only: no markdown, bullet points, emojis, hashtags, or quotation marks.
-  - Output ONLY the description text.
+  - Plain text only: do NOT output any XML or HTML tags (never include <desc> or </desc>), no markdown, bullet points, emojis, hashtags, or quotation marks.
+  - Output ONLY the raw description text.
   """;
 
 // ===========================================================================
@@ -632,44 +632,47 @@ async Task<Dictionary<string, string>> GenerateAiDescriptionsAsync(IEnumerable<A
     return results;
   }
 
-  var apiKey = Environment.GetEnvironmentVariable("GEMINI_API_KEY");
-  if (string.IsNullOrWhiteSpace(apiKey))
-  {
-    Console.WriteLine("GEMINI_API_KEY is not set; using template descriptions.");
-    return results;
-  }
-
   string model = Environment.GetEnvironmentVariable("GEMINI_MODEL") is { Length: > 0 } m ? m : DefaultGeminiModel;
   int delayMs = int.TryParse(Environment.GetEnvironmentVariable("GEMINI_DELAY_MS"), out var d) && d >= 0 ? d : DefaultGeminiDelayMs;
+  var apiKey = Environment.GetEnvironmentVariable("GEMINI_API_KEY");
 
   var cache = await LoadDescCacheAsync(options.DescCachePath);
   var updatedCache = new JsonObject();
 
-  using var http = new HttpClient { Timeout = TimeSpan.FromSeconds(60) };
-  http.DefaultRequestHeaders.Add("x-goog-api-key", apiKey);
+  using var http = !string.IsNullOrWhiteSpace(apiKey) ? new HttpClient { Timeout = TimeSpan.FromSeconds(60) } : null;
+  if (http != null)
+  {
+    http.DefaultRequestHeaders.Add("x-goog-api-key", apiKey);
+  }
+  else
+  {
+    Console.WriteLine("GEMINI_API_KEY is not set; using cached AI descriptions (and template for misses).");
+  }
 
-  bool apiAvailable = true;
+  bool apiAvailable = http != null;
   int apiCalls = 0, generated = 0, fromCache = 0, fallbacks = 0;
 
-  Console.WriteLine($"Generating AI descriptions with {model} ...");
+  if (apiAvailable)
+    Console.WriteLine($"Generating AI descriptions with {model} ...");
+
   foreach (var req in requests)
   {
-    if (string.IsNullOrEmpty(req.EventId) || results.ContainsKey(req.EventId)) continue;
-    string hash = HashKey($"{AiPromptVersion}\n{model}\n{req.Facts}");
+      if (string.IsNullOrEmpty(req.EventId) || results.ContainsKey(req.EventId)) continue;
+      string hash = HashKey($"{AiPromptVersion}\n{model}\n{req.Facts}");
 
-    if (cache[req.EventId] is JsonObject hit && (string?)hit["hash"] == hash && (string?)hit["desc"] is { Length: > 0 } cachedDesc)
-    {
-      results[req.EventId] = cachedDesc;
-      updatedCache[req.EventId] = hit.DeepClone();
-      fromCache++;
-      continue;
-    }
+      if (cache[req.EventId] is JsonObject hit && (string?)hit["hash"] == hash && (string?)hit["desc"] is { Length: > 0 } cachedDesc)
+      {
+        results[req.EventId] = cachedDesc;
+        updatedCache[req.EventId] = hit.DeepClone();
+        fromCache++;
+        continue;
+      }
 
-    if (!apiAvailable) { fallbacks++; continue; }
+      if (!apiAvailable) { fallbacks++; continue; }
 
-    if (apiCalls++ > 0 && delayMs > 0) await Task.Delay(delayMs);
-    var (raw, stopCalling) = await CallGeminiAsync(http, model, req.Facts);
-    if (stopCalling) apiAvailable = false;
+      if (apiCalls++ > 0 && delayMs > 0) await Task.Delay(delayMs);
+      var (raw, stopCalling) = await CallGeminiAsync(http!, model, req.Facts);
+      if (stopCalling) apiAvailable = false;
 
     var desc = CleanAiDescription(raw, req.RequiredNames);
     if (desc == null)
@@ -793,12 +796,15 @@ string ExtractGeminiError(string payload)
 /// <summary>
 /// Normalizes the model output and rejects anything that is empty, too short/long,
 /// or that fails to name both teams exactly (a cheap guard against off-script output).
+/// Strips any XML/HTML tags (e.g. <desc>, </desc>) that may have been emitted by the model.
 /// </summary>
 string? CleanAiDescription(string? raw, IReadOnlyList<string> requiredNames)
 {
   if (string.IsNullOrWhiteSpace(raw)) return null;
 
-  var text = Regex.Replace(raw, @"\s+", " ").Trim().Trim('"', '`', '*', '\u201C', '\u201D').Trim();
+  var text = Regex.Replace(raw, @"</?[a-zA-Z][^>]*>", " ");
+  text = Regex.Replace(text, @"&lt;/?desc&gt;", " ", RegexOptions.IgnoreCase);
+  text = Regex.Replace(text, @"\s+", " ").Trim().Trim('"', '`', '*', '\u201C', '\u201D').Trim();
   if (text.Length < 40 || text.Length > MaxDescLength) return null;
   if (requiredNames.Any(n => !text.Contains(n, StringComparison.OrdinalIgnoreCase))) return null;
 
@@ -807,18 +813,31 @@ string? CleanAiDescription(string? raw, IReadOnlyList<string> requiredNames)
 
 /// <summary>
 /// Short, stable hash used to detect when a cached description's inputs have changed.
+/// Normalizes CRLF to LF so hashes are cross-platform compatible between Windows and Linux.
 /// </summary>
-string HashKey(string input) => Convert.ToHexString(SHA256.HashData(Encoding.UTF8.GetBytes(input)))[..16];
+string HashKey(string input) => Convert.ToHexString(SHA256.HashData(Encoding.UTF8.GetBytes(input.Replace("\r\n", "\n"))))[..16];
 
 /// <summary>
 /// Loads the description cache (event id → { hash, model, generatedUtc, desc }).
+/// Also sanitizes any previously cached entries that might have included XML tags like <desc>.
 /// </summary>
 async Task<JsonObject> LoadDescCacheAsync(string path)
 {
   if (!File.Exists(path)) return new JsonObject();
   try
   {
-    return JsonNode.Parse(await File.ReadAllTextAsync(path)) as JsonObject ?? new JsonObject();
+    var obj = JsonNode.Parse(await File.ReadAllTextAsync(path)) as JsonObject ?? new JsonObject();
+    foreach (var kvp in obj)
+    {
+      if (kvp.Value is JsonObject item && (string?)item["desc"] is { Length: > 0 } d)
+      {
+        var cleaned = Regex.Replace(d, @"</?[a-zA-Z][^>]*>", " ");
+        cleaned = Regex.Replace(cleaned, @"&lt;/?desc&gt;", " ", RegexOptions.IgnoreCase);
+        cleaned = Regex.Replace(cleaned, @"\s+", " ").Trim().Trim('"', '`', '*', '\u201C', '\u201D').Trim();
+        item["desc"] = cleaned;
+      }
+    }
+    return obj;
   }
   catch (JsonException ex)
   {

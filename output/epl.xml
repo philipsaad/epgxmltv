@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
-<tv date="20261003194910 +0000" generator-info-name="epgxmltv-epl/1.0" generator-info-url="https://github.com/philipsaad/epgxmltv">
+<tv date="20261003200829 +0000" generator-info-name="epgxmltv-epl/1.0" generator-info-url="https://github.com/philipsaad/epgxmltv">
   <channel id="EPL-Bournemouth.gb">
     <display-name>AFC Bournemouth</display-name>
     <icon src="https://a.espncdn.com/i/teamlogos/soccer/500-dark/349.png" />
@@ -659,7 +659,7 @@
   <programme start="20261011153000 +0000" stop="20261011174000 +0000" channel="EPL-ManchesterCity.gb">
     <title lang="en">Premier League Soccer</title>
     <sub-title lang="en">Manchester City vs Liverpool</sub-title>
-    <desc lang="en">&lt;desc&gt;The fierce Premier League title rivals collide at Anfield as a surging Manchester City puts its perfect record on the line against a resilient Liverpool side defending its fortress in a high-stakes clash of titans.&lt;/desc&gt;</desc>
+    <desc lang="en">The fierce Premier League title rivals collide at Anfield as a surging Manchester City puts its perfect record on the line against a resilient Liverpool side defending its fortress in a high-stakes clash of titans.</desc>
     <category lang="en">Live</category>
     <category lang="en">New</category>
     <category lang="en">Sports</category>
@@ -695,7 +695,7 @@
   <programme start="20261011153000 +0000" stop="20261011174000 +0000" channel="EPL-Liverpool.gb">
     <title lang="en">Premier League Soccer</title>
     <sub-title lang="en">Manchester City vs Liverpool</sub-title>
-    <desc lang="en">&lt;desc&gt;The fierce Premier League title rivals collide at Anfield as a surging Manchester City puts its perfect record on the line against a resilient Liverpool side defending its fortress in a high-stakes clash of titans.&lt;/desc&gt;</desc>
+    <desc lang="en">The fierce Premier League title rivals collide at Anfield as a surging Manchester City puts its perfect record on the line against a resilient Liverpool side defending its fortress in a high-stakes clash of titans.</desc>
     <category lang="en">Live</category>
     <category lang="en">New</category>
     <category lang="en">Sports</category>
