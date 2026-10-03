@@ -91,6 +91,8 @@ dotnet run epgxmltv-epl.cs
 
 By default, fetches matches from today to 14 days in the future and saves to `output/epl.xml` (and `output/epl.xml.gz`).
 
+The EPL script fetches each UTC date separately and deduplicates matches by ESPN event ID, preserving the requested time window and XMLTV format. This avoids ESPN's [date-range regression reported in September 2026](https://github.com/pseudo-r/Public-ESPN-API/issues/23), where `dates=YYYYMMDD-YYYYMMDD` returns HTTP 400. An explicit `--schedule-url` is fetched once, exactly as supplied; use a working single-date query such as `?dates=20261010` rather than a range.
+
 ### Command Line Options
 
 Both scripts accept the same set of options. Use `--` to separate `dotnet run` arguments from script arguments.

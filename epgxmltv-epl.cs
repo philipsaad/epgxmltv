@@ -30,7 +30,7 @@ using System.Linq;
 // ===========================================================================
 
 const string EplLeagueLogoUrl = "https://a.espncdn.com/i/leaguelogos/soccer/500-dark/23.png";
-const string DefaultScheduleUrl = "https://site.api.espn.com/apis/site/v2/sports/soccer/eng.1/scoreboard";
+const string DefaultScheduleUrl = "https://site.web.api.espn.com/apis/site/v2/sports/soccer/eng.1/scoreboard";
 const string UserAgent = "epgxmltv-epl/1.0 dotnet-httpclient/1.1";
 const string GeneratorName = "epgxmltv-epl/1.0";
 
@@ -77,11 +77,16 @@ if (!TryParseArgs(args, out var options))
 var windowStart = DateTimeOffset.UtcNow.AddDays(-options.DaysBack);
 var windowEnd = DateTimeOffset.UtcNow.AddDays(options.DaysAhead);
 
-string eplUrl = string.IsNullOrEmpty(options.UrlOverride)
-    ? $"{DefaultScheduleUrl}?dates={windowStart:yyyyMMdd}-{windowEnd:yyyyMMdd}&limit=1000"
-    : options.UrlOverride;
+var scheduleUrls = new List<string>();
+if (!string.IsNullOrEmpty(options.UrlOverride))
+  scheduleUrls.Add(options.UrlOverride);
+else
+{
+  for (var date = windowStart.Date; date <= windowEnd.Date; date = date.AddDays(1))
+    scheduleUrls.Add($"{DefaultScheduleUrl}?dates={date.ToString("yyyyMMdd", CultureInfo.InvariantCulture)}&limit=1000");
+}
 
-var entries = await FetchScheduleAsync(eplUrl, options.DaysAhead, options.DaysBack);
+var entries = await FetchScheduleAsync(scheduleUrls, windowStart, windowEnd);
 Console.WriteLine($"Found {entries.Count} matches in the window ({options.DaysBack} back, {options.DaysAhead} ahead).");
 
 var programmes = entries
@@ -179,24 +184,39 @@ bool TryReadStringArg(IList<string> args, ref int index, out string value)
 /// <summary>
 /// Downloads and parses the EPL JSON schedule for the specified date window.
 /// </summary>
-async Task<IReadOnlyList<MatchEntry>> FetchScheduleAsync(string eplUrl, int daysAhead, int daysBack)
+async Task<IReadOnlyList<MatchEntry>> FetchScheduleAsync(IEnumerable<string> scheduleUrls, DateTimeOffset windowStart, DateTimeOffset windowEnd)
 {
-  Console.WriteLine($"Fetching EPL schedule from {eplUrl} ...");
   using var http = new HttpClient();
   http.DefaultRequestHeaders.Add("User-Agent", UserAgent);
-  await using var stream = await http.GetStreamAsync(eplUrl);
-  var doc = await JsonNode.ParseAsync(stream);
-  return ParseSchedule(doc, daysAhead, daysBack);
+  var events = new JsonArray();
+  var eventIds = new HashSet<string>();
+
+  foreach (var url in scheduleUrls)
+  {
+    Console.WriteLine($"Fetching EPL schedule from {url} ...");
+    await using var stream = await http.GetStreamAsync(url);
+    var doc = await JsonNode.ParseAsync(stream);
+    if (doc?["events"] is not JsonArray dailyEvents)
+      throw new InvalidDataException($"EPL schedule from {url} does not contain an events array.");
+
+    foreach (var evt in dailyEvents)
+    {
+      if (evt == null) continue;
+      var eventId = (string?)evt["id"];
+      if (!string.IsNullOrEmpty(eventId) && !eventIds.Add(eventId)) continue;
+      events.Add(evt.DeepClone());
+    }
+  }
+
+  return ParseSchedule(new JsonObject { ["events"] = events }, windowStart, windowEnd);
 }
 
 /// <summary>
 /// Iterates over the raw schedule JSON to find matches occurring within our time window.
 /// Flattens the array and resolves known teams.
 /// </summary>
-IReadOnlyList<MatchEntry> ParseSchedule(JsonNode? doc, int daysAhead, int daysBack)
+IReadOnlyList<MatchEntry> ParseSchedule(JsonNode? doc, DateTimeOffset windowStart, DateTimeOffset windowEnd)
 {
-  var windowStart = DateTimeOffset.UtcNow.AddDays(-daysBack);
-  var windowEnd = DateTimeOffset.UtcNow.AddDays(daysAhead);
   var entries = new List<MatchEntry>();
 
   var events = doc?["events"]?.AsArray() ?? [];
