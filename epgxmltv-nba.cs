@@ -52,12 +52,15 @@ const string DefaultGeminiModel = "gemini-3.5-flash-lite";
 const int DefaultGeminiDelayMs = 4500;
 const int MaxDescLength = 350;
 // Bump this when the prompt changes so cached descriptions are regenerated.
-const string AiPromptVersion = "3";
+const string AiPromptVersion = "4";
 const string AiSystemPrompt = """
   You are an expert sports broadcast editorial copywriter crafting rich, captivating Electronic Program Guide (EPG) preview descriptions for TV viewers.
   Write a colorful, compelling 1 to 2 sentence broadcast preview description for this matchup (under 280 characters).
 
   Rules:
+  - MANDATORY PERSON & STATUS VERIFICATION: Whenever any person (player, coach, manager, staff) is mentioned, you MUST verify their current status. NEVER assume, guess, or use pre-trained memory to assign players or coaches to teams (e.g., do NOT assume which roster a player or coach currently belongs to).
+  - ONLY name an individual if their current active role and affiliation with that specific team are explicitly confirmed in the provided 'Recent related headlines and news' facts for this game.
+  - If a person's current status and team affiliation are NOT explicitly confirmed in the provided facts, DO NOT name them—refer instead to the team, the squad, the rivalry, standings, or high-stakes drama.
   - PRIORITY STORYLINES: If 'Recent related headlines and news' are provided in the facts, you MUST prominently feature them in your description (e.g. superstar player debuts or moves like LeBron James on the Philadelphia 76ers, injury returns, off-court drama, or coaching narratives).
   - DRAMA & COLOR: Make the preview feel like a premium sports network broadcast promo (ESPN / TNT). Highlight superstar matchups, fierce rivalries, playoff stakes, and high-energy drama.
   - ACCURACY: You MUST include both full official team names as provided in the facts (do not shorten them to bare city names or generic nicknames).

@@ -52,14 +52,17 @@ const string DefaultGeminiModel = "gemini-3.5-flash-lite";
 const int DefaultGeminiDelayMs = 4500;
 const int MaxDescLength = 350;
 // Bump this when the prompt changes so cached descriptions are regenerated.
-const string AiPromptVersion = "3";
+const string AiPromptVersion = "4";
 const string AiSystemPrompt = """
   You are an expert sports broadcast editorial copywriter crafting rich, captivating Electronic Program Guide (EPG) preview descriptions for TV viewers.
   Write a colorful, compelling 1 to 2 sentence broadcast preview description for this matchup (under 280 characters).
 
   Rules:
+  - MANDATORY PERSON & STATUS VERIFICATION: Whenever any person (player, coach, manager, staff) is mentioned, you MUST verify their current status. NEVER assume, guess, or use pre-trained memory to assign managers, coaches, or players to clubs (e.g. do NOT assume Pep Guardiola is still coaching Manchester City, or assume who manages or plays for any club).
+  - ONLY name an individual if their current active role and affiliation with that specific team are explicitly confirmed in the provided 'Recent related headlines and news' facts for this fixture.
+  - If a person's current status and team affiliation are NOT explicitly confirmed in the provided facts, DO NOT name them—refer instead to the club, the squad, the rivalry, standings, or high-stakes drama.
   - PRIORITY STORYLINES: If 'Recent related headlines and news' are provided in the facts, you MUST prominently feature them in your description (e.g. superstar player transfers or debuts, off-pitch drama or legal battles like Manchester City's financial charges, managerial pressure, or major controversies).
-  - DRAMA & COLOR: Make the preview feel like a premium sports network broadcast promo (Sky Sports / ESPN). Highlight star players, bitter rivalries, tactical stakes, and dramatic storylines.
+  - DRAMA & COLOR: Make the preview feel like a premium sports network broadcast promo (Sky Sports / ESPN). Highlight bitter rivalries, tactical stakes, and dramatic storylines.
   - ACCURACY: You MUST include both full official club names as provided in the facts (do not shorten them to bare nicknames).
   - FORBIDDEN: Do NOT include dates, kickoff times, TV channels, or generic filler like "Tune in" or "Don't miss it".
   - CLEAN OUTPUT: Plain text ONLY. Absolutely NO XML/HTML tags (never write <desc> or </desc>), NO quotation marks around the description, NO markdown, bullet points, or emojis.
