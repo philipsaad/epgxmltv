@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
-<tv date="20261003193549 +0000" generator-info-name="epgxmltv-epl/1.0" generator-info-url="https://github.com/philipsaad/epgxmltv">
+<tv date="20261003194910 +0000" generator-info-name="epgxmltv-epl/1.0" generator-info-url="https://github.com/philipsaad/epgxmltv">
   <channel id="EPL-Bournemouth.gb">
     <display-name>AFC Bournemouth</display-name>
     <icon src="https://a.espncdn.com/i/teamlogos/soccer/500-dark/349.png" />
@@ -83,7 +83,7 @@
   <programme start="20261010113000 +0000" stop="20261010134000 +0000" channel="EPL-LeedsUnited.gb">
     <title lang="en">Premier League Soccer</title>
     <sub-title lang="en">Leeds United vs Arsenal</sub-title>
-    <desc lang="en">Arsenal hosts Leeds United in a Premier League match at Emirates Stadium in London.</desc>
+    <desc lang="en">Unbeaten Leeds United brings its resilient early-season surge to the capital to test its mettle against a fierce Arsenal squad hungry to dominate on home turf.</desc>
     <category lang="en">Live</category>
     <category lang="en">New</category>
     <category lang="en">Sports</category>
@@ -119,7 +119,7 @@
   <programme start="20261010113000 +0000" stop="20261010134000 +0000" channel="EPL-Arsenal.gb">
     <title lang="en">Premier League Soccer</title>
     <sub-title lang="en">Leeds United vs Arsenal</sub-title>
-    <desc lang="en">Arsenal hosts Leeds United in a Premier League match at Emirates Stadium in London.</desc>
+    <desc lang="en">Unbeaten Leeds United brings its resilient early-season surge to the capital to test its mettle against a fierce Arsenal squad hungry to dominate on home turf.</desc>
     <category lang="en">Live</category>
     <category lang="en">New</category>
     <category lang="en">Sports</category>
@@ -155,7 +155,7 @@
   <programme start="20261010140000 +0000" stop="20261010161000 +0000" channel="EPL-Brentford.gb">
     <title lang="en">Premier League Soccer</title>
     <sub-title lang="en">Brentford vs Aston Villa</sub-title>
-    <desc lang="en">Aston Villa hosts Brentford in a Premier League soccer match at Villa Park in Birmingham. Aston Villa enters with a 1-1-3 record, while Brentford holds a 2-3-0 record this season.</desc>
+    <desc lang="en">Aston Villa desperate for a spark after a sluggish start looks to defend home turf against an unbeaten Brentford side flying high under the lights at Villa Park.</desc>
     <category lang="en">Live</category>
     <category lang="en">New</category>
     <category lang="en">Sports</category>
@@ -191,7 +191,7 @@
   <programme start="20261010140000 +0000" stop="20261010161000 +0000" channel="EPL-AstonVilla.gb">
     <title lang="en">Premier League Soccer</title>
     <sub-title lang="en">Brentford vs Aston Villa</sub-title>
-    <desc lang="en">Aston Villa hosts Brentford in a Premier League soccer match at Villa Park in Birmingham. Aston Villa enters with a 1-1-3 record, while Brentford holds a 2-3-0 record this season.</desc>
+    <desc lang="en">Aston Villa desperate for a spark after a sluggish start looks to defend home turf against an unbeaten Brentford side flying high under the lights at Villa Park.</desc>
     <category lang="en">Live</category>
     <category lang="en">New</category>
     <category lang="en">Sports</category>
@@ -227,7 +227,7 @@
   <programme start="20261010140000 +0000" stop="20261010161000 +0000" channel="EPL-Bournemouth.gb">
     <title lang="en">Premier League Soccer</title>
     <sub-title lang="en">AFC Bournemouth vs Chelsea</sub-title>
-    <desc lang="en">Chelsea hosts AFC Bournemouth in a Premier League soccer match at Stamford Bridge in London.</desc>
+    <desc lang="en">Stamford Bridge plays host as Chelsea looks to ignite their campaign under the bright lights against a desperate AFC Bournemouth side still searching for their first breakthrough win of the season.</desc>
     <category lang="en">Live</category>
     <category lang="en">New</category>
     <category lang="en">Sports</category>
@@ -263,7 +263,7 @@
   <programme start="20261010140000 +0000" stop="20261010161000 +0000" channel="EPL-Chelsea.gb">
     <title lang="en">Premier League Soccer</title>
     <sub-title lang="en">AFC Bournemouth vs Chelsea</sub-title>
-    <desc lang="en">Chelsea hosts AFC Bournemouth in a Premier League soccer match at Stamford Bridge in London.</desc>
+    <desc lang="en">Stamford Bridge plays host as Chelsea looks to ignite their campaign under the bright lights against a desperate AFC Bournemouth side still searching for their first breakthrough win of the season.</desc>
     <category lang="en">Live</category>
     <category lang="en">New</category>
     <category lang="en">Sports</category>
@@ -299,7 +299,7 @@
   <programme start="20261010140000 +0000" stop="20261010161000 +0000" channel="EPL-Fulham.gb">
     <title lang="en">Premier League Soccer</title>
     <sub-title lang="en">Fulham vs Ipswich Town</sub-title>
-    <desc lang="en">Premier League soccer action from Portman Road as Ipswich Town plays Fulham.</desc>
+    <desc lang="en">Desperate for a season-turning statement, Fulham travels to Portman Road looking to ignite their campaign against a spirited Ipswich Town side eager to defend their turf and climb the Premier League table.</desc>
     <category lang="en">Live</category>
     <category lang="en">New</category>
     <category lang="en">Sports</category>
@@ -335,7 +335,7 @@
   <programme start="20261010140000 +0000" stop="20261010161000 +0000" channel="EPL-IpswichTown.gb">
     <title lang="en">Premier League Soccer</title>
     <sub-title lang="en">Fulham vs Ipswich Town</sub-title>
-    <desc lang="en">Premier League soccer action from Portman Road as Ipswich Town plays Fulham.</desc>
+    <desc lang="en">Desperate for a season-turning statement, Fulham travels to Portman Road looking to ignite their campaign against a spirited Ipswich Town side eager to defend their turf and climb the Premier League table.</desc>
     <category lang="en">Live</category>
     <category lang="en">New</category>
     <category lang="en">Sports</category>
@@ -371,7 +371,7 @@
   <programme start="20261010140000 +0000" stop="20261010161000 +0000" channel="EPL-Brighton.gb">
     <title lang="en">Premier League Soccer</title>
     <sub-title lang="en">Brighton &amp; Hove Albion vs Sunderland</sub-title>
-    <desc lang="en">Sunderland hosts Brighton &amp; Hove Albion in a Premier League match at the Stadium of Light.</desc>
+    <desc lang="en">Sunderland desperately needs a spark at the Stadium of Light to ignite their stuttering campaign, but a high-flying Brighton &amp; Hove Albion side arrives looking to extend their impressive early-season dominance.</desc>
     <category lang="en">Live</category>
     <category lang="en">New</category>
     <category lang="en">Sports</category>
@@ -407,7 +407,7 @@
   <programme start="20261010140000 +0000" stop="20261010161000 +0000" channel="EPL-Sunderland.gb">
     <title lang="en">Premier League Soccer</title>
     <sub-title lang="en">Brighton &amp; Hove Albion vs Sunderland</sub-title>
-    <desc lang="en">Sunderland hosts Brighton &amp; Hove Albion in a Premier League match at the Stadium of Light.</desc>
+    <desc lang="en">Sunderland desperately needs a spark at the Stadium of Light to ignite their stuttering campaign, but a high-flying Brighton &amp; Hove Albion side arrives looking to extend their impressive early-season dominance.</desc>
     <category lang="en">Live</category>
     <category lang="en">New</category>
     <category lang="en">Sports</category>
@@ -443,7 +443,7 @@
   <programme start="20261010163000 +0000" stop="20261010184000 +0000" channel="EPL-TottenhamHotspur.gb">
     <title lang="en">Premier League Soccer</title>
     <sub-title lang="en">Tottenham Hotspur vs Manchester United</sub-title>
-    <desc lang="en">Manchester United hosts Tottenham Hotspur in a Premier League fixture at Old Trafford. Both clubs are members of the Premier League's traditional Big Six.</desc>
+    <desc lang="en">Old Trafford plays host to a desperate heavyweight collision as two struggling giants of the Premier League traditional Big Six search for a vital spark. Manchester United and Tottenham Hotspur desperately need to salvage their sluggish campaigns and ignite their seasons in style.</desc>
     <category lang="en">Live</category>
     <category lang="en">New</category>
     <category lang="en">Sports</category>
@@ -479,7 +479,7 @@
   <programme start="20261010163000 +0000" stop="20261010184000 +0000" channel="EPL-ManchesterUnited.gb">
     <title lang="en">Premier League Soccer</title>
     <sub-title lang="en">Tottenham Hotspur vs Manchester United</sub-title>
-    <desc lang="en">Manchester United hosts Tottenham Hotspur in a Premier League fixture at Old Trafford. Both clubs are members of the Premier League's traditional Big Six.</desc>
+    <desc lang="en">Old Trafford plays host to a desperate heavyweight collision as two struggling giants of the Premier League traditional Big Six search for a vital spark. Manchester United and Tottenham Hotspur desperately need to salvage their sluggish campaigns and ignite their seasons in style.</desc>
     <category lang="en">Live</category>
     <category lang="en">New</category>
     <category lang="en">Sports</category>
@@ -515,7 +515,7 @@
   <programme start="20261011130000 +0000" stop="20261011151000 +0000" channel="EPL-NottinghamForest.gb">
     <title lang="en">Premier League Soccer</title>
     <sub-title lang="en">Nottingham Forest vs Crystal Palace</sub-title>
-    <desc lang="en">Crystal Palace hosts Nottingham Forest in a Premier League soccer match at Selhurst Park in London.</desc>
+    <desc lang="en">Desperate to kickstart their sluggish campaigns, Crystal Palace and Nottingham Forest clash at Selhurst Park as both sides search for the elusive spark to climb out of the early-season relegation scrap.</desc>
     <category lang="en">Live</category>
     <category lang="en">New</category>
     <category lang="en">Sports</category>
@@ -551,7 +551,7 @@
   <programme start="20261011130000 +0000" stop="20261011151000 +0000" channel="EPL-CrystalPalace.gb">
     <title lang="en">Premier League Soccer</title>
     <sub-title lang="en">Nottingham Forest vs Crystal Palace</sub-title>
-    <desc lang="en">Crystal Palace hosts Nottingham Forest in a Premier League soccer match at Selhurst Park in London.</desc>
+    <desc lang="en">Desperate to kickstart their sluggish campaigns, Crystal Palace and Nottingham Forest clash at Selhurst Park as both sides search for the elusive spark to climb out of the early-season relegation scrap.</desc>
     <category lang="en">Live</category>
     <category lang="en">New</category>
     <category lang="en">Sports</category>
@@ -587,7 +587,7 @@
   <programme start="20261011130000 +0000" stop="20261011151000 +0000" channel="EPL-Everton.gb">
     <title lang="en">Premier League Soccer</title>
     <sub-title lang="en">Everton vs Hull City</sub-title>
-    <desc lang="en">Hull City hosts Everton in a Premier League fixture at The MKM Stadium in Hull.</desc>
+    <desc lang="en">Unbeaten Everton travels to face a fierce Hull City side at the MKM Stadium as both Premier League clubs battle to climb the table and cement their early-season momentum.</desc>
     <category lang="en">Live</category>
     <category lang="en">New</category>
     <category lang="en">Sports</category>
@@ -623,7 +623,7 @@
   <programme start="20261011130000 +0000" stop="20261011151000 +0000" channel="EPL-HullCity.gb">
     <title lang="en">Premier League Soccer</title>
     <sub-title lang="en">Everton vs Hull City</sub-title>
-    <desc lang="en">Hull City hosts Everton in a Premier League fixture at The MKM Stadium in Hull.</desc>
+    <desc lang="en">Unbeaten Everton travels to face a fierce Hull City side at the MKM Stadium as both Premier League clubs battle to climb the table and cement their early-season momentum.</desc>
     <category lang="en">Live</category>
     <category lang="en">New</category>
     <category lang="en">Sports</category>
@@ -659,7 +659,7 @@
   <programme start="20261011153000 +0000" stop="20261011174000 +0000" channel="EPL-ManchesterCity.gb">
     <title lang="en">Premier League Soccer</title>
     <sub-title lang="en">Manchester City vs Liverpool</sub-title>
-    <desc lang="en">Liverpool hosts Manchester City in a Premier League fixture at Anfield. Both clubs are members of the Premier League's traditional Big Six.</desc>
+    <desc lang="en">&lt;desc&gt;The fierce Premier League title rivals collide at Anfield as a surging Manchester City puts its perfect record on the line against a resilient Liverpool side defending its fortress in a high-stakes clash of titans.&lt;/desc&gt;</desc>
     <category lang="en">Live</category>
     <category lang="en">New</category>
     <category lang="en">Sports</category>
@@ -695,7 +695,7 @@
   <programme start="20261011153000 +0000" stop="20261011174000 +0000" channel="EPL-Liverpool.gb">
     <title lang="en">Premier League Soccer</title>
     <sub-title lang="en">Manchester City vs Liverpool</sub-title>
-    <desc lang="en">Liverpool hosts Manchester City in a Premier League fixture at Anfield. Both clubs are members of the Premier League's traditional Big Six.</desc>
+    <desc lang="en">&lt;desc&gt;The fierce Premier League title rivals collide at Anfield as a surging Manchester City puts its perfect record on the line against a resilient Liverpool side defending its fortress in a high-stakes clash of titans.&lt;/desc&gt;</desc>
     <category lang="en">Live</category>
     <category lang="en">New</category>
     <category lang="en">Sports</category>
@@ -731,7 +731,7 @@
   <programme start="20261012190000 +0000" stop="20261012211000 +0000" channel="EPL-NewcastleUnited.gb">
     <title lang="en">Premier League Soccer</title>
     <sub-title lang="en">Newcastle United vs Coventry City</sub-title>
-    <desc lang="en">Coventry City hosts Newcastle United in a Premier League match at Coventry Building Society Arena.</desc>
+    <desc lang="en">Desperate to climb out of an early-season slump, Coventry City faces a massive test as they welcome a surging Newcastle United squad looking to assert their elite Premier League ambitions.</desc>
     <category lang="en">Live</category>
     <category lang="en">New</category>
     <category lang="en">Sports</category>
@@ -767,7 +767,7 @@
   <programme start="20261012190000 +0000" stop="20261012211000 +0000" channel="EPL-CoventryCity.gb">
     <title lang="en">Premier League Soccer</title>
     <sub-title lang="en">Newcastle United vs Coventry City</sub-title>
-    <desc lang="en">Coventry City hosts Newcastle United in a Premier League match at Coventry Building Society Arena.</desc>
+    <desc lang="en">Desperate to climb out of an early-season slump, Coventry City faces a massive test as they welcome a surging Newcastle United squad looking to assert their elite Premier League ambitions.</desc>
     <category lang="en">Live</category>
     <category lang="en">New</category>
     <category lang="en">Sports</category>
@@ -803,7 +803,7 @@
   <programme start="20261017113000 +0000" stop="20261017134000 +0000" channel="EPL-Chelsea.gb">
     <title lang="en">Premier League Soccer</title>
     <sub-title lang="en">Chelsea vs Everton</sub-title>
-    <desc lang="en">Everton hosts Chelsea in a Premier League soccer match at Hill Dickinson Stadium in Liverpool.</desc>
+    <desc lang="en">Sparks fly under the lights at Hill Dickinson Stadium as a resurgent Everton side puts its unbeaten streak on the line against a star-studded Chelsea squad desperate to ignite their campaign.</desc>
     <category lang="en">Live</category>
     <category lang="en">New</category>
     <category lang="en">Sports</category>
@@ -839,7 +839,7 @@
   <programme start="20261017113000 +0000" stop="20261017134000 +0000" channel="EPL-Everton.gb">
     <title lang="en">Premier League Soccer</title>
     <sub-title lang="en">Chelsea vs Everton</sub-title>
-    <desc lang="en">Everton hosts Chelsea in a Premier League soccer match at Hill Dickinson Stadium in Liverpool.</desc>
+    <desc lang="en">Sparks fly under the lights at Hill Dickinson Stadium as a resurgent Everton side puts its unbeaten streak on the line against a star-studded Chelsea squad desperate to ignite their campaign.</desc>
     <category lang="en">Live</category>
     <category lang="en">New</category>
     <category lang="en">Sports</category>
@@ -875,7 +875,7 @@
   <programme start="20261017140000 +0000" stop="20261017161000 +0000" channel="EPL-Liverpool.gb">
     <title lang="en">Premier League Soccer</title>
     <sub-title lang="en">Liverpool vs Brentford</sub-title>
-    <desc lang="en">Brentford hosts Liverpool in a Premier League match at Gtech Community Stadium, with both teams entering the fixture holding identical records of two wins, three draws, and zero losses this season.</desc>
+    <desc lang="en">Unbeaten starts collide at the Gtech Community Stadium as high-flying Brentford welcomes heavyweight contenders Liverpool to town. Expect pure Premier League drama as both sides look to break their deadlock and stamp their early-season authority in a fierce tactical showdown.</desc>
     <category lang="en">Live</category>
     <category lang="en">New</category>
     <category lang="en">Sports</category>
@@ -911,7 +911,7 @@
   <programme start="20261017140000 +0000" stop="20261017161000 +0000" channel="EPL-Brentford.gb">
     <title lang="en">Premier League Soccer</title>
     <sub-title lang="en">Liverpool vs Brentford</sub-title>
-    <desc lang="en">Brentford hosts Liverpool in a Premier League match at Gtech Community Stadium, with both teams entering the fixture holding identical records of two wins, three draws, and zero losses this season.</desc>
+    <desc lang="en">Unbeaten starts collide at the Gtech Community Stadium as high-flying Brentford welcomes heavyweight contenders Liverpool to town. Expect pure Premier League drama as both sides look to break their deadlock and stamp their early-season authority in a fierce tactical showdown.</desc>
     <category lang="en">Live</category>
     <category lang="en">New</category>
     <category lang="en">Sports</category>
@@ -947,7 +947,7 @@
   <programme start="20261017140000 +0000" stop="20261017161000 +0000" channel="EPL-HullCity.gb">
     <title lang="en">Premier League Soccer</title>
     <sub-title lang="en">Hull City vs Fulham</sub-title>
-    <desc lang="en">Fulham hosts Hull City in a Premier League match at Craven Cottage in London.</desc>
+    <desc lang="en">Desperate for a spark after a sluggish start, Fulham returns to Craven Cottage looking to secure their first victory of the season against an in-form Hull City side. The Tigers arrive riding high with early momentum, but stopping a hungry Fulham squad on their home turf will prove the ultimate test of their promotion ambitions.</desc>
     <category lang="en">Live</category>
     <category lang="en">New</category>
     <category lang="en">Sports</category>
@@ -983,7 +983,7 @@
   <programme start="20261017140000 +0000" stop="20261017161000 +0000" channel="EPL-Fulham.gb">
     <title lang="en">Premier League Soccer</title>
     <sub-title lang="en">Hull City vs Fulham</sub-title>
-    <desc lang="en">Fulham hosts Hull City in a Premier League match at Craven Cottage in London.</desc>
+    <desc lang="en">Desperate for a spark after a sluggish start, Fulham returns to Craven Cottage looking to secure their first victory of the season against an in-form Hull City side. The Tigers arrive riding high with early momentum, but stopping a hungry Fulham squad on their home turf will prove the ultimate test of their promotion ambitions.</desc>
     <category lang="en">Live</category>
     <category lang="en">New</category>
     <category lang="en">Sports</category>
@@ -1019,7 +1019,7 @@
   <programme start="20261017140000 +0000" stop="20261017161000 +0000" channel="EPL-IpswichTown.gb">
     <title lang="en">Premier League Soccer</title>
     <sub-title lang="en">Ipswich Town vs Manchester City</sub-title>
-    <desc lang="en">Manchester City hosts Ipswich Town at the Etihad Stadium in a Premier League soccer match, entering with a 5-0-0 record against Ipswich Town's 2-0-3 mark this season.</desc>
+    <desc lang="en">Perfection-seeking Manchester City puts its flawless start on the line at the Etihad Stadium as a fearless Ipswich Town squad steps up to test its Premier League mettle against the champions.</desc>
     <category lang="en">Live</category>
     <category lang="en">New</category>
     <category lang="en">Sports</category>
@@ -1055,7 +1055,7 @@
   <programme start="20261017140000 +0000" stop="20261017161000 +0000" channel="EPL-ManchesterCity.gb">
     <title lang="en">Premier League Soccer</title>
     <sub-title lang="en">Ipswich Town vs Manchester City</sub-title>
-    <desc lang="en">Manchester City hosts Ipswich Town at the Etihad Stadium in a Premier League soccer match, entering with a 5-0-0 record against Ipswich Town's 2-0-3 mark this season.</desc>
+    <desc lang="en">Perfection-seeking Manchester City puts its flawless start on the line at the Etihad Stadium as a fearless Ipswich Town squad steps up to test its Premier League mettle against the champions.</desc>
     <category lang="en">Live</category>
     <category lang="en">New</category>
     <category lang="en">Sports</category>
@@ -1091,7 +1091,7 @@
   <programme start="20261017163000 +0000" stop="20261017184000 +0000" channel="EPL-AstonVilla.gb">
     <title lang="en">Premier League Soccer</title>
     <sub-title lang="en">Aston Villa vs Newcastle United</sub-title>
-    <desc lang="en">Newcastle United hosts Aston Villa in a Premier League soccer match at St. James' Park in Newcastle-upon-Tyne.</desc>
+    <desc lang="en">St. James' Park erupts as Newcastle United looks to capitalize on their strong start and turn the hostile Tyneside atmosphere into pure misery for a struggling Aston Villa side desperate to kickstart their campaign.</desc>
     <category lang="en">Live</category>
     <category lang="en">New</category>
     <category lang="en">Sports</category>
@@ -1127,7 +1127,7 @@
   <programme start="20261017163000 +0000" stop="20261017184000 +0000" channel="EPL-NewcastleUnited.gb">
     <title lang="en">Premier League Soccer</title>
     <sub-title lang="en">Aston Villa vs Newcastle United</sub-title>
-    <desc lang="en">Newcastle United hosts Aston Villa in a Premier League soccer match at St. James' Park in Newcastle-upon-Tyne.</desc>
+    <desc lang="en">St. James' Park erupts as Newcastle United looks to capitalize on their strong start and turn the hostile Tyneside atmosphere into pure misery for a struggling Aston Villa side desperate to kickstart their campaign.</desc>
     <category lang="en">Live</category>
     <category lang="en">New</category>
     <category lang="en">Sports</category>
