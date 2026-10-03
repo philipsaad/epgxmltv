@@ -42,6 +42,7 @@ using System.Linq;
 
 const string NbaLogoUrl = "https://a.espncdn.com/i/teamlogos/leagues/500-dark/nba.png";
 const string DefaultScheduleUrl = "https://site.web.api.espn.com/apis/site/v2/sports/basketball/nba/scoreboard";
+const string DefaultNewsUrl = "https://site.api.espn.com/apis/site/v2/sports/basketball/nba/news?limit=50";
 const string UserAgent = "epgxmltv-nba/1.0 dotnet-httpclient/1.1";
 const string GeneratorName = "epgxmltv-nba/1.0";
 
@@ -51,17 +52,18 @@ const string DefaultGeminiModel = "gemini-3.5-flash-lite";
 const int DefaultGeminiDelayMs = 4500;
 const int MaxDescLength = 350;
 // Bump this when the prompt changes so cached descriptions are regenerated.
-const string AiPromptVersion = "2";
+const string AiPromptVersion = "3";
 const string AiSystemPrompt = """
-  You are an engaging sports broadcast editorial copywriter crafting Electronic Program Guide (EPG) descriptions for TV viewers.
+  You are an expert sports broadcast editorial copywriter crafting rich, captivating Electronic Program Guide (EPG) preview descriptions for TV viewers.
   Write a colorful, compelling 1 to 2 sentence broadcast preview description for this matchup (under 280 characters).
+
   Rules:
-  - Add color, drama, and personality: weave in major headlines, superstar players, key rivalries, marquee transfers or debuts, off-court drama, and high stakes surrounding the teams.
-  - Tone should be lively, punchy, and broadcast-ready—the kind of engaging preview seen on premium sports network guides.
-  - You MUST include both full team names as provided in the facts; do not shorten them to bare nicknames.
-  - Do NOT include dates, specific kickoff/tip-off times, TV channels, or generic filler like "Tune in" or "Don't miss it".
-  - Plain text only: do NOT output any XML or HTML tags (never include <desc> or </desc>), no markdown, bullet points, emojis, hashtags, or quotation marks.
-  - Output ONLY the raw description text.
+  - PRIORITY STORYLINES: If 'Recent related headlines and news' are provided in the facts, you MUST prominently feature them in your description (e.g. superstar player debuts or moves like LeBron James on the Philadelphia 76ers, injury returns, off-court drama, or coaching narratives).
+  - DRAMA & COLOR: Make the preview feel like a premium sports network broadcast promo (ESPN / TNT). Highlight superstar matchups, fierce rivalries, playoff stakes, and high-energy drama.
+  - ACCURACY: You MUST include both full official team names as provided in the facts (do not shorten them to bare city names or generic nicknames).
+  - FORBIDDEN: Do NOT include dates, tip-off times, TV channels, or generic filler like "Tune in" or "Don't miss it".
+  - CLEAN OUTPUT: Plain text ONLY. Absolutely NO XML/HTML tags (never write <desc> or </desc>), NO quotation marks around the description, NO markdown, bullet points, or emojis.
+  - Return ONLY the final preview description text.
   """;
 
 // ===========================================================================
@@ -107,6 +109,8 @@ var AllTeams = new Dictionary<int, TeamInfo>
 // Main Execution Flow
 // ===========================================================================
 
+LoadDotEnv();
+
 if (!TryParseArgs(args, out var options))
   return 1;
 
@@ -125,7 +129,9 @@ else
 var entries = await FetchScheduleAsync(scheduleUrls, windowStart, windowEnd);
 Console.WriteLine($"Found {entries.Count} games in the window ({options.DaysBack} back, {options.DaysAhead} ahead).");
 
-var aiDescriptions = await GenerateAiDescriptionsAsync(entries.Select(BuildAiRequest), options);
+var news = await FetchNewsAsync(DefaultNewsUrl);
+
+var aiDescriptions = await GenerateAiDescriptionsAsync(entries.Select(e => BuildAiRequest(e, news)), options);
 
 var programmes = entries
     .SelectMany(e => DerivePair(e, aiDescriptions))
@@ -186,9 +192,12 @@ bool TryParseArgs(IList<string> args, out ScriptOptions options)
       case "--desc-cache" when TryReadStringArg(args, ref i, out var descCachePath):
         options = options with { DescCachePath = descCachePath };
         break;
+      case "--gemini-key" when TryReadStringArg(args, ref i, out var geminiKey):
+        options = options with { GeminiKey = geminiKey };
+        break;
       default:
         Console.Error.WriteLine($"Unknown or incomplete argument: {args[i]}");
-        Console.Error.WriteLine("Usage: dotnet run epgxmltv-nba.cs -- [--days-ahead <n>] [--days-back <n>] [--output <path>] [--schedule-url <url>] [--no-ai] [--desc-cache <path>]");
+        Console.Error.WriteLine("Usage: dotnet run epgxmltv-nba.cs -- [--days-ahead <n>] [--days-back <n>] [--output <path>] [--schedule-url <url>] [--no-ai] [--desc-cache <path>] [--gemini-key <key>]");
         Console.Error.WriteLine("Run with no arguments for defaults (14 days ahead, 0 days back, output/nba.xml).");
         return false;
     }
@@ -586,12 +595,95 @@ string BuildDesc(GameEntry e, bool isPlayoff, bool isElimination)
 // ===========================================================================
 
 /// <summary>
+/// Fetches the latest league news articles from ESPN.
+/// Fails gracefully (returns empty list) if news is unreachable.
+/// </summary>
+async Task<IReadOnlyList<NewsArticle>> FetchNewsAsync(string newsUrl)
+{
+  try
+  {
+    Console.WriteLine($"Fetching latest news from {newsUrl} ...");
+    using var http = new HttpClient { Timeout = TimeSpan.FromSeconds(15) };
+    http.DefaultRequestHeaders.Add("User-Agent", UserAgent);
+    await using var stream = await http.GetStreamAsync(newsUrl);
+    var doc = await JsonNode.ParseAsync(stream);
+    var articles = doc?["articles"]?.AsArray();
+    if (articles == null) return [];
+
+    var list = new List<NewsArticle>();
+    foreach (var a in articles)
+    {
+      if (a == null) continue;
+      string headline = (string?)a["headline"] ?? "";
+      string description = (string?)a["description"] ?? "";
+      if (string.IsNullOrWhiteSpace(headline)) continue;
+
+      var keywords = new List<string>();
+      if (a["categories"] is JsonArray cats)
+      {
+        foreach (var c in cats)
+        {
+          var desc = (string?)c?["description"];
+          if (!string.IsNullOrEmpty(desc)) keywords.Add(desc);
+        }
+      }
+      list.Add(new NewsArticle(headline, description, keywords));
+    }
+    Console.WriteLine($"Fetched {list.Count} recent news articles.");
+    return list;
+  }
+  catch (Exception ex)
+  {
+    Console.Error.WriteLine($"Warning: Failed to fetch news ({ex.Message}); proceeding without news headlines.");
+    return [];
+  }
+}
+
+/// <summary>
+/// Finds up to 3 news articles relevant to the two competing teams.
+/// </summary>
+IReadOnlyList<NewsArticle> FindRelevantNews(IEnumerable<NewsArticle> articles, TeamInfo home, TeamInfo away)
+{
+  var matches = new List<NewsArticle>();
+  var targets = new HashSet<string>(StringComparer.OrdinalIgnoreCase) { home.DisplayName, away.DisplayName };
+
+  void AddAliases(string name)
+  {
+    var parts = name.Split(' ');
+    if (parts.Length > 1)
+      targets.Add(parts[^1]); // e.g., "76ers", "Lakers", "Warriors", "Celtics", "Blazers"
+    if (name.Contains("Trail Blazers"))
+      targets.Add("Blazers");
+    if (name.Contains("Clippers"))
+      targets.Add("Clippers");
+  }
+  AddAliases(home.DisplayName);
+  AddAliases(away.DisplayName);
+
+  foreach (var a in articles)
+  {
+    bool isRelevant = targets.Any(t =>
+      a.Headline.Contains(t, StringComparison.OrdinalIgnoreCase) ||
+      a.Description.Contains(t, StringComparison.OrdinalIgnoreCase) ||
+      a.Keywords.Any(k => k.Contains(t, StringComparison.OrdinalIgnoreCase) || t.Contains(k, StringComparison.OrdinalIgnoreCase)));
+
+    if (isRelevant)
+    {
+      matches.Add(a);
+      if (matches.Count >= 3) break;
+    }
+  }
+
+  return matches;
+}
+
+/// <summary>
 /// Builds the fact sheet sent to Gemini for a single game. Only data parsed from the
-/// ESPN schedule is included, so the model has nothing to work from beyond these facts.
+/// ESPN schedule and news feeds is included, so the model has real-world breaking news context.
 /// Team records are only included for regular-season games (and when non-zero), since
 /// playoff competitor records from the scoreboard are not season records.
 /// </summary>
-AiDescRequest BuildAiRequest(GameEntry e)
+AiDescRequest BuildAiRequest(GameEntry e, IReadOnlyList<NewsArticle> news)
 {
   var meta = DeriveGameMeta(e);
   bool includeRecords = !meta.IsPlayoff;
@@ -614,6 +706,19 @@ AiDescRequest BuildAiRequest(GameEntry e)
     sb.AppendLine($"Venue: {e.ArenaName}{(location.Length > 0 ? $", {location}" : "")}");
   }
 
+  var relevantNews = FindRelevantNews(news, e.Home, e.Away);
+  if (relevantNews.Count > 0)
+  {
+    sb.AppendLine("Recent related headlines and news:");
+    foreach (var n in relevantNews)
+    {
+      sb.Append($"- {n.Headline}");
+      if (!string.IsNullOrWhiteSpace(n.Description))
+        sb.Append($": {n.Description}");
+      sb.AppendLine();
+    }
+  }
+
   return new AiDescRequest(e.EventId, sb.ToString().TrimEnd(), [e.Home.DisplayName, e.Away.DisplayName]);
 }
 
@@ -634,7 +739,9 @@ async Task<Dictionary<string, string>> GenerateAiDescriptionsAsync(IEnumerable<A
 
   string model = Environment.GetEnvironmentVariable("GEMINI_MODEL") is { Length: > 0 } m ? m : DefaultGeminiModel;
   int delayMs = int.TryParse(Environment.GetEnvironmentVariable("GEMINI_DELAY_MS"), out var d) && d >= 0 ? d : DefaultGeminiDelayMs;
-  var apiKey = Environment.GetEnvironmentVariable("GEMINI_API_KEY");
+  var apiKey = !string.IsNullOrEmpty(options.GeminiKey)
+    ? options.GeminiKey
+    : Environment.GetEnvironmentVariable("GEMINI_API_KEY");
 
   var cache = await LoadDescCacheAsync(options.DescCachePath);
   var updatedCache = new JsonObject();
@@ -954,6 +1061,24 @@ async Task WriteXmltvAsync(IEnumerable<TeamInfo> teams, IReadOnlyList<ProgrammeI
   Console.WriteLine($"Done. ({bytes.Length:N0} bytes raw → {outputPath} and {gzPath})");
 }
 
+void LoadDotEnv()
+{
+  if (!File.Exists(".env")) return;
+  foreach (var line in File.ReadAllLines(".env"))
+  {
+    var trimmed = line.Trim();
+    if (string.IsNullOrEmpty(trimmed) || trimmed.StartsWith('#')) continue;
+    var eqIdx = trimmed.IndexOf('=');
+    if (eqIdx > 0)
+    {
+      var k = trimmed[..eqIdx].Trim();
+      var v = trimmed[(eqIdx + 1)..].Trim().Trim('"', '\'');
+      if (string.IsNullOrEmpty(Environment.GetEnvironmentVariable(k)))
+        Environment.SetEnvironmentVariable(k, v);
+    }
+  }
+}
+
 // ===========================================================================
 // Models
 // ===========================================================================
@@ -972,4 +1097,6 @@ record GameMeta(bool IsPlayoff, PlayoffRound Round, int GameNumber, bool IsElimi
 
 record AiDescRequest(string EventId, string Facts, IReadOnlyList<string> RequiredNames);
 
-record ScriptOptions(int DaysAhead = 14, int DaysBack = 0, string OutputPath = "output/nba.xml", string UrlOverride = "", bool NoAi = false, string DescCachePath = "cache/nba-descriptions.json");
+record NewsArticle(string Headline, string Description, IReadOnlyList<string> Keywords);
+
+record ScriptOptions(int DaysAhead = 14, int DaysBack = 0, string OutputPath = "output/nba.xml", string UrlOverride = "", bool NoAi = false, string DescCachePath = "cache/nba-descriptions.json", string GeminiKey = "");
