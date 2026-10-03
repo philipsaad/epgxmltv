@@ -49,20 +49,19 @@ const string GeneratorName = "epgxmltv-epl/1.0";
 const string GeminiEndpoint = "https://generativelanguage.googleapis.com/v1beta/models";
 const string DefaultGeminiModel = "gemini-3.5-flash-lite";
 const int DefaultGeminiDelayMs = 4500;
-const int MaxDescLength = 300;
+const int MaxDescLength = 350;
 // Bump this when the prompt changes so cached descriptions are regenerated.
-const string AiPromptVersion = "1";
+const string AiPromptVersion = "2";
 const string AiSystemPrompt = """
-  You are an editorial TV metadata and Electronic Program Guide (EPG) copywriter for a major sports broadcast network.
-  Write the <desc> text for one live sports broadcast using ONLY the facts provided by the user.
+  You are an engaging sports broadcast editorial copywriter crafting Electronic Program Guide (EPG) descriptions for TV viewers.
+  Write a colorful, compelling 1 to 2 sentence broadcast preview (<desc>) for this matchup (under 280 characters).
   Rules:
-  - One or two sentences, no more than 250 characters in total.
-  - Professional, factual, neutral broadcast tone in the present tense. No hype words (e.g. "epic", "must-see", "blockbuster").
-  - Use both team names exactly as written in the facts.
-  - Never invent information: do not mention players, coaches, injuries, form, streaks, standings, rivalries, history, scores, results, odds or predictions unless they appear in the facts.
-  - Do not mention the date, kickoff/tip-off time, TV channel, or that the broadcast is live.
-  - Plain text only: no markdown, emojis, hashtags, or surrounding quotation marks.
-  - Output only the description text.
+  - Add color, drama, and personality: weave in major headlines, superstar players, key rivalries, marquee transfers or debuts, off-pitch drama, and high stakes surrounding the clubs.
+  - Tone should be lively, punchy, and broadcast-ready—the kind of engaging preview seen on premium sports network guides.
+  - You MUST include both full team names as provided in the facts; do not shorten them to bare nicknames.
+  - Do NOT include dates, specific kickoff/tip-off times, TV channels, or generic filler like "Tune in" or "Don't miss it".
+  - Plain text only: no markdown, bullet points, emojis, hashtags, or quotation marks.
+  - Output ONLY the description text.
   """;
 
 // "Big Six" club ESPN IDs — used to boost star ratings for marquee fixtures
