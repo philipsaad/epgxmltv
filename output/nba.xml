@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
-<tv date="20261003230047 +0000" generator-info-name="epgxmltv-nba/1.0" generator-info-url="https://github.com/philipsaad/epgxmltv">
+<tv date="20261004115855 +0000" generator-info-name="epgxmltv-nba/1.0" generator-info-url="https://github.com/philipsaad/epgxmltv">
   <channel id="NBA-AtlantaHawks.us">
     <display-name>Atlanta Hawks</display-name>
     <icon src="https://a.espncdn.com/i/teamlogos/nba/500-dark/atl.png" />
@@ -120,80 +120,6 @@
     <display-name>Washington Wizards</display-name>
     <icon src="https://a.espncdn.com/i/teamlogos/nba/500-dark/wsh.png" />
   </channel>
-  <programme start="20261003230000 +0000" stop="20261004013000 +0000" channel="NBA-MiamiHeat.us">
-    <title lang="en">NBA Basketball</title>
-    <sub-title lang="en">Miami Heat @ Toronto Raptors</sub-title>
-    <desc lang="en">The Toronto Raptors clash with the Miami Heat in a thrilling NBA Canada Games showdown at the Videotron Centre. Expect high-stakes drama and intense hardwood action as these two fierce squads battle it out north of the border.</desc>
-    <category lang="en">Live</category>
-    <category lang="en">New</category>
-    <category lang="en">Sports</category>
-    <category lang="en">Sports event</category>
-    <category lang="en">Basketball</category>
-    <category lang="en">NBA</category>
-    <category lang="en">HD</category>
-    <category lang="en">NBA Canada Games 2026</category>
-    <keyword lang="en">Miami Heat</keyword>
-    <keyword lang="en">Toronto Raptors</keyword>
-    <keyword lang="en">Videotron Centre</keyword>
-    <keyword lang="en">Quebec City</keyword>
-    <keyword lang="en">NBA Canada Games 2026</keyword>
-    <language>English</language>
-    <length units="minutes">150</length>
-    <icon src="https://a.espncdn.com/i/teamlogos/leagues/500-dark/nba.png" />
-    <country>CA</country>
-    <video>
-      <present>yes</present>
-      <colour>yes</colour>
-      <aspect>16:9</aspect>
-      <quality>HDTV</quality>
-    </video>
-    <audio>
-      <present>yes</present>
-      <stereo>stereo</stereo>
-    </audio>
-    <new></new>
-    <live></live>
-    <star-rating>
-      <value>2/5</value>
-    </star-rating>
-  </programme>
-  <programme start="20261003230000 +0000" stop="20261004013000 +0000" channel="NBA-TorontoRaptors.us">
-    <title lang="en">NBA Basketball</title>
-    <sub-title lang="en">Miami Heat @ Toronto Raptors</sub-title>
-    <desc lang="en">The Toronto Raptors clash with the Miami Heat in a thrilling NBA Canada Games showdown at the Videotron Centre. Expect high-stakes drama and intense hardwood action as these two fierce squads battle it out north of the border.</desc>
-    <category lang="en">Live</category>
-    <category lang="en">New</category>
-    <category lang="en">Sports</category>
-    <category lang="en">Sports event</category>
-    <category lang="en">Basketball</category>
-    <category lang="en">NBA</category>
-    <category lang="en">HD</category>
-    <category lang="en">NBA Canada Games 2026</category>
-    <keyword lang="en">Miami Heat</keyword>
-    <keyword lang="en">Toronto Raptors</keyword>
-    <keyword lang="en">Videotron Centre</keyword>
-    <keyword lang="en">Quebec City</keyword>
-    <keyword lang="en">NBA Canada Games 2026</keyword>
-    <language>English</language>
-    <length units="minutes">150</length>
-    <icon src="https://a.espncdn.com/i/teamlogos/leagues/500-dark/nba.png" />
-    <country>CA</country>
-    <video>
-      <present>yes</present>
-      <colour>yes</colour>
-      <aspect>16:9</aspect>
-      <quality>HDTV</quality>
-    </video>
-    <audio>
-      <present>yes</present>
-      <stereo>stereo</stereo>
-    </audio>
-    <new></new>
-    <live></live>
-    <star-rating>
-      <value>2/5</value>
-    </star-rating>
-  </programme>
   <programme start="20261004230000 +0000" stop="20261005013000 +0000" channel="NBA-UtahJazz.us">
     <title lang="en">NBA Basketball</title>
     <sub-title lang="en">Utah Jazz @ Denver Nuggets</sub-title>
@@ -617,7 +543,7 @@
   <programme start="20261006020000 +0000" stop="20261006043000 +0000" channel="NBA-LosAngelesLakers.us">
     <title lang="en">NBA Basketball</title>
     <sub-title lang="en">Los Angeles Lakers @ Sacramento Kings</sub-title>
-    <desc lang="en">Get ready for an explosive Pacific Division showdown as the Los Angeles Lakers visit the Sacramento Kings at Golden 1 Center. Expect high-octane hardwood drama and relentless intensity as these fierce rivals clash in a crucial regular season battle.</desc>
+    <desc lang="en">Pacific Division rivals clash in California as the Sacramento Kings defend their home court against the Los Angeles Lakers in a high-energy showdown. Both squads look to make a statement in a fiercely contested matchup packed with intense hardwood drama.</desc>
     <category lang="en">Live</category>
     <category lang="en">New</category>
     <category lang="en">Sports</category>
@@ -652,7 +578,7 @@
   <programme start="20261006020000 +0000" stop="20261006043000 +0000" channel="NBA-SacramentoKings.us">
     <title lang="en">NBA Basketball</title>
     <sub-title lang="en">Los Angeles Lakers @ Sacramento Kings</sub-title>
-    <desc lang="en">Get ready for an explosive Pacific Division showdown as the Los Angeles Lakers visit the Sacramento Kings at Golden 1 Center. Expect high-octane hardwood drama and relentless intensity as these fierce rivals clash in a crucial regular season battle.</desc>
+    <desc lang="en">Pacific Division rivals clash in California as the Sacramento Kings defend their home court against the Los Angeles Lakers in a high-energy showdown. Both squads look to make a statement in a fiercely contested matchup packed with intense hardwood drama.</desc>
     <category lang="en">Live</category>
     <category lang="en">New</category>
     <category lang="en">Sports</category>
@@ -897,7 +823,7 @@
   <programme start="20261007020000 +0000" stop="20261007043000 +0000" channel="NBA-LosAngelesLakers.us">
     <title lang="en">NBA Basketball</title>
     <sub-title lang="en">Los Angeles Lakers @ Golden State Warriors</sub-title>
-    <desc lang="en">Defensive anchor Walker Kessler looks to spark a ferocious Los Angeles Lakers squad against the Golden State Warriors in a high-voltage Pacific Division showdown at Chase Center.</desc>
+    <desc lang="en">The Los Angeles Lakers visit the Golden State Warriors at Chase Center for a high-stakes Pacific Division showdown as both fierce rivals battle for early-season supremacy in the competitive Western Conference standings.</desc>
     <category lang="en">Live</category>
     <category lang="en">New</category>
     <category lang="en">Sports</category>
@@ -932,7 +858,7 @@
   <programme start="20261007020000 +0000" stop="20261007043000 +0000" channel="NBA-GoldenStateWarriors.us">
     <title lang="en">NBA Basketball</title>
     <sub-title lang="en">Los Angeles Lakers @ Golden State Warriors</sub-title>
-    <desc lang="en">Defensive anchor Walker Kessler looks to spark a ferocious Los Angeles Lakers squad against the Golden State Warriors in a high-voltage Pacific Division showdown at Chase Center.</desc>
+    <desc lang="en">The Los Angeles Lakers visit the Golden State Warriors at Chase Center for a high-stakes Pacific Division showdown as both fierce rivals battle for early-season supremacy in the competitive Western Conference standings.</desc>
     <category lang="en">Live</category>
     <category lang="en">New</category>
     <category lang="en">Sports</category>
@@ -1387,7 +1313,7 @@
   <programme start="20261008233000 +0000" stop="20261009020000 +0000" channel="NBA-NewOrleansPelicans.us">
     <title lang="en">NBA Basketball</title>
     <sub-title lang="en">New Orleans Pelicans @ Miami Heat</sub-title>
-    <desc lang="en">Bam Adebayo and the Miami Heat bring the heat to Kaseya Center as they host the New Orleans Pelicans for an electrifying hardwood showdown.</desc>
+    <desc lang="en">Step into the spotlight at Kaseya Center as the Miami Heat host the New Orleans Pelicans in an electrifying regular-season clash. Experience the high-stakes drama as the Miami Heat look to dominate the hardwood and defend their home court.</desc>
     <category lang="en">Live</category>
     <category lang="en">New</category>
     <category lang="en">Sports</category>
@@ -1422,7 +1348,7 @@
   <programme start="20261008233000 +0000" stop="20261009020000 +0000" channel="NBA-MiamiHeat.us">
     <title lang="en">NBA Basketball</title>
     <sub-title lang="en">New Orleans Pelicans @ Miami Heat</sub-title>
-    <desc lang="en">Bam Adebayo and the Miami Heat bring the heat to Kaseya Center as they host the New Orleans Pelicans for an electrifying hardwood showdown.</desc>
+    <desc lang="en">Step into the spotlight at Kaseya Center as the Miami Heat host the New Orleans Pelicans in an electrifying regular-season clash. Experience the high-stakes drama as the Miami Heat look to dominate the hardwood and defend their home court.</desc>
     <category lang="en">Live</category>
     <category lang="en">New</category>
     <category lang="en">Sports</category>
@@ -1667,7 +1593,7 @@
   <programme start="20261009023000 +0000" stop="20261009050000 +0000" channel="NBA-SacramentoKings.us">
     <title lang="en">NBA Basketball</title>
     <sub-title lang="en">Sacramento Kings @ Los Angeles Lakers</sub-title>
-    <desc lang="en">Hollywood plays host to a high-octane Pacific Division showdown as the Los Angeles Lakers welcome the Sacramento Kings to crypto.com Arena. Expect relentless hardwood drama and star-powered intensity as these two fierce rivals battle for crucial positioning in the Western Conference standings.</desc>
+    <desc lang="en">The Los Angeles Lakers return to the court to host the Sacramento Kings in a high-voltage Pacific Division showdown at crypto.com Arena. Expect fast-paced action and intense hardwood drama as these Western Conference rivals collide in Los Angeles.</desc>
     <category lang="en">Live</category>
     <category lang="en">New</category>
     <category lang="en">Sports</category>
@@ -1702,7 +1628,7 @@
   <programme start="20261009023000 +0000" stop="20261009050000 +0000" channel="NBA-LosAngelesLakers.us">
     <title lang="en">NBA Basketball</title>
     <sub-title lang="en">Sacramento Kings @ Los Angeles Lakers</sub-title>
-    <desc lang="en">Hollywood plays host to a high-octane Pacific Division showdown as the Los Angeles Lakers welcome the Sacramento Kings to crypto.com Arena. Expect relentless hardwood drama and star-powered intensity as these two fierce rivals battle for crucial positioning in the Western Conference standings.</desc>
+    <desc lang="en">The Los Angeles Lakers return to the court to host the Sacramento Kings in a high-voltage Pacific Division showdown at crypto.com Arena. Expect fast-paced action and intense hardwood drama as these Western Conference rivals collide in Los Angeles.</desc>
     <category lang="en">Live</category>
     <category lang="en">New</category>
     <category lang="en">Sports</category>
@@ -1879,7 +1805,7 @@
   <programme start="20261010223000 +0000" stop="20261011010000 +0000" channel="NBA-LAClippers.us">
     <title lang="en">NBA Basketball</title>
     <sub-title lang="en">LA Clippers @ Toronto Raptors</sub-title>
-    <desc lang="en">Fresh off inking a lucrative new contract extension, newly minted core piece Jamal Shead leads the Toronto Raptors into Vancouver to battle a formidable LA Clippers squad in an electrifying NBA Canada Games showdown at Rogers Arena.</desc>
+    <desc lang="en">Fresh off signing a lucrative three-year contract extension, Jamal Shead looks to electrify the crowd as the Toronto Raptors clash with the LA Clippers in a thrilling international showcase at Rogers Arena.</desc>
     <category lang="en">Live</category>
     <category lang="en">New</category>
     <category lang="en">Sports</category>
@@ -1916,7 +1842,7 @@
   <programme start="20261010223000 +0000" stop="20261011010000 +0000" channel="NBA-TorontoRaptors.us">
     <title lang="en">NBA Basketball</title>
     <sub-title lang="en">LA Clippers @ Toronto Raptors</sub-title>
-    <desc lang="en">Fresh off inking a lucrative new contract extension, newly minted core piece Jamal Shead leads the Toronto Raptors into Vancouver to battle a formidable LA Clippers squad in an electrifying NBA Canada Games showdown at Rogers Arena.</desc>
+    <desc lang="en">Fresh off signing a lucrative three-year contract extension, Jamal Shead looks to electrify the crowd as the Toronto Raptors clash with the LA Clippers in a thrilling international showcase at Rogers Arena.</desc>
     <category lang="en">Live</category>
     <category lang="en">New</category>
     <category lang="en">Sports</category>
@@ -2093,7 +2019,7 @@
   <programme start="20261011000000 +0000" stop="20261011023000 +0000" channel="NBA-MinnesotaTimberwolves.us">
     <title lang="en">NBA Basketball</title>
     <sub-title lang="en">Minnesota Timberwolves @ Miami Heat</sub-title>
-    <desc lang="en">The Miami Heat bring coastal excitement to the floor as they clash with the Minnesota Timberwolves at the Kaseya Center. High-stakes drama unfolds in South Beach as these powerhouse squads battle for supremacy in a thrilling regular season matchup.</desc>
+    <desc lang="en">The Miami Heat bring their early-season momentum home to the Kaseya Center to host the Minnesota Timberwolves in a high-octane cross-conference showdown. Expect the Miami Heat squad to put on a show as they ignite the hardwood with fierce intensity and superstar energy against the Minnesota Timberwolves.</desc>
     <category lang="en">Live</category>
     <category lang="en">New</category>
     <category lang="en">Sports</category>
@@ -2128,7 +2054,7 @@
   <programme start="20261011000000 +0000" stop="20261011023000 +0000" channel="NBA-MiamiHeat.us">
     <title lang="en">NBA Basketball</title>
     <sub-title lang="en">Minnesota Timberwolves @ Miami Heat</sub-title>
-    <desc lang="en">The Miami Heat bring coastal excitement to the floor as they clash with the Minnesota Timberwolves at the Kaseya Center. High-stakes drama unfolds in South Beach as these powerhouse squads battle for supremacy in a thrilling regular season matchup.</desc>
+    <desc lang="en">The Miami Heat bring their early-season momentum home to the Kaseya Center to host the Minnesota Timberwolves in a high-octane cross-conference showdown. Expect the Miami Heat squad to put on a show as they ignite the hardwood with fierce intensity and superstar energy against the Minnesota Timberwolves.</desc>
     <category lang="en">Live</category>
     <category lang="en">New</category>
     <category lang="en">Sports</category>
@@ -3005,7 +2931,7 @@
   <programme start="20261013230000 +0000" stop="20261014013000 +0000" channel="NBA-NewYorkKnicks.us">
     <title lang="en">NBA Basketball</title>
     <sub-title lang="en">New York Knicks @ Toronto Raptors</sub-title>
-    <desc lang="en">Fresh off signing a lucrative contract extension to anchor the backcourt, Jamal Shead leads the Toronto Raptors into a high-octane battle against the New York Knicks at Scotiabank Arena as both Eastern Conference squads fight for early-season supremacy.</desc>
+    <desc lang="en">Fresh off a lucrative contract extension, newly minted core piece Jamal Shead looks to ignite the Toronto Raptors as they host the New York Knicks inside Scotiabank Arena for high-octane Eastern Conference action.</desc>
     <category lang="en">Live</category>
     <category lang="en">New</category>
     <category lang="en">Sports</category>
@@ -3040,7 +2966,7 @@
   <programme start="20261013230000 +0000" stop="20261014013000 +0000" channel="NBA-TorontoRaptors.us">
     <title lang="en">NBA Basketball</title>
     <sub-title lang="en">New York Knicks @ Toronto Raptors</sub-title>
-    <desc lang="en">Fresh off signing a lucrative contract extension to anchor the backcourt, Jamal Shead leads the Toronto Raptors into a high-octane battle against the New York Knicks at Scotiabank Arena as both Eastern Conference squads fight for early-season supremacy.</desc>
+    <desc lang="en">Fresh off a lucrative contract extension, newly minted core piece Jamal Shead looks to ignite the Toronto Raptors as they host the New York Knicks inside Scotiabank Arena for high-octane Eastern Conference action.</desc>
     <category lang="en">Live</category>
     <category lang="en">New</category>
     <category lang="en">Sports</category>
@@ -3145,7 +3071,7 @@
   <programme start="20261014020000 +0000" stop="20261014043000 +0000" channel="NBA-GoldenStateWarriors.us">
     <title lang="en">NBA Basketball</title>
     <sub-title lang="en">Golden State Warriors @ Los Angeles Lakers</sub-title>
-    <desc lang="en">Powered by the defensive impact of new addition Walker Kessler, the Los Angeles Lakers look to make a statement against the Golden State Warriors in a high-stakes Western Conference showdown.</desc>
+    <desc lang="en">The Los Angeles Lakers and the Golden State Warriors collide on the hardwood in a high-voltage regular season showdown at T-Mobile Arena. Expect intense rivalry action as these powerhouse squads battle for early supremacy on the court.</desc>
     <category lang="en">Live</category>
     <category lang="en">New</category>
     <category lang="en">Sports</category>
@@ -3180,7 +3106,7 @@
   <programme start="20261014020000 +0000" stop="20261014043000 +0000" channel="NBA-LosAngelesLakers.us">
     <title lang="en">NBA Basketball</title>
     <sub-title lang="en">Golden State Warriors @ Los Angeles Lakers</sub-title>
-    <desc lang="en">Powered by the defensive impact of new addition Walker Kessler, the Los Angeles Lakers look to make a statement against the Golden State Warriors in a high-stakes Western Conference showdown.</desc>
+    <desc lang="en">The Los Angeles Lakers and the Golden State Warriors collide on the hardwood in a high-voltage regular season showdown at T-Mobile Arena. Expect intense rivalry action as these powerhouse squads battle for early supremacy on the court.</desc>
     <category lang="en">Live</category>
     <category lang="en">New</category>
     <category lang="en">Sports</category>
@@ -3285,7 +3211,7 @@
   <programme start="20261014233000 +0000" stop="20261015020000 +0000" channel="NBA-BrooklynNets.us">
     <title lang="en">NBA Basketball</title>
     <sub-title lang="en">Brooklyn Nets @ Miami Heat</sub-title>
-    <desc lang="en">Step onto the court at Kaseya Center as the Miami Heat host the Brooklyn Nets in an explosive NBA regular season clash. Experience the high-stakes drama and relentless intensity as these two conference foes battle for supremacy on the hardwood.</desc>
+    <desc lang="en">The Miami Heat look to defend their home court at Kaseya Center as they host the Brooklyn Nets in an early-season clash. Experience the high-stakes hardwood drama as the Miami Heat squad showcases their explosive roster potential.</desc>
     <category lang="en">Live</category>
     <category lang="en">New</category>
     <category lang="en">Sports</category>
@@ -3320,7 +3246,7 @@
   <programme start="20261014233000 +0000" stop="20261015020000 +0000" channel="NBA-MiamiHeat.us">
     <title lang="en">NBA Basketball</title>
     <sub-title lang="en">Brooklyn Nets @ Miami Heat</sub-title>
-    <desc lang="en">Step onto the court at Kaseya Center as the Miami Heat host the Brooklyn Nets in an explosive NBA regular season clash. Experience the high-stakes drama and relentless intensity as these two conference foes battle for supremacy on the hardwood.</desc>
+    <desc lang="en">The Miami Heat look to defend their home court at Kaseya Center as they host the Brooklyn Nets in an early-season clash. Experience the high-stakes hardwood drama as the Miami Heat squad showcases their explosive roster potential.</desc>
     <category lang="en">Live</category>
     <category lang="en">New</category>
     <category lang="en">Sports</category>
@@ -3775,7 +3701,7 @@
   <programme start="20261015233000 +0000" stop="20261016020000 +0000" channel="NBA-TorontoRaptors.us">
     <title lang="en">NBA Basketball</title>
     <sub-title lang="en">Toronto Raptors @ New York Knicks</sub-title>
-    <desc lang="en">The New York Knicks defend Madison Square Garden against the Toronto Raptors in a high-stakes Eastern Conference clash. Toronto arrives fueled by fresh momentum following guard Jamal Shead signing a lucrative three-year contract extension, setting the stage for an explosive basketball battle under the bright lights.</desc>
+    <desc lang="en">Fresh off securing a lucrative contract extension, Jamal Shead leads the Toronto Raptors into Madison Square Garden to clash with the New York Knicks in a high-voltage early-season showdown under the bright lights of Broadway.</desc>
     <category lang="en">Live</category>
     <category lang="en">New</category>
     <category lang="en">Sports</category>
@@ -3810,7 +3736,7 @@
   <programme start="20261015233000 +0000" stop="20261016020000 +0000" channel="NBA-NewYorkKnicks.us">
     <title lang="en">NBA Basketball</title>
     <sub-title lang="en">Toronto Raptors @ New York Knicks</sub-title>
-    <desc lang="en">The New York Knicks defend Madison Square Garden against the Toronto Raptors in a high-stakes Eastern Conference clash. Toronto arrives fueled by fresh momentum following guard Jamal Shead signing a lucrative three-year contract extension, setting the stage for an explosive basketball battle under the bright lights.</desc>
+    <desc lang="en">Fresh off securing a lucrative contract extension, Jamal Shead leads the Toronto Raptors into Madison Square Garden to clash with the New York Knicks in a high-voltage early-season showdown under the bright lights of Broadway.</desc>
     <category lang="en">Live</category>
     <category lang="en">New</category>
     <category lang="en">Sports</category>
@@ -3915,7 +3841,7 @@
   <programme start="20261016230000 +0000" stop="20261017013000 +0000" channel="NBA-MiamiHeat.us">
     <title lang="en">NBA Basketball</title>
     <sub-title lang="en">Miami Heat @ Orlando Magic</sub-title>
-    <desc lang="en">Statewide bragging rights collide at the Kia Center as the Miami Heat head north to battle the Orlando Magic in a high-octane intrastate showdown. Expect maximum intensity and fierce divisional fireworks as both squads fight for crucial positioning in the Eastern Conference.</desc>
+    <desc lang="en">The Miami Heat bring their early-season momentum into a fierce intrastate showdown against the Orlando Magic at Kia Center. Expect explosive fireworks as this Florida rivalry ignites on the hardwood in an electric battle for regional supremacy.</desc>
     <category lang="en">Live</category>
     <category lang="en">New</category>
     <category lang="en">Sports</category>
@@ -3950,7 +3876,7 @@
   <programme start="20261016230000 +0000" stop="20261017013000 +0000" channel="NBA-OrlandoMagic.us">
     <title lang="en">NBA Basketball</title>
     <sub-title lang="en">Miami Heat @ Orlando Magic</sub-title>
-    <desc lang="en">Statewide bragging rights collide at the Kia Center as the Miami Heat head north to battle the Orlando Magic in a high-octane intrastate showdown. Expect maximum intensity and fierce divisional fireworks as both squads fight for crucial positioning in the Eastern Conference.</desc>
+    <desc lang="en">The Miami Heat bring their early-season momentum into a fierce intrastate showdown against the Orlando Magic at Kia Center. Expect explosive fireworks as this Florida rivalry ignites on the hardwood in an electric battle for regional supremacy.</desc>
     <category lang="en">Live</category>
     <category lang="en">New</category>
     <category lang="en">Sports</category>
@@ -4055,7 +3981,7 @@
   <programme start="20261016230000 +0000" stop="20261017013000 +0000" channel="NBA-TorontoRaptors.us">
     <title lang="en">NBA Basketball</title>
     <sub-title lang="en">Toronto Raptors @ Detroit Pistons</sub-title>
-    <desc lang="en">Fresh off securing a massive multi-year contract extension to anchor the frontcourt, Jalen Duren leads the Detroit Pistons onto the floor as they host the Toronto Raptors in a high-stakes Eastern Conference showdown at Little Caesars Arena.</desc>
+    <desc lang="en">Fresh off securing a massive five-year contract extension, star center Jalen Duren looks to power the Detroit Pistons as they clash with the Toronto Raptors at Little Caesars Arena in an electric early-season showdown.</desc>
     <category lang="en">Live</category>
     <category lang="en">New</category>
     <category lang="en">Sports</category>
@@ -4090,7 +4016,7 @@
   <programme start="20261016230000 +0000" stop="20261017013000 +0000" channel="NBA-DetroitPistons.us">
     <title lang="en">NBA Basketball</title>
     <sub-title lang="en">Toronto Raptors @ Detroit Pistons</sub-title>
-    <desc lang="en">Fresh off securing a massive multi-year contract extension to anchor the frontcourt, Jalen Duren leads the Detroit Pistons onto the floor as they host the Toronto Raptors in a high-stakes Eastern Conference showdown at Little Caesars Arena.</desc>
+    <desc lang="en">Fresh off securing a massive five-year contract extension, star center Jalen Duren looks to power the Detroit Pistons as they clash with the Toronto Raptors at Little Caesars Arena in an electric early-season showdown.</desc>
     <category lang="en">Live</category>
     <category lang="en">New</category>
     <category lang="en">Sports</category>
@@ -4685,7 +4611,7 @@
   <programme start="20261017023000 +0000" stop="20261017050000 +0000" channel="NBA-DenverNuggets.us">
     <title lang="en">NBA Basketball</title>
     <sub-title lang="en">Denver Nuggets @ Los Angeles Lakers</sub-title>
-    <desc lang="en">High-octane Western Conference drama unfolds as the Los Angeles Lakers clash with the Denver Nuggets in a powerhouse matchup at crypto.com Arena. Expect intense hardwood fireworks as these two elite contenders battle for crucial early-season momentum.</desc>
+    <desc lang="en">Hollywood glitz meets hardwood intensity as the Los Angeles Lakers clash with the Denver Nuggets at crypto.com Arena in a high-stakes regular-season showdown. Expect fierce competition and relentless drama as both Western Conference powerhouses battle for supremacy on the floor.</desc>
     <category lang="en">Live</category>
     <category lang="en">New</category>
     <category lang="en">Sports</category>
@@ -4720,7 +4646,7 @@
   <programme start="20261017023000 +0000" stop="20261017050000 +0000" channel="NBA-LosAngelesLakers.us">
     <title lang="en">NBA Basketball</title>
     <sub-title lang="en">Denver Nuggets @ Los Angeles Lakers</sub-title>
-    <desc lang="en">High-octane Western Conference drama unfolds as the Los Angeles Lakers clash with the Denver Nuggets in a powerhouse matchup at crypto.com Arena. Expect intense hardwood fireworks as these two elite contenders battle for crucial early-season momentum.</desc>
+    <desc lang="en">Hollywood glitz meets hardwood intensity as the Los Angeles Lakers clash with the Denver Nuggets at crypto.com Arena in a high-stakes regular-season showdown. Expect fierce competition and relentless drama as both Western Conference powerhouses battle for supremacy on the floor.</desc>
     <category lang="en">Live</category>
     <category lang="en">New</category>
     <category lang="en">Sports</category>

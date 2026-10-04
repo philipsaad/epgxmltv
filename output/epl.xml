@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
-<tv date="20261003230204 +0000" generator-info-name="epgxmltv-epl/1.0" generator-info-url="https://github.com/philipsaad/epgxmltv">
+<tv date="20261004115903 +0000" generator-info-name="epgxmltv-epl/1.0" generator-info-url="https://github.com/philipsaad/epgxmltv">
   <channel id="EPL-Bournemouth.gb">
     <display-name>AFC Bournemouth</display-name>
     <icon src="https://a.espncdn.com/i/teamlogos/soccer/500-dark/349.png" />
@@ -83,7 +83,7 @@
   <programme start="20261010113000 +0000" stop="20261010134000 +0000" channel="EPL-LeedsUnited.gb">
     <title lang="en">Premier League Soccer</title>
     <sub-title lang="en">Leeds United vs Arsenal</sub-title>
-    <desc lang="en">Arsenal hosts Leeds United at Emirates Stadium as the high-stakes Premier League title race heats up. An in-form Leeds United squad looks to test their unbeaten early-season momentum against a formidable Arsenal side on home turf.</desc>
+    <desc lang="en">Arsenal host Leeds United at Emirates Stadium as the high-flying Gunners look to protect their stellar home form against an undefeated visiting side. Expect a thrilling Premier League battle in North London as Arsenal aims to outpace a resilient Leeds United squad.</desc>
     <category lang="en">Live</category>
     <category lang="en">New</category>
     <category lang="en">Sports</category>
@@ -119,7 +119,7 @@
   <programme start="20261010113000 +0000" stop="20261010134000 +0000" channel="EPL-Arsenal.gb">
     <title lang="en">Premier League Soccer</title>
     <sub-title lang="en">Leeds United vs Arsenal</sub-title>
-    <desc lang="en">Arsenal hosts Leeds United at Emirates Stadium as the high-stakes Premier League title race heats up. An in-form Leeds United squad looks to test their unbeaten early-season momentum against a formidable Arsenal side on home turf.</desc>
+    <desc lang="en">Arsenal host Leeds United at Emirates Stadium as the high-flying Gunners look to protect their stellar home form against an undefeated visiting side. Expect a thrilling Premier League battle in North London as Arsenal aims to outpace a resilient Leeds United squad.</desc>
     <category lang="en">Live</category>
     <category lang="en">New</category>
     <category lang="en">Sports</category>
@@ -515,7 +515,7 @@
   <programme start="20261011130000 +0000" stop="20261011151000 +0000" channel="EPL-NottinghamForest.gb">
     <title lang="en">Premier League Soccer</title>
     <sub-title lang="en">Nottingham Forest vs Crystal Palace</sub-title>
-    <desc lang="en">Premier League. Nottingham Forest (1-2-2) visit Crystal Palace (1-1-3) at Selhurst Park in London.</desc>
+    <desc lang="en">Selhurst Park hosts a high-stakes Premier League showdown as Crystal Palace looks to ignite their campaign against Nottingham Forest. Transfer talk swirls around the Crystal Palace backline with American defender Chris Richards reportedly catching the eye of European giants, adding extra intrigue to this crucial fixture.</desc>
     <category lang="en">Live</category>
     <category lang="en">New</category>
     <category lang="en">Sports</category>
@@ -551,7 +551,7 @@
   <programme start="20261011130000 +0000" stop="20261011151000 +0000" channel="EPL-CrystalPalace.gb">
     <title lang="en">Premier League Soccer</title>
     <sub-title lang="en">Nottingham Forest vs Crystal Palace</sub-title>
-    <desc lang="en">Premier League. Nottingham Forest (1-2-2) visit Crystal Palace (1-1-3) at Selhurst Park in London.</desc>
+    <desc lang="en">Selhurst Park hosts a high-stakes Premier League showdown as Crystal Palace looks to ignite their campaign against Nottingham Forest. Transfer talk swirls around the Crystal Palace backline with American defender Chris Richards reportedly catching the eye of European giants, adding extra intrigue to this crucial fixture.</desc>
     <category lang="en">Live</category>
     <category lang="en">New</category>
     <category lang="en">Sports</category>
