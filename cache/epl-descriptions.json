@@ -30,10 +30,10 @@
     "desc": "Sunderland returns to the Stadium of Light seeking a vital spark after a sluggish start to the Premier League campaign, but standing in their way is a high-flying Brighton & Hove Albion side eager to cement their top-four credentials."
   },
   "401878773": {
-    "hash": "9DE2049EE055698B",
+    "hash": "BFF7D321847378FB",
     "model": "gemini-3.5-flash-lite",
-    "generatedUtc": "2026-10-03T23:01:17.9829083+00:00",
-    "desc": "Manchester United host Tottenham Hotspur at Old Trafford as both Premier League heavyweights search for a vital spark after sluggish starts to the campaign. Fresh off his recent friendly debut, new signing Carlos Baleba looks to ignite a Manchester United side eager to outshine their traditional Big Six rivals."
+    "generatedUtc": "2026-10-05T14:04:52.3760957+00:00",
+    "desc": "Old Trafford plays host to a high-stakes clash between Premier League giants Manchester United and Tottenham Hotspur as both traditional Big Six rivals search for a spark. Manchester United looks to integrate new signing Carlos Baleba into the squad, while Roberto De Zerbi seeks to ignite a turnaround for a winless Tottenham Hotspur side."
   },
   "401879266": {
     "hash": "E3CE13340BACD452",
@@ -48,10 +48,10 @@
     "desc": "Hull City look to put recent off-pitch distractions behind them as they welcome an undefeated Everton side to The MKM Stadium for a high-stakes Premier League clash. The hosts aim to harness their early-season momentum against a resilient visiting squad eager to climb the table."
   },
   "401879264": {
-    "hash": "54F86384ED0D1D3E",
+    "hash": "2C2311CE2354A23F",
     "model": "gemini-3.5-flash-lite",
-    "generatedUtc": "2026-10-03T23:01:33.5315174+00:00",
-    "desc": "A red-hot Manchester City puts its perfect record on the line as the reigning powerhouse travels to Anfield to face Liverpool under the heavy cloud of massive off-pitch financial rule-breaking charges and swirling transfer speculation."
+    "generatedUtc": "2026-10-05T14:06:57.6455083+00:00",
+    "desc": "As the shadow of high-stakes financial charges looms over the visitors, an undefeated Manchester City side travels to Anfield to test their dominance against a resilient Liverpool squad hungry to close the gap in the Premier League."
   },
   "401879267": {
     "hash": "5354A23D7B3D7F64",
@@ -77,16 +77,28 @@
     "generatedUtc": "2026-10-03T23:01:54.1266906+00:00",
     "desc": "Clouded by off-pitch drama and an FA misconduct charge following a fiery draw, Fulham boss Alvaro Arbeloa seeks a desperate turning point at Craven Cottage. Standing in their way are a resilient Hull City side looking to build momentum despite recent training ground scares."
   },
-  "401879259": {
-    "hash": "697AC34DAE7495CB",
-    "model": "gemini-3.5-flash-lite",
-    "generatedUtc": "2026-10-03T23:01:59.2364009+00:00",
-    "desc": "Under intense scrutiny following recent financial rule verdicts, Manchester City puts its perfect start on the line at the Etihad Stadium against a determined Ipswich Town side looking to cause a massive Premier League upset."
-  },
   "401879258": {
     "hash": "21436358EE79C8E5",
     "model": "gemini-3.5-flash-lite",
     "generatedUtc": "2026-10-03T23:02:04.3327187+00:00",
     "desc": "Led by manager Unai Emery, Aston Villa travels to St. James' Park to face Newcastle United in a high-stakes Premier League clash. The visitors look to find their footing after a sluggish start, while Newcastle United aims to defend home turf and climb the table."
+  },
+  "401879263": {
+    "hash": "AA8497BE96952C58",
+    "model": "gemini-3.5-flash-lite",
+    "generatedUtc": "2026-10-05T14:09:50.8326933+00:00",
+    "desc": "AFC Bournemouth seeks its first league win of the campaign at Vitality Stadium against a struggling Sunderland squad looking to build momentum. With the visitors still reeling from a controversial recent refereeing decision against Manchester City, high stakes and fierce determination collide on the south coast."
+  },
+  "401879260": {
+    "hash": "955FD7D8A201C979",
+    "model": "gemini-3.5-flash-lite",
+    "generatedUtc": "2026-10-05T14:10:01.7645172+00:00",
+    "desc": "Fresh off making his first outing in a friendly, new signing Carlos Baleba looks to spark a turnaround as Manchester United travels to Elland Road to face an unbeaten Leeds United side looking to inflict more misery on their bitter rivals."
+  },
+  "401878769": {
+    "hash": "D6F48399F191AB44",
+    "model": "gemini-3.5-flash-lite",
+    "generatedUtc": "2026-10-05T14:10:10.7338285+00:00",
+    "desc": "Arsenal travel to The City Ground to face Nottingham Forest looking to build momentum after a strong start to the campaign. Nottingham Forest aim to defend home turf and secure a vital victory against the high-flying visitors in this high-stakes Premier League clash."
   }
 }

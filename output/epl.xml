@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
-<tv date="20261004115903 +0000" generator-info-name="epgxmltv-epl/1.0" generator-info-url="https://github.com/philipsaad/epgxmltv">
+<tv date="20261005141010 +0000" generator-info-name="epgxmltv-epl/1.0" generator-info-url="https://github.com/philipsaad/epgxmltv">
   <channel id="EPL-Bournemouth.gb">
     <display-name>AFC Bournemouth</display-name>
     <icon src="https://a.espncdn.com/i/teamlogos/soccer/500-dark/349.png" />
@@ -443,7 +443,7 @@
   <programme start="20261010163000 +0000" stop="20261010184000 +0000" channel="EPL-TottenhamHotspur.gb">
     <title lang="en">Premier League Soccer</title>
     <sub-title lang="en">Tottenham Hotspur vs Manchester United</sub-title>
-    <desc lang="en">Manchester United host Tottenham Hotspur at Old Trafford as both Premier League heavyweights search for a vital spark after sluggish starts to the campaign. Fresh off his recent friendly debut, new signing Carlos Baleba looks to ignite a Manchester United side eager to outshine their traditional Big Six rivals.</desc>
+    <desc lang="en">Old Trafford plays host to a high-stakes clash between Premier League giants Manchester United and Tottenham Hotspur as both traditional Big Six rivals search for a spark. Manchester United looks to integrate new signing Carlos Baleba into the squad, while Roberto De Zerbi seeks to ignite a turnaround for a winless Tottenham Hotspur side.</desc>
     <category lang="en">Live</category>
     <category lang="en">New</category>
     <category lang="en">Sports</category>
@@ -479,7 +479,7 @@
   <programme start="20261010163000 +0000" stop="20261010184000 +0000" channel="EPL-ManchesterUnited.gb">
     <title lang="en">Premier League Soccer</title>
     <sub-title lang="en">Tottenham Hotspur vs Manchester United</sub-title>
-    <desc lang="en">Manchester United host Tottenham Hotspur at Old Trafford as both Premier League heavyweights search for a vital spark after sluggish starts to the campaign. Fresh off his recent friendly debut, new signing Carlos Baleba looks to ignite a Manchester United side eager to outshine their traditional Big Six rivals.</desc>
+    <desc lang="en">Old Trafford plays host to a high-stakes clash between Premier League giants Manchester United and Tottenham Hotspur as both traditional Big Six rivals search for a spark. Manchester United looks to integrate new signing Carlos Baleba into the squad, while Roberto De Zerbi seeks to ignite a turnaround for a winless Tottenham Hotspur side.</desc>
     <category lang="en">Live</category>
     <category lang="en">New</category>
     <category lang="en">Sports</category>
@@ -659,7 +659,7 @@
   <programme start="20261011153000 +0000" stop="20261011174000 +0000" channel="EPL-ManchesterCity.gb">
     <title lang="en">Premier League Soccer</title>
     <sub-title lang="en">Manchester City vs Liverpool</sub-title>
-    <desc lang="en">A red-hot Manchester City puts its perfect record on the line as the reigning powerhouse travels to Anfield to face Liverpool under the heavy cloud of massive off-pitch financial rule-breaking charges and swirling transfer speculation.</desc>
+    <desc lang="en">As the shadow of high-stakes financial charges looms over the visitors, an undefeated Manchester City side travels to Anfield to test their dominance against a resilient Liverpool squad hungry to close the gap in the Premier League.</desc>
     <category lang="en">Live</category>
     <category lang="en">New</category>
     <category lang="en">Sports</category>
@@ -695,7 +695,7 @@
   <programme start="20261011153000 +0000" stop="20261011174000 +0000" channel="EPL-Liverpool.gb">
     <title lang="en">Premier League Soccer</title>
     <sub-title lang="en">Manchester City vs Liverpool</sub-title>
-    <desc lang="en">A red-hot Manchester City puts its perfect record on the line as the reigning powerhouse travels to Anfield to face Liverpool under the heavy cloud of massive off-pitch financial rule-breaking charges and swirling transfer speculation.</desc>
+    <desc lang="en">As the shadow of high-stakes financial charges looms over the visitors, an undefeated Manchester City side travels to Anfield to test their dominance against a resilient Liverpool squad hungry to close the gap in the Premier League.</desc>
     <category lang="en">Live</category>
     <category lang="en">New</category>
     <category lang="en">Sports</category>
@@ -1019,7 +1019,7 @@
   <programme start="20261017140000 +0000" stop="20261017161000 +0000" channel="EPL-IpswichTown.gb">
     <title lang="en">Premier League Soccer</title>
     <sub-title lang="en">Ipswich Town vs Manchester City</sub-title>
-    <desc lang="en">Under intense scrutiny following recent financial rule verdicts, Manchester City puts its perfect start on the line at the Etihad Stadium against a determined Ipswich Town side looking to cause a massive Premier League upset.</desc>
+    <desc lang="en">Premier League. Ipswich Town (2-0-3) visit Manchester City (5-0-0) at Etihad Stadium in Manchester.</desc>
     <category lang="en">Live</category>
     <category lang="en">New</category>
     <category lang="en">Sports</category>
@@ -1055,7 +1055,7 @@
   <programme start="20261017140000 +0000" stop="20261017161000 +0000" channel="EPL-ManchesterCity.gb">
     <title lang="en">Premier League Soccer</title>
     <sub-title lang="en">Ipswich Town vs Manchester City</sub-title>
-    <desc lang="en">Under intense scrutiny following recent financial rule verdicts, Manchester City puts its perfect start on the line at the Etihad Stadium against a determined Ipswich Town side looking to cause a massive Premier League upset.</desc>
+    <desc lang="en">Premier League. Ipswich Town (2-0-3) visit Manchester City (5-0-0) at Etihad Stadium in Manchester.</desc>
     <category lang="en">Live</category>
     <category lang="en">New</category>
     <category lang="en">Sports</category>
@@ -1158,6 +1158,294 @@
     <live></live>
     <star-rating>
       <value>3/5</value>
+    </star-rating>
+  </programme>
+  <programme start="20261018130000 +0000" stop="20261018151000 +0000" channel="EPL-Sunderland.gb">
+    <title lang="en">Premier League Soccer</title>
+    <sub-title lang="en">Sunderland vs AFC Bournemouth</sub-title>
+    <desc lang="en">AFC Bournemouth seeks its first league win of the campaign at Vitality Stadium against a struggling Sunderland squad looking to build momentum. With the visitors still reeling from a controversial recent refereeing decision against Manchester City, high stakes and fierce determination collide on the south coast.</desc>
+    <category lang="en">Live</category>
+    <category lang="en">New</category>
+    <category lang="en">Sports</category>
+    <category lang="en">Sports event</category>
+    <category lang="en">Soccer</category>
+    <category lang="en">Football</category>
+    <category lang="en">Premier League</category>
+    <category lang="en">HD</category>
+    <keyword lang="en">Sunderland</keyword>
+    <keyword lang="en">AFC Bournemouth</keyword>
+    <keyword lang="en">Vitality Stadium</keyword>
+    <keyword lang="en">Bournemouth</keyword>
+    <language>English</language>
+    <length units="minutes">130</length>
+    <icon src="https://a.espncdn.com/i/leaguelogos/soccer/500-dark/23.png" />
+    <country>GB</country>
+    <video>
+      <present>yes</present>
+      <colour>yes</colour>
+      <aspect>16:9</aspect>
+      <quality>HDTV</quality>
+    </video>
+    <audio>
+      <present>yes</present>
+      <stereo>stereo</stereo>
+    </audio>
+    <new></new>
+    <live></live>
+    <star-rating>
+      <value>3/5</value>
+    </star-rating>
+  </programme>
+  <programme start="20261018130000 +0000" stop="20261018151000 +0000" channel="EPL-Bournemouth.gb">
+    <title lang="en">Premier League Soccer</title>
+    <sub-title lang="en">Sunderland vs AFC Bournemouth</sub-title>
+    <desc lang="en">AFC Bournemouth seeks its first league win of the campaign at Vitality Stadium against a struggling Sunderland squad looking to build momentum. With the visitors still reeling from a controversial recent refereeing decision against Manchester City, high stakes and fierce determination collide on the south coast.</desc>
+    <category lang="en">Live</category>
+    <category lang="en">New</category>
+    <category lang="en">Sports</category>
+    <category lang="en">Sports event</category>
+    <category lang="en">Soccer</category>
+    <category lang="en">Football</category>
+    <category lang="en">Premier League</category>
+    <category lang="en">HD</category>
+    <keyword lang="en">Sunderland</keyword>
+    <keyword lang="en">AFC Bournemouth</keyword>
+    <keyword lang="en">Vitality Stadium</keyword>
+    <keyword lang="en">Bournemouth</keyword>
+    <language>English</language>
+    <length units="minutes">130</length>
+    <icon src="https://a.espncdn.com/i/leaguelogos/soccer/500-dark/23.png" />
+    <country>GB</country>
+    <video>
+      <present>yes</present>
+      <colour>yes</colour>
+      <aspect>16:9</aspect>
+      <quality>HDTV</quality>
+    </video>
+    <audio>
+      <present>yes</present>
+      <stereo>stereo</stereo>
+    </audio>
+    <new></new>
+    <live></live>
+    <star-rating>
+      <value>3/5</value>
+    </star-rating>
+  </programme>
+  <programme start="20261018130000 +0000" stop="20261018151000 +0000" channel="EPL-CrystalPalace.gb">
+    <title lang="en">Premier League Soccer</title>
+    <sub-title lang="en">Crystal Palace vs Brighton &amp; Hove Albion</sub-title>
+    <desc lang="en">Premier League. Crystal Palace (1-1-3) visit Brighton &amp; Hove Albion (3-1-1) at American Express Stadium in Falmer.</desc>
+    <category lang="en">Live</category>
+    <category lang="en">New</category>
+    <category lang="en">Sports</category>
+    <category lang="en">Sports event</category>
+    <category lang="en">Soccer</category>
+    <category lang="en">Football</category>
+    <category lang="en">Premier League</category>
+    <category lang="en">HD</category>
+    <keyword lang="en">Crystal Palace</keyword>
+    <keyword lang="en">Brighton &amp; Hove Albion</keyword>
+    <keyword lang="en">American Express Stadium</keyword>
+    <keyword lang="en">Falmer</keyword>
+    <language>English</language>
+    <length units="minutes">130</length>
+    <icon src="https://a.espncdn.com/i/leaguelogos/soccer/500-dark/23.png" />
+    <country>GB</country>
+    <video>
+      <present>yes</present>
+      <colour>yes</colour>
+      <aspect>16:9</aspect>
+      <quality>HDTV</quality>
+    </video>
+    <audio>
+      <present>yes</present>
+      <stereo>stereo</stereo>
+    </audio>
+    <new></new>
+    <live></live>
+    <star-rating>
+      <value>3/5</value>
+    </star-rating>
+  </programme>
+  <programme start="20261018130000 +0000" stop="20261018151000 +0000" channel="EPL-Brighton.gb">
+    <title lang="en">Premier League Soccer</title>
+    <sub-title lang="en">Crystal Palace vs Brighton &amp; Hove Albion</sub-title>
+    <desc lang="en">Premier League. Crystal Palace (1-1-3) visit Brighton &amp; Hove Albion (3-1-1) at American Express Stadium in Falmer.</desc>
+    <category lang="en">Live</category>
+    <category lang="en">New</category>
+    <category lang="en">Sports</category>
+    <category lang="en">Sports event</category>
+    <category lang="en">Soccer</category>
+    <category lang="en">Football</category>
+    <category lang="en">Premier League</category>
+    <category lang="en">HD</category>
+    <keyword lang="en">Crystal Palace</keyword>
+    <keyword lang="en">Brighton &amp; Hove Albion</keyword>
+    <keyword lang="en">American Express Stadium</keyword>
+    <keyword lang="en">Falmer</keyword>
+    <language>English</language>
+    <length units="minutes">130</length>
+    <icon src="https://a.espncdn.com/i/leaguelogos/soccer/500-dark/23.png" />
+    <country>GB</country>
+    <video>
+      <present>yes</present>
+      <colour>yes</colour>
+      <aspect>16:9</aspect>
+      <quality>HDTV</quality>
+    </video>
+    <audio>
+      <present>yes</present>
+      <stereo>stereo</stereo>
+    </audio>
+    <new></new>
+    <live></live>
+    <star-rating>
+      <value>3/5</value>
+    </star-rating>
+  </programme>
+  <programme start="20261018130000 +0000" stop="20261018151000 +0000" channel="EPL-ManchesterUnited.gb">
+    <title lang="en">Premier League Soccer</title>
+    <sub-title lang="en">Manchester United vs Leeds United</sub-title>
+    <desc lang="en">Fresh off making his first outing in a friendly, new signing Carlos Baleba looks to spark a turnaround as Manchester United travels to Elland Road to face an unbeaten Leeds United side looking to inflict more misery on their bitter rivals.</desc>
+    <category lang="en">Live</category>
+    <category lang="en">New</category>
+    <category lang="en">Sports</category>
+    <category lang="en">Sports event</category>
+    <category lang="en">Soccer</category>
+    <category lang="en">Football</category>
+    <category lang="en">Premier League</category>
+    <category lang="en">HD</category>
+    <keyword lang="en">Manchester United</keyword>
+    <keyword lang="en">Leeds United</keyword>
+    <keyword lang="en">Elland Road</keyword>
+    <keyword lang="en">Leeds</keyword>
+    <language>English</language>
+    <length units="minutes">130</length>
+    <icon src="https://a.espncdn.com/i/leaguelogos/soccer/500-dark/23.png" />
+    <country>GB</country>
+    <video>
+      <present>yes</present>
+      <colour>yes</colour>
+      <aspect>16:9</aspect>
+      <quality>HDTV</quality>
+    </video>
+    <audio>
+      <present>yes</present>
+      <stereo>stereo</stereo>
+    </audio>
+    <new></new>
+    <live></live>
+    <star-rating>
+      <value>4/5</value>
+    </star-rating>
+  </programme>
+  <programme start="20261018130000 +0000" stop="20261018151000 +0000" channel="EPL-LeedsUnited.gb">
+    <title lang="en">Premier League Soccer</title>
+    <sub-title lang="en">Manchester United vs Leeds United</sub-title>
+    <desc lang="en">Fresh off making his first outing in a friendly, new signing Carlos Baleba looks to spark a turnaround as Manchester United travels to Elland Road to face an unbeaten Leeds United side looking to inflict more misery on their bitter rivals.</desc>
+    <category lang="en">Live</category>
+    <category lang="en">New</category>
+    <category lang="en">Sports</category>
+    <category lang="en">Sports event</category>
+    <category lang="en">Soccer</category>
+    <category lang="en">Football</category>
+    <category lang="en">Premier League</category>
+    <category lang="en">HD</category>
+    <keyword lang="en">Manchester United</keyword>
+    <keyword lang="en">Leeds United</keyword>
+    <keyword lang="en">Elland Road</keyword>
+    <keyword lang="en">Leeds</keyword>
+    <language>English</language>
+    <length units="minutes">130</length>
+    <icon src="https://a.espncdn.com/i/leaguelogos/soccer/500-dark/23.png" />
+    <country>GB</country>
+    <video>
+      <present>yes</present>
+      <colour>yes</colour>
+      <aspect>16:9</aspect>
+      <quality>HDTV</quality>
+    </video>
+    <audio>
+      <present>yes</present>
+      <stereo>stereo</stereo>
+    </audio>
+    <new></new>
+    <live></live>
+    <star-rating>
+      <value>4/5</value>
+    </star-rating>
+  </programme>
+  <programme start="20261018153000 +0000" stop="20261018174000 +0000" channel="EPL-Arsenal.gb">
+    <title lang="en">Premier League Soccer</title>
+    <sub-title lang="en">Arsenal vs Nottingham Forest</sub-title>
+    <desc lang="en">Arsenal travel to The City Ground to face Nottingham Forest looking to build momentum after a strong start to the campaign. Nottingham Forest aim to defend home turf and secure a vital victory against the high-flying visitors in this high-stakes Premier League clash.</desc>
+    <category lang="en">Live</category>
+    <category lang="en">New</category>
+    <category lang="en">Sports</category>
+    <category lang="en">Sports event</category>
+    <category lang="en">Soccer</category>
+    <category lang="en">Football</category>
+    <category lang="en">Premier League</category>
+    <category lang="en">HD</category>
+    <keyword lang="en">Arsenal</keyword>
+    <keyword lang="en">Nottingham Forest</keyword>
+    <keyword lang="en">The City Ground</keyword>
+    <keyword lang="en">Nottingham</keyword>
+    <language>English</language>
+    <length units="minutes">130</length>
+    <icon src="https://a.espncdn.com/i/leaguelogos/soccer/500-dark/23.png" />
+    <country>GB</country>
+    <video>
+      <present>yes</present>
+      <colour>yes</colour>
+      <aspect>16:9</aspect>
+      <quality>HDTV</quality>
+    </video>
+    <audio>
+      <present>yes</present>
+      <stereo>stereo</stereo>
+    </audio>
+    <new></new>
+    <live></live>
+    <star-rating>
+      <value>4/5</value>
+    </star-rating>
+  </programme>
+  <programme start="20261018153000 +0000" stop="20261018174000 +0000" channel="EPL-NottinghamForest.gb">
+    <title lang="en">Premier League Soccer</title>
+    <sub-title lang="en">Arsenal vs Nottingham Forest</sub-title>
+    <desc lang="en">Arsenal travel to The City Ground to face Nottingham Forest looking to build momentum after a strong start to the campaign. Nottingham Forest aim to defend home turf and secure a vital victory against the high-flying visitors in this high-stakes Premier League clash.</desc>
+    <category lang="en">Live</category>
+    <category lang="en">New</category>
+    <category lang="en">Sports</category>
+    <category lang="en">Sports event</category>
+    <category lang="en">Soccer</category>
+    <category lang="en">Football</category>
+    <category lang="en">Premier League</category>
+    <category lang="en">HD</category>
+    <keyword lang="en">Arsenal</keyword>
+    <keyword lang="en">Nottingham Forest</keyword>
+    <keyword lang="en">The City Ground</keyword>
+    <keyword lang="en">Nottingham</keyword>
+    <language>English</language>
+    <length units="minutes">130</length>
+    <icon src="https://a.espncdn.com/i/leaguelogos/soccer/500-dark/23.png" />
+    <country>GB</country>
+    <video>
+      <present>yes</present>
+      <colour>yes</colour>
+      <aspect>16:9</aspect>
+      <quality>HDTV</quality>
+    </video>
+    <audio>
+      <present>yes</present>
+      <stereo>stereo</stereo>
+    </audio>
+    <new></new>
+    <live></live>
+    <star-rating>
+      <value>4/5</value>
     </star-rating>
   </programme>
 </tv>
