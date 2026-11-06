@@ -1,9 +1,9 @@
 {
   "401879242": {
-    "hash": "75E8EA08DD830D11",
+    "hash": "538A18275D0248C9",
     "model": "gemini-3.5-flash-lite",
-    "generatedUtc": "2026-11-03T14:03:36.9743631+00:00",
-    "desc": "Everton return to the Hill Dickinson Stadium looking to build on impressive momentum under David Moyes as they host a Coventry City side eager to spark a turnaround."
+    "generatedUtc": "2026-11-06T14:04:19.8320238+00:00",
+    "desc": "Everton look to build on impressive momentum under David Moyes as they host Coventry City at Hill Dickinson Stadium, though the home side must cope without the injured Jack Grealish. Can the visitors bounce back from a rocky run and upset the Toffees on Merseyside?"
   },
   "401878758": {
     "hash": "9CA4265906C4B0A4",
@@ -12,22 +12,22 @@
     "desc": "Elland Road hosts a high-stakes Premier League showdown as Leeds United seeks to climb the table against a resilient Tottenham Hotspur squad eager to secure crucial away points."
   },
   "401878760": {
-    "hash": "6DDF66231ECBB414",
+    "hash": "8583ED5DAC87EAC1",
     "model": "gemini-3.5-flash-lite",
-    "generatedUtc": "2026-11-05T14:27:54.5241546+00:00",
-    "desc": "Boasting a brilliant 8-0-1 record, Arsenal returns to the Emirates Stadium with William Saliba ready to bolster the defense after recovering from World Cup duty. Hull City faces a daunting test on the road as the visitors look to upset the dominant league powerhouse."
+    "generatedUtc": "2026-11-06T14:04:25.2398524+00:00",
+    "desc": "Fresh off European heroics with Viktor Gyökeres shining bright, Mikel Arteta leads Arsenal back to Premier League action at Emirates Stadium to host Hull City. The in-form Gunners look to maintain their fierce momentum while navigating ongoing debates over their tactical edge against a determined Hull City side."
   },
   "401879241": {
-    "hash": "864A559DAEB2859A",
+    "hash": "B0C66013EAE32D66",
     "model": "gemini-3.5-flash-lite",
-    "generatedUtc": "2026-11-03T14:05:07.4934229+00:00",
-    "desc": "Craven Cottage plays host to a crucial Premier League clash as Fulham seeks to ignite their campaign against a bruised Newcastle United side looking to bounce back from recent struggles. Both mid-table rivals enter the capital desperate for three points to turn their inconsistent seasons around."
+    "generatedUtc": "2026-11-06T14:04:30.4107446+00:00",
+    "desc": "Stung by recent struggles after suffering back-to-back defeats against Everton, Newcastle United travels to Craven Cottage looking to reignite their Premier League campaign against Fulham."
   },
   "401878757": {
-    "hash": "E3991BFC1B45D488",
+    "hash": "5608D689BC03590A",
     "model": "gemini-3.5-flash-lite",
-    "generatedUtc": "2026-11-03T14:05:36.1822403+00:00",
-    "desc": "Struggling Nottingham Forest face a massive test at The City Ground against a powerhouse Manchester City squad currently sitting high in the Premier League table. Can the hosts pull off a shocking upset, or will the visitors cruise past their hosts and continue their march toward the summit?"
+    "generatedUtc": "2026-11-06T14:04:35.6804161+00:00",
+    "desc": "Under-fire Manchester City look to bounce back from costly defensive blunders as they travel to face Nottingham Forest at The City Ground in a high-stakes Premier League clash. Can the reigning giants steady their rocky campaign against a hungry Nottingham Forest side, or will off-pitch drama catch up to the visitors?"
   },
   "401879244": {
     "hash": "D9A91A28BB67377E",
@@ -36,27 +36,15 @@
     "desc": "Brighton & Hove Albion return to the American Express Stadium looking to extend their impressive home form as they host a resilient Brentford side eager to climb the Premier League table. Expect a fiercely contested tactical battle on the south coast as both clubs chase crucial three points to cement their ambitions."
   },
   "401879243": {
-    "hash": "3FE1B956831EBFB7",
+    "hash": "0422DA4FF377457B",
     "model": "gemini-3.5-flash-lite",
-    "generatedUtc": "2026-11-05T14:27:59.7903762+00:00",
-    "desc": "Liverpool forward Bradley Barcola looks to make his mark at Selhurst Park against a struggling Crystal Palace side missing the suspended Jean-Philippe Mateta following a rejected red card appeal."
+    "generatedUtc": "2026-11-06T14:04:40.8483147+00:00",
+    "desc": "Struggling Crystal Palace face a massive test at Selhurst Park without the suspended Jean-Philippe Mateta following his red card appeal rejection. Meanwhile, Liverpool arrive with high-profile forward Bradley Barcola brushing off massive expectations after his big-money arrival from Paris Saint-Germain."
   },
   "401878759": {
-    "hash": "9E6EA52ECD6E9633",
+    "hash": "18E2857228D8AB25",
     "model": "gemini-3.5-flash-lite",
-    "generatedUtc": "2026-11-04T14:38:39.5998259+00:00",
-    "desc": "Transfer speculation swirls around AFC Bournemouth forward Junior Kroupi as the club heads to Portman Road to lock horns with Ipswich Town in a high-stakes Premier League clash. Both sides enter this fixture dead level on points, making it all to play for as Ipswich Town looks to defend home turf against a fiercely ambitious AFC Bournemouth squad."
-  },
-  "401879239": {
-    "hash": "CB4033EE18B85F53",
-    "model": "gemini-3.5-flash-lite",
-    "generatedUtc": "2026-11-05T14:28:05.5213158+00:00",
-    "desc": "Chelsea travels to the Stadium of Light seeking to build momentum behind players like Romeo Lavia as they face a desperate Sunderland side fighting to reverse a difficult run of early season form."
-  },
-  "401879240": {
-    "hash": "9C61BAA5FCC23DFB",
-    "model": "gemini-3.5-flash-lite",
-    "generatedUtc": "2026-11-05T14:28:14.4190248+00:00",
-    "desc": "Manchester United looks to turn around a sluggish campaign at Old Trafford as the struggling hosts welcome Aston Villa for a high-stakes Premier League clash. With physical fitness questions looming large over the home squad, Aston Villa arrives hunting for a vital statement away win."
+    "generatedUtc": "2026-11-06T14:04:46.0846569+00:00",
+    "desc": "Riding high after a resounding European victory, AFC Bournemouth take their stellar momentum on the road to clash with Ipswich Town at Portman Road in a high-stakes Premier League showdown."
   }
 }
