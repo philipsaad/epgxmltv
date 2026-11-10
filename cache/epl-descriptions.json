@@ -6,28 +6,28 @@
     "desc": "Reeling from consecutive defeats and mounting defensive woes, Manchester City return to the Etihad Stadium looking to arrest an alarming slump as they host Fulham. Can the reigning heavyweights overcome their recent slide, or will an opportunistic Fulham side compound the crisis for the faltering hosts?"
   },
   "401879238": {
-    "hash": "49AA2AE9017D29E5",
+    "hash": "64A0FDFDF488DFF9",
     "model": "gemini-3.5-flash-lite",
-    "generatedUtc": "2026-11-09T15:45:24.3491052+00:00",
-    "desc": "Riding the momentum of an incredible winning streak, AFC Bournemouth return home to the Vitality Stadium looking to extend their dominance against a high-flying Nottingham Forest side fueled by Liam Delap and a stunning upset of Manchester City."
+    "generatedUtc": "2026-11-10T14:47:56.0585627+00:00",
+    "desc": "Riding an extraordinary momentum surge following their eighth straight victory, AFC Bournemouth return home to face a confident Nottingham Forest side eager to build on their stunning recent heroics. Expect a high-octane Premier League battle at the Vitality Stadium as both clubs clash for crucial three points."
   },
   "401878756": {
-    "hash": "CDF0F2F8726651A3",
+    "hash": "575AFCBCE26FBE54",
     "model": "gemini-3.5-flash-lite",
-    "generatedUtc": "2026-11-09T15:45:29.5256709+00:00",
-    "desc": "Still reeling from a chaotic late-game collapse and Unai Emery storming off the sidelines, Aston Villa look to channel that frustration at Villa Park against a struggling Sunderland side eager to exploit any lingering defensive vulnerabilities."
+    "generatedUtc": "2026-11-10T14:48:01.7341400+00:00",
+    "desc": "Aston Villa returns to Villa Park looking to steady their Premier League campaign following a chaotic 4-4 thriller, while Sunderland arrives eager to build on a resilient recent top-flight victory. Both clubs battle for crucial three points in this high-stakes English showdown."
   },
   "401879236": {
-    "hash": "8783B809D2345AE1",
+    "hash": "3AD5310F6603F037",
     "model": "gemini-3.5-flash-lite",
-    "generatedUtc": "2026-11-09T15:45:34.6117303+00:00",
-    "desc": "Defensive vulnerabilities plague Chelsea as they return to Stamford Bridge to face a resilient Leeds United squad looking to capitalize on their recent momentum. Expect high drama in West London as these historic rivals clash in a crucial Premier League battle."
+    "generatedUtc": "2026-11-10T14:48:07.3654192+00:00",
+    "desc": "Fresh off a frustrating defeat, Chelsea manager Xabi Alonso looks to steady his squad at Stamford Bridge as they welcome Leeds United in a high-stakes Premier League clash. The Blues aim to bounce back and silence any lingering turbulence, while a resilient Leeds United side arrives ready to capitalize and shake up the table."
   },
   "401879235": {
-    "hash": "D617CCE6C8F3D721",
+    "hash": "F569619456CC8C64",
     "model": "gemini-3.5-flash-lite",
-    "generatedUtc": "2026-11-09T15:45:39.7597337+00:00",
-    "desc": "Under mounting pressure following a difficult run of defeats, Crystal Palace manager Pierre Sage looks to turn the tide as his squad travels to take on Coventry City at the Coventry Building Society Arena. Both sides enter this Premier League clash desperate to spark their seasons and climb away from the lower reaches of the table."
+    "generatedUtc": "2026-11-10T14:48:18.1234843+00:00",
+    "desc": "Under-pressure Crystal Palace boss Pierre Sage seeks a vital response after four straight Premier League defeats as his side travels to face a struggling Coventry City squad at the Coventry Building Society Arena."
   },
   "401878754": {
     "hash": "4ED839B05FD13886",
@@ -36,15 +36,27 @@
     "desc": "Tottenham Hotspur look to bounce back at Tottenham Hotspur Stadium as they host Ipswich Town in a crucial Premier League clash. Both sides are eager to recapture momentum and climb the table following recent struggles in top-flight action."
   },
   "401879232": {
-    "hash": "FF21AACC46766CFF",
+    "hash": "6AF76F6E6C3431C9",
     "model": "gemini-3.5-flash-lite",
-    "generatedUtc": "2026-11-09T15:45:50.5734415+00:00",
-    "desc": "At rocking St. James' Park, high-flying Arsenal puts its sensational title pace on the line against a determined Newcastle United squad looking to spring an upset. The Gunners arrive at the fortress of Tyneside carrying immense momentum at the summit of the Premier League table."
+    "generatedUtc": "2026-11-10T14:48:31.6394578+00:00",
+    "desc": "High-flying Arsenal take their formidable title credentials to St. James' Park as they lock horns with a determined Newcastle United side looking to ignite their campaign."
+  },
+  "401879234": {
+    "hash": "6C6F6EB9303A0CD2",
+    "model": "gemini-3.5-flash-lite",
+    "generatedUtc": "2026-11-10T14:48:36.8076413+00:00",
+    "desc": "Fueled by Diego Gómez and an electrifying ascent into second place, high-flying Brighton & Hove Albion travel to The MKM Stadium to test their title credentials against Hull City."
   },
   "401878755": {
-    "hash": "11D20460E9C765C1",
+    "hash": "DF04C127565E7A75",
     "model": "gemini-3.5-flash-lite",
-    "generatedUtc": "2026-11-09T15:46:01.3984271+00:00",
-    "desc": "Staring down an unthinkable relegation fight during their worst campaign in 40 years, a reeling Manchester United side travels to Anfield to face Liverpool under immense pressure."
+    "generatedUtc": "2026-11-10T14:48:46.8366269+00:00",
+    "desc": "As Liverpool star Virgil van Dijk navigates uncertainty over his expiring contract, the Reds welcome a struggling Manchester United side to Anfield under intense managerial pressure. With incoming leadership changes looming for the visitors, this high-stakes Premier League clash promises fierce drama at every turn."
+  },
+  "401879237": {
+    "hash": "64138577AA72507D",
+    "model": "gemini-3.5-flash-lite",
+    "generatedUtc": "2026-11-10T14:48:54.0414672+00:00",
+    "desc": "Reeling from a bruising defeat, Brentford look to bounce back at the Gtech Community Stadium as they host an in-form Everton side eager to climb higher in the Premier League table."
   }
 }
