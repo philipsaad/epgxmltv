@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
-<tv date="20261112151632 +0000" generator-info-name="epgxmltv-nba/1.0" generator-info-url="https://github.com/philipsaad/epgxmltv">
+<tv date="20261113142033 +0000" generator-info-name="epgxmltv-nba/1.0" generator-info-url="https://github.com/philipsaad/epgxmltv">
   <channel id="NBA-AtlantaHawks.us">
     <display-name>Atlanta Hawks</display-name>
     <icon src="https://a.espncdn.com/i/teamlogos/nba/500-dark/atl.png" />
@@ -120,290 +120,10 @@
     <display-name>Washington Wizards</display-name>
     <icon src="https://a.espncdn.com/i/teamlogos/nba/500-dark/wsh.png" />
   </channel>
-  <programme start="20261113000000 +0000" stop="20261113023000 +0000" channel="NBA-TorontoRaptors.us">
-    <title lang="en">NBA Basketball</title>
-    <sub-title lang="en">Toronto Raptors @ Philadelphia 76ers</sub-title>
-    <desc lang="en">The Toronto Raptors hit the road to clash with the powerhouse Philadelphia 76ers in an explosive Eastern Conference showdown as both squads battle for early-season supremacy.</desc>
-    <category lang="en">Live</category>
-    <category lang="en">New</category>
-    <category lang="en">Sports</category>
-    <category lang="en">Sports event</category>
-    <category lang="en">Basketball</category>
-    <category lang="en">NBA</category>
-    <category lang="en">HD</category>
-    <keyword lang="en">Toronto Raptors</keyword>
-    <keyword lang="en">Philadelphia 76ers</keyword>
-    <keyword lang="en">Xfinity Mobile Arena</keyword>
-    <keyword lang="en">Philadelphia</keyword>
-    <language>English</language>
-    <length units="minutes">150</length>
-    <icon src="https://a.espncdn.com/i/teamlogos/leagues/500-dark/nba.png" />
-    <country>US</country>
-    <video>
-      <present>yes</present>
-      <colour>yes</colour>
-      <aspect>16:9</aspect>
-      <quality>HDTV</quality>
-    </video>
-    <audio>
-      <present>yes</present>
-      <stereo>stereo</stereo>
-    </audio>
-    <new></new>
-    <live></live>
-    <star-rating>
-      <value>2/5</value>
-    </star-rating>
-  </programme>
-  <programme start="20261113000000 +0000" stop="20261113023000 +0000" channel="NBA-Philadelphia76ers.us">
-    <title lang="en">NBA Basketball</title>
-    <sub-title lang="en">Toronto Raptors @ Philadelphia 76ers</sub-title>
-    <desc lang="en">The Toronto Raptors hit the road to clash with the powerhouse Philadelphia 76ers in an explosive Eastern Conference showdown as both squads battle for early-season supremacy.</desc>
-    <category lang="en">Live</category>
-    <category lang="en">New</category>
-    <category lang="en">Sports</category>
-    <category lang="en">Sports event</category>
-    <category lang="en">Basketball</category>
-    <category lang="en">NBA</category>
-    <category lang="en">HD</category>
-    <keyword lang="en">Toronto Raptors</keyword>
-    <keyword lang="en">Philadelphia 76ers</keyword>
-    <keyword lang="en">Xfinity Mobile Arena</keyword>
-    <keyword lang="en">Philadelphia</keyword>
-    <language>English</language>
-    <length units="minutes">150</length>
-    <icon src="https://a.espncdn.com/i/teamlogos/leagues/500-dark/nba.png" />
-    <country>US</country>
-    <video>
-      <present>yes</present>
-      <colour>yes</colour>
-      <aspect>16:9</aspect>
-      <quality>HDTV</quality>
-    </video>
-    <audio>
-      <present>yes</present>
-      <stereo>stereo</stereo>
-    </audio>
-    <new></new>
-    <live></live>
-    <star-rating>
-      <value>2/5</value>
-    </star-rating>
-  </programme>
-  <programme start="20261113000000 +0000" stop="20261113023000 +0000" channel="NBA-DetroitPistons.us">
-    <title lang="en">NBA Basketball</title>
-    <sub-title lang="en">Detroit Pistons @ Washington Wizards</sub-title>
-    <desc lang="en">Desperate to snap a painful five-game skid, the Washington Wizards look to reverse their fortunes when they host the surging Detroit Pistons at Capital One Arena.</desc>
-    <category lang="en">Live</category>
-    <category lang="en">New</category>
-    <category lang="en">Sports</category>
-    <category lang="en">Sports event</category>
-    <category lang="en">Basketball</category>
-    <category lang="en">NBA</category>
-    <category lang="en">HD</category>
-    <keyword lang="en">Detroit Pistons</keyword>
-    <keyword lang="en">Washington Wizards</keyword>
-    <keyword lang="en">Capital One Arena</keyword>
-    <keyword lang="en">Washington</keyword>
-    <language>English</language>
-    <length units="minutes">150</length>
-    <icon src="https://a.espncdn.com/i/teamlogos/leagues/500-dark/nba.png" />
-    <country>US</country>
-    <video>
-      <present>yes</present>
-      <colour>yes</colour>
-      <aspect>16:9</aspect>
-      <quality>HDTV</quality>
-    </video>
-    <audio>
-      <present>yes</present>
-      <stereo>stereo</stereo>
-    </audio>
-    <new></new>
-    <live></live>
-    <star-rating>
-      <value>2/5</value>
-    </star-rating>
-  </programme>
-  <programme start="20261113000000 +0000" stop="20261113023000 +0000" channel="NBA-WashingtonWizards.us">
-    <title lang="en">NBA Basketball</title>
-    <sub-title lang="en">Detroit Pistons @ Washington Wizards</sub-title>
-    <desc lang="en">Desperate to snap a painful five-game skid, the Washington Wizards look to reverse their fortunes when they host the surging Detroit Pistons at Capital One Arena.</desc>
-    <category lang="en">Live</category>
-    <category lang="en">New</category>
-    <category lang="en">Sports</category>
-    <category lang="en">Sports event</category>
-    <category lang="en">Basketball</category>
-    <category lang="en">NBA</category>
-    <category lang="en">HD</category>
-    <keyword lang="en">Detroit Pistons</keyword>
-    <keyword lang="en">Washington Wizards</keyword>
-    <keyword lang="en">Capital One Arena</keyword>
-    <keyword lang="en">Washington</keyword>
-    <language>English</language>
-    <length units="minutes">150</length>
-    <icon src="https://a.espncdn.com/i/teamlogos/leagues/500-dark/nba.png" />
-    <country>US</country>
-    <video>
-      <present>yes</present>
-      <colour>yes</colour>
-      <aspect>16:9</aspect>
-      <quality>HDTV</quality>
-    </video>
-    <audio>
-      <present>yes</present>
-      <stereo>stereo</stereo>
-    </audio>
-    <new></new>
-    <live></live>
-    <star-rating>
-      <value>2/5</value>
-    </star-rating>
-  </programme>
-  <programme start="20261113010000 +0000" stop="20261113033000 +0000" channel="NBA-DallasMavericks.us">
-    <title lang="en">NBA Basketball</title>
-    <sub-title lang="en">Dallas Mavericks @ Minnesota Timberwolves</sub-title>
-    <desc lang="en">As the NBA trade deadline pressure mounts, the Minnesota Timberwolves and the Dallas Mavericks clash at the Target Center in a high-stakes battle between Western Conference contenders looking to solidify their championship aspirations.</desc>
-    <category lang="en">Live</category>
-    <category lang="en">New</category>
-    <category lang="en">Sports</category>
-    <category lang="en">Sports event</category>
-    <category lang="en">Basketball</category>
-    <category lang="en">NBA</category>
-    <category lang="en">HD</category>
-    <keyword lang="en">Dallas Mavericks</keyword>
-    <keyword lang="en">Minnesota Timberwolves</keyword>
-    <keyword lang="en">Target Center</keyword>
-    <keyword lang="en">Minneapolis</keyword>
-    <language>English</language>
-    <length units="minutes">150</length>
-    <icon src="https://a.espncdn.com/i/teamlogos/leagues/500-dark/nba.png" />
-    <country>US</country>
-    <video>
-      <present>yes</present>
-      <colour>yes</colour>
-      <aspect>16:9</aspect>
-      <quality>HDTV</quality>
-    </video>
-    <audio>
-      <present>yes</present>
-      <stereo>stereo</stereo>
-    </audio>
-    <new></new>
-    <live></live>
-    <star-rating>
-      <value>2/5</value>
-    </star-rating>
-  </programme>
-  <programme start="20261113010000 +0000" stop="20261113033000 +0000" channel="NBA-MinnesotaTimberwolves.us">
-    <title lang="en">NBA Basketball</title>
-    <sub-title lang="en">Dallas Mavericks @ Minnesota Timberwolves</sub-title>
-    <desc lang="en">As the NBA trade deadline pressure mounts, the Minnesota Timberwolves and the Dallas Mavericks clash at the Target Center in a high-stakes battle between Western Conference contenders looking to solidify their championship aspirations.</desc>
-    <category lang="en">Live</category>
-    <category lang="en">New</category>
-    <category lang="en">Sports</category>
-    <category lang="en">Sports event</category>
-    <category lang="en">Basketball</category>
-    <category lang="en">NBA</category>
-    <category lang="en">HD</category>
-    <keyword lang="en">Dallas Mavericks</keyword>
-    <keyword lang="en">Minnesota Timberwolves</keyword>
-    <keyword lang="en">Target Center</keyword>
-    <keyword lang="en">Minneapolis</keyword>
-    <language>English</language>
-    <length units="minutes">150</length>
-    <icon src="https://a.espncdn.com/i/teamlogos/leagues/500-dark/nba.png" />
-    <country>US</country>
-    <video>
-      <present>yes</present>
-      <colour>yes</colour>
-      <aspect>16:9</aspect>
-      <quality>HDTV</quality>
-    </video>
-    <audio>
-      <present>yes</present>
-      <stereo>stereo</stereo>
-    </audio>
-    <new></new>
-    <live></live>
-    <star-rating>
-      <value>2/5</value>
-    </star-rating>
-  </programme>
-  <programme start="20261113020000 +0000" stop="20261113043000 +0000" channel="NBA-CharlotteHornets.us">
-    <title lang="en">NBA Basketball</title>
-    <sub-title lang="en">Charlotte Hornets @ Phoenix Suns</sub-title>
-    <desc lang="en">The Phoenix Suns look to ignite their season on home court as they battle the visiting Charlotte Hornets in a high-stakes cross-conference clash at Mortgage Matchup Center. Both squads desperate for momentum clash in the desert as two hungry teams battle for crucial early-season positioning.</desc>
-    <category lang="en">Live</category>
-    <category lang="en">New</category>
-    <category lang="en">Sports</category>
-    <category lang="en">Sports event</category>
-    <category lang="en">Basketball</category>
-    <category lang="en">NBA</category>
-    <category lang="en">HD</category>
-    <keyword lang="en">Charlotte Hornets</keyword>
-    <keyword lang="en">Phoenix Suns</keyword>
-    <keyword lang="en">Mortgage Matchup Center</keyword>
-    <keyword lang="en">Phoenix</keyword>
-    <language>English</language>
-    <length units="minutes">150</length>
-    <icon src="https://a.espncdn.com/i/teamlogos/leagues/500-dark/nba.png" />
-    <country>US</country>
-    <video>
-      <present>yes</present>
-      <colour>yes</colour>
-      <aspect>16:9</aspect>
-      <quality>HDTV</quality>
-    </video>
-    <audio>
-      <present>yes</present>
-      <stereo>stereo</stereo>
-    </audio>
-    <new></new>
-    <live></live>
-    <star-rating>
-      <value>2/5</value>
-    </star-rating>
-  </programme>
-  <programme start="20261113020000 +0000" stop="20261113043000 +0000" channel="NBA-PhoenixSuns.us">
-    <title lang="en">NBA Basketball</title>
-    <sub-title lang="en">Charlotte Hornets @ Phoenix Suns</sub-title>
-    <desc lang="en">The Phoenix Suns look to ignite their season on home court as they battle the visiting Charlotte Hornets in a high-stakes cross-conference clash at Mortgage Matchup Center. Both squads desperate for momentum clash in the desert as two hungry teams battle for crucial early-season positioning.</desc>
-    <category lang="en">Live</category>
-    <category lang="en">New</category>
-    <category lang="en">Sports</category>
-    <category lang="en">Sports event</category>
-    <category lang="en">Basketball</category>
-    <category lang="en">NBA</category>
-    <category lang="en">HD</category>
-    <keyword lang="en">Charlotte Hornets</keyword>
-    <keyword lang="en">Phoenix Suns</keyword>
-    <keyword lang="en">Mortgage Matchup Center</keyword>
-    <keyword lang="en">Phoenix</keyword>
-    <language>English</language>
-    <length units="minutes">150</length>
-    <icon src="https://a.espncdn.com/i/teamlogos/leagues/500-dark/nba.png" />
-    <country>US</country>
-    <video>
-      <present>yes</present>
-      <colour>yes</colour>
-      <aspect>16:9</aspect>
-      <quality>HDTV</quality>
-    </video>
-    <audio>
-      <present>yes</present>
-      <stereo>stereo</stereo>
-    </audio>
-    <new></new>
-    <live></live>
-    <star-rating>
-      <value>2/5</value>
-    </star-rating>
-  </programme>
   <programme start="20261114000000 +0000" stop="20261114023000 +0000" channel="NBA-NewYorkKnicks.us">
     <title lang="en">NBA Basketball</title>
     <sub-title lang="en">New York Knicks @ Indiana Pacers</sub-title>
-    <desc lang="en">Eastern Conference rivals clash as the New York Knicks visit the Indiana Pacers for high-stakes NBA Cup group stage action inside Gainbridge Fieldhouse. The Indiana Pacers look to climb the standings against a formidable New York Knicks squad eager to bounce back and make a statement.</desc>
+    <desc lang="en">High-stakes NBA Cup group play action hits the hardwood as the Indiana Pacers host the New York Knicks at Gainbridge Fieldhouse. The struggling Indiana Pacers look to ignite their season against a formidable New York Knicks squad eager to make an early statement in tournament play.</desc>
     <category lang="en">Live</category>
     <category lang="en">New</category>
     <category lang="en">Sports</category>
@@ -440,7 +160,7 @@
   <programme start="20261114000000 +0000" stop="20261114023000 +0000" channel="NBA-IndianaPacers.us">
     <title lang="en">NBA Basketball</title>
     <sub-title lang="en">New York Knicks @ Indiana Pacers</sub-title>
-    <desc lang="en">Eastern Conference rivals clash as the New York Knicks visit the Indiana Pacers for high-stakes NBA Cup group stage action inside Gainbridge Fieldhouse. The Indiana Pacers look to climb the standings against a formidable New York Knicks squad eager to bounce back and make a statement.</desc>
+    <desc lang="en">High-stakes NBA Cup group play action hits the hardwood as the Indiana Pacers host the New York Knicks at Gainbridge Fieldhouse. The struggling Indiana Pacers look to ignite their season against a formidable New York Knicks squad eager to make an early statement in tournament play.</desc>
     <category lang="en">Live</category>
     <category lang="en">New</category>
     <category lang="en">Sports</category>
@@ -551,7 +271,7 @@
   <programme start="20261114010000 +0000" stop="20261114033000 +0000" channel="NBA-ClevelandCavaliers.us">
     <title lang="en">NBA Basketball</title>
     <sub-title lang="en">Cleveland Cavaliers @ Miami Heat</sub-title>
-    <desc lang="en">Eastern Conference rivals clash in Miami Cup action as the Cleveland Cavaliers travel to face the Miami Heat at the Kaseya Center with crucial group stage positioning on the line.</desc>
+    <desc lang="en">Powered by the stellar play of Donovan Mitchell, the Cleveland Cavaliers travel to South Florida to battle the Miami Heat in a high-stakes NBA Cup group stage showdown at the Kaseya Center.</desc>
     <category lang="en">Live</category>
     <category lang="en">New</category>
     <category lang="en">Sports</category>
@@ -588,7 +308,7 @@
   <programme start="20261114010000 +0000" stop="20261114033000 +0000" channel="NBA-MiamiHeat.us">
     <title lang="en">NBA Basketball</title>
     <sub-title lang="en">Cleveland Cavaliers @ Miami Heat</sub-title>
-    <desc lang="en">Eastern Conference rivals clash in Miami Cup action as the Cleveland Cavaliers travel to face the Miami Heat at the Kaseya Center with crucial group stage positioning on the line.</desc>
+    <desc lang="en">Powered by the stellar play of Donovan Mitchell, the Cleveland Cavaliers travel to South Florida to battle the Miami Heat in a high-stakes NBA Cup group stage showdown at the Kaseya Center.</desc>
     <category lang="en">Live</category>
     <category lang="en">New</category>
     <category lang="en">Sports</category>
@@ -625,7 +345,7 @@
   <programme start="20261114010000 +0000" stop="20261114033000 +0000" channel="NBA-AtlantaHawks.us">
     <title lang="en">NBA Basketball</title>
     <sub-title lang="en">Atlanta Hawks @ Chicago Bulls</sub-title>
-    <desc lang="en">The Atlanta Hawks bring a rolling seven-win record into enemy territory to face the struggling Chicago Bulls in high-stakes NBA Cup group stage action at the United Center.</desc>
+    <desc lang="en">Seeking a desperately needed spark amid a tough season, the Chicago Bulls battle the soaring Atlanta Hawks in crucial NBA Cup group stage action at the United Center.</desc>
     <category lang="en">Live</category>
     <category lang="en">New</category>
     <category lang="en">Sports</category>
@@ -662,7 +382,7 @@
   <programme start="20261114010000 +0000" stop="20261114033000 +0000" channel="NBA-ChicagoBulls.us">
     <title lang="en">NBA Basketball</title>
     <sub-title lang="en">Atlanta Hawks @ Chicago Bulls</sub-title>
-    <desc lang="en">The Atlanta Hawks bring a rolling seven-win record into enemy territory to face the struggling Chicago Bulls in high-stakes NBA Cup group stage action at the United Center.</desc>
+    <desc lang="en">Seeking a desperately needed spark amid a tough season, the Chicago Bulls battle the soaring Atlanta Hawks in crucial NBA Cup group stage action at the United Center.</desc>
     <category lang="en">Live</category>
     <category lang="en">New</category>
     <category lang="en">Sports</category>
@@ -773,7 +493,7 @@
   <programme start="20261114013000 +0000" stop="20261114040000 +0000" channel="NBA-UtahJazz.us">
     <title lang="en">NBA Basketball</title>
     <sub-title lang="en">Utah Jazz @ Houston Rockets</sub-title>
-    <desc lang="en">The surging Houston Rockets look to flex their muscle at home against the struggling Utah Jazz during NBA Cup group play action. The high-flying Houston Rockets host the Utah Jazz in a high-stakes Western Conference showdown at the Toyota Center.</desc>
+    <desc lang="en">The red-hot Houston Rockets look to power through the absence of the suspended Marcus Smart as they host the struggling Utah Jazz for a crucial NBA Cup group stage showdown at the Toyota Center.</desc>
     <category lang="en">Live</category>
     <category lang="en">New</category>
     <category lang="en">Sports</category>
@@ -810,7 +530,7 @@
   <programme start="20261114013000 +0000" stop="20261114040000 +0000" channel="NBA-HoustonRockets.us">
     <title lang="en">NBA Basketball</title>
     <sub-title lang="en">Utah Jazz @ Houston Rockets</sub-title>
-    <desc lang="en">The surging Houston Rockets look to flex their muscle at home against the struggling Utah Jazz during NBA Cup group play action. The high-flying Houston Rockets host the Utah Jazz in a high-stakes Western Conference showdown at the Toyota Center.</desc>
+    <desc lang="en">The red-hot Houston Rockets look to power through the absence of the suspended Marcus Smart as they host the struggling Utah Jazz for a crucial NBA Cup group stage showdown at the Toyota Center.</desc>
     <category lang="en">Live</category>
     <category lang="en">New</category>
     <category lang="en">Sports</category>
@@ -847,7 +567,7 @@
   <programme start="20261114023000 +0000" stop="20261114050000 +0000" channel="NBA-GoldenStateWarriors.us">
     <title lang="en">NBA Basketball</title>
     <sub-title lang="en">Golden State Warriors @ San Antonio Spurs</sub-title>
-    <desc lang="en">High-flying Western Conference powerhouses collide in NBA Cup group play as the San Antonio Spurs host the Golden State Warriors at the Frost Bank Center. The scorching San Antonio Spurs put their stellar record on the line against a resilient Golden State Warriors squad in a crucial early-season showdown.</desc>
+    <desc lang="en">The red-hot San Antonio Spurs host the Golden State Warriors at Frost Bank Center for high-stakes NBA Cup group play action. The Golden State Warriors look to rally on the road without their injured superstar, while the formidable San Antonio Spurs protect their dominant home record.</desc>
     <category lang="en">Live</category>
     <category lang="en">New</category>
     <category lang="en">Sports</category>
@@ -884,7 +604,7 @@
   <programme start="20261114023000 +0000" stop="20261114050000 +0000" channel="NBA-SanAntonioSpurs.us">
     <title lang="en">NBA Basketball</title>
     <sub-title lang="en">Golden State Warriors @ San Antonio Spurs</sub-title>
-    <desc lang="en">High-flying Western Conference powerhouses collide in NBA Cup group play as the San Antonio Spurs host the Golden State Warriors at the Frost Bank Center. The scorching San Antonio Spurs put their stellar record on the line against a resilient Golden State Warriors squad in a crucial early-season showdown.</desc>
+    <desc lang="en">The red-hot San Antonio Spurs host the Golden State Warriors at Frost Bank Center for high-stakes NBA Cup group play action. The Golden State Warriors look to rally on the road without their injured superstar, while the formidable San Antonio Spurs protect their dominant home record.</desc>
     <category lang="en">Live</category>
     <category lang="en">New</category>
     <category lang="en">Sports</category>
@@ -921,7 +641,7 @@
   <programme start="20261114030000 +0000" stop="20261114053000 +0000" channel="NBA-PortlandTrailBlazers.us">
     <title lang="en">NBA Basketball</title>
     <sub-title lang="en">Portland Trail Blazers @ Sacramento Kings</sub-title>
-    <desc lang="en">NBA Cup - Group Play. Portland Trail Blazers (8-3) visit Sacramento Kings (1-10) at Golden 1 Center in Sacramento, CA.</desc>
+    <desc lang="en">Fresh off a sweeping victory, the high-flying Portland Trail Blazers travel to Northern California to clash with the struggling Sacramento Kings in crucial NBA Cup group stage action.</desc>
     <category lang="en">Live</category>
     <category lang="en">New</category>
     <category lang="en">Sports</category>
@@ -958,7 +678,7 @@
   <programme start="20261114030000 +0000" stop="20261114053000 +0000" channel="NBA-SacramentoKings.us">
     <title lang="en">NBA Basketball</title>
     <sub-title lang="en">Portland Trail Blazers @ Sacramento Kings</sub-title>
-    <desc lang="en">NBA Cup - Group Play. Portland Trail Blazers (8-3) visit Sacramento Kings (1-10) at Golden 1 Center in Sacramento, CA.</desc>
+    <desc lang="en">Fresh off a sweeping victory, the high-flying Portland Trail Blazers travel to Northern California to clash with the struggling Sacramento Kings in crucial NBA Cup group stage action.</desc>
     <category lang="en">Live</category>
     <category lang="en">New</category>
     <category lang="en">Sports</category>
@@ -1139,7 +859,7 @@
   <programme start="20261115003000 +0000" stop="20261115030000 +0000" channel="NBA-DallasMavericks.us">
     <title lang="en">NBA Basketball</title>
     <sub-title lang="en">Dallas Mavericks @ Cleveland Cavaliers</sub-title>
-    <desc lang="en">Sparks fly in Ohio as the Cleveland Cavaliers defend their home court against the visiting Dallas Mavericks in a high-stakes cross-conference showdown. The battle-tested Cleveland Cavaliers look to solidify their Eastern Conference standing as they square off against a formidable Dallas Mavericks squad hungry for a statement road victory.</desc>
+    <desc lang="en">Fueled by a renewed commitment to lead his squad, Donovan Mitchell powers the Cleveland Cavaliers as they battle the Dallas Mavericks in a high-stakes regular season showdown at Rocket Arena.</desc>
     <category lang="en">Live</category>
     <category lang="en">New</category>
     <category lang="en">Sports</category>
@@ -1174,7 +894,7 @@
   <programme start="20261115003000 +0000" stop="20261115030000 +0000" channel="NBA-ClevelandCavaliers.us">
     <title lang="en">NBA Basketball</title>
     <sub-title lang="en">Dallas Mavericks @ Cleveland Cavaliers</sub-title>
-    <desc lang="en">Sparks fly in Ohio as the Cleveland Cavaliers defend their home court against the visiting Dallas Mavericks in a high-stakes cross-conference showdown. The battle-tested Cleveland Cavaliers look to solidify their Eastern Conference standing as they square off against a formidable Dallas Mavericks squad hungry for a statement road victory.</desc>
+    <desc lang="en">Fueled by a renewed commitment to lead his squad, Donovan Mitchell powers the Cleveland Cavaliers as they battle the Dallas Mavericks in a high-stakes regular season showdown at Rocket Arena.</desc>
     <category lang="en">Live</category>
     <category lang="en">New</category>
     <category lang="en">Sports</category>
@@ -1209,7 +929,7 @@
   <programme start="20261115010000 +0000" stop="20261115033000 +0000" channel="NBA-DetroitPistons.us">
     <title lang="en">NBA Basketball</title>
     <sub-title lang="en">Detroit Pistons @ Miami Heat</sub-title>
-    <desc lang="en">High-flying Eastern Conference action heats up as the Detroit Pistons put their strong start on the line against the Miami Heat at Kaseya Center. The surging visitors look to defend their elite standing against a hungry Miami Heat squad fighting to climb the ladder in a competitive conference showdown.</desc>
+    <desc lang="en">Fueled by Cade Cunningham and his historic 52-point masterclass, the Detroit Pistons march into the Kaseya Center to test their mettle against the Miami Heat in a high-octane Eastern Conference showdown.</desc>
     <category lang="en">Live</category>
     <category lang="en">New</category>
     <category lang="en">Sports</category>
@@ -1244,7 +964,7 @@
   <programme start="20261115010000 +0000" stop="20261115033000 +0000" channel="NBA-MiamiHeat.us">
     <title lang="en">NBA Basketball</title>
     <sub-title lang="en">Detroit Pistons @ Miami Heat</sub-title>
-    <desc lang="en">High-flying Eastern Conference action heats up as the Detroit Pistons put their strong start on the line against the Miami Heat at Kaseya Center. The surging visitors look to defend their elite standing against a hungry Miami Heat squad fighting to climb the ladder in a competitive conference showdown.</desc>
+    <desc lang="en">Fueled by Cade Cunningham and his historic 52-point masterclass, the Detroit Pistons march into the Kaseya Center to test their mettle against the Miami Heat in a high-octane Eastern Conference showdown.</desc>
     <category lang="en">Live</category>
     <category lang="en">New</category>
     <category lang="en">Sports</category>
@@ -1279,7 +999,7 @@
   <programme start="20261115010000 +0000" stop="20261115033000 +0000" channel="NBA-BrooklynNets.us">
     <title lang="en">NBA Basketball</title>
     <sub-title lang="en">Brooklyn Nets @ Memphis Grizzlies</sub-title>
-    <desc lang="en">Fresh off an explosive 22-point return from injury by Michael Porter Jr., the Brooklyn Nets roll into the FedExForum to take on a surging Memphis Grizzlies squad eager to defend their home court in high-octane regular season action.</desc>
+    <desc lang="en">The surging Memphis Grizzlies return to the FedExForum to protect their home court against a desperate Brooklyn Nets squad looking to jumpstart their season.</desc>
     <category lang="en">Live</category>
     <category lang="en">New</category>
     <category lang="en">Sports</category>
@@ -1314,7 +1034,7 @@
   <programme start="20261115010000 +0000" stop="20261115033000 +0000" channel="NBA-MemphisGrizzlies.us">
     <title lang="en">NBA Basketball</title>
     <sub-title lang="en">Brooklyn Nets @ Memphis Grizzlies</sub-title>
-    <desc lang="en">Fresh off an explosive 22-point return from injury by Michael Porter Jr., the Brooklyn Nets roll into the FedExForum to take on a surging Memphis Grizzlies squad eager to defend their home court in high-octane regular season action.</desc>
+    <desc lang="en">The surging Memphis Grizzlies return to the FedExForum to protect their home court against a desperate Brooklyn Nets squad looking to jumpstart their season.</desc>
     <category lang="en">Live</category>
     <category lang="en">New</category>
     <category lang="en">Sports</category>
@@ -1349,7 +1069,7 @@
   <programme start="20261115010000 +0000" stop="20261115033000 +0000" channel="NBA-ChicagoBulls.us">
     <title lang="en">NBA Basketball</title>
     <sub-title lang="en">Chicago Bulls @ Minnesota Timberwolves</sub-title>
-    <desc lang="en">The red-hot Minnesota Timberwolves host the struggling Chicago Bulls at the Target Center as an electric Western Conference contender clashes with an ailing squad fighting to turn their season around.</desc>
+    <desc lang="en">Buoyed by recent stellar performances, the Minnesota Timberwolves look to extend their dominant run when they host the Chicago Bulls at the Target Center.</desc>
     <category lang="en">Live</category>
     <category lang="en">New</category>
     <category lang="en">Sports</category>
@@ -1384,7 +1104,7 @@
   <programme start="20261115010000 +0000" stop="20261115033000 +0000" channel="NBA-MinnesotaTimberwolves.us">
     <title lang="en">NBA Basketball</title>
     <sub-title lang="en">Chicago Bulls @ Minnesota Timberwolves</sub-title>
-    <desc lang="en">The red-hot Minnesota Timberwolves host the struggling Chicago Bulls at the Target Center as an electric Western Conference contender clashes with an ailing squad fighting to turn their season around.</desc>
+    <desc lang="en">Buoyed by recent stellar performances, the Minnesota Timberwolves look to extend their dominant run when they host the Chicago Bulls at the Target Center.</desc>
     <category lang="en">Live</category>
     <category lang="en">New</category>
     <category lang="en">Sports</category>
@@ -1419,7 +1139,7 @@
   <programme start="20261115180000 +0000" stop="20261115203000 +0000" channel="NBA-IndianaPacers.us">
     <title lang="en">NBA Basketball</title>
     <sub-title lang="en">Indiana Pacers @ Philadelphia 76ers</sub-title>
-    <desc lang="en">The scorching Philadelphia 76ers look to defend home court against the struggling Indiana Pacers in a high-stakes Eastern Conference clash.</desc>
+    <desc lang="en">Riding high on recent stellar performances from Tyrese Maxey and Joel Embiid, the red-hot Philadelphia 76ers look to defend their home court against the Indiana Pacers in an explosive matchup at Xfinity Mobile Arena.</desc>
     <category lang="en">Live</category>
     <category lang="en">New</category>
     <category lang="en">Sports</category>
@@ -1454,7 +1174,7 @@
   <programme start="20261115180000 +0000" stop="20261115203000 +0000" channel="NBA-Philadelphia76ers.us">
     <title lang="en">NBA Basketball</title>
     <sub-title lang="en">Indiana Pacers @ Philadelphia 76ers</sub-title>
-    <desc lang="en">The scorching Philadelphia 76ers look to defend home court against the struggling Indiana Pacers in a high-stakes Eastern Conference clash.</desc>
+    <desc lang="en">Riding high on recent stellar performances from Tyrese Maxey and Joel Embiid, the red-hot Philadelphia 76ers look to defend their home court against the Indiana Pacers in an explosive matchup at Xfinity Mobile Arena.</desc>
     <category lang="en">Live</category>
     <category lang="en">New</category>
     <category lang="en">Sports</category>
@@ -1489,7 +1209,7 @@
   <programme start="20261115210000 +0000" stop="20261115233000 +0000" channel="NBA-LosAngelesLakers.us">
     <title lang="en">NBA Basketball</title>
     <sub-title lang="en">Los Angeles Lakers @ Phoenix Suns</sub-title>
-    <desc lang="en">A surging Los Angeles Lakers squad looks to extend its win streak against the Phoenix Suns in a high-stakes Pacific Division showdown at Mortgage Matchup Center.</desc>
+    <desc lang="en">Fresh off a dazzling 30-point performance by Devin Booker, the Phoenix Suns look to harness that momentum as they host the high-flying Los Angeles Lakers for a high-stakes Pacific Division showdown at the Mortgage Matchup Center.</desc>
     <category lang="en">Live</category>
     <category lang="en">New</category>
     <category lang="en">Sports</category>
@@ -1524,7 +1244,7 @@
   <programme start="20261115210000 +0000" stop="20261115233000 +0000" channel="NBA-PhoenixSuns.us">
     <title lang="en">NBA Basketball</title>
     <sub-title lang="en">Los Angeles Lakers @ Phoenix Suns</sub-title>
-    <desc lang="en">A surging Los Angeles Lakers squad looks to extend its win streak against the Phoenix Suns in a high-stakes Pacific Division showdown at Mortgage Matchup Center.</desc>
+    <desc lang="en">Fresh off a dazzling 30-point performance by Devin Booker, the Phoenix Suns look to harness that momentum as they host the high-flying Los Angeles Lakers for a high-stakes Pacific Division showdown at the Mortgage Matchup Center.</desc>
     <category lang="en">Live</category>
     <category lang="en">New</category>
     <category lang="en">Sports</category>
@@ -1559,7 +1279,7 @@
   <programme start="20261115213000 +0000" stop="20261116000000 +0000" channel="NBA-CharlotteHornets.us">
     <title lang="en">NBA Basketball</title>
     <sub-title lang="en">Charlotte Hornets @ LA Clippers</sub-title>
-    <desc lang="en">Desperately seeking a spark to ignite their slow season, the LA Clippers return to their home floor to defend the Intuit Dome against the Charlotte Hornets in a high-stakes cross-conference clash.</desc>
+    <desc lang="en">Seeking to spark some momentum at the Intuit Dome, the LA Clippers host the Charlotte Hornets in an intense hardwood battle as both squads look to ignite their seasons and climb out of early-season struggles.</desc>
     <category lang="en">Live</category>
     <category lang="en">New</category>
     <category lang="en">Sports</category>
@@ -1594,7 +1314,7 @@
   <programme start="20261115213000 +0000" stop="20261116000000 +0000" channel="NBA-LAClippers.us">
     <title lang="en">NBA Basketball</title>
     <sub-title lang="en">Charlotte Hornets @ LA Clippers</sub-title>
-    <desc lang="en">Desperately seeking a spark to ignite their slow season, the LA Clippers return to their home floor to defend the Intuit Dome against the Charlotte Hornets in a high-stakes cross-conference clash.</desc>
+    <desc lang="en">Seeking to spark some momentum at the Intuit Dome, the LA Clippers host the Charlotte Hornets in an intense hardwood battle as both squads look to ignite their seasons and climb out of early-season struggles.</desc>
     <category lang="en">Live</category>
     <category lang="en">New</category>
     <category lang="en">Sports</category>
@@ -1629,7 +1349,7 @@
   <programme start="20261115220000 +0000" stop="20261116003000 +0000" channel="NBA-SanAntonioSpurs.us">
     <title lang="en">NBA Basketball</title>
     <sub-title lang="en">San Antonio Spurs @ Utah Jazz</sub-title>
-    <desc lang="en">The San Antonio Spurs hit the road to battle the Utah Jazz in an electrifying regular-season showdown at the Delta Center. The soaring San Antonio squad looks to dominate on the hardwood against a resilient Utah lineup desperate to ignite a turnaround.</desc>
+    <desc lang="en">The high-flying San Antonio Spurs clash with the struggling Utah Jazz at the Delta Center as both squads battle for crucial early-season positioning. Can the hosts spark a turnaround against an elite Western Conference powerhouse?</desc>
     <category lang="en">Live</category>
     <category lang="en">New</category>
     <category lang="en">Sports</category>
@@ -1664,7 +1384,7 @@
   <programme start="20261115220000 +0000" stop="20261116003000 +0000" channel="NBA-UtahJazz.us">
     <title lang="en">NBA Basketball</title>
     <sub-title lang="en">San Antonio Spurs @ Utah Jazz</sub-title>
-    <desc lang="en">The San Antonio Spurs hit the road to battle the Utah Jazz in an electrifying regular-season showdown at the Delta Center. The soaring San Antonio squad looks to dominate on the hardwood against a resilient Utah lineup desperate to ignite a turnaround.</desc>
+    <desc lang="en">The high-flying San Antonio Spurs clash with the struggling Utah Jazz at the Delta Center as both squads battle for crucial early-season positioning. Can the hosts spark a turnaround against an elite Western Conference powerhouse?</desc>
     <category lang="en">Live</category>
     <category lang="en">New</category>
     <category lang="en">Sports</category>
@@ -1699,7 +1419,7 @@
   <programme start="20261115230000 +0000" stop="20261116013000 +0000" channel="NBA-DallasMavericks.us">
     <title lang="en">NBA Basketball</title>
     <sub-title lang="en">Dallas Mavericks @ Boston Celtics</sub-title>
-    <desc lang="en">Riding a surging five-game win streak, the Boston Celtics protect their home court against the Dallas Mavericks in a high-voltage clash at TD Garden.</desc>
+    <desc lang="en">The red-hot Boston Celtics return to TD Garden to host the Dallas Mavericks as the visitors look to bounce back from a bruising recent defeat and steady their early-season momentum.</desc>
     <category lang="en">Live</category>
     <category lang="en">New</category>
     <category lang="en">Sports</category>
@@ -1734,7 +1454,7 @@
   <programme start="20261115230000 +0000" stop="20261116013000 +0000" channel="NBA-BostonCeltics.us">
     <title lang="en">NBA Basketball</title>
     <sub-title lang="en">Dallas Mavericks @ Boston Celtics</sub-title>
-    <desc lang="en">Riding a surging five-game win streak, the Boston Celtics protect their home court against the Dallas Mavericks in a high-voltage clash at TD Garden.</desc>
+    <desc lang="en">The red-hot Boston Celtics return to TD Garden to host the Dallas Mavericks as the visitors look to bounce back from a bruising recent defeat and steady their early-season momentum.</desc>
     <category lang="en">Live</category>
     <category lang="en">New</category>
     <category lang="en">Sports</category>
@@ -1769,7 +1489,7 @@
   <programme start="20261115230000 +0000" stop="20261116013000 +0000" channel="NBA-NewYorkKnicks.us">
     <title lang="en">NBA Basketball</title>
     <sub-title lang="en">New York Knicks @ Toronto Raptors</sub-title>
-    <desc lang="en">The New York Knicks hit the road to battle the Toronto Raptors in a thrilling Eastern Conference showdown at Scotiabank Arena as both teams jockey for early-season positioning. Expect high-stakes drama and intense hardwood action as these conference rivals collide.</desc>
+    <desc lang="en">The New York Knicks travel to face the Toronto Raptors in a high-stakes Eastern Conference showdown at Scotiabank Arena as both teams battle for early-season momentum. Expect intense hardwood drama as the Toronto Raptors look to bounce back against a surging New York Knicks squad eager to climb the standings.</desc>
     <category lang="en">Live</category>
     <category lang="en">New</category>
     <category lang="en">Sports</category>
@@ -1804,7 +1524,7 @@
   <programme start="20261115230000 +0000" stop="20261116013000 +0000" channel="NBA-TorontoRaptors.us">
     <title lang="en">NBA Basketball</title>
     <sub-title lang="en">New York Knicks @ Toronto Raptors</sub-title>
-    <desc lang="en">The New York Knicks hit the road to battle the Toronto Raptors in a thrilling Eastern Conference showdown at Scotiabank Arena as both teams jockey for early-season positioning. Expect high-stakes drama and intense hardwood action as these conference rivals collide.</desc>
+    <desc lang="en">The New York Knicks travel to face the Toronto Raptors in a high-stakes Eastern Conference showdown at Scotiabank Arena as both teams battle for early-season momentum. Expect intense hardwood drama as the Toronto Raptors look to bounce back against a surging New York Knicks squad eager to climb the standings.</desc>
     <category lang="en">Live</category>
     <category lang="en">New</category>
     <category lang="en">Sports</category>
@@ -1839,7 +1559,7 @@
   <programme start="20261116000000 +0000" stop="20261116023000 +0000" channel="NBA-HoustonRockets.us">
     <title lang="en">NBA Basketball</title>
     <sub-title lang="en">Houston Rockets @ Washington Wizards</sub-title>
-    <desc lang="en">A soaring Houston Rockets squad looks to assert its dominance on the road as they clash with the struggling Washington Wizards at Capital One Arena in this high-stakes NBA regular season battle.</desc>
+    <desc lang="en">The Washington Wizards look to bounce back from a heartbreaking double-overtime thriller as they return home to host the surging Houston Rockets at Capital One Arena.</desc>
     <category lang="en">Live</category>
     <category lang="en">New</category>
     <category lang="en">Sports</category>
@@ -1874,7 +1594,7 @@
   <programme start="20261116000000 +0000" stop="20261116023000 +0000" channel="NBA-WashingtonWizards.us">
     <title lang="en">NBA Basketball</title>
     <sub-title lang="en">Houston Rockets @ Washington Wizards</sub-title>
-    <desc lang="en">A soaring Houston Rockets squad looks to assert its dominance on the road as they clash with the struggling Washington Wizards at Capital One Arena in this high-stakes NBA regular season battle.</desc>
+    <desc lang="en">The Washington Wizards look to bounce back from a heartbreaking double-overtime thriller as they return home to host the surging Houston Rockets at Capital One Arena.</desc>
     <category lang="en">Live</category>
     <category lang="en">New</category>
     <category lang="en">Sports</category>
@@ -2119,7 +1839,7 @@
   <programme start="20261117000000 +0000" stop="20261117023000 +0000" channel="NBA-ChicagoBulls.us">
     <title lang="en">NBA Basketball</title>
     <sub-title lang="en">Chicago Bulls @ Cleveland Cavaliers</sub-title>
-    <desc lang="en">The Cleveland Cavaliers return home to Rocket Arena looking to solidify their standing in the East as they host the struggling Chicago Bulls. The visiting Chicago Bulls desperately search for a spark to turn their early-season woes around against a formidable Cleveland Cavaliers squad hungry for a statement victory.</desc>
+    <desc lang="en">Fueled by Donovan Mitchell and his renewed commitment to the franchise, the Cleveland Cavaliers look to pad their record against a struggling Chicago Bulls squad looking to bounce back.</desc>
     <category lang="en">Live</category>
     <category lang="en">New</category>
     <category lang="en">Sports</category>
@@ -2154,7 +1874,7 @@
   <programme start="20261117000000 +0000" stop="20261117023000 +0000" channel="NBA-ClevelandCavaliers.us">
     <title lang="en">NBA Basketball</title>
     <sub-title lang="en">Chicago Bulls @ Cleveland Cavaliers</sub-title>
-    <desc lang="en">The Cleveland Cavaliers return home to Rocket Arena looking to solidify their standing in the East as they host the struggling Chicago Bulls. The visiting Chicago Bulls desperately search for a spark to turn their early-season woes around against a formidable Cleveland Cavaliers squad hungry for a statement victory.</desc>
+    <desc lang="en">Fueled by Donovan Mitchell and his renewed commitment to the franchise, the Cleveland Cavaliers look to pad their record against a struggling Chicago Bulls squad looking to bounce back.</desc>
     <category lang="en">Live</category>
     <category lang="en">New</category>
     <category lang="en">Sports</category>
@@ -2189,7 +1909,7 @@
   <programme start="20261117000000 +0000" stop="20261117023000 +0000" channel="NBA-MemphisGrizzlies.us">
     <title lang="en">NBA Basketball</title>
     <sub-title lang="en">Memphis Grizzlies @ Washington Wizards</sub-title>
-    <desc lang="en">The Memphis Grizzlies look to bounce back and climb the Western Conference ladder as they hit the road to battle the Washington Wizards at Capital One Arena in a high-stakes regular season showdown.</desc>
+    <desc lang="en">Reeling from a brutal double-overtime heartbreaker, the Washington Wizards look to regroup at home as they host the surging Memphis Grizzlies at Capital One Arena for a high-stakes regular season clash.</desc>
     <category lang="en">Live</category>
     <category lang="en">New</category>
     <category lang="en">Sports</category>
@@ -2224,7 +1944,7 @@
   <programme start="20261117000000 +0000" stop="20261117023000 +0000" channel="NBA-WashingtonWizards.us">
     <title lang="en">NBA Basketball</title>
     <sub-title lang="en">Memphis Grizzlies @ Washington Wizards</sub-title>
-    <desc lang="en">The Memphis Grizzlies look to bounce back and climb the Western Conference ladder as they hit the road to battle the Washington Wizards at Capital One Arena in a high-stakes regular season showdown.</desc>
+    <desc lang="en">Reeling from a brutal double-overtime heartbreaker, the Washington Wizards look to regroup at home as they host the surging Memphis Grizzlies at Capital One Arena for a high-stakes regular season clash.</desc>
     <category lang="en">Live</category>
     <category lang="en">New</category>
     <category lang="en">Sports</category>
@@ -2259,7 +1979,7 @@
   <programme start="20261117003000 +0000" stop="20261117030000 +0000" channel="NBA-Philadelphia76ers.us">
     <title lang="en">NBA Basketball</title>
     <sub-title lang="en">Philadelphia 76ers @ Brooklyn Nets</sub-title>
-    <desc lang="en">Fresh off a dominant return performance, Michael Porter Jr. and the Brooklyn Nets look to harness that high-scoring momentum as they host the Philadelphia 76ers for a high-stakes Eastern Conference showdown at Barclays Center.</desc>
+    <desc lang="en">The Philadelphia 76ers hit the road to clash with the Brooklyn Nets inside Barclays Center in an intense Eastern Conference regular season battle. Philadelphia looks to keep their dominant momentum rolling against a hungry Brooklyn squad desperate to turn their season around on their home court.</desc>
     <category lang="en">Live</category>
     <category lang="en">New</category>
     <category lang="en">Sports</category>
@@ -2294,7 +2014,7 @@
   <programme start="20261117003000 +0000" stop="20261117030000 +0000" channel="NBA-BrooklynNets.us">
     <title lang="en">NBA Basketball</title>
     <sub-title lang="en">Philadelphia 76ers @ Brooklyn Nets</sub-title>
-    <desc lang="en">Fresh off a dominant return performance, Michael Porter Jr. and the Brooklyn Nets look to harness that high-scoring momentum as they host the Philadelphia 76ers for a high-stakes Eastern Conference showdown at Barclays Center.</desc>
+    <desc lang="en">The Philadelphia 76ers hit the road to clash with the Brooklyn Nets inside Barclays Center in an intense Eastern Conference regular season battle. Philadelphia looks to keep their dominant momentum rolling against a hungry Brooklyn squad desperate to turn their season around on their home court.</desc>
     <category lang="en">Live</category>
     <category lang="en">New</category>
     <category lang="en">Sports</category>
@@ -2329,7 +2049,7 @@
   <programme start="20261117003000 +0000" stop="20261117030000 +0000" channel="NBA-HoustonRockets.us">
     <title lang="en">NBA Basketball</title>
     <sub-title lang="en">Houston Rockets @ Miami Heat</sub-title>
-    <desc lang="en">The high-flying Houston Rockets bring their dominant third-place Western Conference momentum to the floor to clash with the resilient Miami Heat in a high-stakes battle at Kaseya Center.</desc>
+    <desc lang="en">The red-hot Houston Rockets roll into South Beach to take on the Miami Heat at Kaseya Center without the suspended guard Marcus Smart. Expect an intense battle as the visiting squad looks to maintain its dominant early-season momentum against a resilient Miami Heat team protecting home court.</desc>
     <category lang="en">Live</category>
     <category lang="en">New</category>
     <category lang="en">Sports</category>
@@ -2364,7 +2084,7 @@
   <programme start="20261117003000 +0000" stop="20261117030000 +0000" channel="NBA-MiamiHeat.us">
     <title lang="en">NBA Basketball</title>
     <sub-title lang="en">Houston Rockets @ Miami Heat</sub-title>
-    <desc lang="en">The high-flying Houston Rockets bring their dominant third-place Western Conference momentum to the floor to clash with the resilient Miami Heat in a high-stakes battle at Kaseya Center.</desc>
+    <desc lang="en">The red-hot Houston Rockets roll into South Beach to take on the Miami Heat at Kaseya Center without the suspended guard Marcus Smart. Expect an intense battle as the visiting squad looks to maintain its dominant early-season momentum against a resilient Miami Heat team protecting home court.</desc>
     <category lang="en">Live</category>
     <category lang="en">New</category>
     <category lang="en">Sports</category>
@@ -2399,7 +2119,7 @@
   <programme start="20261117010000 +0000" stop="20261117033000 +0000" channel="NBA-PortlandTrailBlazers.us">
     <title lang="en">NBA Basketball</title>
     <sub-title lang="en">Portland Trail Blazers @ Minnesota Timberwolves</sub-title>
-    <desc lang="en">A high-stakes Western Conference showdown unfolds as the Portland Trail Blazers clash with the Minnesota Timberwolves, with both explosive squads sitting at an identical 8-3 record.</desc>
+    <desc lang="en">Riding the momentum of a dominant blowout victory, the Minnesota Timberwolves look to keep rolling on their home floor against the Portland Trail Blazers in a high-stakes regular-season battle.</desc>
     <category lang="en">Live</category>
     <category lang="en">New</category>
     <category lang="en">Sports</category>
@@ -2434,7 +2154,7 @@
   <programme start="20261117010000 +0000" stop="20261117033000 +0000" channel="NBA-MinnesotaTimberwolves.us">
     <title lang="en">NBA Basketball</title>
     <sub-title lang="en">Portland Trail Blazers @ Minnesota Timberwolves</sub-title>
-    <desc lang="en">A high-stakes Western Conference showdown unfolds as the Portland Trail Blazers clash with the Minnesota Timberwolves, with both explosive squads sitting at an identical 8-3 record.</desc>
+    <desc lang="en">Riding the momentum of a dominant blowout victory, the Minnesota Timberwolves look to keep rolling on their home floor against the Portland Trail Blazers in a high-stakes regular-season battle.</desc>
     <category lang="en">Live</category>
     <category lang="en">New</category>
     <category lang="en">Sports</category>
@@ -2469,7 +2189,7 @@
   <programme start="20261117010000 +0000" stop="20261117033000 +0000" channel="NBA-GoldenStateWarriors.us">
     <title lang="en">NBA Basketball</title>
     <sub-title lang="en">Golden State Warriors @ New Orleans Pelicans</sub-title>
-    <desc lang="en">Following a brutal blowout loss sparking calls for accountability from star forward Zion Williamson, the New Orleans Pelicans look to stop a four-game skid when they host the Golden State Warriors inside the Smoothie King Center in an explosive Western Conference showdown.</desc>
+    <desc lang="en">The Golden State Warriors face a massive test without the sidelined Steph Curry as they clash with the New Orleans Pelicans inside the Smoothie King Center, where Yaxel Lendeborg looks to step up as the go-to guy.</desc>
     <category lang="en">Live</category>
     <category lang="en">New</category>
     <category lang="en">Sports</category>
@@ -2504,7 +2224,7 @@
   <programme start="20261117010000 +0000" stop="20261117033000 +0000" channel="NBA-NewOrleansPelicans.us">
     <title lang="en">NBA Basketball</title>
     <sub-title lang="en">Golden State Warriors @ New Orleans Pelicans</sub-title>
-    <desc lang="en">Following a brutal blowout loss sparking calls for accountability from star forward Zion Williamson, the New Orleans Pelicans look to stop a four-game skid when they host the Golden State Warriors inside the Smoothie King Center in an explosive Western Conference showdown.</desc>
+    <desc lang="en">The Golden State Warriors face a massive test without the sidelined Steph Curry as they clash with the New Orleans Pelicans inside the Smoothie King Center, where Yaxel Lendeborg looks to step up as the go-to guy.</desc>
     <category lang="en">Live</category>
     <category lang="en">New</category>
     <category lang="en">Sports</category>
@@ -2539,7 +2259,7 @@
   <programme start="20261117020000 +0000" stop="20261117043000 +0000" channel="NBA-PhoenixSuns.us">
     <title lang="en">NBA Basketball</title>
     <sub-title lang="en">Phoenix Suns @ Denver Nuggets</sub-title>
-    <desc lang="en">Powered by the stellar play of Jamal Murray and Nikola Jokic, the Denver Nuggets return to Ball Arena to battle the Phoenix Suns in a high-stakes clash. Expect pure offensive fireworks as the Denver Nuggets look to defend home court against a hungry Phoenix Suns squad eager to rewrite their season narrative.</desc>
+    <desc lang="en">Fueling up after a stellar 30-point performance, Devin Booker leads the Phoenix Suns into high-altitude territory to battle the Denver Nuggets at Ball Arena. The surging Denver Nuggets look to defend their home court and outpace a hungry Phoenix Suns squad in this thrilling Western Conference showdown.</desc>
     <category lang="en">Live</category>
     <category lang="en">New</category>
     <category lang="en">Sports</category>
@@ -2574,7 +2294,7 @@
   <programme start="20261117020000 +0000" stop="20261117043000 +0000" channel="NBA-DenverNuggets.us">
     <title lang="en">NBA Basketball</title>
     <sub-title lang="en">Phoenix Suns @ Denver Nuggets</sub-title>
-    <desc lang="en">Powered by the stellar play of Jamal Murray and Nikola Jokic, the Denver Nuggets return to Ball Arena to battle the Phoenix Suns in a high-stakes clash. Expect pure offensive fireworks as the Denver Nuggets look to defend home court against a hungry Phoenix Suns squad eager to rewrite their season narrative.</desc>
+    <desc lang="en">Fueling up after a stellar 30-point performance, Devin Booker leads the Phoenix Suns into high-altitude territory to battle the Denver Nuggets at Ball Arena. The surging Denver Nuggets look to defend their home court and outpace a hungry Phoenix Suns squad in this thrilling Western Conference showdown.</desc>
     <category lang="en">Live</category>
     <category lang="en">New</category>
     <category lang="en">Sports</category>
@@ -2609,7 +2329,7 @@
   <programme start="20261118003000 +0000" stop="20261118030000 +0000" channel="NBA-NewYorkKnicks.us">
     <title lang="en">NBA Basketball</title>
     <sub-title lang="en">New York Knicks @ Toronto Raptors</sub-title>
-    <desc lang="en">Eastern Conference positioning hangs in the balance as the New York Knicks clash with the Toronto Raptors in a high-stakes divisional battle at Scotiabank Arena. Both playoff contenders look to make a statement and climb the tightly contested early-season standings.</desc>
+    <desc lang="en">The New York Knicks travel north to Scotiabank Arena to clash with the Toronto Raptors in a high-stakes Eastern Conference showdown as both squads fight to climb above the .500 mark.</desc>
     <category lang="en">Live</category>
     <category lang="en">New</category>
     <category lang="en">Sports</category>
@@ -2644,7 +2364,7 @@
   <programme start="20261118003000 +0000" stop="20261118030000 +0000" channel="NBA-TorontoRaptors.us">
     <title lang="en">NBA Basketball</title>
     <sub-title lang="en">New York Knicks @ Toronto Raptors</sub-title>
-    <desc lang="en">Eastern Conference positioning hangs in the balance as the New York Knicks clash with the Toronto Raptors in a high-stakes divisional battle at Scotiabank Arena. Both playoff contenders look to make a statement and climb the tightly contested early-season standings.</desc>
+    <desc lang="en">The New York Knicks travel north to Scotiabank Arena to clash with the Toronto Raptors in a high-stakes Eastern Conference showdown as both squads fight to climb above the .500 mark.</desc>
     <category lang="en">Live</category>
     <category lang="en">New</category>
     <category lang="en">Sports</category>
@@ -2679,7 +2399,7 @@
   <programme start="20261118010000 +0000" stop="20261118033000 +0000" channel="NBA-PortlandTrailBlazers.us">
     <title lang="en">NBA Basketball</title>
     <sub-title lang="en">Portland Trail Blazers @ Minnesota Timberwolves</sub-title>
-    <desc lang="en">A heavyweight Western Conference clash unfolds as the Portland Trail Blazers collide with the Minnesota Timberwolves, with both surging squads boasting identical 8-3 records. Expect an explosive battle on the hardwood as these two high-flying contenders fight for supremacy in a crowded conference race.</desc>
+    <desc lang="en">Riding the momentum of a dominant blowout victory, the Minnesota Timberwolves look to keep rolling at home. Standing in their way are the surging Portland Trail Blazers in a high-octane Western Conference showdown at the Target Center.</desc>
     <category lang="en">Live</category>
     <category lang="en">New</category>
     <category lang="en">Sports</category>
@@ -2714,7 +2434,7 @@
   <programme start="20261118010000 +0000" stop="20261118033000 +0000" channel="NBA-MinnesotaTimberwolves.us">
     <title lang="en">NBA Basketball</title>
     <sub-title lang="en">Portland Trail Blazers @ Minnesota Timberwolves</sub-title>
-    <desc lang="en">A heavyweight Western Conference clash unfolds as the Portland Trail Blazers collide with the Minnesota Timberwolves, with both surging squads boasting identical 8-3 records. Expect an explosive battle on the hardwood as these two high-flying contenders fight for supremacy in a crowded conference race.</desc>
+    <desc lang="en">Riding the momentum of a dominant blowout victory, the Minnesota Timberwolves look to keep rolling at home. Standing in their way are the surging Portland Trail Blazers in a high-octane Western Conference showdown at the Target Center.</desc>
     <category lang="en">Live</category>
     <category lang="en">New</category>
     <category lang="en">Sports</category>
@@ -2749,7 +2469,7 @@
   <programme start="20261118010000 +0000" stop="20261118033000 +0000" channel="NBA-DetroitPistons.us">
     <title lang="en">NBA Basketball</title>
     <sub-title lang="en">Detroit Pistons @ San Antonio Spurs</sub-title>
-    <desc lang="en">High-flying early-season momentum collides at the Frost Bank Center as the San Antonio Spurs host the Detroit Pistons in a blockbuster cross-conference clash. Expect an intense battle on the hardwood as both soaring squads look to make a statement and strengthen their elite standing among the league's heavyweights.</desc>
+    <desc lang="en">Fresh off a historic 52-point masterclass, Cade Cunningham leads the Detroit Pistons into a high-stakes showdown against the red-hot San Antonio Spurs at the Frost Bank Center as both powerhouse squads battle for early-season supremacy.</desc>
     <category lang="en">Live</category>
     <category lang="en">New</category>
     <category lang="en">Sports</category>
@@ -2784,7 +2504,7 @@
   <programme start="20261118010000 +0000" stop="20261118033000 +0000" channel="NBA-SanAntonioSpurs.us">
     <title lang="en">NBA Basketball</title>
     <sub-title lang="en">Detroit Pistons @ San Antonio Spurs</sub-title>
-    <desc lang="en">High-flying early-season momentum collides at the Frost Bank Center as the San Antonio Spurs host the Detroit Pistons in a blockbuster cross-conference clash. Expect an intense battle on the hardwood as both soaring squads look to make a statement and strengthen their elite standing among the league's heavyweights.</desc>
+    <desc lang="en">Fresh off a historic 52-point masterclass, Cade Cunningham leads the Detroit Pistons into a high-stakes showdown against the red-hot San Antonio Spurs at the Frost Bank Center as both powerhouse squads battle for early-season supremacy.</desc>
     <category lang="en">Live</category>
     <category lang="en">New</category>
     <category lang="en">Sports</category>
@@ -2889,7 +2609,7 @@
   <programme start="20261118040000 +0000" stop="20261118063000 +0000" channel="NBA-CharlotteHornets.us">
     <title lang="en">NBA Basketball</title>
     <sub-title lang="en">Charlotte Hornets @ Los Angeles Lakers</sub-title>
-    <desc lang="en">Riding a sizzling seven-game winning streak, the Los Angeles Lakers look to protect their home court at crypto.com Arena against the visiting Charlotte Hornets. Can the banged-up hosts keep their momentum rolling despite the injury concern surrounding guard Austin Reaves?</desc>
+    <desc lang="en">The surging Los Angeles Lakers defend their home court at crypto.com Arena against the visiting Charlotte Hornets in a high-stakes regular season showdown. Expect intense hardwood action as the formidable Los Angeles Lakers look to protect their dominant record against a hungry Charlotte Hornets squad.</desc>
     <category lang="en">Live</category>
     <category lang="en">New</category>
     <category lang="en">Sports</category>
@@ -2924,7 +2644,7 @@
   <programme start="20261118040000 +0000" stop="20261118063000 +0000" channel="NBA-LosAngelesLakers.us">
     <title lang="en">NBA Basketball</title>
     <sub-title lang="en">Charlotte Hornets @ Los Angeles Lakers</sub-title>
-    <desc lang="en">Riding a sizzling seven-game winning streak, the Los Angeles Lakers look to protect their home court at crypto.com Arena against the visiting Charlotte Hornets. Can the banged-up hosts keep their momentum rolling despite the injury concern surrounding guard Austin Reaves?</desc>
+    <desc lang="en">The surging Los Angeles Lakers defend their home court at crypto.com Arena against the visiting Charlotte Hornets in a high-stakes regular season showdown. Expect intense hardwood action as the formidable Los Angeles Lakers look to protect their dominant record against a hungry Charlotte Hornets squad.</desc>
     <category lang="en">Live</category>
     <category lang="en">New</category>
     <category lang="en">Sports</category>
@@ -2959,7 +2679,7 @@
   <programme start="20261119000000 +0000" stop="20261119023000 +0000" channel="NBA-MemphisGrizzlies.us">
     <title lang="en">NBA Basketball</title>
     <sub-title lang="en">Memphis Grizzlies @ Cleveland Cavaliers</sub-title>
-    <desc lang="en">The Cleveland Cavaliers look to find their rhythm as they battle the Memphis Grizzlies in an electrifying cross-conference showdown. Both squads aim to climb the standings and make statement wins as the pressure of the regular season intensifies.</desc>
+    <desc lang="en">Fuelled by Donovan Mitchell and his renewed commitment to the franchise, the Cleveland Cavaliers return home to Rocket Arena to defend their turf against the surging Memphis Grizzlies in a high-stakes cross-conference showdown.</desc>
     <category lang="en">Live</category>
     <category lang="en">New</category>
     <category lang="en">Sports</category>
@@ -2994,7 +2714,7 @@
   <programme start="20261119000000 +0000" stop="20261119023000 +0000" channel="NBA-ClevelandCavaliers.us">
     <title lang="en">NBA Basketball</title>
     <sub-title lang="en">Memphis Grizzlies @ Cleveland Cavaliers</sub-title>
-    <desc lang="en">The Cleveland Cavaliers look to find their rhythm as they battle the Memphis Grizzlies in an electrifying cross-conference showdown. Both squads aim to climb the standings and make statement wins as the pressure of the regular season intensifies.</desc>
+    <desc lang="en">Fuelled by Donovan Mitchell and his renewed commitment to the franchise, the Cleveland Cavaliers return home to Rocket Arena to defend their turf against the surging Memphis Grizzlies in a high-stakes cross-conference showdown.</desc>
     <category lang="en">Live</category>
     <category lang="en">New</category>
     <category lang="en">Sports</category>
@@ -3029,7 +2749,7 @@
   <programme start="20261119000000 +0000" stop="20261119023000 +0000" channel="NBA-HoustonRockets.us">
     <title lang="en">NBA Basketball</title>
     <sub-title lang="en">Houston Rockets @ Indiana Pacers</sub-title>
-    <desc lang="en">The high-flying Houston Rockets bring their dominant nine-win momentum into Gainbridge Fieldhouse to clash with the Indiana Pacers. Expect intense hardwood drama as the struggling hosts look to derail a powerhouse Western Conference contender.</desc>
+    <desc lang="en">Playing without the suspended guard Marcus Smart, the Houston Rockets hit the road to clash with the Indiana Pacers at Gainbridge Fieldhouse as the high-flying Western Conference contenders look to outmuscle the resilient hosts.</desc>
     <category lang="en">Live</category>
     <category lang="en">New</category>
     <category lang="en">Sports</category>
@@ -3064,7 +2784,7 @@
   <programme start="20261119000000 +0000" stop="20261119023000 +0000" channel="NBA-IndianaPacers.us">
     <title lang="en">NBA Basketball</title>
     <sub-title lang="en">Houston Rockets @ Indiana Pacers</sub-title>
-    <desc lang="en">The high-flying Houston Rockets bring their dominant nine-win momentum into Gainbridge Fieldhouse to clash with the Indiana Pacers. Expect intense hardwood drama as the struggling hosts look to derail a powerhouse Western Conference contender.</desc>
+    <desc lang="en">Playing without the suspended guard Marcus Smart, the Houston Rockets hit the road to clash with the Indiana Pacers at Gainbridge Fieldhouse as the high-flying Western Conference contenders look to outmuscle the resilient hosts.</desc>
     <category lang="en">Live</category>
     <category lang="en">New</category>
     <category lang="en">Sports</category>
@@ -3169,7 +2889,7 @@
   <programme start="20261119000000 +0000" stop="20261119023000 +0000" channel="NBA-Philadelphia76ers.us">
     <title lang="en">NBA Basketball</title>
     <sub-title lang="en">Philadelphia 76ers @ Orlando Magic</sub-title>
-    <desc lang="en">The high-flying Philadelphia 76ers hit the road to clash with the Orlando Magic in a crucial Eastern Conference showdown at the Kia Center. Expect fireworks on the hardwood as both squads battle for vital early-season positioning.</desc>
+    <desc lang="en">The surging Philadelphia 76ers bring their powerhouse roster led by Tyrese Maxey and Joel Embiid to the Kia Center to battle the Orlando Magic. Expect a high-octane showdown as the high-flying visitors look to overpower the Orlando Magic in this explosive cross-conference clash.</desc>
     <category lang="en">Live</category>
     <category lang="en">New</category>
     <category lang="en">Sports</category>
@@ -3204,7 +2924,7 @@
   <programme start="20261119000000 +0000" stop="20261119023000 +0000" channel="NBA-OrlandoMagic.us">
     <title lang="en">NBA Basketball</title>
     <sub-title lang="en">Philadelphia 76ers @ Orlando Magic</sub-title>
-    <desc lang="en">The high-flying Philadelphia 76ers hit the road to clash with the Orlando Magic in a crucial Eastern Conference showdown at the Kia Center. Expect fireworks on the hardwood as both squads battle for vital early-season positioning.</desc>
+    <desc lang="en">The surging Philadelphia 76ers bring their powerhouse roster led by Tyrese Maxey and Joel Embiid to the Kia Center to battle the Orlando Magic. Expect a high-octane showdown as the high-flying visitors look to overpower the Orlando Magic in this explosive cross-conference clash.</desc>
     <category lang="en">Live</category>
     <category lang="en">New</category>
     <category lang="en">Sports</category>
@@ -3239,7 +2959,7 @@
   <programme start="20261119003000 +0000" stop="20261119030000 +0000" channel="NBA-ChicagoBulls.us">
     <title lang="en">NBA Basketball</title>
     <sub-title lang="en">Chicago Bulls @ Brooklyn Nets</sub-title>
-    <desc lang="en">Sparked by Egor Demin making a triumphant return from injury to score 22 points, the Brooklyn Nets host the Chicago Bulls at Barclays Center for high-octane Eastern Conference hardwood action.</desc>
+    <desc lang="en">Desperate to climb out of early-season struggles, the Chicago Bulls visit the Barclays Center to clash with the Brooklyn Nets in a crucial Eastern Conference showdown where both squads are fighting to ignite their campaigns.</desc>
     <category lang="en">Live</category>
     <category lang="en">New</category>
     <category lang="en">Sports</category>
@@ -3274,7 +2994,7 @@
   <programme start="20261119003000 +0000" stop="20261119030000 +0000" channel="NBA-BrooklynNets.us">
     <title lang="en">NBA Basketball</title>
     <sub-title lang="en">Chicago Bulls @ Brooklyn Nets</sub-title>
-    <desc lang="en">Sparked by Egor Demin making a triumphant return from injury to score 22 points, the Brooklyn Nets host the Chicago Bulls at Barclays Center for high-octane Eastern Conference hardwood action.</desc>
+    <desc lang="en">Desperate to climb out of early-season struggles, the Chicago Bulls visit the Barclays Center to clash with the Brooklyn Nets in a crucial Eastern Conference showdown where both squads are fighting to ignite their campaigns.</desc>
     <category lang="en">Live</category>
     <category lang="en">New</category>
     <category lang="en">Sports</category>
@@ -3309,7 +3029,7 @@
   <programme start="20261119003000 +0000" stop="20261119030000 +0000" channel="NBA-WashingtonWizards.us">
     <title lang="en">NBA Basketball</title>
     <sub-title lang="en">Washington Wizards @ Toronto Raptors</sub-title>
-    <desc lang="en">The Toronto Raptors look to rebound on their home court as they defend Scotiabank Arena against the visiting Washington Wizards in an intense Eastern Conference regular season clash.</desc>
+    <desc lang="en">Eastern Conference foes collide at Scotiabank Arena as the Toronto Raptors host the Washington Wizards in a crucial early-season battle. Both squads look to bounce back and climb the standings in a high-stakes clash packed with intense hardwood drama.</desc>
     <category lang="en">Live</category>
     <category lang="en">New</category>
     <category lang="en">Sports</category>
@@ -3344,7 +3064,7 @@
   <programme start="20261119003000 +0000" stop="20261119030000 +0000" channel="NBA-TorontoRaptors.us">
     <title lang="en">NBA Basketball</title>
     <sub-title lang="en">Washington Wizards @ Toronto Raptors</sub-title>
-    <desc lang="en">The Toronto Raptors look to rebound on their home court as they defend Scotiabank Arena against the visiting Washington Wizards in an intense Eastern Conference regular season clash.</desc>
+    <desc lang="en">Eastern Conference foes collide at Scotiabank Arena as the Toronto Raptors host the Washington Wizards in a crucial early-season battle. Both squads look to bounce back and climb the standings in a high-stakes clash packed with intense hardwood drama.</desc>
     <category lang="en">Live</category>
     <category lang="en">New</category>
     <category lang="en">Sports</category>
@@ -3379,7 +3099,7 @@
   <programme start="20261119010000 +0000" stop="20261119033000 +0000" channel="NBA-DetroitPistons.us">
     <title lang="en">NBA Basketball</title>
     <sub-title lang="en">Detroit Pistons @ New Orleans Pelicans</sub-title>
-    <desc lang="en">The red-hot Detroit Pistons roll into town riding high near the top of the Eastern Conference to battle the New Orleans Pelicans in an explosive cross-conference showdown at the Smoothie King Center.</desc>
+    <desc lang="en">Riding the momentum of a historic 52-point masterclass, Cade Cunningham leads the Detroit Pistons into battle against the New Orleans Pelicans in a high-octane showdown at the Smoothie King Center.</desc>
     <category lang="en">Live</category>
     <category lang="en">New</category>
     <category lang="en">Sports</category>
@@ -3414,7 +3134,7 @@
   <programme start="20261119010000 +0000" stop="20261119033000 +0000" channel="NBA-NewOrleansPelicans.us">
     <title lang="en">NBA Basketball</title>
     <sub-title lang="en">Detroit Pistons @ New Orleans Pelicans</sub-title>
-    <desc lang="en">The red-hot Detroit Pistons roll into town riding high near the top of the Eastern Conference to battle the New Orleans Pelicans in an explosive cross-conference showdown at the Smoothie King Center.</desc>
+    <desc lang="en">Riding the momentum of a historic 52-point masterclass, Cade Cunningham leads the Detroit Pistons into battle against the New Orleans Pelicans in a high-octane showdown at the Smoothie King Center.</desc>
     <category lang="en">Live</category>
     <category lang="en">New</category>
     <category lang="en">Sports</category>
@@ -3519,7 +3239,7 @@
   <programme start="20261119020000 +0000" stop="20261119043000 +0000" channel="NBA-BostonCeltics.us">
     <title lang="en">NBA Basketball</title>
     <sub-title lang="en">Boston Celtics @ Denver Nuggets</sub-title>
-    <desc lang="en">High-flying NBA action takes over Ball Arena as the Boston Celtics hit the road to battle the Denver Nuggets. Expect an explosive showdown as the resilient Denver Nuggets host an elite Boston Celtics squad in a must-watch cross-conference clash.</desc>
+    <desc lang="en">An electrifying NBA showdown awaits at Ball Arena as the Boston Celtics clash with the Denver Nuggets, fueled by the dynamic duo of Jamal Murray and Nikola Jokic. Expect high-stakes drama and intense action as these powerhouse contenders battle on the hardwood.</desc>
     <category lang="en">Live</category>
     <category lang="en">New</category>
     <category lang="en">Sports</category>
@@ -3554,7 +3274,7 @@
   <programme start="20261119020000 +0000" stop="20261119043000 +0000" channel="NBA-DenverNuggets.us">
     <title lang="en">NBA Basketball</title>
     <sub-title lang="en">Boston Celtics @ Denver Nuggets</sub-title>
-    <desc lang="en">High-flying NBA action takes over Ball Arena as the Boston Celtics hit the road to battle the Denver Nuggets. Expect an explosive showdown as the resilient Denver Nuggets host an elite Boston Celtics squad in a must-watch cross-conference clash.</desc>
+    <desc lang="en">An electrifying NBA showdown awaits at Ball Arena as the Boston Celtics clash with the Denver Nuggets, fueled by the dynamic duo of Jamal Murray and Nikola Jokic. Expect high-stakes drama and intense action as these powerhouse contenders battle on the hardwood.</desc>
     <category lang="en">Live</category>
     <category lang="en">New</category>
     <category lang="en">Sports</category>
@@ -3589,7 +3309,7 @@
   <programme start="20261119023000 +0000" stop="20261119050000 +0000" channel="NBA-GoldenStateWarriors.us">
     <title lang="en">NBA Basketball</title>
     <sub-title lang="en">Golden State Warriors @ Dallas Mavericks</sub-title>
-    <desc lang="en">Sparks fly at the American Airlines Center as the Golden State Warriors look to rebound against the Dallas Mavericks in a high-stakes Western Conference showdown.</desc>
+    <desc lang="en">Looking to bounce back from a tough defeat, the Dallas Mavericks return home to defend their court against the Golden State Warriors in a high-stakes clash between two fierce Western Conference contenders.</desc>
     <category lang="en">Live</category>
     <category lang="en">New</category>
     <category lang="en">Sports</category>
@@ -3624,7 +3344,7 @@
   <programme start="20261119023000 +0000" stop="20261119050000 +0000" channel="NBA-DallasMavericks.us">
     <title lang="en">NBA Basketball</title>
     <sub-title lang="en">Golden State Warriors @ Dallas Mavericks</sub-title>
-    <desc lang="en">Sparks fly at the American Airlines Center as the Golden State Warriors look to rebound against the Dallas Mavericks in a high-stakes Western Conference showdown.</desc>
+    <desc lang="en">Looking to bounce back from a tough defeat, the Dallas Mavericks return home to defend their court against the Golden State Warriors in a high-stakes clash between two fierce Western Conference contenders.</desc>
     <category lang="en">Live</category>
     <category lang="en">New</category>
     <category lang="en">Sports</category>
@@ -3729,7 +3449,7 @@
   <programme start="20261119030000 +0000" stop="20261119053000 +0000" channel="NBA-PhoenixSuns.us">
     <title lang="en">NBA Basketball</title>
     <sub-title lang="en">Phoenix Suns @ Sacramento Kings</sub-title>
-    <desc lang="en">Desperate to ignite their season, the Sacramento Kings look to turn things around at home against the Phoenix Suns in a high-stakes Western Conference showdown.</desc>
+    <desc lang="en">Carrying the momentum of a stellar thirty-point performance from Devin Booker, the Phoenix Suns look to heat up the road against the struggling Sacramento Kings inside the Golden 1 Center.</desc>
     <category lang="en">Live</category>
     <category lang="en">New</category>
     <category lang="en">Sports</category>
@@ -3764,7 +3484,7 @@
   <programme start="20261119030000 +0000" stop="20261119053000 +0000" channel="NBA-SacramentoKings.us">
     <title lang="en">NBA Basketball</title>
     <sub-title lang="en">Phoenix Suns @ Sacramento Kings</sub-title>
-    <desc lang="en">Desperate to ignite their season, the Sacramento Kings look to turn things around at home against the Phoenix Suns in a high-stakes Western Conference showdown.</desc>
+    <desc lang="en">Carrying the momentum of a stellar thirty-point performance from Devin Booker, the Phoenix Suns look to heat up the road against the struggling Sacramento Kings inside the Golden 1 Center.</desc>
     <category lang="en">Live</category>
     <category lang="en">New</category>
     <category lang="en">Sports</category>
@@ -3799,7 +3519,7 @@
   <programme start="20261120010000 +0000" stop="20261120033000 +0000" channel="NBA-GoldenStateWarriors.us">
     <title lang="en">NBA Basketball</title>
     <sub-title lang="en">Golden State Warriors @ Memphis Grizzlies</sub-title>
-    <desc lang="en">Get ready for a high-stakes Western Conference collision as the Golden State Warriors travel to face the Memphis Grizzlies inside FedExForum. Both playoff contenders look to assert their dominance early in the season as this fierce inter-division rivalry writes its latest thrilling chapter on the hardwood.</desc>
+    <desc lang="en">The Golden State Warriors face a monumental test without their injured superstar as they head to FedExForum to battle the Memphis Grizzlies in a high-stakes Western Conference showdown.</desc>
     <category lang="en">Live</category>
     <category lang="en">New</category>
     <category lang="en">Sports</category>
@@ -3834,7 +3554,7 @@
   <programme start="20261120010000 +0000" stop="20261120033000 +0000" channel="NBA-MemphisGrizzlies.us">
     <title lang="en">NBA Basketball</title>
     <sub-title lang="en">Golden State Warriors @ Memphis Grizzlies</sub-title>
-    <desc lang="en">Get ready for a high-stakes Western Conference collision as the Golden State Warriors travel to face the Memphis Grizzlies inside FedExForum. Both playoff contenders look to assert their dominance early in the season as this fierce inter-division rivalry writes its latest thrilling chapter on the hardwood.</desc>
+    <desc lang="en">The Golden State Warriors face a monumental test without their injured superstar as they head to FedExForum to battle the Memphis Grizzlies in a high-stakes Western Conference showdown.</desc>
     <category lang="en">Live</category>
     <category lang="en">New</category>
     <category lang="en">Sports</category>
@@ -3939,7 +3659,7 @@
   <programme start="20261120010000 +0000" stop="20261120033000 +0000" channel="NBA-NewYorkKnicks.us">
     <title lang="en">NBA Basketball</title>
     <sub-title lang="en">New York Knicks @ Minnesota Timberwolves</sub-title>
-    <desc lang="en">An electric interconference clash unfolds at the Target Center as the Minnesota Timberwolves defend their home court against the New York Knicks. Expect high-stakes drama as both squads battle for early-season dominance in a thrilling prime-time showcase.</desc>
+    <desc lang="en">Riding high off a dominant blowout victory, the Minnesota Timberwolves return to the hardwood to defend their home court against the New York Knicks in a high-octane inter-conference showdown.</desc>
     <category lang="en">Live</category>
     <category lang="en">New</category>
     <category lang="en">Sports</category>
@@ -3974,7 +3694,7 @@
   <programme start="20261120010000 +0000" stop="20261120033000 +0000" channel="NBA-MinnesotaTimberwolves.us">
     <title lang="en">NBA Basketball</title>
     <sub-title lang="en">New York Knicks @ Minnesota Timberwolves</sub-title>
-    <desc lang="en">An electric interconference clash unfolds at the Target Center as the Minnesota Timberwolves defend their home court against the New York Knicks. Expect high-stakes drama as both squads battle for early-season dominance in a thrilling prime-time showcase.</desc>
+    <desc lang="en">Riding high off a dominant blowout victory, the Minnesota Timberwolves return to the hardwood to defend their home court against the New York Knicks in a high-octane inter-conference showdown.</desc>
     <category lang="en">Live</category>
     <category lang="en">New</category>
     <category lang="en">Sports</category>
@@ -4009,7 +3729,7 @@
   <programme start="20261120010000 +0000" stop="20261120033000 +0000" channel="NBA-LAClippers.us">
     <title lang="en">NBA Basketball</title>
     <sub-title lang="en">LA Clippers @ San Antonio Spurs</sub-title>
-    <desc lang="en">The high-flying San Antonio Spurs protect home court against the struggling LA Clippers as Western Conference battles heat up.</desc>
+    <desc lang="en">NBA. LA Clippers (2-8) visit San Antonio Spurs (10-2) at Frost Bank Center in San Antonio, TX.</desc>
     <category lang="en">Live</category>
     <category lang="en">New</category>
     <category lang="en">Sports</category>
@@ -4044,7 +3764,7 @@
   <programme start="20261120010000 +0000" stop="20261120033000 +0000" channel="NBA-SanAntonioSpurs.us">
     <title lang="en">NBA Basketball</title>
     <sub-title lang="en">LA Clippers @ San Antonio Spurs</sub-title>
-    <desc lang="en">The high-flying San Antonio Spurs protect home court against the struggling LA Clippers as Western Conference battles heat up.</desc>
+    <desc lang="en">NBA. LA Clippers (2-8) visit San Antonio Spurs (10-2) at Frost Bank Center in San Antonio, TX.</desc>
     <category lang="en">Live</category>
     <category lang="en">New</category>
     <category lang="en">Sports</category>
@@ -4079,7 +3799,7 @@
   <programme start="20261121000000 +0000" stop="20261121023000 +0000" channel="NBA-CharlotteHornets.us">
     <title lang="en">NBA Basketball</title>
     <sub-title lang="en">Charlotte Hornets @ Atlanta Hawks</sub-title>
-    <desc lang="en">High-stakes NBA Cup group stage action heats up as the Atlanta Hawks defend home court against the Charlotte Hornets inside State Farm Arena. Expect intense hardwood drama as both squads battle for crucial tournament positioning in this pivotal conference showdown.</desc>
+    <desc lang="en">The Atlanta Hawks return to State Farm Arena to host the Charlotte Hornets in high-stakes NBA Cup group play action. As the home side looks to build momentum off a strong start to the campaign, the visiting Charlotte Hornets aim to shake up the standings with a crucial road victory.</desc>
     <category lang="en">Live</category>
     <category lang="en">New</category>
     <category lang="en">Sports</category>
@@ -4116,7 +3836,7 @@
   <programme start="20261121000000 +0000" stop="20261121023000 +0000" channel="NBA-AtlantaHawks.us">
     <title lang="en">NBA Basketball</title>
     <sub-title lang="en">Charlotte Hornets @ Atlanta Hawks</sub-title>
-    <desc lang="en">High-stakes NBA Cup group stage action heats up as the Atlanta Hawks defend home court against the Charlotte Hornets inside State Farm Arena. Expect intense hardwood drama as both squads battle for crucial tournament positioning in this pivotal conference showdown.</desc>
+    <desc lang="en">The Atlanta Hawks return to State Farm Arena to host the Charlotte Hornets in high-stakes NBA Cup group play action. As the home side looks to build momentum off a strong start to the campaign, the visiting Charlotte Hornets aim to shake up the standings with a crucial road victory.</desc>
     <category lang="en">Live</category>
     <category lang="en">New</category>
     <category lang="en">Sports</category>
@@ -4153,7 +3873,7 @@
   <programme start="20261121003000 +0000" stop="20261121030000 +0000" channel="NBA-OrlandoMagic.us">
     <title lang="en">NBA Basketball</title>
     <sub-title lang="en">Orlando Magic @ Brooklyn Nets</sub-title>
-    <desc lang="en">Riding high off a stellar 38-point masterclass from Franz Wagner, the Orlando Magic travel to Barclays Center to clash with the Brooklyn Nets in high-stakes NBA Cup group play action.</desc>
+    <desc lang="en">The Orlando Magic travel to Barclays Center to face the Brooklyn Nets in high-stakes NBA Cup group play action. Both squads look to secure a crucial tournament victory as the early-season battle intensifies in Brooklyn.</desc>
     <category lang="en">Live</category>
     <category lang="en">New</category>
     <category lang="en">Sports</category>
@@ -4190,7 +3910,7 @@
   <programme start="20261121003000 +0000" stop="20261121030000 +0000" channel="NBA-BrooklynNets.us">
     <title lang="en">NBA Basketball</title>
     <sub-title lang="en">Orlando Magic @ Brooklyn Nets</sub-title>
-    <desc lang="en">Riding high off a stellar 38-point masterclass from Franz Wagner, the Orlando Magic travel to Barclays Center to clash with the Brooklyn Nets in high-stakes NBA Cup group play action.</desc>
+    <desc lang="en">The Orlando Magic travel to Barclays Center to face the Brooklyn Nets in high-stakes NBA Cup group play action. Both squads look to secure a crucial tournament victory as the early-season battle intensifies in Brooklyn.</desc>
     <category lang="en">Live</category>
     <category lang="en">New</category>
     <category lang="en">Sports</category>
@@ -4227,7 +3947,7 @@
   <programme start="20261121003000 +0000" stop="20261121030000 +0000" channel="NBA-IndianaPacers.us">
     <title lang="en">NBA Basketball</title>
     <sub-title lang="en">Indiana Pacers @ Cleveland Cavaliers</sub-title>
-    <desc lang="en">High-stakes NBA Cup group stage action heats up as the Cleveland Cavaliers battle the Indiana Pacers in a crucial divisional showdown at Rocket Arena. Both squads look to ignite their early-season momentum and climb the Eastern Conference standings in this thrilling clash.</desc>
+    <desc lang="en">Powered by Donovan Mitchell and his renewed long-term commitment to the franchise, the Cleveland Cavaliers defend their home court against the Indiana Pacers in a high-stakes NBA Cup group play battle.</desc>
     <category lang="en">Live</category>
     <category lang="en">New</category>
     <category lang="en">Sports</category>
@@ -4264,7 +3984,7 @@
   <programme start="20261121003000 +0000" stop="20261121030000 +0000" channel="NBA-ClevelandCavaliers.us">
     <title lang="en">NBA Basketball</title>
     <sub-title lang="en">Indiana Pacers @ Cleveland Cavaliers</sub-title>
-    <desc lang="en">High-stakes NBA Cup group stage action heats up as the Cleveland Cavaliers battle the Indiana Pacers in a crucial divisional showdown at Rocket Arena. Both squads look to ignite their early-season momentum and climb the Eastern Conference standings in this thrilling clash.</desc>
+    <desc lang="en">Powered by Donovan Mitchell and his renewed long-term commitment to the franchise, the Cleveland Cavaliers defend their home court against the Indiana Pacers in a high-stakes NBA Cup group play battle.</desc>
     <category lang="en">Live</category>
     <category lang="en">New</category>
     <category lang="en">Sports</category>
@@ -4301,7 +4021,7 @@
   <programme start="20261121003000 +0000" stop="20261121030000 +0000" channel="NBA-TorontoRaptors.us">
     <title lang="en">NBA Basketball</title>
     <sub-title lang="en">Toronto Raptors @ Detroit Pistons</sub-title>
-    <desc lang="en">High-flying Eastern Conference action takes center stage as the Detroit Pistons look to defend home court at Little Caesars Arena against the surging Toronto Raptors in a crucial NBA Cup group play showdown.</desc>
+    <desc lang="en">Fresh off a stunning historic fifty-two point masterclass, Cade Cunningham leads the Detroit Pistons onto their home floor to clash with the Toronto Raptors in high-stakes NBA Cup group play action.</desc>
     <category lang="en">Live</category>
     <category lang="en">New</category>
     <category lang="en">Sports</category>
@@ -4338,7 +4058,7 @@
   <programme start="20261121003000 +0000" stop="20261121030000 +0000" channel="NBA-DetroitPistons.us">
     <title lang="en">NBA Basketball</title>
     <sub-title lang="en">Toronto Raptors @ Detroit Pistons</sub-title>
-    <desc lang="en">High-flying Eastern Conference action takes center stage as the Detroit Pistons look to defend home court at Little Caesars Arena against the surging Toronto Raptors in a crucial NBA Cup group play showdown.</desc>
+    <desc lang="en">Fresh off a stunning historic fifty-two point masterclass, Cade Cunningham leads the Detroit Pistons onto their home floor to clash with the Toronto Raptors in high-stakes NBA Cup group play action.</desc>
     <category lang="en">Live</category>
     <category lang="en">New</category>
     <category lang="en">Sports</category>
@@ -4375,7 +4095,7 @@
   <programme start="20261121010000 +0000" stop="20261121033000 +0000" channel="NBA-WashingtonWizards.us">
     <title lang="en">NBA Basketball</title>
     <sub-title lang="en">Washington Wizards @ Chicago Bulls</sub-title>
-    <desc lang="en">Struggling for momentum in the NBA Cup group stage, the Chicago Bulls look to regroup at home as they battle the Washington Wizards at the United Center in a high-stakes Eastern Conference showdown.</desc>
+    <desc lang="en">The struggling Chicago Bulls host the Washington Wizards at the United Center for high-stakes NBA Cup group play action. Both squads look to bounce back and ignite their seasons in a fierce cross-conference battle.</desc>
     <category lang="en">Live</category>
     <category lang="en">New</category>
     <category lang="en">Sports</category>
@@ -4412,7 +4132,7 @@
   <programme start="20261121010000 +0000" stop="20261121033000 +0000" channel="NBA-ChicagoBulls.us">
     <title lang="en">NBA Basketball</title>
     <sub-title lang="en">Washington Wizards @ Chicago Bulls</sub-title>
-    <desc lang="en">Struggling for momentum in the NBA Cup group stage, the Chicago Bulls look to regroup at home as they battle the Washington Wizards at the United Center in a high-stakes Eastern Conference showdown.</desc>
+    <desc lang="en">The struggling Chicago Bulls host the Washington Wizards at the United Center for high-stakes NBA Cup group play action. Both squads look to bounce back and ignite their seasons in a fierce cross-conference battle.</desc>
     <category lang="en">Live</category>
     <category lang="en">New</category>
     <category lang="en">Sports</category>
@@ -4523,7 +4243,7 @@
   <programme start="20261121023000 +0000" stop="20261121050000 +0000" channel="NBA-PhoenixSuns.us">
     <title lang="en">NBA Basketball</title>
     <sub-title lang="en">Phoenix Suns @ Utah Jazz</sub-title>
-    <desc lang="en">Desperate to halt a brutal slide and ignite their NBA Cup campaign, the Utah Jazz return home to face the Phoenix Suns in a high-stakes Delta Center showdown. The Phoenix Suns look to capitalize on their opponent's struggles as both squads battle for crucial tournament positioning in Salt Lake City.</desc>
+    <desc lang="en">Fresh off a stellar 30-point performance by Devin Booker, the Phoenix Suns travel to Salt Lake City to clash with the Utah Jazz in high-stakes NBA Cup group play at the Delta Center.</desc>
     <category lang="en">Live</category>
     <category lang="en">New</category>
     <category lang="en">Sports</category>
@@ -4560,7 +4280,7 @@
   <programme start="20261121023000 +0000" stop="20261121050000 +0000" channel="NBA-UtahJazz.us">
     <title lang="en">NBA Basketball</title>
     <sub-title lang="en">Phoenix Suns @ Utah Jazz</sub-title>
-    <desc lang="en">Desperate to halt a brutal slide and ignite their NBA Cup campaign, the Utah Jazz return home to face the Phoenix Suns in a high-stakes Delta Center showdown. The Phoenix Suns look to capitalize on their opponent's struggles as both squads battle for crucial tournament positioning in Salt Lake City.</desc>
+    <desc lang="en">Fresh off a stellar 30-point performance by Devin Booker, the Phoenix Suns travel to Salt Lake City to clash with the Utah Jazz in high-stakes NBA Cup group play at the Delta Center.</desc>
     <category lang="en">Live</category>
     <category lang="en">New</category>
     <category lang="en">Sports</category>
@@ -4597,7 +4317,7 @@
   <programme start="20261121030000 +0000" stop="20261121053000 +0000" channel="NBA-HoustonRockets.us">
     <title lang="en">NBA Basketball</title>
     <sub-title lang="en">Houston Rockets @ Denver Nuggets</sub-title>
-    <desc lang="en">High-stakes NBA Cup group play heats up in the Rockies as the Denver Nuggets defend their home court against the surging Houston Rockets. Expect an explosive clash of Western Conference powerhouses as both squads battle for crucial tournament positioning at Ball Arena.</desc>
+    <desc lang="en">High-flying NBA Cup action heats up at Ball Arena as the Houston Rockets clash with the Denver Nuggets in a crucial West showdown. The high-scoring Houston Rockets look to maintain their elite momentum against a formidable Denver Nuggets squad ready to defend their home court in this intense tournament battle.</desc>
     <category lang="en">Live</category>
     <category lang="en">New</category>
     <category lang="en">Sports</category>
@@ -4634,7 +4354,7 @@
   <programme start="20261121030000 +0000" stop="20261121053000 +0000" channel="NBA-DenverNuggets.us">
     <title lang="en">NBA Basketball</title>
     <sub-title lang="en">Houston Rockets @ Denver Nuggets</sub-title>
-    <desc lang="en">High-stakes NBA Cup group play heats up in the Rockies as the Denver Nuggets defend their home court against the surging Houston Rockets. Expect an explosive clash of Western Conference powerhouses as both squads battle for crucial tournament positioning at Ball Arena.</desc>
+    <desc lang="en">High-flying NBA Cup action heats up at Ball Arena as the Houston Rockets clash with the Denver Nuggets in a crucial West showdown. The high-scoring Houston Rockets look to maintain their elite momentum against a formidable Denver Nuggets squad ready to defend their home court in this intense tournament battle.</desc>
     <category lang="en">Live</category>
     <category lang="en">New</category>
     <category lang="en">Sports</category>
@@ -4745,7 +4465,7 @@
   <programme start="20261121180000 +0000" stop="20261121203000 +0000" channel="NBA-MilwaukeeBucks.us">
     <title lang="en">NBA Basketball</title>
     <sub-title lang="en">Milwaukee Bucks @ Philadelphia 76ers</sub-title>
-    <desc lang="en">The scorching Philadelphia 76ers return home boasting an elite nine and three record to battle the struggling Milwaukee Bucks as Eastern Conference stakes escalate.</desc>
+    <desc lang="en">Fresh off a dominant surge, Tyrese Maxey and Joel Embiid lead the Philadelphia 76ers onto the court as they host the struggling Milwaukee Bucks in high-stakes NBA regular season action.</desc>
     <category lang="en">Live</category>
     <category lang="en">New</category>
     <category lang="en">Sports</category>
@@ -4780,7 +4500,7 @@
   <programme start="20261121180000 +0000" stop="20261121203000 +0000" channel="NBA-Philadelphia76ers.us">
     <title lang="en">NBA Basketball</title>
     <sub-title lang="en">Milwaukee Bucks @ Philadelphia 76ers</sub-title>
-    <desc lang="en">The scorching Philadelphia 76ers return home boasting an elite nine and three record to battle the struggling Milwaukee Bucks as Eastern Conference stakes escalate.</desc>
+    <desc lang="en">Fresh off a dominant surge, Tyrese Maxey and Joel Embiid lead the Philadelphia 76ers onto the court as they host the struggling Milwaukee Bucks in high-stakes NBA regular season action.</desc>
     <category lang="en">Live</category>
     <category lang="en">New</category>
     <category lang="en">Sports</category>
@@ -4815,7 +4535,7 @@
   <programme start="20261122003000 +0000" stop="20261122030000 +0000" channel="NBA-PortlandTrailBlazers.us">
     <title lang="en">NBA Basketball</title>
     <sub-title lang="en">Portland Trail Blazers @ New York Knicks</sub-title>
-    <desc lang="en">The New York Knicks bring their momentum to Madison Square Garden to defend home court against a surging Portland Trail Blazers squad. High stakes and relentless hardwood action take center stage as these conference contenders clash in a must-watch matchup.</desc>
+    <desc lang="en">Madison Square Garden hosts an electric cross-conference showdown as the New York Knicks battle the Portland Trail Blazers with crucial early-season momentum on the line. Front-office pressure and trade deadline whispers hang heavy as two formidable squads clash in the world's most famous arena.</desc>
     <category lang="en">Live</category>
     <category lang="en">New</category>
     <category lang="en">Sports</category>
@@ -4850,7 +4570,7 @@
   <programme start="20261122003000 +0000" stop="20261122030000 +0000" channel="NBA-NewYorkKnicks.us">
     <title lang="en">NBA Basketball</title>
     <sub-title lang="en">Portland Trail Blazers @ New York Knicks</sub-title>
-    <desc lang="en">The New York Knicks bring their momentum to Madison Square Garden to defend home court against a surging Portland Trail Blazers squad. High stakes and relentless hardwood action take center stage as these conference contenders clash in a must-watch matchup.</desc>
+    <desc lang="en">Madison Square Garden hosts an electric cross-conference showdown as the New York Knicks battle the Portland Trail Blazers with crucial early-season momentum on the line. Front-office pressure and trade deadline whispers hang heavy as two formidable squads clash in the world's most famous arena.</desc>
     <category lang="en">Live</category>
     <category lang="en">New</category>
     <category lang="en">Sports</category>
@@ -4885,7 +4605,7 @@
   <programme start="20261122010000 +0000" stop="20261122033000 +0000" channel="NBA-LAClippers.us">
     <title lang="en">NBA Basketball</title>
     <sub-title lang="en">LA Clippers @ Dallas Mavericks</sub-title>
-    <desc lang="en">The Dallas Mavericks return to the home floor to protect their impressive early-season momentum against a struggling LA Clippers squad desperate to spark a turnaround. High-stakes basketball takes center stage as the visiting team looks to rewrite their early narrative in a hostile Dallas environment.</desc>
+    <desc lang="en">Seeking a swift rebound after a brutal blowout loss, the Dallas Mavericks look to get back on track at home as they host the struggling LA Clippers in an explosive Western Conference clash.</desc>
     <category lang="en">Live</category>
     <category lang="en">New</category>
     <category lang="en">Sports</category>
@@ -4920,7 +4640,7 @@
   <programme start="20261122010000 +0000" stop="20261122033000 +0000" channel="NBA-DallasMavericks.us">
     <title lang="en">NBA Basketball</title>
     <sub-title lang="en">LA Clippers @ Dallas Mavericks</sub-title>
-    <desc lang="en">The Dallas Mavericks return to the home floor to protect their impressive early-season momentum against a struggling LA Clippers squad desperate to spark a turnaround. High-stakes basketball takes center stage as the visiting team looks to rewrite their early narrative in a hostile Dallas environment.</desc>
+    <desc lang="en">Seeking a swift rebound after a brutal blowout loss, the Dallas Mavericks look to get back on track at home as they host the struggling LA Clippers in an explosive Western Conference clash.</desc>
     <category lang="en">Live</category>
     <category lang="en">New</category>
     <category lang="en">Sports</category>
@@ -4955,7 +4675,7 @@
   <programme start="20261122010000 +0000" stop="20261122033000 +0000" channel="NBA-MemphisGrizzlies.us">
     <title lang="en">NBA Basketball</title>
     <sub-title lang="en">Memphis Grizzlies @ Minnesota Timberwolves</sub-title>
-    <desc lang="en">Western Conference contenders collide as the Memphis Grizzlies travel to face the Minnesota Timberwolves in a high-stakes early-season battle at the Target Center. Both squads look to make a statement in a crowded playoff picture as the Minnesota Timberwolves defend their home court against the surging Memphis Grizzlies.</desc>
+    <desc lang="en">Riding the momentum of a dominant blowout victory, the Minnesota Timberwolves look to defend their home court against the surging Memphis Grizzlies in a high-stakes Western Conference showdown at the Target Center.</desc>
     <category lang="en">Live</category>
     <category lang="en">New</category>
     <category lang="en">Sports</category>
@@ -4990,7 +4710,7 @@
   <programme start="20261122010000 +0000" stop="20261122033000 +0000" channel="NBA-MinnesotaTimberwolves.us">
     <title lang="en">NBA Basketball</title>
     <sub-title lang="en">Memphis Grizzlies @ Minnesota Timberwolves</sub-title>
-    <desc lang="en">Western Conference contenders collide as the Memphis Grizzlies travel to face the Minnesota Timberwolves in a high-stakes early-season battle at the Target Center. Both squads look to make a statement in a crowded playoff picture as the Minnesota Timberwolves defend their home court against the surging Memphis Grizzlies.</desc>
+    <desc lang="en">Riding the momentum of a dominant blowout victory, the Minnesota Timberwolves look to defend their home court against the surging Memphis Grizzlies in a high-stakes Western Conference showdown at the Target Center.</desc>
     <category lang="en">Live</category>
     <category lang="en">New</category>
     <category lang="en">Sports</category>
@@ -5025,7 +4745,7 @@
   <programme start="20261122010000 +0000" stop="20261122033000 +0000" channel="NBA-NewOrleansPelicans.us">
     <title lang="en">NBA Basketball</title>
     <sub-title lang="en">New Orleans Pelicans @ San Antonio Spurs</sub-title>
-    <desc lang="en">The high-flying San Antonio Spurs protect home court against the visiting New Orleans Pelicans as both squads battle for crucial positioning on the competitive Western Conference leaderboard.</desc>
+    <desc lang="en">The red-hot San Antonio Spurs look to defend home court against the New Orleans Pelicans in an explosive Western Conference showdown at Frost Bank Center. High-flying action and intense playoff positioning collide as both squads battle for supremacy on the hardwood.</desc>
     <category lang="en">Live</category>
     <category lang="en">New</category>
     <category lang="en">Sports</category>
@@ -5060,7 +4780,7 @@
   <programme start="20261122010000 +0000" stop="20261122033000 +0000" channel="NBA-SanAntonioSpurs.us">
     <title lang="en">NBA Basketball</title>
     <sub-title lang="en">New Orleans Pelicans @ San Antonio Spurs</sub-title>
-    <desc lang="en">The high-flying San Antonio Spurs protect home court against the visiting New Orleans Pelicans as both squads battle for crucial positioning on the competitive Western Conference leaderboard.</desc>
+    <desc lang="en">The red-hot San Antonio Spurs look to defend home court against the New Orleans Pelicans in an explosive Western Conference showdown at Frost Bank Center. High-flying action and intense playoff positioning collide as both squads battle for supremacy on the hardwood.</desc>
     <category lang="en">Live</category>
     <category lang="en">New</category>
     <category lang="en">Sports</category>
@@ -5095,7 +4815,7 @@
   <programme start="20261122030000 +0000" stop="20261122053000 +0000" channel="NBA-BostonCeltics.us">
     <title lang="en">NBA Basketball</title>
     <sub-title lang="en">Boston Celtics @ Sacramento Kings</sub-title>
-    <desc lang="en">The surging Boston Celtics put their five-game winning streak on the line as they visit the Golden 1 Center to battle the struggling Sacramento Kings in a high-stakes NBA regular season showdown.</desc>
+    <desc lang="en">Struggling at the bottom of the standings, the Sacramento Kings look to ignite a turnaround at home as they host the powerhouse Boston Celtics for a high-stakes cross-conference showdown.</desc>
     <category lang="en">Live</category>
     <category lang="en">New</category>
     <category lang="en">Sports</category>
@@ -5130,7 +4850,7 @@
   <programme start="20261122030000 +0000" stop="20261122053000 +0000" channel="NBA-SacramentoKings.us">
     <title lang="en">NBA Basketball</title>
     <sub-title lang="en">Boston Celtics @ Sacramento Kings</sub-title>
-    <desc lang="en">The surging Boston Celtics put their five-game winning streak on the line as they visit the Golden 1 Center to battle the struggling Sacramento Kings in a high-stakes NBA regular season showdown.</desc>
+    <desc lang="en">Struggling at the bottom of the standings, the Sacramento Kings look to ignite a turnaround at home as they host the powerhouse Boston Celtics for a high-stakes cross-conference showdown.</desc>
     <category lang="en">Live</category>
     <category lang="en">New</category>
     <category lang="en">Sports</category>
@@ -5165,7 +4885,7 @@
   <programme start="20261122203000 +0000" stop="20261122230000 +0000" channel="NBA-DetroitPistons.us">
     <title lang="en">NBA Basketball</title>
     <sub-title lang="en">Detroit Pistons @ Atlanta Hawks</sub-title>
-    <desc lang="en">High-flying Eastern Conference rivals collide as the Detroit Pistons visit the Atlanta Hawks for an explosive hardwood showdown at State Farm Arena. The third-place Detroit Pistons look to defend their elite standing against an aggressive Atlanta Hawks squad eager to climb the table.</desc>
+    <desc lang="en">Riding the momentum of a historic 52-point masterclass, Cade Cunningham leads the Detroit Pistons into battle against the Atlanta Hawks in a high-octane Eastern Conference showdown.</desc>
     <category lang="en">Live</category>
     <category lang="en">New</category>
     <category lang="en">Sports</category>
@@ -5200,7 +4920,7 @@
   <programme start="20261122203000 +0000" stop="20261122230000 +0000" channel="NBA-AtlantaHawks.us">
     <title lang="en">NBA Basketball</title>
     <sub-title lang="en">Detroit Pistons @ Atlanta Hawks</sub-title>
-    <desc lang="en">High-flying Eastern Conference rivals collide as the Detroit Pistons visit the Atlanta Hawks for an explosive hardwood showdown at State Farm Arena. The third-place Detroit Pistons look to defend their elite standing against an aggressive Atlanta Hawks squad eager to climb the table.</desc>
+    <desc lang="en">Riding the momentum of a historic 52-point masterclass, Cade Cunningham leads the Detroit Pistons into battle against the Atlanta Hawks in a high-octane Eastern Conference showdown.</desc>
     <category lang="en">Live</category>
     <category lang="en">New</category>
     <category lang="en">Sports</category>
@@ -5305,7 +5025,7 @@
   <programme start="20261123000000 +0000" stop="20261123023000 +0000" channel="NBA-OrlandoMagic.us">
     <title lang="en">NBA Basketball</title>
     <sub-title lang="en">Orlando Magic @ Washington Wizards</sub-title>
-    <desc lang="en">Fresh off a stellar 38-point explosion, Franz Wagner leads the Orlando Magic into battle as they clash with the Washington Wizards at Capital One Arena in a high-stakes Eastern Conference showdown.</desc>
+    <desc lang="en">The Washington Wizards return to the floor at Capital One Arena looking to rebound and protect their home court as they host the Orlando Magic in an intense early-season Eastern Conference clash.</desc>
     <category lang="en">Live</category>
     <category lang="en">New</category>
     <category lang="en">Sports</category>
@@ -5340,7 +5060,7 @@
   <programme start="20261123000000 +0000" stop="20261123023000 +0000" channel="NBA-WashingtonWizards.us">
     <title lang="en">NBA Basketball</title>
     <sub-title lang="en">Orlando Magic @ Washington Wizards</sub-title>
-    <desc lang="en">Fresh off a stellar 38-point explosion, Franz Wagner leads the Orlando Magic into battle as they clash with the Washington Wizards at Capital One Arena in a high-stakes Eastern Conference showdown.</desc>
+    <desc lang="en">The Washington Wizards return to the floor at Capital One Arena looking to rebound and protect their home court as they host the Orlando Magic in an intense early-season Eastern Conference clash.</desc>
     <category lang="en">Live</category>
     <category lang="en">New</category>
     <category lang="en">Sports</category>
@@ -5375,7 +5095,7 @@
   <programme start="20261123000000 +0000" stop="20261123023000 +0000" channel="NBA-DenverNuggets.us">
     <title lang="en">NBA Basketball</title>
     <sub-title lang="en">Denver Nuggets @ Chicago Bulls</sub-title>
-    <desc lang="en">Nikola Jokic and Jamal Murray bring their high-flying offense to town as the Denver Nuggets clash with the struggling Chicago Bulls at the United Center. Expect fireworks in the Windy City as the red-hot Denver Nuggets look to overpower the Chicago Bulls and defend their early-season momentum.</desc>
+    <desc lang="en">Desperate to turn their rocky season around, the Chicago Bulls host the Denver Nuggets at the United Center looking for a spark amid early struggles. The high-flying Denver Nuggets arrive ready to defend their winning record against a depleted Chicago Bulls squad fighting to climb out of the Eastern Conference cellar.</desc>
     <category lang="en">Live</category>
     <category lang="en">New</category>
     <category lang="en">Sports</category>
@@ -5410,7 +5130,7 @@
   <programme start="20261123000000 +0000" stop="20261123023000 +0000" channel="NBA-ChicagoBulls.us">
     <title lang="en">NBA Basketball</title>
     <sub-title lang="en">Denver Nuggets @ Chicago Bulls</sub-title>
-    <desc lang="en">Nikola Jokic and Jamal Murray bring their high-flying offense to town as the Denver Nuggets clash with the struggling Chicago Bulls at the United Center. Expect fireworks in the Windy City as the red-hot Denver Nuggets look to overpower the Chicago Bulls and defend their early-season momentum.</desc>
+    <desc lang="en">Desperate to turn their rocky season around, the Chicago Bulls host the Denver Nuggets at the United Center looking for a spark amid early struggles. The high-flying Denver Nuggets arrive ready to defend their winning record against a depleted Chicago Bulls squad fighting to climb out of the Eastern Conference cellar.</desc>
     <category lang="en">Live</category>
     <category lang="en">New</category>
     <category lang="en">Sports</category>
@@ -5445,7 +5165,7 @@
   <programme start="20261123000000 +0000" stop="20261123023000 +0000" channel="NBA-DallasMavericks.us">
     <title lang="en">NBA Basketball</title>
     <sub-title lang="en">Dallas Mavericks @ Utah Jazz</sub-title>
-    <desc lang="en">The struggling Utah Jazz desperately look to snap a brutal skid as they host the surging Dallas Mavericks in a high-stakes clash at the Delta Center. Expect fierce hardwood drama as the visiting Dallas Mavericks look to exploit a reeling Utah Jazz squad searching for answers.</desc>
+    <desc lang="en">Looking to bounce back from a stinging defeat, the Dallas Mavericks head to the Delta Center seeking redemption against the struggling Utah Jazz. Can the visitors find their rhythm in Salt Lake City, or will the hungry Utah Jazz protect their home court?</desc>
     <category lang="en">Live</category>
     <category lang="en">New</category>
     <category lang="en">Sports</category>
@@ -5480,7 +5200,7 @@
   <programme start="20261123000000 +0000" stop="20261123023000 +0000" channel="NBA-UtahJazz.us">
     <title lang="en">NBA Basketball</title>
     <sub-title lang="en">Dallas Mavericks @ Utah Jazz</sub-title>
-    <desc lang="en">The struggling Utah Jazz desperately look to snap a brutal skid as they host the surging Dallas Mavericks in a high-stakes clash at the Delta Center. Expect fierce hardwood drama as the visiting Dallas Mavericks look to exploit a reeling Utah Jazz squad searching for answers.</desc>
+    <desc lang="en">Looking to bounce back from a stinging defeat, the Dallas Mavericks head to the Delta Center seeking redemption against the struggling Utah Jazz. Can the visitors find their rhythm in Salt Lake City, or will the hungry Utah Jazz protect their home court?</desc>
     <category lang="en">Live</category>
     <category lang="en">New</category>
     <category lang="en">Sports</category>
@@ -5515,7 +5235,7 @@
   <programme start="20261123010000 +0000" stop="20261123033000 +0000" channel="NBA-IndianaPacers.us">
     <title lang="en">NBA Basketball</title>
     <sub-title lang="en">Indiana Pacers @ New York Knicks</sub-title>
-    <desc lang="en">High-stakes Eastern Conference rivalry drama electrifies Madison Square Garden as the New York Knicks host the Indiana Pacers in a crucial NBA Cup group stage showdown. With the New York Knicks looking to rebound and the Indiana Pacers fighting to climb the standings, expect an intense battle on the hardwood.</desc>
+    <desc lang="en">Eastern Conference rivals collide at Madison Square Garden as the New York Knicks host the Indiana Pacers for an intense NBA Cup group stage showdown. With the trade deadline approaching, both squads look to make a statement in a high-stakes divisional battle.</desc>
     <category lang="en">Live</category>
     <category lang="en">New</category>
     <category lang="en">Sports</category>
@@ -5550,7 +5270,7 @@
   <programme start="20261123010000 +0000" stop="20261123033000 +0000" channel="NBA-NewYorkKnicks.us">
     <title lang="en">NBA Basketball</title>
     <sub-title lang="en">Indiana Pacers @ New York Knicks</sub-title>
-    <desc lang="en">High-stakes Eastern Conference rivalry drama electrifies Madison Square Garden as the New York Knicks host the Indiana Pacers in a crucial NBA Cup group stage showdown. With the New York Knicks looking to rebound and the Indiana Pacers fighting to climb the standings, expect an intense battle on the hardwood.</desc>
+    <desc lang="en">Eastern Conference rivals collide at Madison Square Garden as the New York Knicks host the Indiana Pacers for an intense NBA Cup group stage showdown. With the trade deadline approaching, both squads look to make a statement in a high-stakes divisional battle.</desc>
     <category lang="en">Live</category>
     <category lang="en">New</category>
     <category lang="en">Sports</category>
@@ -5585,7 +5305,7 @@
   <programme start="20261123013000 +0000" stop="20261123040000 +0000" channel="NBA-BostonCeltics.us">
     <title lang="en">NBA Basketball</title>
     <sub-title lang="en">Boston Celtics @ Golden State Warriors</sub-title>
-    <desc lang="en">High-flying titans collide at Chase Center as the Boston Celtics take on the Golden State Warriors in a blockbuster interconference showdown. The battle-tested Golden State Warriors look to defend home court against a powerhouse Boston Celtics squad in a must-watch primetime clash.</desc>
+    <desc lang="en">The high-flying Boston Celtics roll into town to clash with the Golden State Warriors in a marquee interconference showdown. With the star-studded Golden State Warriors forced to navigate a crucial stretch without their injured talisman, the resilient Boston Celtics look to capitalize against a proud home squad.</desc>
     <category lang="en">Live</category>
     <category lang="en">New</category>
     <category lang="en">Sports</category>
@@ -5620,7 +5340,7 @@
   <programme start="20261123013000 +0000" stop="20261123040000 +0000" channel="NBA-GoldenStateWarriors.us">
     <title lang="en">NBA Basketball</title>
     <sub-title lang="en">Boston Celtics @ Golden State Warriors</sub-title>
-    <desc lang="en">High-flying titans collide at Chase Center as the Boston Celtics take on the Golden State Warriors in a blockbuster interconference showdown. The battle-tested Golden State Warriors look to defend home court against a powerhouse Boston Celtics squad in a must-watch primetime clash.</desc>
+    <desc lang="en">The high-flying Boston Celtics roll into town to clash with the Golden State Warriors in a marquee interconference showdown. With the star-studded Golden State Warriors forced to navigate a crucial stretch without their injured talisman, the resilient Boston Celtics look to capitalize against a proud home squad.</desc>
     <category lang="en">Live</category>
     <category lang="en">New</category>
     <category lang="en">Sports</category>
@@ -5655,7 +5375,7 @@
   <programme start="20261124000000 +0000" stop="20261124023000 +0000" channel="NBA-MemphisGrizzlies.us">
     <title lang="en">NBA Basketball</title>
     <sub-title lang="en">Memphis Grizzlies @ Charlotte Hornets</sub-title>
-    <desc lang="en">The Memphis Grizzlies look to bounce back on the road as they clash with the Charlotte Hornets inside the Spectrum Center in a high-intensity hardwood battle.</desc>
+    <desc lang="en">The Memphis Grizzlies hit the road to clash with the Charlotte Hornets inside Spectrum Center as both teams look to ignite their momentum. Expect a high-octane battle as the Charlotte Hornets aim to defend their home court against a surging Memphis Grizzlies squad.</desc>
     <category lang="en">Live</category>
     <category lang="en">New</category>
     <category lang="en">Sports</category>
@@ -5690,7 +5410,7 @@
   <programme start="20261124000000 +0000" stop="20261124023000 +0000" channel="NBA-CharlotteHornets.us">
     <title lang="en">NBA Basketball</title>
     <sub-title lang="en">Memphis Grizzlies @ Charlotte Hornets</sub-title>
-    <desc lang="en">The Memphis Grizzlies look to bounce back on the road as they clash with the Charlotte Hornets inside the Spectrum Center in a high-intensity hardwood battle.</desc>
+    <desc lang="en">The Memphis Grizzlies hit the road to clash with the Charlotte Hornets inside Spectrum Center as both teams look to ignite their momentum. Expect a high-octane battle as the Charlotte Hornets aim to defend their home court against a surging Memphis Grizzlies squad.</desc>
     <category lang="en">Live</category>
     <category lang="en">New</category>
     <category lang="en">Sports</category>
@@ -5725,7 +5445,7 @@
   <programme start="20261124000000 +0000" stop="20261124023000 +0000" channel="NBA-PortlandTrailBlazers.us">
     <title lang="en">NBA Basketball</title>
     <sub-title lang="en">Portland Trail Blazers @ Philadelphia 76ers</sub-title>
-    <desc lang="en">The Philadelphia 76ers look to defend home court against the Portland Trail Blazers in a high-stakes clash between two of the league's most formidable early-season contenders.</desc>
+    <desc lang="en">Tyrese Maxey and Joel Embiid headline a surging Philadelphia 76ers squad eager to protect their home court against the visiting Portland Trail Blazers in an explosive cross-conference showdown.</desc>
     <category lang="en">Live</category>
     <category lang="en">New</category>
     <category lang="en">Sports</category>
@@ -5760,7 +5480,7 @@
   <programme start="20261124000000 +0000" stop="20261124023000 +0000" channel="NBA-Philadelphia76ers.us">
     <title lang="en">NBA Basketball</title>
     <sub-title lang="en">Portland Trail Blazers @ Philadelphia 76ers</sub-title>
-    <desc lang="en">The Philadelphia 76ers look to defend home court against the Portland Trail Blazers in a high-stakes clash between two of the league's most formidable early-season contenders.</desc>
+    <desc lang="en">Tyrese Maxey and Joel Embiid headline a surging Philadelphia 76ers squad eager to protect their home court against the visiting Portland Trail Blazers in an explosive cross-conference showdown.</desc>
     <category lang="en">Live</category>
     <category lang="en">New</category>
     <category lang="en">Sports</category>
@@ -5865,7 +5585,7 @@
   <programme start="20261124003000 +0000" stop="20261124030000 +0000" channel="NBA-MilwaukeeBucks.us">
     <title lang="en">NBA Basketball</title>
     <sub-title lang="en">Milwaukee Bucks @ Toronto Raptors</sub-title>
-    <desc lang="en">Toronto Raptors host Milwaukee Bucks at Scotiabank Arena as both squads battle for crucial momentum in the competitive Eastern Conference standings. Expect high-octane hardwood action and fierce divisional drama as these teams clash on the floor.</desc>
+    <desc lang="en">The Toronto Raptors look to bounce back on home hardwood as they host the struggling Milwaukee Bucks at Scotiabank Arena in a high-stakes early-season battle. Desperate for momentum, both squads collide in an explosive matchup as the Milwaukee Bucks try to reverse their fortunes against the Toronto Raptors.</desc>
     <category lang="en">Live</category>
     <category lang="en">New</category>
     <category lang="en">Sports</category>
@@ -5900,7 +5620,7 @@
   <programme start="20261124003000 +0000" stop="20261124030000 +0000" channel="NBA-TorontoRaptors.us">
     <title lang="en">NBA Basketball</title>
     <sub-title lang="en">Milwaukee Bucks @ Toronto Raptors</sub-title>
-    <desc lang="en">Toronto Raptors host Milwaukee Bucks at Scotiabank Arena as both squads battle for crucial momentum in the competitive Eastern Conference standings. Expect high-octane hardwood action and fierce divisional drama as these teams clash on the floor.</desc>
+    <desc lang="en">The Toronto Raptors look to bounce back on home hardwood as they host the struggling Milwaukee Bucks at Scotiabank Arena in a high-stakes early-season battle. Desperate for momentum, both squads collide in an explosive matchup as the Milwaukee Bucks try to reverse their fortunes against the Toronto Raptors.</desc>
     <category lang="en">Live</category>
     <category lang="en">New</category>
     <category lang="en">Sports</category>
@@ -5935,7 +5655,7 @@
   <programme start="20261124003000 +0000" stop="20261124030000 +0000" channel="NBA-BrooklynNets.us">
     <title lang="en">NBA Basketball</title>
     <sub-title lang="en">Brooklyn Nets @ Minnesota Timberwolves</sub-title>
-    <desc lang="en">Fresh off a stellar return from injury by Egor Demin and Michael Porter Jr., the Brooklyn Nets hit the road to test their momentum against the surging Minnesota Timberwolves at the Target Center.</desc>
+    <desc lang="en">The high-flying Minnesota Timberwolves return to the Target Center riding the momentum of a dominant 9-3 start to host the Brooklyn Nets. A surging Minnesota squad looks to protect home court against a hungry Brooklyn Nets team fighting to turn their early-season trajectory around.</desc>
     <category lang="en">Live</category>
     <category lang="en">New</category>
     <category lang="en">Sports</category>
@@ -5970,7 +5690,7 @@
   <programme start="20261124003000 +0000" stop="20261124030000 +0000" channel="NBA-MinnesotaTimberwolves.us">
     <title lang="en">NBA Basketball</title>
     <sub-title lang="en">Brooklyn Nets @ Minnesota Timberwolves</sub-title>
-    <desc lang="en">Fresh off a stellar return from injury by Egor Demin and Michael Porter Jr., the Brooklyn Nets hit the road to test their momentum against the surging Minnesota Timberwolves at the Target Center.</desc>
+    <desc lang="en">The high-flying Minnesota Timberwolves return to the Target Center riding the momentum of a dominant 9-3 start to host the Brooklyn Nets. A surging Minnesota squad looks to protect home court against a hungry Brooklyn Nets team fighting to turn their early-season trajectory around.</desc>
     <category lang="en">Live</category>
     <category lang="en">New</category>
     <category lang="en">Sports</category>
@@ -6005,7 +5725,7 @@
   <programme start="20261124010000 +0000" stop="20261124033000 +0000" channel="NBA-ClevelandCavaliers.us">
     <title lang="en">NBA Basketball</title>
     <sub-title lang="en">Cleveland Cavaliers @ Chicago Bulls</sub-title>
-    <desc lang="en">The Cleveland Cavaliers look to climb the Eastern Conference standings as they hit the road to clash with the Chicago Bulls at the United Center in a high-stakes NBA matchup.</desc>
+    <desc lang="en">Donovan Mitchell looks to keep the Cleveland Cavaliers surging forward as they head to the United Center to battle a resilient Chicago Bulls squad looking to turn their season around.</desc>
     <category lang="en">Live</category>
     <category lang="en">New</category>
     <category lang="en">Sports</category>
@@ -6040,7 +5760,7 @@
   <programme start="20261124010000 +0000" stop="20261124033000 +0000" channel="NBA-ChicagoBulls.us">
     <title lang="en">NBA Basketball</title>
     <sub-title lang="en">Cleveland Cavaliers @ Chicago Bulls</sub-title>
-    <desc lang="en">The Cleveland Cavaliers look to climb the Eastern Conference standings as they hit the road to clash with the Chicago Bulls at the United Center in a high-stakes NBA matchup.</desc>
+    <desc lang="en">Donovan Mitchell looks to keep the Cleveland Cavaliers surging forward as they head to the United Center to battle a resilient Chicago Bulls squad looking to turn their season around.</desc>
     <category lang="en">Live</category>
     <category lang="en">New</category>
     <category lang="en">Sports</category>
@@ -6075,7 +5795,7 @@
   <programme start="20261124010000 +0000" stop="20261124033000 +0000" channel="NBA-PhoenixSuns.us">
     <title lang="en">NBA Basketball</title>
     <sub-title lang="en">Phoenix Suns @ New Orleans Pelicans</sub-title>
-    <desc lang="en">Desperate to snap a brutal four-game skid, the New Orleans Pelicans return home to defend their court against the Phoenix Suns. With accountability in question after recent blowout losses, the struggling squad faces a stiff test as they try to turn their season around.</desc>
+    <desc lang="en">The Phoenix Suns bring the heat to the Smoothie King Center as Devin Booker looks to catch fire against the New Orleans Pelicans in a high-stakes Western Conference showdown.</desc>
     <category lang="en">Live</category>
     <category lang="en">New</category>
     <category lang="en">Sports</category>
@@ -6110,7 +5830,7 @@
   <programme start="20261124010000 +0000" stop="20261124033000 +0000" channel="NBA-NewOrleansPelicans.us">
     <title lang="en">NBA Basketball</title>
     <sub-title lang="en">Phoenix Suns @ New Orleans Pelicans</sub-title>
-    <desc lang="en">Desperate to snap a brutal four-game skid, the New Orleans Pelicans return home to defend their court against the Phoenix Suns. With accountability in question after recent blowout losses, the struggling squad faces a stiff test as they try to turn their season around.</desc>
+    <desc lang="en">The Phoenix Suns bring the heat to the Smoothie King Center as Devin Booker looks to catch fire against the New Orleans Pelicans in a high-stakes Western Conference showdown.</desc>
     <category lang="en">Live</category>
     <category lang="en">New</category>
     <category lang="en">Sports</category>
@@ -6145,7 +5865,7 @@
   <programme start="20261124013000 +0000" stop="20261124040000 +0000" channel="NBA-LAClippers.us">
     <title lang="en">NBA Basketball</title>
     <sub-title lang="en">LA Clippers @ Houston Rockets</sub-title>
-    <desc lang="en">The red-hot Houston Rockets return to their home court to protect their elite standing against the struggling LA Clippers in a high-stakes Western Conference showdown at the Toyota Center.</desc>
+    <desc lang="en">The surging Houston Rockets look to protect their stellar home floor at the Toyota Center against the struggling LA Clippers, though they must navigate this clash without suspended guard Marcus Smart.</desc>
     <category lang="en">Live</category>
     <category lang="en">New</category>
     <category lang="en">Sports</category>
@@ -6180,7 +5900,7 @@
   <programme start="20261124013000 +0000" stop="20261124040000 +0000" channel="NBA-HoustonRockets.us">
     <title lang="en">NBA Basketball</title>
     <sub-title lang="en">LA Clippers @ Houston Rockets</sub-title>
-    <desc lang="en">The red-hot Houston Rockets return to their home court to protect their elite standing against the struggling LA Clippers in a high-stakes Western Conference showdown at the Toyota Center.</desc>
+    <desc lang="en">The surging Houston Rockets look to protect their stellar home floor at the Toyota Center against the struggling LA Clippers, though they must navigate this clash without suspended guard Marcus Smart.</desc>
     <category lang="en">Live</category>
     <category lang="en">New</category>
     <category lang="en">Sports</category>
@@ -6285,7 +6005,7 @@
   <programme start="20261124030000 +0000" stop="20261124053000 +0000" channel="NBA-SanAntonioSpurs.us">
     <title lang="en">NBA Basketball</title>
     <sub-title lang="en">San Antonio Spurs @ Sacramento Kings</sub-title>
-    <desc lang="en">The surging San Antonio Spurs look to dominate on the road against the struggling Sacramento Kings in an intense Western Conference showdown at the Golden 1 Center.</desc>
+    <desc lang="en">The struggling Sacramento Kings host the surging San Antonio Spurs at the Golden 1 Center as the home squad looks to turn its difficult season around against a formidable Western Conference powerhouse.</desc>
     <category lang="en">Live</category>
     <category lang="en">New</category>
     <category lang="en">Sports</category>
@@ -6320,7 +6040,7 @@
   <programme start="20261124030000 +0000" stop="20261124053000 +0000" channel="NBA-SacramentoKings.us">
     <title lang="en">NBA Basketball</title>
     <sub-title lang="en">San Antonio Spurs @ Sacramento Kings</sub-title>
-    <desc lang="en">The surging San Antonio Spurs look to dominate on the road against the struggling Sacramento Kings in an intense Western Conference showdown at the Golden 1 Center.</desc>
+    <desc lang="en">The struggling Sacramento Kings host the surging San Antonio Spurs at the Golden 1 Center as the home squad looks to turn its difficult season around against a formidable Western Conference powerhouse.</desc>
     <category lang="en">Live</category>
     <category lang="en">New</category>
     <category lang="en">Sports</category>
@@ -6355,7 +6075,7 @@
   <programme start="20261125000000 +0000" stop="20261125023000 +0000" channel="NBA-DetroitPistons.us">
     <title lang="en">NBA Basketball</title>
     <sub-title lang="en">Detroit Pistons @ Orlando Magic</sub-title>
-    <desc lang="en">High-flying NBA Cup group stage action heats up at Kia Center as the Orlando Magic look to ignite their season against the red-hot Detroit Pistons, who arrive riding high in the Eastern Conference standings.</desc>
+    <desc lang="en">A red-hot Detroit Pistons squad arrives at the Kia Center riding the heroics of Cade Cunningham and his historic 52-point masterclass to battle the Orlando Magic in high-stakes NBA Cup group play action.</desc>
     <category lang="en">Live</category>
     <category lang="en">New</category>
     <category lang="en">Sports</category>
@@ -6392,7 +6112,7 @@
   <programme start="20261125000000 +0000" stop="20261125023000 +0000" channel="NBA-OrlandoMagic.us">
     <title lang="en">NBA Basketball</title>
     <sub-title lang="en">Detroit Pistons @ Orlando Magic</sub-title>
-    <desc lang="en">High-flying NBA Cup group stage action heats up at Kia Center as the Orlando Magic look to ignite their season against the red-hot Detroit Pistons, who arrive riding high in the Eastern Conference standings.</desc>
+    <desc lang="en">A red-hot Detroit Pistons squad arrives at the Kia Center riding the heroics of Cade Cunningham and his historic 52-point masterclass to battle the Orlando Magic in high-stakes NBA Cup group play action.</desc>
     <category lang="en">Live</category>
     <category lang="en">New</category>
     <category lang="en">Sports</category>
@@ -6429,7 +6149,7 @@
   <programme start="20261125010000 +0000" stop="20261125033000 +0000" channel="NBA-BostonCeltics.us">
     <title lang="en">NBA Basketball</title>
     <sub-title lang="en">Boston Celtics @ Washington Wizards</sub-title>
-    <desc lang="en">The Boston Celtics bring a scorching five-game winning streak into the nation's capital to battle the Washington Wizards in high-stakes NBA Cup group play. Boston looks to keep rolling behind clutch momentum, while the Washington Wizards aim to defend home court at Capital One Arena and pull off a massive upset.</desc>
+    <desc lang="en">The Washington Wizards look to bounce back from a heart-wrenching double-overtime thriller as they host the powerhouse Boston Celtics for high-stakes NBA Cup group play action at Capital One Arena.</desc>
     <category lang="en">Live</category>
     <category lang="en">New</category>
     <category lang="en">Sports</category>
@@ -6466,7 +6186,7 @@
   <programme start="20261125010000 +0000" stop="20261125033000 +0000" channel="NBA-WashingtonWizards.us">
     <title lang="en">NBA Basketball</title>
     <sub-title lang="en">Boston Celtics @ Washington Wizards</sub-title>
-    <desc lang="en">The Boston Celtics bring a scorching five-game winning streak into the nation's capital to battle the Washington Wizards in high-stakes NBA Cup group play. Boston looks to keep rolling behind clutch momentum, while the Washington Wizards aim to defend home court at Capital One Arena and pull off a massive upset.</desc>
+    <desc lang="en">The Washington Wizards look to bounce back from a heart-wrenching double-overtime thriller as they host the powerhouse Boston Celtics for high-stakes NBA Cup group play action at Capital One Arena.</desc>
     <category lang="en">Live</category>
     <category lang="en">New</category>
     <category lang="en">Sports</category>
@@ -6503,7 +6223,7 @@
   <programme start="20261125030000 +0000" stop="20261125053000 +0000" channel="NBA-DallasMavericks.us">
     <title lang="en">NBA Basketball</title>
     <sub-title lang="en">Dallas Mavericks @ Denver Nuggets</sub-title>
-    <desc lang="en">Fueled by recent heroics from Jamal Murray and Nikola Jokic, the Denver Nuggets return home to Ball Arena to clash with the Dallas Mavericks in a high-stakes NBA Cup group play showdown. Expect an electric battle as two of the West's fiercest contenders lock horns on the hardwood.</desc>
+    <desc lang="en">Seeking redemption after a lopsided road defeat, the Dallas Mavericks head to Ball Arena to clash with the Denver Nuggets in high-stakes NBA Cup Group Play action.</desc>
     <category lang="en">Live</category>
     <category lang="en">New</category>
     <category lang="en">Sports</category>
@@ -6540,7 +6260,7 @@
   <programme start="20261125030000 +0000" stop="20261125053000 +0000" channel="NBA-DenverNuggets.us">
     <title lang="en">NBA Basketball</title>
     <sub-title lang="en">Dallas Mavericks @ Denver Nuggets</sub-title>
-    <desc lang="en">Fueled by recent heroics from Jamal Murray and Nikola Jokic, the Denver Nuggets return home to Ball Arena to clash with the Dallas Mavericks in a high-stakes NBA Cup group play showdown. Expect an electric battle as two of the West's fiercest contenders lock horns on the hardwood.</desc>
+    <desc lang="en">Seeking redemption after a lopsided road defeat, the Dallas Mavericks head to Ball Arena to clash with the Denver Nuggets in high-stakes NBA Cup Group Play action.</desc>
     <category lang="en">Live</category>
     <category lang="en">New</category>
     <category lang="en">Sports</category>
@@ -6577,7 +6297,7 @@
   <programme start="20261125220000 +0000" stop="20261126003000 +0000" channel="NBA-MiamiHeat.us">
     <title lang="en">NBA Basketball</title>
     <sub-title lang="en">Miami Heat @ Philadelphia 76ers</sub-title>
-    <desc lang="en">High-voltage NBA Cup group play action takes over Philadelphia as the Philadelphia 76ers battle the Miami Heat in a high-stakes showdown. Expect intense hardwood drama as these Eastern Conference foes clash on the court.</desc>
+    <desc lang="en">Tyrese Maxey and Joel Embiid headline a surging Philadelphia 76ers squad as they host the Miami Heat in high-stakes NBA Cup group play action. The powerhouse Philadelphia 76ers look to defend their home court and add another statement win to their impressive season record against a desperate Miami Heat team.</desc>
     <category lang="en">Live</category>
     <category lang="en">New</category>
     <category lang="en">Sports</category>
@@ -6614,7 +6334,7 @@
   <programme start="20261125220000 +0000" stop="20261126003000 +0000" channel="NBA-Philadelphia76ers.us">
     <title lang="en">NBA Basketball</title>
     <sub-title lang="en">Miami Heat @ Philadelphia 76ers</sub-title>
-    <desc lang="en">High-voltage NBA Cup group play action takes over Philadelphia as the Philadelphia 76ers battle the Miami Heat in a high-stakes showdown. Expect intense hardwood drama as these Eastern Conference foes clash on the court.</desc>
+    <desc lang="en">Tyrese Maxey and Joel Embiid headline a surging Philadelphia 76ers squad as they host the Miami Heat in high-stakes NBA Cup group play action. The powerhouse Philadelphia 76ers look to defend their home court and add another statement win to their impressive season record against a desperate Miami Heat team.</desc>
     <category lang="en">Live</category>
     <category lang="en">New</category>
     <category lang="en">Sports</category>
@@ -6651,7 +6371,7 @@
   <programme start="20261126000000 +0000" stop="20261126023000 +0000" channel="NBA-ChicagoBulls.us">
     <title lang="en">NBA Basketball</title>
     <sub-title lang="en">Chicago Bulls @ Charlotte Hornets</sub-title>
-    <desc lang="en">The Charlotte Hornets host the Chicago Bulls at Spectrum Center for crucial NBA Cup group play action as the struggling visitors look to bounce back and find a spark on the road.</desc>
+    <desc lang="en">The Chicago Bulls hit the road to battle the Charlotte Hornets in high-stakes NBA Cup group play action at Spectrum Center. Both squads look to ignite their seasons and gain crucial tournament momentum on the hardwood.</desc>
     <category lang="en">Live</category>
     <category lang="en">New</category>
     <category lang="en">Sports</category>
@@ -6688,7 +6408,7 @@
   <programme start="20261126000000 +0000" stop="20261126023000 +0000" channel="NBA-CharlotteHornets.us">
     <title lang="en">NBA Basketball</title>
     <sub-title lang="en">Chicago Bulls @ Charlotte Hornets</sub-title>
-    <desc lang="en">The Charlotte Hornets host the Chicago Bulls at Spectrum Center for crucial NBA Cup group play action as the struggling visitors look to bounce back and find a spark on the road.</desc>
+    <desc lang="en">The Chicago Bulls hit the road to battle the Charlotte Hornets in high-stakes NBA Cup group play action at Spectrum Center. Both squads look to ignite their seasons and gain crucial tournament momentum on the hardwood.</desc>
     <category lang="en">Live</category>
     <category lang="en">New</category>
     <category lang="en">Sports</category>
@@ -6725,7 +6445,7 @@
   <programme start="20261126003000 +0000" stop="20261126030000 +0000" channel="NBA-ClevelandCavaliers.us">
     <title lang="en">NBA Basketball</title>
     <sub-title lang="en">Cleveland Cavaliers @ New York Knicks</sub-title>
-    <desc lang="en">The New York Knicks look to assert their dominance at Madison Square Garden during NBA Cup group play as they clash with the Cleveland Cavaliers in a high-stakes Eastern Conference showdown.</desc>
+    <desc lang="en">The New York Knicks host the Cleveland Cavaliers at Madison Square Garden for high-stakes NBA Cup group play action. Fueled by a renewed commitment to his squad, Donovan Mitchell looks to lead the Cleveland Cavaliers past the rival New York Knicks in this electric Eastern Conference showdown.</desc>
     <category lang="en">Live</category>
     <category lang="en">New</category>
     <category lang="en">Sports</category>
@@ -6762,7 +6482,7 @@
   <programme start="20261126003000 +0000" stop="20261126030000 +0000" channel="NBA-NewYorkKnicks.us">
     <title lang="en">NBA Basketball</title>
     <sub-title lang="en">Cleveland Cavaliers @ New York Knicks</sub-title>
-    <desc lang="en">The New York Knicks look to assert their dominance at Madison Square Garden during NBA Cup group play as they clash with the Cleveland Cavaliers in a high-stakes Eastern Conference showdown.</desc>
+    <desc lang="en">The New York Knicks host the Cleveland Cavaliers at Madison Square Garden for high-stakes NBA Cup group play action. Fueled by a renewed commitment to his squad, Donovan Mitchell looks to lead the Cleveland Cavaliers past the rival New York Knicks in this electric Eastern Conference showdown.</desc>
     <category lang="en">Live</category>
     <category lang="en">New</category>
     <category lang="en">Sports</category>
@@ -6799,7 +6519,7 @@
   <programme start="20261126003000 +0000" stop="20261126030000 +0000" channel="NBA-MinnesotaTimberwolves.us">
     <title lang="en">NBA Basketball</title>
     <sub-title lang="en">Minnesota Timberwolves @ Oklahoma City Thunder</sub-title>
-    <desc lang="en">High-stakes NBA Cup group play action heats up at the Paycom Center as the Oklahoma City Thunder look to assert their dominance against the Minnesota Timberwolves. Expect fierce competition on the hardwood as these two elite Western Conference contenders collide in a must-watch battle.</desc>
+    <desc lang="en">A high-stakes NBA Cup group play battle unfolds at Paycom Center as the Minnesota Timberwolves clash with the Oklahoma City Thunder in a crucial early-season showdown. Both powerhouse squads put their impressive records on the line in pursuit of tournament supremacy and Western Conference dominance.</desc>
     <category lang="en">Live</category>
     <category lang="en">New</category>
     <category lang="en">Sports</category>
@@ -6836,7 +6556,7 @@
   <programme start="20261126003000 +0000" stop="20261126030000 +0000" channel="NBA-OklahomaCityThunder.us">
     <title lang="en">NBA Basketball</title>
     <sub-title lang="en">Minnesota Timberwolves @ Oklahoma City Thunder</sub-title>
-    <desc lang="en">High-stakes NBA Cup group play action heats up at the Paycom Center as the Oklahoma City Thunder look to assert their dominance against the Minnesota Timberwolves. Expect fierce competition on the hardwood as these two elite Western Conference contenders collide in a must-watch battle.</desc>
+    <desc lang="en">A high-stakes NBA Cup group play battle unfolds at Paycom Center as the Minnesota Timberwolves clash with the Oklahoma City Thunder in a crucial early-season showdown. Both powerhouse squads put their impressive records on the line in pursuit of tournament supremacy and Western Conference dominance.</desc>
     <category lang="en">Live</category>
     <category lang="en">New</category>
     <category lang="en">Sports</category>
@@ -6947,7 +6667,7 @@
   <programme start="20261126010000 +0000" stop="20261126033000 +0000" channel="NBA-BrooklynNets.us">
     <title lang="en">NBA Basketball</title>
     <sub-title lang="en">Brooklyn Nets @ Milwaukee Bucks</sub-title>
-    <desc lang="en">Fresh off a dazzling return from injury, Michael Porter Jr. and the Brooklyn Nets bring high-octane momentum into Fiserv Forum to clash with the Milwaukee Bucks in crucial NBA Cup group play.</desc>
+    <desc lang="en">Seeking a vital bounce-back victory in group play, the Milwaukee Bucks return to their home floor to host the Brooklyn Nets in a high-stakes NBA Cup showdown. Both squads look to ignite their seasons and climb the standings with a statement performance inside Fiserv Forum.</desc>
     <category lang="en">Live</category>
     <category lang="en">New</category>
     <category lang="en">Sports</category>
@@ -6984,7 +6704,7 @@
   <programme start="20261126010000 +0000" stop="20261126033000 +0000" channel="NBA-MilwaukeeBucks.us">
     <title lang="en">NBA Basketball</title>
     <sub-title lang="en">Brooklyn Nets @ Milwaukee Bucks</sub-title>
-    <desc lang="en">Fresh off a dazzling return from injury, Michael Porter Jr. and the Brooklyn Nets bring high-octane momentum into Fiserv Forum to clash with the Milwaukee Bucks in crucial NBA Cup group play.</desc>
+    <desc lang="en">Seeking a vital bounce-back victory in group play, the Milwaukee Bucks return to their home floor to host the Brooklyn Nets in a high-stakes NBA Cup showdown. Both squads look to ignite their seasons and climb the standings with a statement performance inside Fiserv Forum.</desc>
     <category lang="en">Live</category>
     <category lang="en">New</category>
     <category lang="en">Sports</category>
@@ -7021,7 +6741,7 @@
   <programme start="20261126013000 +0000" stop="20261126040000 +0000" channel="NBA-PhoenixSuns.us">
     <title lang="en">NBA Basketball</title>
     <sub-title lang="en">Phoenix Suns @ Houston Rockets</sub-title>
-    <desc lang="en">The in-season tournament heats up as the Houston Rockets protect their home court at the Toyota Center against the visiting Phoenix Suns in this high-stakes NBA Cup showdown.</desc>
+    <desc lang="en">Energized by a stellar thirty-point performance from Devin Booker in their latest outing, the Phoenix Suns travel to the Toyota Center to clash with the red-hot Houston Rockets in high-stakes NBA Cup group play action.</desc>
     <category lang="en">Live</category>
     <category lang="en">New</category>
     <category lang="en">Sports</category>
@@ -7058,7 +6778,7 @@
   <programme start="20261126013000 +0000" stop="20261126040000 +0000" channel="NBA-HoustonRockets.us">
     <title lang="en">NBA Basketball</title>
     <sub-title lang="en">Phoenix Suns @ Houston Rockets</sub-title>
-    <desc lang="en">The in-season tournament heats up as the Houston Rockets protect their home court at the Toyota Center against the visiting Phoenix Suns in this high-stakes NBA Cup showdown.</desc>
+    <desc lang="en">Energized by a stellar thirty-point performance from Devin Booker in their latest outing, the Phoenix Suns travel to the Toyota Center to clash with the red-hot Houston Rockets in high-stakes NBA Cup group play action.</desc>
     <category lang="en">Live</category>
     <category lang="en">New</category>
     <category lang="en">Sports</category>
@@ -7095,7 +6815,7 @@
   <programme start="20261126030000 +0000" stop="20261126053000 +0000" channel="NBA-SacramentoKings.us">
     <title lang="en">NBA Basketball</title>
     <sub-title lang="en">Sacramento Kings @ Golden State Warriors</sub-title>
-    <desc lang="en">The Golden State Warriors host the Sacramento Kings in high-stakes NBA Cup group play action at Chase Center. The surging Golden State Warriors look to defend home court against a desperate Sacramento Kings squad looking to turn their season around.</desc>
+    <desc lang="en">The Golden State Warriors face the Sacramento Kings in high-stakes NBA Cup group play action at Chase Center. With the Warriors navigating the absence of injured superstar Steph Curry, the stage is set for an intense Pacific Division showdown.</desc>
     <category lang="en">Live</category>
     <category lang="en">New</category>
     <category lang="en">Sports</category>
@@ -7132,7 +6852,7 @@
   <programme start="20261126030000 +0000" stop="20261126053000 +0000" channel="NBA-GoldenStateWarriors.us">
     <title lang="en">NBA Basketball</title>
     <sub-title lang="en">Sacramento Kings @ Golden State Warriors</sub-title>
-    <desc lang="en">The Golden State Warriors host the Sacramento Kings in high-stakes NBA Cup group play action at Chase Center. The surging Golden State Warriors look to defend home court against a desperate Sacramento Kings squad looking to turn their season around.</desc>
+    <desc lang="en">The Golden State Warriors face the Sacramento Kings in high-stakes NBA Cup group play action at Chase Center. With the Warriors navigating the absence of injured superstar Steph Curry, the stage is set for an intense Pacific Division showdown.</desc>
     <category lang="en">Live</category>
     <category lang="en">New</category>
     <category lang="en">Sports</category>
@@ -7169,7 +6889,7 @@
   <programme start="20261126030000 +0000" stop="20261126053000 +0000" channel="NBA-SanAntonioSpurs.us">
     <title lang="en">NBA Basketball</title>
     <sub-title lang="en">San Antonio Spurs @ Portland Trail Blazers</sub-title>
-    <desc lang="en">The high-flying San Antonio Spurs clash with the surging Portland Trail Blazers in a fierce NBA Cup group stage battle at Moda Center. Both powerhouse Western Conference contenders collide as they look to assert dominance in high-stakes tournament play.</desc>
+    <desc lang="en">High-stakes NBA Cup group play heats up as the San Antonio Spurs hit the road to battle the Portland Trail Blazers in a pivotal Western Conference showdown. Both squads look to make a statement inside the Moda Center as the battle for tournament supremacy intensifies.</desc>
     <category lang="en">Live</category>
     <category lang="en">New</category>
     <category lang="en">Sports</category>
@@ -7206,7 +6926,7 @@
   <programme start="20261126030000 +0000" stop="20261126053000 +0000" channel="NBA-PortlandTrailBlazers.us">
     <title lang="en">NBA Basketball</title>
     <sub-title lang="en">San Antonio Spurs @ Portland Trail Blazers</sub-title>
-    <desc lang="en">The high-flying San Antonio Spurs clash with the surging Portland Trail Blazers in a fierce NBA Cup group stage battle at Moda Center. Both powerhouse Western Conference contenders collide as they look to assert dominance in high-stakes tournament play.</desc>
+    <desc lang="en">High-stakes NBA Cup group play heats up as the San Antonio Spurs hit the road to battle the Portland Trail Blazers in a pivotal Western Conference showdown. Both squads look to make a statement inside the Moda Center as the battle for tournament supremacy intensifies.</desc>
     <category lang="en">Live</category>
     <category lang="en">New</category>
     <category lang="en">Sports</category>
