@@ -1,21 +1,21 @@
 {
-  "401879233": {
-    "hash": "2C0ED42276099B1D",
+  "401879238": {
+    "hash": "A0155AD7E7F9D0C6",
     "model": "gemini-3.5-flash-lite",
-    "generatedUtc": "2026-11-20T15:30:09.5963766+00:00",
-    "desc": "Erling Haaland steps up as a vital leader for Manchester City as they return to the Etihad Stadium looking to assert their dominance. Fulham arrives searching for a spark to elevate their campaign and overcome a formidable opponent."
+    "generatedUtc": "2026-11-21T14:38:27.8234602+00:00",
+    "desc": "AFC Bournemouth welcomes Nottingham Forest to Vitality Stadium as both Premier League sides look to build momentum following the opening ten matches of the season. With the hosts aiming to climb higher up the table and Nottingham Forest desperate to reverse their early struggles, high-stakes drama is guaranteed on the south coast."
   },
   "401878756": {
-    "hash": "A878901BFA60C13C",
+    "hash": "7B3067D7F187B7AC",
     "model": "gemini-3.5-flash-lite",
-    "generatedUtc": "2026-11-19T15:30:34.1600799+00:00",
-    "desc": "As the Premier League campaign hits the ten-game mark with final standings predictions heating up, Aston Villa welcomes Sunderland to Villa Park for a crucial clash. Aston Villa looks to solidify its position in the upper half against a struggling Sunderland side desperate to ignite their season on the road."
+    "generatedUtc": "2026-11-21T14:38:43.3530920+00:00",
+    "desc": "Aston Villa welcomes Sunderland to Villa Park with Johan Manzambi cleared and ready to feature for the hosts. Villa looks to build momentum against a struggling Sunderland side desperate to ignite their campaign."
   },
   "401879236": {
-    "hash": "B1238A6105DE0B29",
+    "hash": "25E2C2EC4540EC75",
     "model": "gemini-3.5-flash-lite",
-    "generatedUtc": "2026-11-20T15:30:35.8299759+00:00",
-    "desc": "Stamford Bridge plays host to a high-stakes clash as Chelsea look to build momentum following recent squad headlines against a resilient Leeds United side eager to make a statement on the road."
+    "generatedUtc": "2026-11-21T14:38:48.4070018+00:00",
+    "desc": "Chelsea return to Premier League action at Stamford Bridge looking to build momentum against a resilient Leeds United side eager to make their mark on the road."
   },
   "401879235": {
     "hash": "EE54CFDA63223102",
@@ -24,16 +24,10 @@
     "desc": "Under the guidance of newly appointed manager Thomas Frank, Crystal Palace travels to the Coventry Building Society Arena to face Coventry City in a crucial Premier League battle as both struggling sides look to climb away from the relegation zone."
   },
   "401878754": {
-    "hash": "47595FA75BFC8103",
+    "hash": "0EDE329F6F59C8E7",
     "model": "gemini-3.5-flash-lite",
-    "generatedUtc": "2026-11-20T15:30:58.8888302+00:00",
-    "desc": "Tottenham Hotspur returns to home turf at Tottenham Hotspur Stadium looking to build momentum as they host Ipswich Town in a crucial Premier League clash. Both sides search for consistency in a tightly contested campaign where every three points could drastically alter their season trajectory."
-  },
-  "401879232": {
-    "hash": "E2E3E001FC306323",
-    "model": "gemini-3.5-flash-lite",
-    "generatedUtc": "2026-11-20T15:31:11.6996177+00:00",
-    "desc": "St. James' Park plays host to a high-stakes Premier League clash as Newcastle United looks to disrupt an impressive campaign from Arsenal, who arrive under the guidance of manager Mikel Arteta despite missing the injured Bukayo Saka."
+    "generatedUtc": "2026-11-21T14:38:55.8248409+00:00",
+    "desc": "Roberto De Zerbi leads Tottenham Hotspur into battle at Tottenham Hotspur Stadium against Ipswich Town as the hosts look to climb the Premier League table. Can the Lilywhites secure a vital home victory, or will Ipswich Town pull off a stunning upset in London?"
   },
   "401879234": {
     "hash": "753A503BD1B4FD21",
@@ -42,22 +36,22 @@
     "desc": "Fresh off committing his future to the south coast amid outside interest, Fabian Hürzeler leads his high-flying Brighton & Hove Albion side away to face Hull City at The MKM Stadium. Hull City looks to upset the odds and derail their opponents' impressive start to the Premier League campaign."
   },
   "401878755": {
-    "hash": "D1152318F65CE84D",
+    "hash": "7A91B341A3E688EC",
     "model": "gemini-3.5-flash-lite",
-    "generatedUtc": "2026-11-20T15:31:33.5740690+00:00",
-    "desc": "Mauricio Pochettino leads Manchester United into a high-stakes showdown at Anfield against Liverpool, with the visitors hoping tactical unpredictability can spark a turnaround following a sluggish start to the Premier League campaign."
+    "generatedUtc": "2026-11-21T14:39:06.2403395+00:00",
+    "desc": "Anfield plays host to a high-stakes clash as Liverpool defends its impressive campaign against a desperate Manchester United side trying to turn their season around under Mauricio Pochettino."
   },
   "401879237": {
-    "hash": "2E6DF2D2BA00D6D8",
+    "hash": "FA9785557B97EF96",
     "model": "gemini-3.5-flash-lite",
-    "generatedUtc": "2026-11-20T15:31:46.4636374+00:00",
-    "desc": "Brentford welcomes Everton to the Gtech Community Stadium for a high-stakes Premier League clash as both sides look to climb the table and assert their top-flight ambitions. With the early-season standings tightly contested, expect a fierce tactical battle between these two resilient squads."
+    "generatedUtc": "2026-11-21T14:39:11.3687366+00:00",
+    "desc": "With playmaker Jack Grealish returning to the fold, Everton looks to capitalize on their strong start as they travel to face a resilient Brentford side at the Gtech Community Stadium in a high-stakes Premier League clash."
   },
   "401879225": {
-    "hash": "3FFC60FA5B82657A",
+    "hash": "9F36DDD3B1CD4E05",
     "model": "gemini-3.5-flash-lite",
-    "generatedUtc": "2026-11-20T15:32:46.5140559+00:00",
-    "desc": "The City Ground plays host to a high-stakes Premier League clash as Nottingham Forest looks to turn around a difficult campaign against a formidable Chelsea side. Expect fierce intensity as the visitors bring plenty of tactical intrigue and squad depth to test the resolute hosts on home turf."
+    "generatedUtc": "2026-11-21T14:39:22.2681504+00:00",
+    "desc": "High-stakes Premier League action descends on The City Ground as Nottingham Forest look to ignite their campaign against a formidable Chelsea side returning from the international break. Expect fierce tactical battles and intense drama as both clubs clash in this crucial English fixture."
   },
   "401879227": {
     "hash": "B3ED65C1E06D412A",
@@ -66,22 +60,22 @@
     "desc": "Elland Road plays host as Leeds United looks to capitalize on solid early-season form against a struggling Coventry City side desperate to reverse a difficult run of losses."
   },
   "401879226": {
-    "hash": "F3460E7E73264BA8",
+    "hash": "18A73F97B8F6B521",
     "model": "gemini-3.5-flash-lite",
-    "generatedUtc": "2026-11-20T15:33:47.3711442+00:00",
-    "desc": "As head coach Mauricio Pochettino looks to make his mark amid intense transfer scrutiny, Manchester United return to Old Trafford to host a resilient Brentford side eager to expose any lingering vulnerabilities in the home ranks."
+    "generatedUtc": "2026-11-21T14:39:27.2616624+00:00",
+    "desc": "Under immense pressure to restore past glory, Manchester United welcomes Brentford to Old Trafford as the hosts look to kickstart their Premier League campaign."
   },
   "401878752": {
-    "hash": "518722C476083B00",
+    "hash": "17E346A779623A5A",
     "model": "gemini-3.5-flash-lite",
-    "generatedUtc": "2026-11-20T15:34:00.5085890+00:00",
-    "desc": "With the Premier League season hitting its vital second phase, Ipswich Town and Aston Villa clash at Portman Road as both sides look to ignite their campaign with a crucial three points. Expect high-stakes drama on the Suffolk turf as two evenly matched squads fight to shift their momentum and climb the table."
+    "generatedUtc": "2026-11-21T14:39:40.3500642+00:00",
+    "desc": "Ipswich Town returns to Portman Road seeking a vital home victory as they host Aston Villa in a high-stakes Premier League showdown. Both sides look to carve out crucial momentum as the battle for position intensifies after ten matches of the campaign."
   },
   "401879229": {
-    "hash": "31C7C233B1178ABB",
+    "hash": "D95EF6015A316781",
     "model": "gemini-3.5-flash-lite",
-    "generatedUtc": "2026-11-20T15:34:06.3403455+00:00",
-    "desc": "As Everton welcomes Liverpool to Hill Dickinson Stadium, the Merseyside rivals collide in a high-stakes Premier League clash. Everton looks to capitalize on their steady form against a visiting Liverpool side eager to make a decisive statement."
+    "generatedUtc": "2026-11-21T14:39:45.5270251+00:00",
+    "desc": "Goodison Park plays host to a high-stakes Merseyside derby as Everton clashes with Liverpool, with both fierce rivals looking to stamp their authority on the Premier League. Expect a fiery tactical battle under the lights as Everton and Liverpool write the next thrilling chapter of their storied rivalry."
   },
   "401879231": {
     "hash": "7D3B0A7AAFA0633B",
@@ -96,22 +90,22 @@
     "desc": "Under the guidance of Thomas Frank, Crystal Palace return to Selhurst Park looking to climb the Premier League standings as they clash with Hull City in a high-stakes battle."
   },
   "401879228": {
-    "hash": "DDA35DFD9D8B5DC2",
+    "hash": "DC38F385D7FCC378",
     "model": "gemini-3.5-flash-lite",
-    "generatedUtc": "2026-11-20T15:34:47.9566490+00:00",
-    "desc": "Craven Cottage plays host to a compelling Premier League battle as Fulham looks to spark their campaign against an in-form AFC Bournemouth side. The visitors arrive on the banks of the Thames riding high and eager to cement their top-flight ambitions against a desperate home squad."
+    "generatedUtc": "2026-11-21T14:39:56.8268791+00:00",
+    "desc": "Fulham returns to Craven Cottage seeking a vital Premier League spark as they host AFC Bournemouth following the final international break of the season. The visiting squad arrives looking to capitalize on their strong form and climb higher in the table in this high-stakes London clash."
   },
   "401879224": {
-    "hash": "B044657A133A7393",
+    "hash": "3F9DF6547F404EC4",
     "model": "gemini-3.5-flash-lite",
-    "generatedUtc": "2026-11-20T15:35:32.2341732+00:00",
-    "desc": "Sunderland looks to turn around a tough start to the campaign as they welcome Tottenham Hotspur to the Stadium of Light for a high-stakes Premier League clash. Tottenham Hotspur arrives under manager Roberto De Zerbi, eager to secure vital points and climb the table against a determined Sunderland side."
+    "generatedUtc": "2026-11-21T14:40:02.4341653+00:00",
+    "desc": "Sunderland return to action at the Stadium of Light seeking to reverse a difficult run of form as they welcome Tottenham Hotspur to Wearside. Tottenham Hotspur travel north looking to capitalize on their opponent's struggles and climb higher into the Premier League table."
   },
   "401878753": {
-    "hash": "76E9BFB6483FAEA8",
+    "hash": "E63CC019778E8152",
     "model": "gemini-3.5-flash-lite",
-    "generatedUtc": "2026-11-20T15:35:53.9919482+00:00",
-    "desc": "A high-stakes Premier League showdown at Emirates Stadium sees Arsenal cope without the injured Bukayo Saka as they welcome Manchester City to North London. Arsenal manager Mikel Arteta must navigate a crucial test against their fellow Big Six rivals without his star winger as the hosts look to strengthen their grip near the top of the table."
+    "generatedUtc": "2026-11-21T14:40:07.5047879+00:00",
+    "desc": "Fierce Premier League rivals clash at Emirates Stadium as Arsenal hosts Manchester City in a high-stakes heavyweight showdown. Arsenal manager Mikel Arteta faces a massive tactical challenge with Bukayo Saka sidelined, while Manchester City arrives looking to assert dominance in the title race."
   },
   "401879221": {
     "hash": "B7E532551C0D20D3",
@@ -120,10 +114,10 @@
     "desc": "Desperately seeking a spark to ignite their campaigns after ten matches, Coventry City and Ipswich Town collide at Coventry Building Society Arena with both sides looking to climb the Premier League table."
   },
   "401879222": {
-    "hash": "5667395D7C7CD49E",
+    "hash": "DFB456149F840D53",
     "model": "gemini-3.5-flash-lite",
-    "generatedUtc": "2026-11-20T15:36:21.5836596+00:00",
-    "desc": "Stamford Bridge plays host to a high-stakes London derby as Chelsea looks to build momentum against Crystal Palace. Expect fierce rivalries and tactical drama as both sides battle for crucial Premier League points."
+    "generatedUtc": "2026-11-21T14:40:12.6396789+00:00",
+    "desc": "As club soccer returns following the final international break of 2026, Chelsea looks to build crucial momentum at Stamford Bridge against Crystal Palace. Can the hosts capitalize on their strong form against a struggling Crystal Palace side desperate to turn their season around?"
   },
   "401879220": {
     "hash": "0BC4DC9859153BA7",
@@ -132,16 +126,16 @@
     "desc": "With the 2026-27 Premier League season taking shape after ten games of hard-fought action, Hull City and Nottingham Forest clash at The MKM Stadium desperate to climb the standings. Both sides search for a vital spark as they look to turn early struggles into momentum and validate their ambitions for the campaign ahead."
   },
   "401879219": {
-    "hash": "1D7475DC87631FDC",
+    "hash": "7F4D5DF92558BFD5",
     "model": "gemini-3.5-flash-lite",
-    "generatedUtc": "2026-11-20T15:36:39.2084772+00:00",
-    "desc": "Anfield plays host to an intriguing Premier League battle as Liverpool aim to harness their legendary home atmosphere against a resilient Sunderland side looking to cause a major upset. Liverpool enter this fixture eager to overcome a sluggish run of form on their own turf and assert their dominance against visiting Sunderland."
+    "generatedUtc": "2026-11-21T14:40:22.7334158+00:00",
+    "desc": "Anfield plays host as Liverpool seeks to build momentum against a struggling Sunderland side looking to pull off a stunning upset on the road."
   },
   "401879218": {
-    "hash": "8D458D35EEA245C9",
+    "hash": "01460D5A4A7169AC",
     "model": "gemini-3.5-flash-lite",
-    "generatedUtc": "2026-11-20T15:36:47.8528524+00:00",
-    "desc": "Manchester City steps onto the Etihad Stadium turf looking to maintain their blistering 7-0-3 start against a resilient Leeds United side. With Erling Haaland embracing a commanding leadership role in the squad, the hosts face mounting scrutiny amid off-pitch headlines as they battle for crucial Premier League supremacy."
+    "generatedUtc": "2026-11-21T14:40:27.9963089+00:00",
+    "desc": "Manchester City returns to Etihad Stadium looking to bounce back from recent dropped points as Erling Haaland steps up his leadership role for the squad. Leeds United travels to Manchester aiming to exploit any vulnerabilities and shock the hosts in this high-stakes Premier League clash."
   },
   "401879223": {
     "hash": "69F7943A9282F854",
@@ -150,27 +144,33 @@
     "desc": "Bolstered by the reaffirmed commitment of Fabian Hürzeler, Brighton & Hove Albion travel to the Vitality Stadium looking to cement their flying start against a resilient AFC Bournemouth side."
   },
   "401878751": {
-    "hash": "9596B70CE2A3AE94",
+    "hash": "15130955EEA46C3A",
     "model": "gemini-3.5-flash-lite",
-    "generatedUtc": "2026-11-20T15:37:18.1981053+00:00",
-    "desc": "Aston Villa welcomes Everton to Villa Park for a crucial Premier League clash as both sides look to climb the table after contrasting starts to the campaign. Expect high-intensity drama under the lights in Birmingham as these fierce English rivals battle for three vital points."
+    "generatedUtc": "2026-11-21T14:40:33.0245257+00:00",
+    "desc": "Aston Villa welcome Everton to Villa Park for an intense Premier League clash as both sides look to climb the table. Expect high drama under the floodlights as these historic English clubs battle for crucial three points."
   },
   "401878750": {
-    "hash": "EC6F3FB9E5D5CE0E",
+    "hash": "1508D50D23CD6A99",
     "model": "gemini-3.5-flash-lite",
-    "generatedUtc": "2026-11-20T15:37:28.9441870+00:00",
-    "desc": "Arsenal manager Mikel Arteta leads his side to Gtech Community Stadium to face Brentford while coping without the injured Bukayo Saka, as the visitors look to protect their stellar Premier League form against dangerous local opposition."
+    "generatedUtc": "2026-11-21T14:40:38.5104982+00:00",
+    "desc": "Arsenal faces a tough Premier League test at Gtech Community Stadium as Mikel Arteta navigates a month without the injured Bukayo Saka, though the availability of William Saliba provides a defensive boost against Brentford."
   },
   "401879217": {
-    "hash": "0718DCB0AF1C8AC2",
+    "hash": "BE3AC0D06D43E0F5",
     "model": "gemini-3.5-flash-lite",
-    "generatedUtc": "2026-11-20T15:37:37.0576300+00:00",
-    "desc": "St. James' Park plays host to a high-stakes Premier League showdown as Newcastle United looks to capitalize on home advantage against a struggling Manchester United side searching for a desperately needed turnaround."
+    "generatedUtc": "2026-11-21T14:41:07.8938258+00:00",
+    "desc": "Under immense pressure to restore former glory, Mauricio Pochettino leads Manchester United to St. James' Park to face Newcastle United in a high-stakes Premier League clash."
   },
   "401878749": {
-    "hash": "18B82FCF15C59577",
+    "hash": "B4F17255EFD4B647",
     "model": "gemini-3.5-flash-lite",
-    "generatedUtc": "2026-11-20T15:37:49.5939129+00:00",
-    "desc": "Sparks fly across London as Tottenham Hotspur host Fulham at Tottenham Hotspur Stadium in a high-stakes Premier League showdown. Both sides desperately chase three vital points to ignite their campaign and climb the table."
+    "generatedUtc": "2026-11-21T14:41:13.1898543+00:00",
+    "desc": "Domestic action resumes at Tottenham Hotspur Stadium as Tottenham Hotspur welcomes Fulham for a high-stakes London derby. Both sides look to find vital Premier League momentum following the international break as the battle for crucial table position heats up in the capital."
+  },
+  "401879213": {
+    "hash": "9E2F4B25BC7C1611",
+    "model": "gemini-3.5-flash-lite",
+    "generatedUtc": "2026-11-21T14:41:18.5557497+00:00",
+    "desc": "High-stakes Premier League drama unfolds at Stamford Bridge as traditional Big Six heavyweights Chelsea and Liverpool clash in a crucial fixture. Both squads return from the international break eager to ignite their campaigns and climb the league table in this fiercely contested battle."
   }
 }
