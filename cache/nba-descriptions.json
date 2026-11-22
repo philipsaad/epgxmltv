@@ -1,40 +1,4 @@
 {
-  "401910023": {
-    "hash": "77351CA1B966EB32",
-    "model": "gemini-3.5-flash-lite",
-    "generatedUtc": "2026-11-21T14:24:38.8581647+00:00",
-    "desc": "The soaring Philadelphia 76ers host the struggling Milwaukee Bucks at Xfinity Mobile Arena as the home side looks to extend its dominance while the visitors desperately seek to snap a punishing twelve-game losing skid."
-  },
-  "401910024": {
-    "hash": "4777B19A995A67EA",
-    "model": "gemini-3.5-flash-lite",
-    "generatedUtc": "2026-11-21T14:24:47.8095730+00:00",
-    "desc": "Fresh off a dazzling 33-point masterclass against Milwaukee, Damian Lillard brings his blazing momentum to Madison Square Garden as the Portland Trail Blazers clash with the New York Knicks in a high-octane regular season showdown."
-  },
-  "401910025": {
-    "hash": "5B6B398B4FE02209",
-    "model": "gemini-3.5-flash-lite",
-    "generatedUtc": "2026-11-21T14:25:01.0422842+00:00",
-    "desc": "The LA Clippers face a massive shakeup as Brandon Ingram makes his highly anticipated debut against the Dallas Mavericks in a high-stakes NBA regular season battle at the American Airlines Center. Can the visiting squad ignite their season against an 8-7 Dallas Mavericks team eager to defend their home court?"
-  },
-  "401910026": {
-    "hash": "3884426A05DF9E80",
-    "model": "gemini-3.5-flash-lite",
-    "generatedUtc": "2026-11-21T14:25:27.1357319+00:00",
-    "desc": "Riding a five-game winning streak behind standouts Jaylen Wells and Cedric Coward, the Memphis Grizzlies bring serious momentum into a high-stakes clash against the Minnesota Timberwolves at the Target Center."
-  },
-  "401910027": {
-    "hash": "14A2236E70B06933",
-    "model": "gemini-3.5-flash-lite",
-    "generatedUtc": "2026-11-21T14:25:41.3580068+00:00",
-    "desc": "The red-hot San Antonio Spurs return to home court to defend their stellar 13-3 record against a struggling New Orleans Pelicans squad looking to bounce back. High-stakes momentum and fierce division pride collide inside the Frost Bank Center as both teams battle for crucial positioning on the hardwood."
-  },
-  "401910028": {
-    "hash": "9C4F8654D11F67CC",
-    "model": "gemini-3.5-flash-lite",
-    "generatedUtc": "2026-11-21T14:25:46.5154481+00:00",
-    "desc": "The struggling Sacramento Kings return home seeking a major spark against the powerhouse Boston Celtics, who roll into the Golden 1 Center riding an impressive 11-4 start to the season."
-  },
   "401910029": {
     "hash": "2DC187EB95E48F01",
     "model": "gemini-3.5-flash-lite",
@@ -60,34 +24,34 @@
     "desc": "Riding the momentum of a stellar performance by Nikola Jokic, the Denver Nuggets bring their high-powered offense to the Windy City to face the Chicago Bulls at the United Center. Expect an electric battle as the visiting squad looks to overpower a gritty Chicago Bulls lineup desperate to turn their season around."
   },
   "401910033": {
-    "hash": "47DBBC2887F07128",
+    "hash": "9D8C45A312058F6A",
     "model": "gemini-3.5-flash-lite",
-    "generatedUtc": "2026-11-21T14:26:31.8970414+00:00",
-    "desc": "The Dallas Mavericks travel to face the Utah Jazz in a high-stakes NBA regular season battle at the Delta Center as both squads look to ignite their momentum. Utah aims to bounce back on its home court and ignite a struggling season against a formidable Dallas team."
+    "generatedUtc": "2026-11-22T14:17:28.1474594+00:00",
+    "desc": "The Dallas Mavericks ride the momentum of stellar play from Kyrie Irving and Cooper Flagg into Salt Lake City to clash with the Utah Jazz at the Delta Center in an intense NBA regular season showdown."
   },
   "401910034": {
-    "hash": "E469E793F03B6DD3",
+    "hash": "9474D3526BF96ECB",
     "model": "gemini-3.5-flash-lite",
-    "generatedUtc": "2026-11-21T14:26:44.4431634+00:00",
-    "desc": "The Indiana Pacers head to Madison Square Garden to battle the New York Knicks in a high-stakes Eastern Conference showdown. The surging New York Knicks look to defend home court against an Indiana Pacers squad eager to ignite a winning streak."
+    "generatedUtc": "2026-11-22T14:17:33.2765234+00:00",
+    "desc": "Riding the momentum of recent heroics, Mikal Bridges and the New York Knicks bring clutch heroics to Madison Square Garden to defend home court against the Indiana Pacers."
   },
   "401910035": {
-    "hash": "BD61F144602E799F",
+    "hash": "FC9C8D82F312762E",
     "model": "gemini-3.5-flash-lite",
-    "generatedUtc": "2026-11-21T14:26:53.4815844+00:00",
-    "desc": "Seeking to rebound at Chase Center, the short-handed Golden State Warriors look to steady their season against the powerhouse Boston Celtics in an explosive inter-conference showdown."
+    "generatedUtc": "2026-11-22T14:17:44.0361743+00:00",
+    "desc": "Looking to bounce back from a stinging last-second defeat, the Boston Celtics travel to the Bay Area to face the Golden State Warriors in a high-stakes cross-conference showdown at Chase Center."
   },
   "401910036": {
-    "hash": "7B323BA1761BB100",
+    "hash": "299B05612B5DA8FA",
     "model": "gemini-3.5-flash-lite",
-    "generatedUtc": "2026-11-21T14:26:59.4155714+00:00",
-    "desc": "The high-flying Memphis Grizzlies visit the Spectrum Center to clash with the Charlotte Hornets in a fast-paced NBA battle. The struggling Charlotte Hornets look to bounce back and ignite their offense against a formidable Memphis Grizzlies squad seeking a statement road win."
+    "generatedUtc": "2026-11-22T14:17:55.3682123+00:00",
+    "desc": "A short-handed Memphis Grizzlies squad looks to bounce back on the road as they clash with the Charlotte Hornets inside Spectrum Center for intense hardwood action."
   },
   "401910037": {
-    "hash": "4653878C94E11564",
+    "hash": "4FD0DA72302A3C02",
     "model": "gemini-3.5-flash-lite",
-    "generatedUtc": "2026-11-21T14:27:11.6617555+00:00",
-    "desc": "Damian Lillard brings a season-high 33-point performance to Xfinity Mobile Arena as the Portland Trail Blazers look to keep rolling against the powerhouse Philadelphia 76ers. Expect fireworks in this cross-conference clash as high-flying offense and fierce competitive drama take center stage."
+    "generatedUtc": "2026-11-22T14:18:00.8582525+00:00",
+    "desc": "Fresh off a heart-wrenching buzzer-beater defeat, the resilient Portland Trail Blazers look to bounce back on the road against the surging Philadelphia 76ers at Xfinity Mobile Arena."
   },
   "401910038": {
     "hash": "C2B87DCA3D54A54E",
@@ -96,16 +60,16 @@
     "desc": "Fresh off a dominant 40-point masterpiece in NBA Cup action, Shai Gilgeous-Alexander leads the Oklahoma City Thunder into Gainbridge Fieldhouse to battle the Indiana Pacers in a high-stakes cross-conference clash."
   },
   "401910039": {
-    "hash": "7398C7A5475AB75A",
+    "hash": "0E4476A8F71700BF",
     "model": "gemini-3.5-flash-lite",
-    "generatedUtc": "2026-11-21T14:27:58.3334362+00:00",
-    "desc": "Fresh off a clutch performance by Scottie Barnes to snap a brutal skid, the Toronto Raptors look to build momentum at home against the struggling Milwaukee Bucks in an electrifying NBA regular season showdown at Scotiabank Arena."
+    "generatedUtc": "2026-11-22T14:18:12.1219911+00:00",
+    "desc": "Desperate to spark a turnaround, the Milwaukee Bucks head north to Scotiabank Arena to battle the Toronto Raptors in a high-stakes clash. Will the struggling squad find a much-needed victory against the Toronto Raptors, or will the home side protect their turf?"
   },
   "401910040": {
-    "hash": "15A6671885A62D42",
+    "hash": "C09464E39EA97A50",
     "model": "gemini-3.5-flash-lite",
-    "generatedUtc": "2026-11-21T14:28:07.9042347+00:00",
-    "desc": "The Minnesota Timberwolves return to the Target Center to defend their impressive home turf against a struggling Brooklyn Nets squad looking for a major road upset. High-stakes NBA Cup action intensifies as the surging hosts put their elite form to the test against the resilient visitors."
+    "generatedUtc": "2026-11-22T14:18:17.2081739+00:00",
+    "desc": "Riding high off recent stellar play, the Minnesota Timberwolves look to protect home court at the Target Center against the struggling Brooklyn Nets squad."
   },
   "401910041": {
     "hash": "CEF4F2AAE5FD8157",
@@ -114,28 +78,28 @@
     "desc": "Looking to bounce back from recent NBA Cup heartbreak, the Chicago Bulls return home to host the Cleveland Cavaliers in a high-stakes divisional battle at the United Center."
   },
   "401910042": {
-    "hash": "B19E0B7BF015F00E",
+    "hash": "6C6D928E149DE8DC",
     "model": "gemini-3.5-flash-lite",
-    "generatedUtc": "2026-11-21T14:28:27.9400232+00:00",
-    "desc": "Fresh off a clutch late-game surge powered by Devin Booker, the Phoenix Suns take their momentum on the road to battle the New Orleans Pelicans in a high-stakes NBA Cup showdown."
+    "generatedUtc": "2026-11-22T14:18:25.2548111+00:00",
+    "desc": "Desperate to bounce back from a historic beating by Victor Wembanyama and the San Antonio Spurs, the New Orleans Pelicans return home to defend their court against the visiting Phoenix Suns in a high-stakes Western Conference showdown."
   },
   "401910043": {
-    "hash": "6D9F3DEA48548BA7",
+    "hash": "1BF1A23422DBE744",
     "model": "gemini-3.5-flash-lite",
-    "generatedUtc": "2026-11-21T14:28:42.6791958+00:00",
-    "desc": "Looking to bounce back from a rough defensive outing, head coach Ime Udoka and the Houston Rockets return home to the Toyota Center to defend their impressive record against the visiting LA Clippers in a high-stakes showdown."
+    "generatedUtc": "2026-11-22T14:18:40.1500796+00:00",
+    "desc": "Coach Ime Udoka demands a furious defensive rebound as the Houston Rockets look to lock down their home court against the struggling LA Clippers."
   },
   "401910044": {
-    "hash": "7DF4B0EA8768C7E0",
+    "hash": "9AC0C7925697844F",
     "model": "gemini-3.5-flash-lite",
-    "generatedUtc": "2026-11-21T14:28:48.2417122+00:00",
-    "desc": "Buoyed by recent heroics from Luka Doncic, the scorching-hot Los Angeles Lakers return to crypto.com Arena looking to channel head coach JJ Redick's fiery motivation against the struggling Utah Jazz."
+    "generatedUtc": "2026-11-22T14:18:45.3927754+00:00",
+    "desc": "Fueled by a fiery response from head coach JJ Redick and the explosive play of Luka Doncic, the surging Los Angeles Lakers look to keep rolling at crypto.com Arena against the struggling Utah Jazz."
   },
   "401910045": {
-    "hash": "C270E98F00B0CF9A",
+    "hash": "E56CFF0CF616D476",
     "model": "gemini-3.5-flash-lite",
-    "generatedUtc": "2026-11-21T14:29:00.0491581+00:00",
-    "desc": "The red-hot San Antonio Spurs travel to take on the struggling Sacramento Kings at Golden 1 Center as the visitors look to overpower the home squad."
+    "generatedUtc": "2026-11-22T14:18:59.1181874+00:00",
+    "desc": "Riding high off a dramatic game-winning putback, the Sacramento Kings look to harness that clutch momentum when they host the scorching San Antonio Spurs, led by Victor Wembanyama coming off a historic fifty-point masterclass."
   },
   "401909314": {
     "hash": "E5A0F51A02D8804A",
@@ -144,22 +108,22 @@
     "desc": "High-stakes NBA Cup group play heats up at Kia Center as the Orlando Magic look to capitalize on momentum following a clutch heroic performance from Franz Wagner against the Detroit Pistons squad eager to bounce back."
   },
   "401909315": {
-    "hash": "7071D157F60804F4",
+    "hash": "DC56A36B924B39A4",
     "model": "gemini-3.5-flash-lite",
-    "generatedUtc": "2026-11-21T14:29:14.0151517+00:00",
-    "desc": "Fresh off a stunning NBA Cup victory powered by Anthony Davis, the Washington Wizards return home to Capital One Arena to host the Boston Celtics in high-stakes tournament action."
+    "generatedUtc": "2026-11-22T14:19:04.2734119+00:00",
+    "desc": "The Boston Celtics look to bounce back in NBA Cup group play as they travel to Capital One Arena to face the Washington Wizards. Expect high-stakes drama as the surging visitors battle a hungry Washington Wizards squad looking to make a statement."
   },
   "401909316": {
-    "hash": "28F38AEEC042E34B",
+    "hash": "63767DFA49A0977C",
     "model": "gemini-3.5-flash-lite",
-    "generatedUtc": "2026-11-21T14:29:25.5562323+00:00",
-    "desc": "Sparked by the brilliance of Nikola Jokic, the Denver Nuggets look to carry their winning NBA Cup momentum onto the home floor at Ball Arena against the Dallas Mavericks in a high-stakes group play showdown."
+    "generatedUtc": "2026-11-22T14:19:09.8706517+00:00",
+    "desc": "High-stakes NBA Cup group play action heats up at Ball Arena as the Denver Nuggets host the Dallas Mavericks for a crucial early-season showdown. Expect fireworks on the hardwood as both squads battle intensely to climb the tournament standings and secure a vital victory."
   },
   "401909317": {
-    "hash": "89AE7B692DE4EBD5",
+    "hash": "E44D4536A92543C1",
     "model": "gemini-3.5-flash-lite",
-    "generatedUtc": "2026-11-21T14:29:37.6494120+00:00",
-    "desc": "High-stakes NBA Cup group play action hits the floor as the Philadelphia 76ers host the Miami Heat at Xfinity Mobile Arena. The surging Philadelphia 76ers look to defend home court and protect their impressive record against a hungry Miami Heat squad looking to make a statement."
+    "generatedUtc": "2026-11-22T14:19:24.2725694+00:00",
+    "desc": "The Eastern Conference-leading Philadelphia 76ers battle the Miami Heat in a high-stakes NBA Cup group play showdown at Xfinity Mobile Arena. Superstar powerhouse Joel Embiid looks to anchor the dominant Philadelphia 76ers against a relentless Miami Heat squad determined to pull off a statement road victory in the clutch."
   },
   "401909318": {
     "hash": "3E96502508B7935D",
@@ -168,28 +132,28 @@
     "desc": "High-stakes NBA Cup group play action heats up as the Charlotte Hornets look to ignite their season on home court against the Chicago Bulls inside the Spectrum Center. Both squads clash in a desperate battle to climb the tournament standings and capture vital group-stage momentum."
   },
   "401909319": {
-    "hash": "F0C1DD31298087E3",
+    "hash": "488732E0580D4A95",
     "model": "gemini-3.5-flash-lite",
-    "generatedUtc": "2026-11-21T14:29:56.9822381+00:00",
-    "desc": "High-stakes NBA Cup group play action takes center stage at Madison Square Garden as the New York Knicks defend their home court against the Cleveland Cavaliers. Both squads battle for crucial tournament positioning in a marquee matchup loaded with intensity and conference rivalry drama."
+    "generatedUtc": "2026-11-22T14:19:29.6611146+00:00",
+    "desc": "Fresh off a dramatic buzzer-beating thriller, Jalen Brunson and Mikal Bridges bring their clutch heroics to Madison Square Garden as the New York Knicks host the Cleveland Cavaliers in high-stakes NBA Cup group play."
   },
   "401909320": {
-    "hash": "2B7D067A94FA8812",
+    "hash": "90D8DDEFCD9FC17B",
     "model": "gemini-3.5-flash-lite",
-    "generatedUtc": "2026-11-21T14:30:03.0540827+00:00",
-    "desc": "Riding the momentum of a scorching 40-point masterclass from Shai Gilgeous-Alexander, the Oklahoma City Thunder host the Minnesota Timberwolves at Paycom Center for high-stakes NBA Cup group play action."
+    "generatedUtc": "2026-11-22T14:19:34.6745251+00:00",
+    "desc": "High-stakes NBA Cup group play heats up as Jaden McDaniels and the Minnesota Timberwolves travel to battle the Oklahoma City Thunder at the Paycom Center in a crucial early-season showdown."
   },
   "401909321": {
-    "hash": "E657119CFF89A42C",
+    "hash": "E20851F0DDA040F9",
     "model": "gemini-3.5-flash-lite",
-    "generatedUtc": "2026-11-21T14:30:17.0105272+00:00",
-    "desc": "The scorching Memphis Grizzlies host the LA Clippers in high-stakes NBA Cup group play action inside FedExForum. Brandon Ingram takes center stage, making his highly anticipated debut for the LA Clippers as they look to pull off a stunning upset against the surging Memphis Grizzlies."
+    "generatedUtc": "2026-11-22T14:19:39.8418883+00:00",
+    "desc": "Looking to bounce back from recent setbacks, a short-handed Memphis Grizzlies squad returns home to FedExForum to host the struggling LA Clippers in high-stakes NBA Cup Group Play action."
   },
   "401909322": {
-    "hash": "DFE218996CE5D63B",
+    "hash": "45B0D0AF006ADAA3",
     "model": "gemini-3.5-flash-lite",
-    "generatedUtc": "2026-11-21T14:30:28.2649614+00:00",
-    "desc": "Desperate for momentum in tournament group play, the Milwaukee Bucks host the Brooklyn Nets at Fiserv Forum for a crucial NBA Cup showdown. Both struggling squads look to ignite their seasons and climb the standings in this high-stakes battle."
+    "generatedUtc": "2026-11-22T14:19:45.1626836+00:00",
+    "desc": "Desperate to ignite their season, Tyler Herro and the Milwaukee Bucks return home to Fiserv Forum for an intense NBA Cup group play battle against the Brooklyn Nets. Both struggling squads look to salvage momentum as early-season tournament stakes push these Eastern Conference rivals to the limit."
   },
   "401909323": {
     "hash": "19861790A1E72524",
@@ -198,34 +162,34 @@
     "desc": "Following a frustrating defensive breakdown, Houston Rockets head coach Ime Udoka demands a sharp response as the team hosts the Phoenix Suns in crucial NBA Cup group play action at Toyota Center."
   },
   "401909324": {
-    "hash": "1204AFC3DA7DB79E",
+    "hash": "A238DF33BDE35F65",
     "model": "gemini-3.5-flash-lite",
-    "generatedUtc": "2026-11-21T14:31:11.6455667+00:00",
-    "desc": "NBA Cup Group Play action heats up at Chase Center as the Golden State Warriors host the struggling Sacramento Kings in a high-stakes divisional battle. The Sacramento Kings look to bounce back and find a spark against a Golden State Warriors squad eager to protect their home floor."
+    "generatedUtc": "2026-11-22T14:19:50.4054410+00:00",
+    "desc": "Riding the high of a dramatic last-second win, Keegan Murray and the Sacramento Kings cross paths with the Golden State Warriors inside Chase Center for high-stakes NBA Cup group play action."
   },
   "401909325": {
-    "hash": "B3BB158D6C7D69BA",
+    "hash": "75B63C0FDE9349A5",
     "model": "gemini-3.5-flash-lite",
-    "generatedUtc": "2026-11-21T14:31:25.9753892+00:00",
-    "desc": "An electric NBA Cup group stage showdown takes center stage at the Moda Center as the Portland Trail Blazers collide with the San Antonio Spurs. Fueld by stellar play from Damian Lillard, the surging Portland Trail Blazers look to defend home court against the high-flying San Antonio Spurs in a high-stakes battle."
+    "generatedUtc": "2026-11-22T14:20:04.4972034+00:00",
+    "desc": "Fresh off a historic fifty-point masterclass, Victor Wembanyama leads the San Antonio Spurs into Moda Center for a high-stakes NBA Cup showdown against the Portland Trail Blazers. Expect fireworks as the red-hot San Antonio Spurs look to defend their stellar record against a surging Portland Trail Blazers squad."
   },
   "401909326": {
-    "hash": "0E0E5716D88186EF",
+    "hash": "5FBA93C59C6F17B2",
     "model": "gemini-3.5-flash-lite",
-    "generatedUtc": "2026-11-21T14:31:31.1309603+00:00",
-    "desc": "The New York Knicks and the Miami Heat collide in a high-stakes NBA Cup group play showdown at Madison Square Garden as both 9-6 squads battle for crucial tournament supremacy."
+    "generatedUtc": "2026-11-22T14:20:19.0175712+00:00",
+    "desc": "Carrying the momentum of a thrilling buzzer-beater heroics, the New York Knicks return to Madison Square Garden to defend their home court in a high-stakes NBA Cup group play showdown against the Miami Heat."
   },
   "401909327": {
-    "hash": "895A5585B8C17DF5",
+    "hash": "DC1D6025427214EC",
     "model": "gemini-3.5-flash-lite",
-    "generatedUtc": "2026-11-21T14:31:43.0731966+00:00",
-    "desc": "Looking to bounce back from a tough NBA Cup group play loss, the Detroit Pistons return home to Little Caesars Arena to defend their turf against the struggling Milwaukee Bucks in a high-stakes divisional showdown."
+    "generatedUtc": "2026-11-22T14:20:34.5108518+00:00",
+    "desc": "The surging Detroit Pistons host the struggling Milwaukee Bucks in high-stakes NBA Cup group play action at Little Caesars Arena. Can the Detroit Pistons capitalize on their impressive start, or will the visiting Milwaukee Bucks engineer a stunning upset?"
   },
   "401909328": {
-    "hash": "59FBFD0F87EBCC6B",
+    "hash": "F01BAEF235C25D14",
     "model": "gemini-3.5-flash-lite",
-    "generatedUtc": "2026-11-21T14:31:51.4385733+00:00",
-    "desc": "The Indiana Pacers look to bounce back inside Gainbridge Fieldhouse as they host the powerhouse Philadelphia 76ers for high-stakes NBA Cup group play action."
+    "generatedUtc": "2026-11-22T14:20:49.5509335+00:00",
+    "desc": "The Eastern Conference-leading Philadelphia 76ers bring their high-powered squad featuring Joel Embiid and LeBron James to Gainbridge Fieldhouse for an intense NBA Cup clash against the Indiana Pacers."
   },
   "401909329": {
     "hash": "C8C8A3E2F676120D",
@@ -234,22 +198,28 @@
     "desc": "Fresh off a momentum-shifting victory led by Scottie Barnes, the Toronto Raptors look to keep their NBA Cup group play surge alive when they host the Brooklyn Nets at Scotiabank Arena."
   },
   "401909330": {
-    "hash": "F23A5BBDD4A37754",
+    "hash": "93B48229599C2037",
     "model": "gemini-3.5-flash-lite",
-    "generatedUtc": "2026-11-21T14:32:09.3218276+00:00",
-    "desc": "Electric NBA Cup Group Play action unfolds at TD Garden as the Boston Celtics defend their home court against the Atlanta Hawks in a high-stakes tournament showdown."
+    "generatedUtc": "2026-11-22T14:21:03.4983696+00:00",
+    "desc": "Bouncing back from a tough late-game heartbreaker, the Boston Celtics look to rebound on their home floor as they host the Atlanta Hawks for high-stakes NBA Cup group play action inside TD Garden."
   },
   "401909331": {
-    "hash": "DF677B0D555CCD80",
+    "hash": "D2D91338B392C81E",
     "model": "gemini-3.5-flash-lite",
-    "generatedUtc": "2026-11-21T14:32:17.9334686+00:00",
-    "desc": "The surging Memphis Grizzlies put their five-game winning streak on the line as they clash with the Minnesota Timberwolves in a high-stakes NBA Cup group play battle at the Target Center."
+    "generatedUtc": "2026-11-22T14:21:08.8182301+00:00",
+    "desc": "High-stakes NBA Cup action hits the floor as the Minnesota Timberwolves defend home court against the Memphis Grizzlies in a crucial group play showdown. Expect intense physical play and relentless scoring from two powerhouse squads locked in a fierce early-season battle for tournament supremacy."
   },
   "401909332": {
-    "hash": "DC2CF86B24F716E6",
+    "hash": "DD714336054B4E0C",
     "model": "gemini-3.5-flash-lite",
-    "generatedUtc": "2026-11-21T14:32:23.0957600+00:00",
-    "desc": "High-voltage NBA Cup group play heats up in the desert as the Phoenix Suns defend their home court against the Dallas Mavericks in a crucial mid-season showdown. Powered by Devin Booker, the surging Phoenix Suns look to make a major statement and capture pivotal momentum in the tournament race."
+    "generatedUtc": "2026-11-22T14:21:14.4045656+00:00",
+    "desc": "The Dallas Mavericks roll into the desert to clash with the Phoenix Suns in a high-stakes NBA Cup group play battle. Both squads look to seize momentum on the hardwood as fierce conference rivals collide in pursuit of tournament glory."
+  },
+  "401909333": {
+    "hash": "AAD6146C95827F45",
+    "model": "gemini-3.5-flash-lite",
+    "generatedUtc": "2026-11-22T14:21:19.6449717+00:00",
+    "desc": "Riding the historic momentum of Victor Wembanyama and his jaw-dropping 50-point masterpiece, the San Antonio Spurs host the Los Angeles Lakers in a high-stakes NBA Cup group play showdown at the Frost Bank Center. Both powerhouse squads clash with matching 14-3 records in a battle for supremacy that promises relentless, marquee-night drama."
   },
   "401909334": {
     "hash": "FD3DE0210554A275",
@@ -258,16 +228,16 @@
     "desc": "Carrying the momentum of a stellar NBA Cup victory fueled by Nikola Jokic, the Denver Nuggets travel to the Delta Center to battle the Utah Jazz in high-stakes tournament group play."
   },
   "401909335": {
-    "hash": "DD71B1BFBFDDEF4D",
+    "hash": "801F3CD57AACDFDC",
     "model": "gemini-3.5-flash-lite",
-    "generatedUtc": "2026-11-21T14:32:45.2994301+00:00",
-    "desc": "High-stakes NBA Cup group play action takes center stage at Intuit Dome as the LA Clippers host the New Orleans Pelicans in a crucial tournament showdown. Both squads look to ignite their momentum and climb the standings as the battle for the in-season crown heats up."
+    "generatedUtc": "2026-11-22T14:21:34.2243347+00:00",
+    "desc": "Desperate to reverse their early-season struggles in NBA Cup Group Play, the LA Clippers return home to the Intuit Dome looking to bounce back against the New Orleans Pelicans."
   },
   "401909336": {
-    "hash": "46BFC198F7026EB0",
+    "hash": "FDB854A0A39176B4",
     "model": "gemini-3.5-flash-lite",
-    "generatedUtc": "2026-11-21T14:32:50.5633363+00:00",
-    "desc": "Damian Lillard leads the surging Portland Trail Blazers into a high-stakes NBA Cup battle at the Moda Center against the Golden State Warriors."
+    "generatedUtc": "2026-11-22T14:21:46.5177933+00:00",
+    "desc": "The Portland Trail Blazers look to bounce back from a heartbreaker as they return to the Moda Center to host the Golden State Warriors in high-stakes NBA Cup group play action."
   },
   "401910046": {
     "hash": "5A26CA900B7AEDF8",
@@ -288,16 +258,16 @@
     "desc": "Desperate for a spark during NBA Cup group play, the Chicago Bulls look to rebound at home against the Indiana Pacers in a high-stakes divisional battle at the United Center."
   },
   "401910049": {
-    "hash": "8382C00A51A00692",
+    "hash": "824AABFDC40EFED4",
     "model": "gemini-3.5-flash-lite",
-    "generatedUtc": "2026-11-21T14:33:31.1021371+00:00",
-    "desc": "Fresh off a dazzling 40-point masterpiece in NBA Cup action, Shai Gilgeous-Alexander leads the Oklahoma City Thunder into Fiserv Forum to battle the Milwaukee Bucks in a high-stakes regular season showdown."
+    "generatedUtc": "2026-11-22T14:21:51.5218355+00:00",
+    "desc": "The surging Oklahoma City Thunder head to Fiserv Forum to clash with Tyler Herro and the struggling Milwaukee Bucks in a high-stakes regular season battle."
   },
   "401910050": {
-    "hash": "FC25A6B341E9EFBB",
+    "hash": "5D16B5528D667A15",
     "model": "gemini-3.5-flash-lite",
-    "generatedUtc": "2026-11-21T14:33:42.8407253+00:00",
-    "desc": "Desperate to tighten up after a frustrating defensive lapse, head coach Ime Udoka leads the Houston Rockets back onto the floor to host the high-flying Philadelphia 76ers in an explosive matchup at the Toyota Center."
+    "generatedUtc": "2026-11-22T14:21:57.0677581+00:00",
+    "desc": "Superstars Joel Embiid and LeBron James lead the Eastern Conference-leading Philadelphia 76ers into the Toyota Center to clash with the Houston Rockets in a blockbuster showdown featuring two of the league's elite title contenders."
   },
   "401910054": {
     "hash": "6CB459775FB61E56",
@@ -306,16 +276,16 @@
     "desc": "The Miami Heat battle the Cleveland Cavaliers in a high-stakes NBA regular season showdown at Rocket Arena. Both squads clash on the hardwood looking to secure a crucial victory as the race heats up."
   },
   "401910051": {
-    "hash": "949E17B462BB9FD8",
+    "hash": "E5370E65800A0E7D",
     "model": "gemini-3.5-flash-lite",
-    "generatedUtc": "2026-11-21T14:33:57.8256662+00:00",
-    "desc": "Spurred by Luka Doncic and head coach JJ Redick following a fiery players-only wake-up call, the Los Angeles Lakers put their blazing momentum on the line in a high-stakes showdown against the Memphis Grizzlies at FedExForum."
+    "generatedUtc": "2026-11-22T14:22:11.8351772+00:00",
+    "desc": "High-stakes Western Conference drama explodes as the Los Angeles Lakers visit the Memphis Grizzlies at FedExForum for an intense regular-season clash. Expect absolute fireworks as the high-flying Memphis Grizzlies look to bounce back against a resilient Los Angeles Lakers squad eager to prove their toughness."
   },
   "401910052": {
-    "hash": "E7866DA3BF2C5688",
+    "hash": "F50E1C6E6A031295",
     "model": "gemini-3.5-flash-lite",
-    "generatedUtc": "2026-11-21T14:34:06.7634887+00:00",
-    "desc": "An electrifying NBA regular season showdown unfolds at Frost Bank Center as the San Antonio Spurs defend their dominant home court against the Boston Celtics. Powered by standout performances from Victor Wembanyama and Stephon Castle, the high-flying San Antonio Spurs look to make a statement against an elite Boston Celtics squad."
+    "generatedUtc": "2026-11-22T14:22:26.8728239+00:00",
+    "desc": "Victor Wembanyama and the San Antonio Spurs look to channel their historic form as they host the Boston Celtics at the Frost Bank Center. The Boston Celtics arrive eager to bounce back and defend their powerhouse status against a surging San Antonio Spurs squad in this high-voltage clash."
   },
   "401910053": {
     "hash": "E946C740EC34395D",
@@ -330,10 +300,10 @@
     "desc": "Fresh off a stellar 35-point performance and a game-winning jumper, Franz Wagner leads the Orlando Magic into battle as they look to conquer the surging Detroit Pistons at Little Caesars Arena."
   },
   "401910056": {
-    "hash": "5C88DEEF9151A381",
+    "hash": "3AAD5A900A241CC0",
     "model": "gemini-3.5-flash-lite",
-    "generatedUtc": "2026-11-21T14:34:25.0116008+00:00",
-    "desc": "Fresh off an electrifying NBA Cup performance led by Dyson Daniels, the Atlanta Hawks bring their momentum to Madison Square Garden to battle the New York Knicks in a high-stakes clash."
+    "generatedUtc": "2026-11-22T14:22:31.8328214+00:00",
+    "desc": "Fresh off a dramatic buzzer-beater heroics, Mikal Bridges and the New York Knicks return to Madison Square Garden to protect their home court against the Atlanta Hawks in a high-stakes Eastern Conference clash."
   },
   "401910057": {
     "hash": "571B3620562AA473",
@@ -342,22 +312,22 @@
     "desc": "Fresh off a stellar 29-point performance to snap a tough skid, Scottie Barnes leads the Toronto Raptors into a high-octane battle against Nikola Jokic and the surging Denver Nuggets at Scotiabank Arena."
   },
   "401910058": {
-    "hash": "6EEDE3D5921DA518",
+    "hash": "32FCEBCA41FF1C7F",
     "model": "gemini-3.5-flash-lite",
-    "generatedUtc": "2026-11-21T14:34:41.1673987+00:00",
-    "desc": "Looking to bounce back after a tough NBA Cup battle, the New Orleans Pelicans hit the road to take on a surging Portland Trail Blazers squad heating up the Moda Center floor with high-flying regular season action."
+    "generatedUtc": "2026-11-22T14:22:36.9185908+00:00",
+    "desc": "The resilient Portland Trail Blazers look to bounce back at the Moda Center as they host the struggling New Orleans Pelicans in an explosive Western Conference showdown."
   },
   "401910059": {
-    "hash": "228BD4436F5A63DF",
+    "hash": "701E110E70388525",
     "model": "gemini-3.5-flash-lite",
-    "generatedUtc": "2026-11-21T14:34:46.2299669+00:00",
-    "desc": "Intense NBA Cup action hits the floor as the Golden State Warriors host the LA Clippers at Chase Center. Keep a close eye on the LA Clippers as Brandon Ingram makes his highly anticipated season debut following recovery from Achilles surgery."
+    "generatedUtc": "2026-11-22T14:22:42.2983651+00:00",
+    "desc": "The Golden State Warriors return to the Chase Center looking to build momentum as they host the LA Clippers in a high-stakes Pacific Division showdown. The struggling LA Clippers aim to rebound on the road and upset the Golden State Warriors in an electrifying battle."
   },
   "401910060": {
-    "hash": "9715991927FF3B5C",
+    "hash": "DB3302DA30A67A8C",
     "model": "gemini-3.5-flash-lite",
-    "generatedUtc": "2026-11-21T14:34:51.3560231+00:00",
-    "desc": "The high-flying Minnesota Timberwolves hit the road to battle the Sacramento Kings inside Golden 1 Center as the struggling hosts look to spark a turnaround against elite conference competition."
+    "generatedUtc": "2026-11-22T14:22:47.4464208+00:00",
+    "desc": "Fresh off a thrilling game-winning heroics performance, Keegan Murray and the Sacramento Kings look to ride that momentum when they host Jaden McDaniels and the high-flying Minnesota Timberwolves at the Golden 1 Center."
   },
   "401910061": {
     "hash": "6788B6ED6642FAA6",
@@ -378,28 +348,28 @@
     "desc": "Fresh off a dazzling 40-point masterpiece in NBA Cup action, Shai Gilgeous-Alexander leads the Oklahoma City Thunder into Brooklyn to battle the Brooklyn Nets at Barclays Center. The surging visitors look to overpower their hosts, while the resilient Brooklyn Nets desperately fight to bounce back from a heart-wrenching late-game defeat."
   },
   "401910064": {
-    "hash": "1F14D4CB5CD50BC6",
+    "hash": "04B8AA25B75DBD45",
     "model": "gemini-3.5-flash-lite",
-    "generatedUtc": "2026-11-21T14:35:21.6003448+00:00",
-    "desc": "Two heavyweights collide at the Toyota Center as the Los Angeles Lakers visit the Houston Rockets for a high-stakes showdown. Both squads are eager to tighten the screws defensively after recent struggles, setting the stage for an explosive offensive battle between two of the Western Conference elite."
+    "generatedUtc": "2026-11-22T14:22:52.5817327+00:00",
+    "desc": "Sparks fly at the Toyota Center as two heavyweight contenders collide when the Los Angeles Lakers visit the Houston Rockets. Both squads look to rebound after recent defensive struggles and fiery coaching wake-up calls in this high-stakes showdown."
   },
   "401910065": {
-    "hash": "841D379900FD31F8",
+    "hash": "E8456D680002DF89",
     "model": "gemini-3.5-flash-lite",
-    "generatedUtc": "2026-11-21T14:35:26.6161996+00:00",
-    "desc": "Sparks fly at American Airlines Center as the Boston Celtics clash with the Dallas Mavericks in a high-stakes regular-season showdown. Expect intense hardwood drama as both powerhouse squads battle for supremacy and crucial momentum."
+    "generatedUtc": "2026-11-22T14:23:06.8382523+00:00",
+    "desc": "Fresh off stellar performances where Kyrie Irving and Cooper Flagg powered the Dallas Mavericks past the Clippers, the squad returns home to face the Boston Celtics in a blockbuster clash at the American Airlines Center."
   },
   "401910066": {
-    "hash": "EF2B0D2EB88BE027",
+    "hash": "B862D0613186B90C",
     "model": "gemini-3.5-flash-lite",
-    "generatedUtc": "2026-11-21T14:35:32.0111569+00:00",
-    "desc": "The struggling Milwaukee Bucks host the high-flying San Antonio Spurs at Fiserv Forum for an intense NBA regular season clash. Can the home squad pull off a massive upset against the formidable San Antonio Spurs, or will the visitors dominate on the road?"
+    "generatedUtc": "2026-11-22T14:23:17.6276463+00:00",
+    "desc": "Riding the historic momentum of Victor Wembanyama and his dazzling recent 50-point masterpiece, the San Antonio Spurs travel to take on the Milwaukee Bucks in an explosive regular-season clash."
   },
   "401910067": {
-    "hash": "3295903D03301A0E",
+    "hash": "77885F65E827D637",
     "model": "gemini-3.5-flash-lite",
-    "generatedUtc": "2026-11-21T14:35:37.0114738+00:00",
-    "desc": "The struggling Sacramento Kings look to bounce back at home as they host the New Orleans Pelicans in an urgent Western Conference clash at Golden 1 Center."
+    "generatedUtc": "2026-11-22T14:23:22.7369674+00:00",
+    "desc": "Fresh off a thrilling buzzer-beating victory that snapped their grueling skid, the Sacramento Kings return home to Golden 1 Center looking to harness that momentum against the New Orleans Pelicans in a high-stakes regular season clash."
   },
   "401910068": {
     "hash": "9B42861701F6A245",
@@ -408,10 +378,10 @@
     "desc": "Get ready for a high-intensity divisional showdown as the Cleveland Cavaliers defend home court against the Indiana Pacers at Rocket Arena. Expect explosive hardwood drama and elite scoring action as both squads battle for crucial momentum in the standings."
   },
   "401910069": {
-    "hash": "F3CCA68AF4A87845",
+    "hash": "0C0C6E4DC7B392A5",
     "model": "gemini-3.5-flash-lite",
-    "generatedUtc": "2026-11-21T14:35:47.4546876+00:00",
-    "desc": "The surging Memphis Grizzlies put their five-game win streak on the line as they visit the Xfinity Mobile Arena to battle the Philadelphia 76ers in a high-stakes heavyweight clash between two of the league's elite squads."
+    "generatedUtc": "2026-11-22T14:24:02.5725383+00:00",
+    "desc": "The powerhouse Philadelphia 76ers return home to Xfinity Mobile Arena looking to maintain their dominant momentum against a surging Memphis Grizzlies squad. Expect high-voltage drama as two of the league's elite playoff contenders collide in a must-watch cross-conference showdown."
   },
   "401910070": {
     "hash": "C35DC116ABBC4C97",
@@ -420,10 +390,10 @@
     "desc": "Riding high off an NBA Cup elimination victory fueled by Dyson Daniels, the Atlanta Hawks bring their momentum south to battle the Miami Heat in a high-stakes Eastern Conference showdown at the Kaseya Center."
   },
   "401910071": {
-    "hash": "72735A228076BEDE",
+    "hash": "EC115BBB18B5720E",
     "model": "gemini-3.5-flash-lite",
-    "generatedUtc": "2026-11-21T14:35:57.9377250+00:00",
-    "desc": "Seeking a bounce-back victory after a tight NBA Cup defeat, the Chicago Bulls return to the United Center floor to host the surging New York Knicks in a high-stakes Eastern Conference showdown."
+    "generatedUtc": "2026-11-22T14:24:07.6292343+00:00",
+    "desc": "Riding the momentum of recent heroics from Jalen Brunson and Mikal Bridges, the New York Knicks bring their high-flying game to the United Center to clash with the Chicago Bulls in a high-stakes Eastern Conference showdown."
   },
   "401910072": {
     "hash": "E2A9A174EC78732D",
@@ -432,10 +402,10 @@
     "desc": "Looking to bounce back from a rough defensive outing under head coach Ime Udoka, the Houston Rockets return home to the Toyota Center to defend their turf against Scottie Barnes and the Toronto Raptors, who arrive riding the momentum of a hard-fought victory."
   },
   "401910073": {
-    "hash": "F20386D1BC3AF50A",
+    "hash": "6F1ABA2C5507BAE3",
     "model": "gemini-3.5-flash-lite",
-    "generatedUtc": "2026-11-21T14:36:14.4982058+00:00",
-    "desc": "Fresh off a clutch NBA Cup victory powered by Devin Booker, the Phoenix Suns return to the hardwood to defend their home court against the LA Clippers in a high-stakes divisional battle."
+    "generatedUtc": "2026-11-22T14:24:12.6810063+00:00",
+    "desc": "The Phoenix Suns look to capitalize on their winning record as they host the struggling LA Clippers in an explosive Western Conference showdown at the Mortgage Matchup Center."
   },
   "401910075": {
     "hash": "1BEB3DAB73C927AD",
@@ -444,46 +414,46 @@
     "desc": "Desperate to turn their season around, the Utah Jazz travel to the Bay Area to take on the Golden State Warriors in a high-stakes regular season battle at Chase Center. The Golden State Warriors look to defend their home court and climb the standings against a struggling Utah Jazz squad hungry for a breakthrough road victory."
   },
   "401910074": {
-    "hash": "A7526DA8BC6C2048",
+    "hash": "1820F79EBEF0FD04",
     "model": "gemini-3.5-flash-lite",
-    "generatedUtc": "2026-11-21T14:36:28.5163588+00:00",
-    "desc": "Sparked by the stellar play of Damian Lillard, the Portland Trail Blazers clash with the Minnesota Timberwolves in a high-octane battle as both powerhouse squads fight for supremacy in the competitive Western Conference standings."
+    "generatedUtc": "2026-11-22T14:24:18.1285070+00:00",
+    "desc": "Looking to bounce back from a heartbreaking buzzer-beater defeat, the Portland Trail Blazers return home to host the Minnesota Timberwolves in a high-stakes clash. With early-season positioning on the line, the Minnesota Timberwolves bring serious momentum into the Moda Center to test the resilient Portland Trail Blazers."
   },
   "401910076": {
-    "hash": "3B09CAA1C63F34B5",
+    "hash": "E04ED4D11C648E64",
     "model": "gemini-3.5-flash-lite",
-    "generatedUtc": "2026-11-21T14:36:40.3672622+00:00",
-    "desc": "The Detroit Pistons look to bounce back on their home court as they host the Memphis Grizzlies in a high-stakes inter-conference showdown. Both squads bring impressive early-season momentum to Little Caesars Arena as they battle for dominance."
+    "generatedUtc": "2026-11-22T14:24:23.2814706+00:00",
+    "desc": "High-flying NBA regular season action takes over Little Caesars Arena as the Detroit Pistons look to bounce back on their home floor against a surging Memphis Grizzlies squad."
   },
   "401910077": {
-    "hash": "0043A24BBDD80B06",
+    "hash": "8E87CA26A6A19129",
     "model": "gemini-3.5-flash-lite",
-    "generatedUtc": "2026-11-21T14:36:50.7640815+00:00",
-    "desc": "Electric hardwood drama unfolds as the Philadelphia 76ers host the Denver Nuggets in an explosive cross-conference showdown. Expect fireworks as the red-hot Denver Nuggets bring their high-powered offense into enemy territory to clash with the powerhouse Philadelphia 76ers."
+    "generatedUtc": "2026-11-22T14:24:37.1943804+00:00",
+    "desc": "Fueled by the powerhouse duo of Joel Embiid and LeBron James, the scorching Eastern Conference-leading Philadelphia 76ers look to defend their home court at Xfinity Mobile Arena against the Denver Nuggets in a high-stakes heavyweight showdown."
   },
   "401910078": {
-    "hash": "24174E5A9A089178",
+    "hash": "7C3A5A7D25EA8925",
     "model": "gemini-3.5-flash-lite",
-    "generatedUtc": "2026-11-21T14:37:00.3382117+00:00",
-    "desc": "Fresh off a tough NBA Cup elimination, the Charlotte Hornets look to bounce back as they travel to TD Garden to take on the powerhouse Boston Celtics in an electric regular season showdown."
+    "generatedUtc": "2026-11-22T14:24:42.2009141+00:00",
+    "desc": "Looking to bounce back from a stinging late-game defeat, the Boston Celtics return home to TD Garden to defend their parquet against the Charlotte Hornets."
   },
   "401910079": {
-    "hash": "D4B4C0944F2D4244",
+    "hash": "A07B4BA30005516C",
     "model": "gemini-3.5-flash-lite",
-    "generatedUtc": "2026-11-21T14:37:12.5665538+00:00",
-    "desc": "Riding the momentum of a clutch game-winning performance, Franz Wagner and the Orlando Magic hit the road to clash with the Dallas Mavericks at the American Airlines Center in a high-stakes showdown."
+    "generatedUtc": "2026-11-22T14:24:47.2315210+00:00",
+    "desc": "Sparked by the dynamic duo of Kyrie Irving and Cooper Flagg fresh off a clutch win, the Dallas Mavericks return home to defend their court against the Orlando Magic in a high-octane showdown."
   },
   "401910080": {
-    "hash": "BF162BD25343782B",
+    "hash": "0542819BE0CF918B",
     "model": "gemini-3.5-flash-lite",
-    "generatedUtc": "2026-11-21T14:37:17.6272683+00:00",
-    "desc": "The surging New York Knicks head into hostile territory to clash with the struggling Milwaukee Bucks at Fiserv Forum as both squads battle for crucial regular season positioning."
+    "generatedUtc": "2026-11-22T14:24:52.3061811+00:00",
+    "desc": "Riding high off a dramatic buzzer-beating heroics thriller, Mikal Bridges and the New York Knicks bring their momentum to the road to battle the struggling Milwaukee Bucks at Fiserv Forum."
   },
   "401910081": {
-    "hash": "37AB78EF17F6CBED",
+    "hash": "62E2C617EFCD805A",
     "model": "gemini-3.5-flash-lite",
-    "generatedUtc": "2026-11-21T14:37:22.6439707+00:00",
-    "desc": "Fueled by fiery leadership from head coach JJ Redick and stellar play from Luka Doncic, the Los Angeles Lakers bring their scorching momentum into the Smoothie King Center to battle the New Orleans Pelicans in a high-stakes clash."
+    "generatedUtc": "2026-11-22T14:24:57.4156774+00:00",
+    "desc": "Struggling to find their footing after a bruising defeat, the New Orleans Pelicans look to bounce back at home against the surging Los Angeles Lakers."
   },
   "401910082": {
     "hash": "D5CDA3D332515397",
@@ -492,16 +462,16 @@
     "desc": "Fresh off a dazzling 40-point masterpiece in NBA Cup action, Shai Gilgeous-Alexander powers the Oklahoma City Thunder as they look to defend home court against the struggling Brooklyn Nets at Paycom Center."
   },
   "401910083": {
-    "hash": "4120D960A50F7583",
+    "hash": "FC22FCA75A2AF060",
     "model": "gemini-3.5-flash-lite",
-    "generatedUtc": "2026-11-21T14:37:32.7391703+00:00",
-    "desc": "The Phoenix Suns host the Sacramento Kings in an intense Western Conference showdown at Mortgage Matchup Center. The struggling Sacramento Kings look to find their footing on the road against an 8-7 Phoenix Suns squad eager to defend home court."
+    "generatedUtc": "2026-11-22T14:25:13.0549518+00:00",
+    "desc": "Fresh off a thrilling game-winning heroics surge, the Sacramento Kings look to carry that momentum onto the road as they clash with the Phoenix Suns in an intense Western Conference battle."
   },
   "401910084": {
-    "hash": "EB6D20BE710D7288",
+    "hash": "7784E5A11755DF08",
     "model": "gemini-3.5-flash-lite",
-    "generatedUtc": "2026-11-21T14:37:38.0395966+00:00",
-    "desc": "Electric NBA Cup action takes center stage as the Minnesota Timberwolves visit the Intuit Dome to battle the LA Clippers. All eyes are locked on the LA Clippers as Brandon Ingram makes his highly anticipated season debut following recovery from Achilles surgery."
+    "generatedUtc": "2026-11-22T14:25:27.4784131+00:00",
+    "desc": "Fresh off a stellar 25-point performance, Jaden McDaniels leads the Minnesota Timberwolves into the Intuit Dome to clash with the struggling LA Clippers in an explosive NBA regular season showdown."
   },
   "401910085": {
     "hash": "F760F5F4A8BC46D4",
@@ -521,10 +491,16 @@
     "generatedUtc": "2026-11-21T14:38:05.1245912+00:00",
     "desc": "The Chicago Bulls look to bounce back on their home court at the United Center as they host the Cleveland Cavaliers for a high-intensity Eastern Conference showdown. Can the struggling Chicago Bulls turn their season around against a formidable Cleveland Cavaliers squad?"
   },
-  "401910089": {
-    "hash": "C24CF78A04DC6CFC",
+  "401910088": {
+    "hash": "AE399AE9FFE2184A",
     "model": "gemini-3.5-flash-lite",
-    "generatedUtc": "2026-11-21T14:38:15.4095478+00:00",
-    "desc": "High-flying NBA Cup action electrifies the Pacific Northwest as the Portland Trail Blazers host the Utah Jazz at the Moda Center. The surging Portland Trail Blazers look to protect their stellar home record against a desperate Utah Jazz squad battling to turn their season around."
+    "generatedUtc": "2026-11-22T14:25:41.4743362+00:00",
+    "desc": "Fresh off a historic, jaw-dropping 50-point masterpiece, Victor Wembanyama and the San Antonio Spurs return home to host the Toronto Raptors in an electric regular-season showdown. The high-flying San Antonio Spurs look to keep their momentum rolling against a determined Toronto Raptors squad eager to make a statement on the road."
+  },
+  "401910089": {
+    "hash": "E2E5E01C717C1E27",
+    "model": "gemini-3.5-flash-lite",
+    "generatedUtc": "2026-11-22T14:26:05.8921465+00:00",
+    "desc": "Looking to bounce back from a heartbreaking last-second defeat, the Portland Trail Blazers return home to the Moda Center to defend their impressive early-season momentum against the struggling Utah Jazz."
   }
 }
