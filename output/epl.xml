@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
-<tv date="20261126164412 +0000" generator-info-name="epgxmltv-epl/1.0" generator-info-url="https://github.com/philipsaad/epgxmltv">
+<tv date="20261127162747 +0000" generator-info-name="epgxmltv-epl/1.0" generator-info-url="https://github.com/philipsaad/epgxmltv">
   <channel id="EPL-Bournemouth.gb">
     <display-name>AFC Bournemouth</display-name>
     <icon src="https://a.espncdn.com/i/teamlogos/soccer/500-dark/349.png" />
@@ -155,7 +155,7 @@
   <programme start="20261128150000 +0000" stop="20261128171000 +0000" channel="EPL-CoventryCity.gb">
     <title lang="en">Premier League Soccer</title>
     <sub-title lang="en">Coventry City vs Leeds United</sub-title>
-    <desc lang="en">Leeds United returns to Elland Road looking to build on a solid start to the campaign as they host a struggling Coventry City side desperate to turn their fortunes around. With the home team aiming to solidify their position near the top of the table, this clash carries heavy Premier League stakes.</desc>
+    <desc lang="en">Fresh off committing his future at Elland Road despite swirling transfer rumors, striker Dominic Calvert-Lewin leads Leeds United into battle as they look to capitalize on strong home form against a struggling Coventry City side desperate to turn their fortunes around.</desc>
     <category lang="en">Live</category>
     <category lang="en">New</category>
     <category lang="en">Sports</category>
@@ -191,7 +191,7 @@
   <programme start="20261128150000 +0000" stop="20261128171000 +0000" channel="EPL-LeedsUnited.gb">
     <title lang="en">Premier League Soccer</title>
     <sub-title lang="en">Coventry City vs Leeds United</sub-title>
-    <desc lang="en">Leeds United returns to Elland Road looking to build on a solid start to the campaign as they host a struggling Coventry City side desperate to turn their fortunes around. With the home team aiming to solidify their position near the top of the table, this clash carries heavy Premier League stakes.</desc>
+    <desc lang="en">Fresh off committing his future at Elland Road despite swirling transfer rumors, striker Dominic Calvert-Lewin leads Leeds United into battle as they look to capitalize on strong home form against a struggling Coventry City side desperate to turn their fortunes around.</desc>
     <category lang="en">Live</category>
     <category lang="en">New</category>
     <category lang="en">Sports</category>
@@ -227,7 +227,7 @@
   <programme start="20261128150000 +0000" stop="20261128171000 +0000" channel="EPL-Brentford.gb">
     <title lang="en">Premier League Soccer</title>
     <sub-title lang="en">Brentford vs Manchester United</sub-title>
-    <desc lang="en">Manchester United returns to Old Trafford looking to reverse a sluggish Premier League campaign against an in-form Brentford side. The Red Devils fight to climb the table while navigating swirling transfer speculation around defensive prospect Ayden Heaven.</desc>
+    <desc lang="en">Under pressure at Old Trafford, Manchester United head coach Mauricio Pochettino looks to steer his struggling squad past an in-form Brentford side. With Bruno Fernandes facing a race against time to prove his fitness, the hosts face a stern test against their high-flying visitors.</desc>
     <category lang="en">Live</category>
     <category lang="en">New</category>
     <category lang="en">Sports</category>
@@ -263,7 +263,7 @@
   <programme start="20261128150000 +0000" stop="20261128171000 +0000" channel="EPL-ManchesterUnited.gb">
     <title lang="en">Premier League Soccer</title>
     <sub-title lang="en">Brentford vs Manchester United</sub-title>
-    <desc lang="en">Manchester United returns to Old Trafford looking to reverse a sluggish Premier League campaign against an in-form Brentford side. The Red Devils fight to climb the table while navigating swirling transfer speculation around defensive prospect Ayden Heaven.</desc>
+    <desc lang="en">Under pressure at Old Trafford, Manchester United head coach Mauricio Pochettino looks to steer his struggling squad past an in-form Brentford side. With Bruno Fernandes facing a race against time to prove his fitness, the hosts face a stern test against their high-flying visitors.</desc>
     <category lang="en">Live</category>
     <category lang="en">New</category>
     <category lang="en">Sports</category>
@@ -371,7 +371,7 @@
   <programme start="20261129120000 +0000" stop="20261129141000 +0000" channel="EPL-Liverpool.gb">
     <title lang="en">Premier League Soccer</title>
     <sub-title lang="en">Liverpool vs Everton</sub-title>
-    <desc lang="en">Goodison Park plays host to a high-stakes Merseyside derby as Everton look to capitalize on their solid form against a formidable Liverpool squad eager to assert local dominance. Both sides collide in an electric Premier League showdown where fierce pride and crucial league points are firmly on the line.</desc>
+    <desc lang="en">Fireworks are expected at Hill Dickinson Stadium as Everton prepares for a fierce Merseyside derby against Liverpool. With key squad tests ahead, the historic rivals clash in a high-stakes Premier League showdown.</desc>
     <category lang="en">Live</category>
     <category lang="en">New</category>
     <category lang="en">Sports</category>
@@ -407,7 +407,7 @@
   <programme start="20261129120000 +0000" stop="20261129141000 +0000" channel="EPL-Everton.gb">
     <title lang="en">Premier League Soccer</title>
     <sub-title lang="en">Liverpool vs Everton</sub-title>
-    <desc lang="en">Goodison Park plays host to a high-stakes Merseyside derby as Everton look to capitalize on their solid form against a formidable Liverpool squad eager to assert local dominance. Both sides collide in an electric Premier League showdown where fierce pride and crucial league points are firmly on the line.</desc>
+    <desc lang="en">Fireworks are expected at Hill Dickinson Stadium as Everton prepares for a fierce Merseyside derby against Liverpool. With key squad tests ahead, the historic rivals clash in a high-stakes Premier League showdown.</desc>
     <category lang="en">Live</category>
     <category lang="en">New</category>
     <category lang="en">Sports</category>
@@ -515,7 +515,7 @@
   <programme start="20261129140500 +0000" stop="20261129161500 +0000" channel="EPL-HullCity.gb">
     <title lang="en">Premier League Soccer</title>
     <sub-title lang="en">Hull City vs Crystal Palace</sub-title>
-    <desc lang="en">Buoyed by Oli McBurnie heroics under manager Sergej Jakirovic, Hull City travel to Selhurst Park looking to pile more misery on a struggling Crystal Palace side desperate to reverse their dismal league campaign.</desc>
+    <desc lang="en">Buoyed by manager Sergej Jakirovic praising talisman Oli McBurnie as his Braveheart striker, Hull City travels to face Crystal Palace at Selhurst Park. Can the visitors translate their warrior spirit into vital Premier League points against a struggling Crystal Palace side desperate to ignite their campaign?</desc>
     <category lang="en">Live</category>
     <category lang="en">New</category>
     <category lang="en">Sports</category>
@@ -551,7 +551,7 @@
   <programme start="20261129140500 +0000" stop="20261129161500 +0000" channel="EPL-CrystalPalace.gb">
     <title lang="en">Premier League Soccer</title>
     <sub-title lang="en">Hull City vs Crystal Palace</sub-title>
-    <desc lang="en">Buoyed by Oli McBurnie heroics under manager Sergej Jakirovic, Hull City travel to Selhurst Park looking to pile more misery on a struggling Crystal Palace side desperate to reverse their dismal league campaign.</desc>
+    <desc lang="en">Buoyed by manager Sergej Jakirovic praising talisman Oli McBurnie as his Braveheart striker, Hull City travels to face Crystal Palace at Selhurst Park. Can the visitors translate their warrior spirit into vital Premier League points against a struggling Crystal Palace side desperate to ignite their campaign?</desc>
     <category lang="en">Live</category>
     <category lang="en">New</category>
     <category lang="en">Sports</category>
@@ -587,7 +587,7 @@
   <programme start="20261129140500 +0000" stop="20261129161500 +0000" channel="EPL-Bournemouth.gb">
     <title lang="en">Premier League Soccer</title>
     <sub-title lang="en">AFC Bournemouth vs Fulham</sub-title>
-    <desc lang="en">Transfer radar locks on Craven Cottage as in-demand defender Antonee Robinson aims to spark Fulham against an impressive AFC Bournemouth side visiting the capital.</desc>
+    <desc lang="en">Fulham look to protect home turf at Craven Cottage as they welcome an in-form AFC Bournemouth side eager to climb higher into the Premier League upper echelon. Expect an intense tactical battle on the Thames as both squads fight for crucial three points to shape their respective league campaigns.</desc>
     <category lang="en">Live</category>
     <category lang="en">New</category>
     <category lang="en">Sports</category>
@@ -623,7 +623,7 @@
   <programme start="20261129140500 +0000" stop="20261129161500 +0000" channel="EPL-Fulham.gb">
     <title lang="en">Premier League Soccer</title>
     <sub-title lang="en">AFC Bournemouth vs Fulham</sub-title>
-    <desc lang="en">Transfer radar locks on Craven Cottage as in-demand defender Antonee Robinson aims to spark Fulham against an impressive AFC Bournemouth side visiting the capital.</desc>
+    <desc lang="en">Fulham look to protect home turf at Craven Cottage as they welcome an in-form AFC Bournemouth side eager to climb higher into the Premier League upper echelon. Expect an intense tactical battle on the Thames as both squads fight for crucial three points to shape their respective league campaigns.</desc>
     <category lang="en">Live</category>
     <category lang="en">New</category>
     <category lang="en">Sports</category>
@@ -659,7 +659,7 @@
   <programme start="20261129140500 +0000" stop="20261129161500 +0000" channel="EPL-TottenhamHotspur.gb">
     <title lang="en">Premier League Soccer</title>
     <sub-title lang="en">Tottenham Hotspur vs Sunderland</sub-title>
-    <desc lang="en">Fresh off a stellar full debut and a fresh long-term contract for teen sensation Luca Williams-Barnett, Tottenham Hotspur travels to the Stadium of Light to face Sunderland. The Black Cats look to harness the midfield brilliance of rising star Jules Ahoka as they defend their turf against high-stakes Premier League opposition.</desc>
+    <desc lang="en">Fresh off an impressive midfield masterclass, young standout Jules Ahoka looks to ignite Sunderland as they return to the Stadium of Light to host Tottenham Hotspur, who arrive riding high on praise for teenage sensation Luca Williams-Barnett.</desc>
     <category lang="en">Live</category>
     <category lang="en">New</category>
     <category lang="en">Sports</category>
@@ -695,7 +695,7 @@
   <programme start="20261129140500 +0000" stop="20261129161500 +0000" channel="EPL-Sunderland.gb">
     <title lang="en">Premier League Soccer</title>
     <sub-title lang="en">Tottenham Hotspur vs Sunderland</sub-title>
-    <desc lang="en">Fresh off a stellar full debut and a fresh long-term contract for teen sensation Luca Williams-Barnett, Tottenham Hotspur travels to the Stadium of Light to face Sunderland. The Black Cats look to harness the midfield brilliance of rising star Jules Ahoka as they defend their turf against high-stakes Premier League opposition.</desc>
+    <desc lang="en">Fresh off an impressive midfield masterclass, young standout Jules Ahoka looks to ignite Sunderland as they return to the Stadium of Light to host Tottenham Hotspur, who arrive riding high on praise for teenage sensation Luca Williams-Barnett.</desc>
     <category lang="en">Live</category>
     <category lang="en">New</category>
     <category lang="en">Sports</category>
@@ -731,7 +731,7 @@
   <programme start="20261129163000 +0000" stop="20261129184000 +0000" channel="EPL-ManchesterCity.gb">
     <title lang="en">Premier League Soccer</title>
     <sub-title lang="en">Manchester City vs Arsenal</sub-title>
-    <desc lang="en">Title-chasing Arsenal host Manchester City at Emirates Stadium as the Gunners focus strictly on their pitch ambitions amid swirling headlines surrounding their opponents off the field. Expect a high-stakes tactical battle as both Premier League heavyweights clash in north London.</desc>
+    <desc lang="en">Premier League. Manchester City (7-1-3) visit Arsenal (9-1-1) at Emirates Stadium in London.</desc>
     <category lang="en">Live</category>
     <category lang="en">New</category>
     <category lang="en">Sports</category>
@@ -767,7 +767,7 @@
   <programme start="20261129163000 +0000" stop="20261129184000 +0000" channel="EPL-Arsenal.gb">
     <title lang="en">Premier League Soccer</title>
     <sub-title lang="en">Manchester City vs Arsenal</sub-title>
-    <desc lang="en">Title-chasing Arsenal host Manchester City at Emirates Stadium as the Gunners focus strictly on their pitch ambitions amid swirling headlines surrounding their opponents off the field. Expect a high-stakes tactical battle as both Premier League heavyweights clash in north London.</desc>
+    <desc lang="en">Premier League. Manchester City (7-1-3) visit Arsenal (9-1-1) at Emirates Stadium in London.</desc>
     <category lang="en">Live</category>
     <category lang="en">New</category>
     <category lang="en">Sports</category>
@@ -875,7 +875,7 @@
   <programme start="20261202193000 +0000" stop="20261202214000 +0000" channel="EPL-CrystalPalace.gb">
     <title lang="en">Premier League Soccer</title>
     <sub-title lang="en">Crystal Palace vs Chelsea</sub-title>
-    <desc lang="en">Stung by a heavy home defeat, Chelsea desperately seek a bounce-back at Stamford Bridge as they host Crystal Palace. The pressure is mounting on the squad to steady their inconsistent campaign and brush off recent off-field distractions.</desc>
+    <desc lang="en">Chelsea seeks to channel the momentum of a drama-filled week past the visiting Crystal Palace at Stamford Bridge. Can the hosts capitalize on their home advantage, or will Crystal Palace pull off a shocking upset in this high-stakes Premier League clash?</desc>
     <category lang="en">Live</category>
     <category lang="en">New</category>
     <category lang="en">Sports</category>
@@ -911,7 +911,7 @@
   <programme start="20261202193000 +0000" stop="20261202214000 +0000" channel="EPL-Chelsea.gb">
     <title lang="en">Premier League Soccer</title>
     <sub-title lang="en">Crystal Palace vs Chelsea</sub-title>
-    <desc lang="en">Stung by a heavy home defeat, Chelsea desperately seek a bounce-back at Stamford Bridge as they host Crystal Palace. The pressure is mounting on the squad to steady their inconsistent campaign and brush off recent off-field distractions.</desc>
+    <desc lang="en">Chelsea seeks to channel the momentum of a drama-filled week past the visiting Crystal Palace at Stamford Bridge. Can the hosts capitalize on their home advantage, or will Crystal Palace pull off a shocking upset in this high-stakes Premier League clash?</desc>
     <category lang="en">Live</category>
     <category lang="en">New</category>
     <category lang="en">Sports</category>
@@ -947,7 +947,7 @@
   <programme start="20261202193000 +0000" stop="20261202214000 +0000" channel="EPL-NottinghamForest.gb">
     <title lang="en">Premier League Soccer</title>
     <sub-title lang="en">Nottingham Forest vs Hull City</sub-title>
-    <desc lang="en">Carrying the momentum of a dramatic late victory powered by striker Oli McBurnie, Hull City return to the MKM Stadium to face a struggling Nottingham Forest side under pressure from manager Oliver Glasner.</desc>
+    <desc lang="en">Hull City manager Sergej Jakirovic unleashes his Braveheart striker Oli McBurnie at The MKM Stadium as they clash with Nottingham Forest, whose under-fire boss Oliver Glasner desperately seeks a response following stinging criticism of his struggling squad.</desc>
     <category lang="en">Live</category>
     <category lang="en">New</category>
     <category lang="en">Sports</category>
@@ -983,7 +983,7 @@
   <programme start="20261202193000 +0000" stop="20261202214000 +0000" channel="EPL-HullCity.gb">
     <title lang="en">Premier League Soccer</title>
     <sub-title lang="en">Nottingham Forest vs Hull City</sub-title>
-    <desc lang="en">Carrying the momentum of a dramatic late victory powered by striker Oli McBurnie, Hull City return to the MKM Stadium to face a struggling Nottingham Forest side under pressure from manager Oliver Glasner.</desc>
+    <desc lang="en">Hull City manager Sergej Jakirovic unleashes his Braveheart striker Oli McBurnie at The MKM Stadium as they clash with Nottingham Forest, whose under-fire boss Oliver Glasner desperately seeks a response following stinging criticism of his struggling squad.</desc>
     <category lang="en">Live</category>
     <category lang="en">New</category>
     <category lang="en">Sports</category>
@@ -1019,7 +1019,7 @@
   <programme start="20261202193000 +0000" stop="20261202214000 +0000" channel="EPL-Sunderland.gb">
     <title lang="en">Premier League Soccer</title>
     <sub-title lang="en">Sunderland vs Liverpool</sub-title>
-    <desc lang="en">Liverpool welcome Sunderland to Anfield as the hosts look to build momentum following recent Premier League drama and off-pitch headlines. Sunderland face a monumental test on the road as they attempt to upset the odds against a formidable Liverpool side.</desc>
+    <desc lang="en">Anfield plays host to a high-stakes Premier League clash as Liverpool look to capitalize on their strong campaign against a struggling Sunderland side fighting to reverse their fortunes on the road.</desc>
     <category lang="en">Live</category>
     <category lang="en">New</category>
     <category lang="en">Sports</category>
@@ -1055,7 +1055,7 @@
   <programme start="20261202193000 +0000" stop="20261202214000 +0000" channel="EPL-Liverpool.gb">
     <title lang="en">Premier League Soccer</title>
     <sub-title lang="en">Sunderland vs Liverpool</sub-title>
-    <desc lang="en">Liverpool welcome Sunderland to Anfield as the hosts look to build momentum following recent Premier League drama and off-pitch headlines. Sunderland face a monumental test on the road as they attempt to upset the odds against a formidable Liverpool side.</desc>
+    <desc lang="en">Anfield plays host to a high-stakes Premier League clash as Liverpool look to capitalize on their strong campaign against a struggling Sunderland side fighting to reverse their fortunes on the road.</desc>
     <category lang="en">Live</category>
     <category lang="en">New</category>
     <category lang="en">Sports</category>
@@ -1091,7 +1091,7 @@
   <programme start="20261202193000 +0000" stop="20261202214000 +0000" channel="EPL-LeedsUnited.gb">
     <title lang="en">Premier League Soccer</title>
     <sub-title lang="en">Leeds United vs Manchester City</sub-title>
-    <desc lang="en">Manchester City host Leeds United at the Etihad Stadium as the reigning champions navigate heavy off-pitch scrutiny surrounding their ongoing financial charges and regulatory battles. Down the road in the standings, a resilient Leeds United side arrives looking to capitalize on any turbulence and secure a massive away upset in the Premier League.</desc>
+    <desc lang="en">Under pressure following recent poor form, Manchester City head coach Enzo Maresca looks to steady the ship at the Etihad Stadium as a resilient Leeds United side arrives boasting newly-extended striker Dominic Calvert-Lewin.</desc>
     <category lang="en">Live</category>
     <category lang="en">New</category>
     <category lang="en">Sports</category>
@@ -1127,7 +1127,7 @@
   <programme start="20261202193000 +0000" stop="20261202214000 +0000" channel="EPL-ManchesterCity.gb">
     <title lang="en">Premier League Soccer</title>
     <sub-title lang="en">Leeds United vs Manchester City</sub-title>
-    <desc lang="en">Manchester City host Leeds United at the Etihad Stadium as the reigning champions navigate heavy off-pitch scrutiny surrounding their ongoing financial charges and regulatory battles. Down the road in the standings, a resilient Leeds United side arrives looking to capitalize on any turbulence and secure a massive away upset in the Premier League.</desc>
+    <desc lang="en">Under pressure following recent poor form, Manchester City head coach Enzo Maresca looks to steady the ship at the Etihad Stadium as a resilient Leeds United side arrives boasting newly-extended striker Dominic Calvert-Lewin.</desc>
     <category lang="en">Live</category>
     <category lang="en">New</category>
     <category lang="en">Sports</category>
@@ -1163,7 +1163,7 @@
   <programme start="20261202201500 +0000" stop="20261202222500 +0000" channel="EPL-Brighton.gb">
     <title lang="en">Premier League Soccer</title>
     <sub-title lang="en">Brighton &amp; Hove Albion vs AFC Bournemouth</sub-title>
-    <desc lang="en">High-flying Brighton &amp; Hove Albion look to bounce back from late heartbreak and rediscover their winning formula as they travel to the Vitality Stadium to take on a resilient AFC Bournemouth side.</desc>
+    <desc lang="en">High-flying Brighton &amp; Hove Albion travel to the Vitality Stadium to test their stellar form against a resilient AFC Bournemouth side. Expect a fiercely contested Premier League showdown on the south coast as both clubs battle for vital three points.</desc>
     <category lang="en">Live</category>
     <category lang="en">New</category>
     <category lang="en">Sports</category>
@@ -1199,7 +1199,7 @@
   <programme start="20261202201500 +0000" stop="20261202222500 +0000" channel="EPL-Bournemouth.gb">
     <title lang="en">Premier League Soccer</title>
     <sub-title lang="en">Brighton &amp; Hove Albion vs AFC Bournemouth</sub-title>
-    <desc lang="en">High-flying Brighton &amp; Hove Albion look to bounce back from late heartbreak and rediscover their winning formula as they travel to the Vitality Stadium to take on a resilient AFC Bournemouth side.</desc>
+    <desc lang="en">High-flying Brighton &amp; Hove Albion travel to the Vitality Stadium to test their stellar form against a resilient AFC Bournemouth side. Expect a fiercely contested Premier League showdown on the south coast as both clubs battle for vital three points.</desc>
     <category lang="en">Live</category>
     <category lang="en">New</category>
     <category lang="en">Sports</category>
@@ -1235,7 +1235,7 @@
   <programme start="20261202201500 +0000" stop="20261202222500 +0000" channel="EPL-Everton.gb">
     <title lang="en">Premier League Soccer</title>
     <sub-title lang="en">Everton vs Aston Villa</sub-title>
-    <desc lang="en">Aston Villa returns to Villa Park looking to spark their campaign against an Everton side desperately seeking a response under manager David Moyes following a bruising defeat. Both midtable sides lock horns in a high-stakes Premier League clash where tactical discipline and redemption will dictate the battle.</desc>
+    <desc lang="en">Aston Villa returns to Villa Park looking to spark their campaign following a stalemate, while Everton seeks an immediate bounce-back under manager David Moyes after a heavy defeat. High stakes and tactical tension collide as both Premier League sides chase vital three points.</desc>
     <category lang="en">Live</category>
     <category lang="en">New</category>
     <category lang="en">Sports</category>
@@ -1271,7 +1271,7 @@
   <programme start="20261202201500 +0000" stop="20261202222500 +0000" channel="EPL-AstonVilla.gb">
     <title lang="en">Premier League Soccer</title>
     <sub-title lang="en">Everton vs Aston Villa</sub-title>
-    <desc lang="en">Aston Villa returns to Villa Park looking to spark their campaign against an Everton side desperately seeking a response under manager David Moyes following a bruising defeat. Both midtable sides lock horns in a high-stakes Premier League clash where tactical discipline and redemption will dictate the battle.</desc>
+    <desc lang="en">Aston Villa returns to Villa Park looking to spark their campaign following a stalemate, while Everton seeks an immediate bounce-back under manager David Moyes after a heavy defeat. High stakes and tactical tension collide as both Premier League sides chase vital three points.</desc>
     <category lang="en">Live</category>
     <category lang="en">New</category>
     <category lang="en">Sports</category>
@@ -1307,7 +1307,7 @@
   <programme start="20261202201500 +0000" stop="20261202222500 +0000" channel="EPL-Arsenal.gb">
     <title lang="en">Premier League Soccer</title>
     <sub-title lang="en">Arsenal vs Brentford</sub-title>
-    <desc lang="en">Viktor Gyökeres vows to drive Arsenal toward back-to-back Premier League titles as the league leaders travel to face a resilient Brentford side at the Gtech Community Stadium.</desc>
+    <desc lang="en">Brentford return to home turf at Gtech Community Stadium looking to disrupt the Premier League momentum of Arsenal, who arrive in formidable form with nine wins from eleven matches this season.</desc>
     <category lang="en">Live</category>
     <category lang="en">New</category>
     <category lang="en">Sports</category>
@@ -1343,7 +1343,7 @@
   <programme start="20261202201500 +0000" stop="20261202222500 +0000" channel="EPL-Brentford.gb">
     <title lang="en">Premier League Soccer</title>
     <sub-title lang="en">Arsenal vs Brentford</sub-title>
-    <desc lang="en">Viktor Gyökeres vows to drive Arsenal toward back-to-back Premier League titles as the league leaders travel to face a resilient Brentford side at the Gtech Community Stadium.</desc>
+    <desc lang="en">Brentford return to home turf at Gtech Community Stadium looking to disrupt the Premier League momentum of Arsenal, who arrive in formidable form with nine wins from eleven matches this season.</desc>
     <category lang="en">Live</category>
     <category lang="en">New</category>
     <category lang="en">Sports</category>
@@ -1379,7 +1379,7 @@
   <programme start="20261202201500 +0000" stop="20261202222500 +0000" channel="EPL-ManchesterUnited.gb">
     <title lang="en">Premier League Soccer</title>
     <sub-title lang="en">Manchester United vs Newcastle United</sub-title>
-    <desc lang="en">Manchester United looks to spark momentum amid transfer speculation surrounding Ayden Heaven as they travel to St. James' Park to face Newcastle United in a high-stakes Premier League clash.</desc>
+    <desc lang="en">Under mounting pressure at St. James' Park, Newcastle United hosts a struggling Manchester United side looking to spark their season amidst ongoing tactical scrutiny and high-stakes transfer speculation.</desc>
     <category lang="en">Live</category>
     <category lang="en">New</category>
     <category lang="en">Sports</category>
@@ -1415,7 +1415,7 @@
   <programme start="20261202201500 +0000" stop="20261202222500 +0000" channel="EPL-NewcastleUnited.gb">
     <title lang="en">Premier League Soccer</title>
     <sub-title lang="en">Manchester United vs Newcastle United</sub-title>
-    <desc lang="en">Manchester United looks to spark momentum amid transfer speculation surrounding Ayden Heaven as they travel to St. James' Park to face Newcastle United in a high-stakes Premier League clash.</desc>
+    <desc lang="en">Under mounting pressure at St. James' Park, Newcastle United hosts a struggling Manchester United side looking to spark their season amidst ongoing tactical scrutiny and high-stakes transfer speculation.</desc>
     <category lang="en">Live</category>
     <category lang="en">New</category>
     <category lang="en">Sports</category>
@@ -1451,7 +1451,7 @@
   <programme start="20261203200000 +0000" stop="20261203221000 +0000" channel="EPL-Fulham.gb">
     <title lang="en">Premier League Soccer</title>
     <sub-title lang="en">Fulham vs Tottenham Hotspur</sub-title>
-    <desc lang="en">Fresh off signing a lucrative new long term contract, teenage prodigy Luca Williams Barnett looks to dazzle again as Tottenham Hotspur returns to home turf to defend their turf against a surging Fulham squad at Tottenham Hotspur Stadium.</desc>
+    <desc lang="en">With teenage sensation Luca Williams-Barnett locking in his long-term future after a stunning full debut, Tottenham Hotspur returns home looking to ignite their campaign against a resilient Fulham side at Tottenham Hotspur Stadium.</desc>
     <category lang="en">Live</category>
     <category lang="en">New</category>
     <category lang="en">Sports</category>
@@ -1487,7 +1487,7 @@
   <programme start="20261203200000 +0000" stop="20261203221000 +0000" channel="EPL-TottenhamHotspur.gb">
     <title lang="en">Premier League Soccer</title>
     <sub-title lang="en">Fulham vs Tottenham Hotspur</sub-title>
-    <desc lang="en">Fresh off signing a lucrative new long term contract, teenage prodigy Luca Williams Barnett looks to dazzle again as Tottenham Hotspur returns to home turf to defend their turf against a surging Fulham squad at Tottenham Hotspur Stadium.</desc>
+    <desc lang="en">With teenage sensation Luca Williams-Barnett locking in his long-term future after a stunning full debut, Tottenham Hotspur returns home looking to ignite their campaign against a resilient Fulham side at Tottenham Hotspur Stadium.</desc>
     <category lang="en">Live</category>
     <category lang="en">New</category>
     <category lang="en">Sports</category>
@@ -1523,7 +1523,7 @@
   <programme start="20261205123000 +0000" stop="20261205144000 +0000" channel="EPL-Liverpool.gb">
     <title lang="en">Premier League Soccer</title>
     <sub-title lang="en">Liverpool vs Chelsea</sub-title>
-    <desc lang="en">Sparks fly at Stamford Bridge as Chelsea host Liverpool following a tense week of headlines, with a fierce rivalry ready to ignite. Both Premier League heavyweights collide in a high-stakes tactical battle as they fight to climb the table and assert dominance.</desc>
+    <desc lang="en">Stamford Bridge hosts a high-stakes Premier League clash as Chelsea seeks redemption following recent cup heartbreak against Liverpool. Expect fierce fireworks as the fierce rivals battle for crucial league supremacy.</desc>
     <category lang="en">Live</category>
     <category lang="en">New</category>
     <category lang="en">Sports</category>
@@ -1559,7 +1559,7 @@
   <programme start="20261205123000 +0000" stop="20261205144000 +0000" channel="EPL-Chelsea.gb">
     <title lang="en">Premier League Soccer</title>
     <sub-title lang="en">Liverpool vs Chelsea</sub-title>
-    <desc lang="en">Sparks fly at Stamford Bridge as Chelsea host Liverpool following a tense week of headlines, with a fierce rivalry ready to ignite. Both Premier League heavyweights collide in a high-stakes tactical battle as they fight to climb the table and assert dominance.</desc>
+    <desc lang="en">Stamford Bridge hosts a high-stakes Premier League clash as Chelsea seeks redemption following recent cup heartbreak against Liverpool. Expect fierce fireworks as the fierce rivals battle for crucial league supremacy.</desc>
     <category lang="en">Live</category>
     <category lang="en">New</category>
     <category lang="en">Sports</category>
@@ -1595,7 +1595,7 @@
   <programme start="20261205150000 +0000" stop="20261205171000 +0000" channel="EPL-HullCity.gb">
     <title lang="en">Premier League Soccer</title>
     <sub-title lang="en">Hull City vs AFC Bournemouth</sub-title>
-    <desc lang="en">Riding high on the heroics of star striker Oli McBurnie under manager Sergej Jakirovic, Hull City travel to the Vitality Stadium to test their momentum against a formidable AFC Bournemouth side in a high-stakes Premier League clash.</desc>
+    <desc lang="en">Backed by manager Sergej Jakirovic praising striker Oli McBurnie as his Braveheart, Hull City travels to the Vitality Stadium to take on AFC Bournemouth in a high-stakes Premier League clash.</desc>
     <category lang="en">Live</category>
     <category lang="en">New</category>
     <category lang="en">Sports</category>
@@ -1631,7 +1631,7 @@
   <programme start="20261205150000 +0000" stop="20261205171000 +0000" channel="EPL-Bournemouth.gb">
     <title lang="en">Premier League Soccer</title>
     <sub-title lang="en">Hull City vs AFC Bournemouth</sub-title>
-    <desc lang="en">Riding high on the heroics of star striker Oli McBurnie under manager Sergej Jakirovic, Hull City travel to the Vitality Stadium to test their momentum against a formidable AFC Bournemouth side in a high-stakes Premier League clash.</desc>
+    <desc lang="en">Backed by manager Sergej Jakirovic praising striker Oli McBurnie as his Braveheart, Hull City travels to the Vitality Stadium to take on AFC Bournemouth in a high-stakes Premier League clash.</desc>
     <category lang="en">Live</category>
     <category lang="en">New</category>
     <category lang="en">Sports</category>
@@ -1739,7 +1739,7 @@
   <programme start="20261205150000 +0000" stop="20261205171000 +0000" channel="EPL-IpswichTown.gb">
     <title lang="en">Premier League Soccer</title>
     <sub-title lang="en">Ipswich Town vs Leeds United</sub-title>
-    <desc lang="en">Leeds United welcome Ipswich Town to Elland Road as the home side looks to build on a solid start to the Premier League campaign. Ipswich Town travels away seeking a crucial victory to reverse their recent slide and ignite their season.</desc>
+    <desc lang="en">Fresh off committing his future to Elland Road by signing a new contract, striker Dominic Calvert-Lewin leads Leeds United into a crucial Premier League showdown against Ipswich Town. Can the home side capitalize on their strong league form, or will Ipswich Town pull off a vital away upset?</desc>
     <category lang="en">Live</category>
     <category lang="en">New</category>
     <category lang="en">Sports</category>
@@ -1775,7 +1775,7 @@
   <programme start="20261205150000 +0000" stop="20261205171000 +0000" channel="EPL-LeedsUnited.gb">
     <title lang="en">Premier League Soccer</title>
     <sub-title lang="en">Ipswich Town vs Leeds United</sub-title>
-    <desc lang="en">Leeds United welcome Ipswich Town to Elland Road as the home side looks to build on a solid start to the Premier League campaign. Ipswich Town travels away seeking a crucial victory to reverse their recent slide and ignite their season.</desc>
+    <desc lang="en">Fresh off committing his future to Elland Road by signing a new contract, striker Dominic Calvert-Lewin leads Leeds United into a crucial Premier League showdown against Ipswich Town. Can the home side capitalize on their strong league form, or will Ipswich Town pull off a vital away upset?</desc>
     <category lang="en">Live</category>
     <category lang="en">New</category>
     <category lang="en">Sports</category>
@@ -1811,7 +1811,7 @@
   <programme start="20261205150000 +0000" stop="20261205171000 +0000" channel="EPL-CoventryCity.gb">
     <title lang="en">Premier League Soccer</title>
     <sub-title lang="en">Coventry City vs Manchester United</sub-title>
-    <desc lang="en">Manchester United returns to action at Old Trafford looking to ignite a struggling Premier League campaign, while Coventry City arrives searching for crucial away form. Expect high stakes and fierce competition as both clubs battle to shift their season momentum.</desc>
+    <desc lang="en">Under pressure at Old Trafford following a sluggish start to the campaign, Manchester United head coach Mauricio Pochettino looks to spark a turnaround against Coventry City. Expect high-stakes drama as the hosts chase a vital victory to lift their dismal league form.</desc>
     <category lang="en">Live</category>
     <category lang="en">New</category>
     <category lang="en">Sports</category>
@@ -1847,7 +1847,7 @@
   <programme start="20261205150000 +0000" stop="20261205171000 +0000" channel="EPL-ManchesterUnited.gb">
     <title lang="en">Premier League Soccer</title>
     <sub-title lang="en">Coventry City vs Manchester United</sub-title>
-    <desc lang="en">Manchester United returns to action at Old Trafford looking to ignite a struggling Premier League campaign, while Coventry City arrives searching for crucial away form. Expect high stakes and fierce competition as both clubs battle to shift their season momentum.</desc>
+    <desc lang="en">Under pressure at Old Trafford following a sluggish start to the campaign, Manchester United head coach Mauricio Pochettino looks to spark a turnaround against Coventry City. Expect high-stakes drama as the hosts chase a vital victory to lift their dismal league form.</desc>
     <category lang="en">Live</category>
     <category lang="en">New</category>
     <category lang="en">Sports</category>
@@ -1883,7 +1883,7 @@
   <programme start="20261205173000 +0000" stop="20261205194000 +0000" channel="EPL-Brighton.gb">
     <title lang="en">Premier League Soccer</title>
     <sub-title lang="en">Brighton &amp; Hove Albion vs Nottingham Forest</sub-title>
-    <desc lang="en">High-flying Brighton &amp; Hove Albion travel to The City Ground looking to bounce back from a stinging late defeat, while Nottingham Forest search for a vital spark to climb the table amid growing standards enforced by manager Oliver Glasner.</desc>
+    <desc lang="en">Under pressure Nottingham Forest manager Oliver Glasner demands a response at The City Ground after criticising squad standards, but high-flying Brighton &amp; Hove Albion arrive looking to extend their impressive league campaign.</desc>
     <category lang="en">Live</category>
     <category lang="en">New</category>
     <category lang="en">Sports</category>
@@ -1919,7 +1919,7 @@
   <programme start="20261205173000 +0000" stop="20261205194000 +0000" channel="EPL-NottinghamForest.gb">
     <title lang="en">Premier League Soccer</title>
     <sub-title lang="en">Brighton &amp; Hove Albion vs Nottingham Forest</sub-title>
-    <desc lang="en">High-flying Brighton &amp; Hove Albion travel to The City Ground looking to bounce back from a stinging late defeat, while Nottingham Forest search for a vital spark to climb the table amid growing standards enforced by manager Oliver Glasner.</desc>
+    <desc lang="en">Under pressure Nottingham Forest manager Oliver Glasner demands a response at The City Ground after criticising squad standards, but high-flying Brighton &amp; Hove Albion arrive looking to extend their impressive league campaign.</desc>
     <category lang="en">Live</category>
     <category lang="en">New</category>
     <category lang="en">Sports</category>
@@ -1955,7 +1955,7 @@
   <programme start="20261205200000 +0000" stop="20261205221000 +0000" channel="EPL-ManchesterCity.gb">
     <title lang="en">Premier League Soccer</title>
     <sub-title lang="en">Manchester City vs Brentford</sub-title>
-    <desc lang="en">Manchester City travels to Gtech Community Stadium to face Brentford as the reigning champions navigate heavy off-pitch scrutiny surrounding regulatory challenges and financial charges. Brentford aims to harness home advantage and disrupt the visiting side amid a high-stakes Premier League showdown.</desc>
+    <desc lang="en">Under pressure following a difficult run of form, Manchester City travels to face Brentford at the Gtech Community Stadium as the visitors look to steady their Premier League campaign.</desc>
     <category lang="en">Live</category>
     <category lang="en">New</category>
     <category lang="en">Sports</category>
@@ -1991,7 +1991,7 @@
   <programme start="20261205200000 +0000" stop="20261205221000 +0000" channel="EPL-Brentford.gb">
     <title lang="en">Premier League Soccer</title>
     <sub-title lang="en">Manchester City vs Brentford</sub-title>
-    <desc lang="en">Manchester City travels to Gtech Community Stadium to face Brentford as the reigning champions navigate heavy off-pitch scrutiny surrounding regulatory challenges and financial charges. Brentford aims to harness home advantage and disrupt the visiting side amid a high-stakes Premier League showdown.</desc>
+    <desc lang="en">Under pressure following a difficult run of form, Manchester City travels to face Brentford at the Gtech Community Stadium as the visitors look to steady their Premier League campaign.</desc>
     <category lang="en">Live</category>
     <category lang="en">New</category>
     <category lang="en">Sports</category>
@@ -2027,7 +2027,7 @@
   <programme start="20261206140000 +0000" stop="20261206161000 +0000" channel="EPL-Fulham.gb">
     <title lang="en">Premier League Soccer</title>
     <sub-title lang="en">Fulham vs Everton</sub-title>
-    <desc lang="en">Bouncing back from a heavy defeat, Everton manager David Moyes seeks a vital response at Hill Dickinson Stadium as his side hosts a resilient Fulham squad looking to climb the Premier League table.</desc>
+    <desc lang="en">Everton manager David Moyes looks to rally his squad following a bruising defeat as they return home to host Fulham at Hill Dickinson Stadium. Fulham travels to Merseyside seeking a vital victory to climb the Premier League table against a resilient Toffees side.</desc>
     <category lang="en">Live</category>
     <category lang="en">New</category>
     <category lang="en">Sports</category>
@@ -2063,7 +2063,7 @@
   <programme start="20261206140000 +0000" stop="20261206161000 +0000" channel="EPL-Everton.gb">
     <title lang="en">Premier League Soccer</title>
     <sub-title lang="en">Fulham vs Everton</sub-title>
-    <desc lang="en">Bouncing back from a heavy defeat, Everton manager David Moyes seeks a vital response at Hill Dickinson Stadium as his side hosts a resilient Fulham squad looking to climb the Premier League table.</desc>
+    <desc lang="en">Everton manager David Moyes looks to rally his squad following a bruising defeat as they return home to host Fulham at Hill Dickinson Stadium. Fulham travels to Merseyside seeking a vital victory to climb the Premier League table against a resilient Toffees side.</desc>
     <category lang="en">Live</category>
     <category lang="en">New</category>
     <category lang="en">Sports</category>
@@ -2171,7 +2171,7 @@
   <programme start="20261206163000 +0000" stop="20261206184000 +0000" channel="EPL-Arsenal.gb">
     <title lang="en">Premier League Soccer</title>
     <sub-title lang="en">Arsenal vs Tottenham Hotspur</sub-title>
-    <desc lang="en">Sparks fly in North London as high-flying Arsenal marches to Tottenham Hotspur Stadium to defend their dominant domestic campaign against Tottenham Hotspur in a fierce clash between traditional Big Six rivals.</desc>
+    <desc lang="en">Sparks fly in North London as Tottenham Hotspur host high-flying Arsenal at the Tottenham Hotspur Stadium in a fierce Premier League showdown between traditional Big Six rivals. While dominant Arsenal chase crucial points near the summit, inconsistent Tottenham Hotspur look to harness home advantage in this high-stakes derby.</desc>
     <category lang="en">Live</category>
     <category lang="en">New</category>
     <category lang="en">Sports</category>
@@ -2207,7 +2207,7 @@
   <programme start="20261206163000 +0000" stop="20261206184000 +0000" channel="EPL-TottenhamHotspur.gb">
     <title lang="en">Premier League Soccer</title>
     <sub-title lang="en">Arsenal vs Tottenham Hotspur</sub-title>
-    <desc lang="en">Sparks fly in North London as high-flying Arsenal marches to Tottenham Hotspur Stadium to defend their dominant domestic campaign against Tottenham Hotspur in a fierce clash between traditional Big Six rivals.</desc>
+    <desc lang="en">Sparks fly in North London as Tottenham Hotspur host high-flying Arsenal at the Tottenham Hotspur Stadium in a fierce Premier League showdown between traditional Big Six rivals. While dominant Arsenal chase crucial points near the summit, inconsistent Tottenham Hotspur look to harness home advantage in this high-stakes derby.</desc>
     <category lang="en">Live</category>
     <category lang="en">New</category>
     <category lang="en">Sports</category>
